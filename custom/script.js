@@ -1,3 +1,7 @@
+    window.load(function(){
+        $(".loading").fadeOut();
+    });
+
 window.onload = function() {
     
 var topbtntag = document.createElement("div");
