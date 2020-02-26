@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300');
 
 @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
                           font-family: "SamsungOneKorean-500";
                           src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
@@ -16,10 +20,6 @@
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
-                        @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
                         
 .roundedshape {
   width               : 100%;
@@ -33,7 +33,6 @@
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(243, 244, 248, 1.0);
   opacity             : 1.0;
-  visibility          : inherit;
 }
 a {
   text-decoration     : none;
@@ -50,18 +49,6 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.roundedshape .highlight {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 262px;
-  height              : 158px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
 .roundedshape .gnbbar0overview {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
@@ -71,9 +58,9 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .background {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -83,9 +70,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu16thumbnailnormal {
   background-color    : rgba(255,255,255,0.0);
@@ -95,9 +82,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu16thumbnailnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -107,9 +95,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu16thumbnailnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -119,9 +107,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
   background-color    : rgba(255,255,255,0.0);
@@ -133,7 +121,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -148,9 +135,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu15notificationbadgenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -160,9 +148,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu15notificationbadgenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -172,9 +160,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
   background-color    : rgba(255,255,255,0.0);
@@ -186,7 +174,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -201,9 +188,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -213,9 +201,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -225,11 +213,11 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu .rectangle3 {
+.roundedshape .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -237,9 +225,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu .a14description {
   background-color    : rgba(255,255,255,0.0);
@@ -251,7 +239,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -266,9 +253,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu13viewcontrolsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -278,9 +266,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -290,9 +278,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
   background-color    : rgba(255,255,255,0.0);
@@ -304,7 +292,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -319,9 +306,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu12textfieldsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -331,9 +319,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu12textfieldsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -343,9 +331,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
   background-color    : rgba(255,255,255,0.0);
@@ -357,7 +345,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -372,9 +359,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu11toastnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -384,9 +372,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu11toastnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -396,9 +384,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu11toastnormal .gnbmenu .a11toast {
   background-color    : rgba(255,255,255,0.0);
@@ -410,7 +398,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -425,9 +412,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu10searchnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -437,9 +425,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu10searchnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -449,9 +437,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu10searchnormal .gnbmenu .a10search {
   background-color    : rgba(255,255,255,0.0);
@@ -463,7 +451,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -478,9 +465,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu9scrollingnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -490,9 +478,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu9scrollingnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -502,9 +490,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
   background-color    : rgba(255,255,255,0.0);
@@ -516,7 +504,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -531,9 +518,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu8progressnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -543,9 +531,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu8progressnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -555,9 +543,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu8progressnormal .gnbmenu .a8progress {
   background-color    : rgba(255,255,255,0.0);
@@ -569,7 +557,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -584,9 +571,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu7noitemsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -596,9 +584,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu7noitemsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -608,9 +596,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu7noitemsnormal .gnbmenu .a7noitems {
   background-color    : rgba(255,255,255,0.0);
@@ -622,7 +610,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -637,9 +624,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu6listsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -649,9 +637,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu6listsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -661,9 +649,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu6listsnormal .gnbmenu .a6lists {
   background-color    : rgba(255,255,255,0.0);
@@ -675,7 +663,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -690,9 +677,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu5dividersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -702,9 +690,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu5dividersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -714,9 +702,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu5dividersnormal .gnbmenu .a5dividers {
   background-color    : rgba(255,255,255,0.0);
@@ -728,7 +716,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -743,9 +730,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu4dialogsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -755,9 +743,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu4dialogsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -767,9 +755,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu4dialogsnormal .gnbmenu .a4dialogs {
   background-color    : rgba(255,255,255,0.0);
@@ -781,7 +769,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -796,9 +783,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu3controllersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -808,9 +796,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu3controllersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -820,9 +808,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu3controllersnormal .gnbmenu .a3controllers {
   background-color    : rgba(255,255,255,0.0);
@@ -834,7 +822,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -849,9 +836,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu2buttonsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -861,9 +848,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu2buttonsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -873,9 +860,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
   background-color    : rgba(255,255,255,0.0);
@@ -887,7 +874,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -902,9 +888,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu1appbarnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -914,9 +900,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu1appbarnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -926,9 +912,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu1appbarnormal .gnbmenu .a1appbar {
   background-color    : rgba(255,255,255,0.0);
@@ -940,7 +926,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -955,9 +940,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0keyscreensnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -967,9 +953,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0keyscreensnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -979,9 +965,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0keyscreensnormal .gnbmenu .a0keyscreens {
   background-color    : rgba(255,255,255,0.0);
@@ -993,7 +979,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1008,9 +993,10 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.3;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1020,9 +1006,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1032,9 +1018,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
   background-color    : rgba(255,255,255,0.0);
@@ -1046,7 +1032,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1061,9 +1046,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1073,9 +1058,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1085,9 +1070,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1099,7 +1084,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1114,9 +1098,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal1 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1126,9 +1110,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal1 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1138,9 +1122,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal1 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1152,7 +1136,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1167,9 +1150,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal2 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1179,9 +1162,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal2 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1191,9 +1174,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal2 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1205,7 +1188,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1220,9 +1202,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal3 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1232,9 +1214,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal3 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1244,9 +1226,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal3 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1258,7 +1240,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1273,9 +1254,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal4 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1285,9 +1266,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal4 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1297,9 +1278,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal4 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1311,7 +1292,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1326,9 +1306,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal5 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1338,9 +1318,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal5 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1350,9 +1330,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal5 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1364,7 +1344,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1379,9 +1358,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal6 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1391,9 +1370,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal6 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1403,9 +1382,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal6 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1417,7 +1396,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1432,9 +1410,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal7 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1444,9 +1422,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal7 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1456,9 +1434,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal7 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1470,7 +1448,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1485,9 +1462,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal8 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1497,9 +1474,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal8 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1509,9 +1486,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal8 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1523,7 +1500,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1538,9 +1514,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal9 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1550,9 +1526,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal9 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1562,9 +1538,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal9 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1576,7 +1552,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1591,9 +1566,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal10 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1603,9 +1578,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal10 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1615,9 +1590,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal10 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1629,7 +1604,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1644,9 +1618,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal11 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1656,9 +1630,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal11 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1668,9 +1642,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal11 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1682,7 +1656,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1697,9 +1670,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal12 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1709,9 +1682,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal12 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1721,9 +1694,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal12 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1735,7 +1708,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1750,9 +1722,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal13 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1762,9 +1734,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal13 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1774,9 +1746,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal13 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1788,7 +1760,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1803,9 +1774,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal14 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1815,9 +1786,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal14 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1827,9 +1798,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbsubmenunormal14 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
@@ -1841,7 +1812,6 @@ div {
   left                : 72px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1856,9 +1826,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0overviewselected .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1868,9 +1838,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0overviewselected .gnbmenu .bg {
   background-color    : rgba(237, 238, 242, 1.0);
@@ -1880,9 +1850,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenu0overviewselected .gnbmenu .overview {
   background-color    : rgba(255,255,255,0.0);
@@ -1894,7 +1864,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1910,9 +1879,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenuhistorynormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1922,9 +1891,9 @@ div {
   position            : relative;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenuhistorynormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
@@ -1934,9 +1903,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnbmenuhistorynormal .gnbmenu .history {
   background-color    : rgba(255,255,255,0.0);
@@ -1948,7 +1917,6 @@ div {
   left                : 30px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -1964,9 +1932,9 @@ div {
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnblogo .background1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1976,9 +1944,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
 .roundedshape .gnbbar0overview .gnblogo .gotohome {
   background-color    : rgba(255,255,255,0.0);
@@ -1988,11 +1956,11 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .gnbbar0overview .gnblogo .gotohome .rectangle3 {
+.roundedshape .gnbbar0overview .gnblogo .gotohome .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -2000,11 +1968,11 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .gnbbar0overview .gnblogo .gotohome .group5 {
+.roundedshape .gnbbar0overview .gnblogo .gotohome .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 22px;
   height              : 46px;
@@ -2012,11 +1980,11 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .gnbbar0overview .gnblogo .gotohome .group5 .webapp {
+.roundedshape .gnbbar0overview .gnblogo .gotohome .group .webapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2026,7 +1994,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.6;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
@@ -2034,7 +2001,7 @@ div {
   letter-spacing      : 0.3px;
   line-height         : 18.0px;
 }
-.roundedshape .gnbbar0overview .gnblogo .gotohome .group5 .basiccomponentgui {
+.roundedshape .gnbbar0overview .gnblogo .gotohome .group .basiccomponentgui {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20px;
   height              : auto;
@@ -2044,7 +2011,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size           : 21.0px;
   color               : rgba(37, 37, 37, 1.0);
@@ -2054,7 +2020,7 @@ div {
 }
 .roundedshape .roundedshape1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 60px;
+  top                 : 50px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2062,628 +2028,1406 @@ div {
   left                : 380px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size           : 70.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
 }
-.roundedshape .group {
+.roundedshape .table {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 420px;
-  height              : 102px;
+  top                 : 194px;
+  height              : 598px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 380px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group .highlight1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 76px;
+.roundedshape .table .application {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 480px;
+  height              : 118px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group .uc18duc131 {
+.roundedshape .table .application .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .application .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .application .tablecontent1style .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .application .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
+  top                 : 46px;
   height              : 30px;
-  width               : 128px;
+  width               : 108px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 30.0px;
 }
-.roundedshape .group .u20221linelistub192uc774uc640ub3d9uc77c {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 30px;
-  width               : 232px;
+.roundedshape .table .application .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
-  left                : 168px;
+  left                : 148px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
 }
-.roundedshape .group .u2022uc77cubc18uc801uc778containedbut {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 232px;
+.roundedshape .table .application .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
-  left                : 420px;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
 }
-.roundedshape .group .u2022listud639uc740uc881uc740uc601uc5educ5d0uc0acuc6a9ub418 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 30px;
-  width               : 232px;
+.roundedshape .table .application .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
-  left                : 672px;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
+  opacity             : 0.08;
 }
-.roundedshape .group .containedbutton {
+.roundedshape .table .application .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 30px;
-  width               : 222px;
-  position            : absolute;
-  margin              : 0;
-  left                : 682px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group .u2022uad8cuc7a5ud558ub294rounduc911uac00uc7a5uc791uc740 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 15px;
   height              : 90px;
-  width               : 296px;
+  width               : 212px;
   position            : absolute;
   margin              : 0;
-  left                : 924px;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 30.0px;
 }
-.roundedshape .group .rectangle3 {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 75px;
-  height              : 1px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.08;
-  visibility          : inherit;
-}
-.roundedshape .group1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 419px;
-  height              : 1px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
-.roundedshape .group1 .rectangle3 {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 1240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.08;
-  visibility          : inherit;
-}
-.roundedshape .rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 204px;
-  height              : 58px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
-.roundedshape .largeround {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 224px;
-  height              : 28px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 548px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 28.0px;
-}
-.roundedshape .defaultround {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 224px;
-  height              : 28px;
-  width               : 484px;
-  position            : absolute;
-  margin              : 0;
-  left                : 800px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 28.0px;
-}
-.roundedshape .smallround {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 224px;
-  height              : 28px;
-  width               : 316px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1304px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 28.0px;
-}
-.roundedshape .group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 496px;
-  height              : 76px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
-.roundedshape .group2 .highlight1 {
+.roundedshape .table .application .tablecontent1style2 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 76px;
-  width               : 1240px;
+  height              : 118px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 408px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group2 .rectangle3 {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 75px;
-  height              : 1px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.08;
-  visibility          : inherit;
-}
-.roundedshape .group2 .shapevalue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 30px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group2 .radius26dpheight {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 168px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group2 .radius22dpheight {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 420px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group2 .radius18dpheight {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 673px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group2 .radius18dpheightcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 924px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 572px;
-  height              : 76px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
-.roundedshape .group3 .highlight1 {
+.roundedshape .table .application .tablecontent1style2 .background {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 76px;
-  width               : 1240px;
+  height              : 118px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group3 .rectangle3 {
+.roundedshape .table .application .tablecontent1style2 .rectangle {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 75px;
+  top                 : 0px;
   height              : 1px;
-  width               : 1240px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   opacity             : 0.08;
-  visibility          : inherit;
 }
-.roundedshape .group3 .textvalue {
+.roundedshape .table .application .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 30px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group3 .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 30px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 168px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group3 .fontsize17dpmar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 420px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group3 .fontsize15dpmar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 673px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group3 .fontsize14dpmar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 60px;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 924px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 648px;
-  height              : 128px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
-.roundedshape .group4 .highlight1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 128px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
-.roundedshape .group4 .uc801uc6a9ub418ub294uacf3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 30px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.roundedshape .group4 .chunkingareadialo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
+  top                 : 15px;
   height              : 90px;
-  width               : 232px;
+  width               : 212px;
   position            : absolute;
   margin              : 0;
-  left                : 168px;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 30.0px;
 }
-.roundedshape .group4 .raisedbuttontoast {
+.roundedshape .table .application .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 400px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .application .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .application .tablecontent1style3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .application .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
+  top                 : 15px;
+  height              : 90px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .application .tablecontent1style4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .application .tablecontent1style4 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .application .tablecontent1style4 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .application .tablecontent1style4 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
   height              : 60px;
-  width               : 232px;
+  width               : 212px;
   position            : absolute;
   margin              : 0;
-  left                : 420px;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 30.0px;
 }
-.roundedshape .group4 .listuc6a9raisedbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 30px;
-  width               : 232px;
+.roundedshape .table .application .tablecontent1style5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 336px;
   position            : absolute;
   margin              : 0;
-  left                : 673px;
+  left                : 904px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.8;
-  visibility          : inherit;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
 }
-.roundedshape .group4 .chips {
+.roundedshape .table .application .tablecontent1style5 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .application .tablecontent1style5 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .application .tablecontent1style5 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
+  top                 : 46px;
   height              : 30px;
   width               : 296px;
   position            : absolute;
   margin              : 0;
-  left                : 924px;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 0.8;
-  visibility          : inherit;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 30.0px;
 }
-.roundedshape .rectangle1 {
+.roundedshape .table .textvalue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 392px;
+  height              : 88px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .textvalue .tablecontent1style .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 30px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .textvalue .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .textvalue .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 30px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .textvalue .tablecontent1style2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 400px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .textvalue .tablecontent1style2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .textvalue .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .textvalue .tablecontent1style3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .textvalue .tablecontent1style4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 904px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style4 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .textvalue .tablecontent1style4 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .textvalue .tablecontent1style4 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shapevalue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 304px;
+  height              : 88px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shapevalue .tablecontent1style .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 30px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shapevalue .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shapevalue .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shapevalue .tablecontent1style2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 400px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shapevalue .tablecontent1style2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shapevalue .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shapevalue .tablecontent1style3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shapevalue .tablecontent1style4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 904px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style4 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shapevalue .tablecontent1style4 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shapevalue .tablecontent1style4 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .properties {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : 88px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .properties .tablecontent1style .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 30px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .properties .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .properties .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 30px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .properties .tablecontent1style2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 400px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .properties .tablecontent1style2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .properties .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .properties .tablecontent1style3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 30px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .properties .tablecontent1style4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 904px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style4 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .properties .tablecontent1style4 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .properties .tablecontent1style4 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 60px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 158px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shape .tablecontent1style .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : 30px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shape .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style1 .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shape .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : 30px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shape .rectangle {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 287px;
+  top                 : 25px;
   height              : 108px;
   width               : 108px;
   position            : absolute;
   margin              : 0;
-  left                : 548px;
+  left                : 168px;
   border-radius       : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .rectangle2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 319px;
-  height              : 44px;
-  width               : 148px;
+.roundedshape .table .shape .tablecontent1style2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 588px;
   position            : absolute;
   margin              : 0;
-  left                : 800px;
-  border-radius       : 22px;
+  left                : 400px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group31 {
+.roundedshape .table .shape .tablecontent1style2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 588px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style2 .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 588px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shape .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 301px;
+  top                 : 67px;
+  height              : 30px;
+  width               : 548px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.roundedshape .table .shape .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
   height              : 80px;
   width               : 64px;
   position            : absolute;
   margin              : 0;
-  left                : 1052px;
+  left                : 672px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group31 .rectanglecopy2 {
+.roundedshape .table .shape .group3 .rectanglecopy2 {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
   height              : 36px;
@@ -2692,11 +3436,11 @@ div {
   margin              : 0;
   left                : 0px;
   border-radius       : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group31 .rectanglecopy4 {
+.roundedshape .table .shape .group3 .rectanglecopy4 {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 44px;
   height              : 36px;
@@ -2705,99 +3449,252 @@ div {
   margin              : 0;
   left                : 0px;
   border-radius       : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group21 {
+.roundedshape .table .shape .rectangle1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 57px;
+  height              : 44px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 420px;
+  border-radius       : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 988px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .shape .tablecontent1style3 .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.roundedshape .table .shape .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 309px;
-  height              : 64px;
-  width               : 167px;
+  top                 : 67px;
+  height              : 30px;
+  width               : 212px;
   position            : absolute;
   margin              : 0;
-  left                : 1304px;
+  left                : 20px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
 }
-.roundedshape .group21 .rectanglecopy5 {
-  background-color    : rgba(215, 215, 215, 1.0);
+.roundedshape .table .subject {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 30px;
-  width               : 53px;
+  height              : 58px;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group21 .rectanglecopy7 {
-  background-color    : rgba(215, 215, 215, 1.0);
+.roundedshape .table .subject .tablecellsubject {
+  background-color    : rgba(88, 87, 87, 1.0);
   top                 : 0px;
-  height              : 30px;
-  width               : 53px;
+  height              : 58px;
+  width               : 336px;
   position            : absolute;
   margin              : 0;
-  left                : 57px;
-  border-radius       : 15px;
+  left                : 904px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group21 .rectanglecopy9 {
-  background-color    : rgba(215, 215, 215, 1.0);
+.roundedshape .table .subject .tablecellsubject .background {
+  background-color    : rgba(88, 87, 87, 1.0);
   top                 : 0px;
-  height              : 30px;
-  width               : 53px;
-  position            : absolute;
-  margin              : 0;
-  left                : 114px;
-  border-radius       : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
-}
-.roundedshape .group21 .rectanglecopy6 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 34px;
-  height              : 30px;
-  width               : 53px;
+  height              : 58px;
+  width               : 336px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  visibility          : inherit;
 }
-.roundedshape .group21 .rectanglecopy8 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 34px;
-  height              : 30px;
-  width               : 53px;
+.roundedshape .table .subject .tablecellsubject .subject1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 28px;
+  width               : 296px;
   position            : absolute;
   margin              : 0;
-  left                : 57px;
-  border-radius       : 15px;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  visibility          : inherit;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
 }
-.roundedshape .group21 .rectanglecopy10 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 34px;
-  height              : 30px;
-  width               : 53px;
+.roundedshape .table .subject .tablecellsubject1 {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 504px;
   position            : absolute;
   margin              : 0;
-  left                : 114px;
-  border-radius       : 15px;
+  left                : 400px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .subject .tablecellsubject1 .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .subject .tablecellsubject1 .subject1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 28px;
+  width               : 464px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  visibility          : inherit;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.roundedshape .table .subject .tablecellsubject2 {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .subject .tablecellsubject2 .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .subject .tablecellsubject2 .subject1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 28px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.roundedshape .table .subject .tablecellsubject3 {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .subject .tablecellsubject3 .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.roundedshape .table .subject .tablecellsubject3 .subject1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 28px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -2882,31 +3779,4 @@ div {
   display             : flex;
   flex-direction      : column;
   justify-content     : center;
-}
-.anima-component * {
-  pointer-events      : none;
-}
-.anima-component.anima-not-ready {
-  visibility          : hidden !important;
-}
-.anima-component.anima-not-ready  * {
-  visibility          : hidden !important;
-}
-.anima-listeners-active-click * {
-  cursor              : pointer;
-}
-.anima-listeners-active-click {
-  cursor              : pointer;
-}
-.anima-listeners-active * {
-  pointer-events      : auto;
-}
-.anima-listeners-active {
-  pointer-events      : auto;
-}
-.anima-component a * {
-  pointer-events      : auto;
-}
-.anima-component a {
-  pointer-events      : auto;
 }

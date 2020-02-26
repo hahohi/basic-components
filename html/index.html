@@ -2,28 +2,24 @@
 <html>
     <head>
         <link href="./img/favicon.png" rel="shortcut icon"/>
-        <link href="../custom/custom.css" rel="stylesheet" type="text/css"/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-        </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js">
-        </script>
-        <script src="../custom/script.js">
-        </script>
-        <meta charset="utf-8"/>
-        <meta content="width=1680, maximum-scale=1.0" name="viewport"/>
-        <link href="./css/index.css" rel="stylesheet" type="text/css"/>
-        <meta content="Launchpad by Anima" name="author">
-        <script>
-        	$(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-	});
-        </script>
+        <link href="../custom/custom.css" rel="stylesheet" type="text/css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+            </script>
+            <script src="../custom/script.js">
+            </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+            </script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js">
+            </script>
+            <meta charset="utf-8"/>
+            <meta content="width=1680, maximum-scale=1.0" name="viewport"/>
+            <link href="./css/index.css" rel="stylesheet" type="text/css"/>
+            <meta content="Launchpad by Anima" name="author">
+            </meta>
+        </link>
     </head>
     <body style="margin: 0;
  background: rgba(243, 244, 248, 1.0);">
-        <div class="se-pre-con"></div>
         <input id="anPageName" name="page" type="hidden" value="index"/>
         <div class="index">
             <div style="width: 1680px; height: 100%; position:relative; margin:auto;">
@@ -269,7 +265,7 @@
                 <a href="../assets/[Wep-app]Assetsdummy.zip" target="_blank">
                     <div class="group">
                         <div class="group2">
-                            <div class="downloadassetszcopy">
+                            <div class="downloadassetsz">
                                 Download Assets (*.zip)
                             </div>
                         </div>
@@ -278,6 +274,14 @@
                 </a>
             </div>
         </div>
+        <div class="se-pre-con">
+        </div>
+        <script>
+            $(window).load(function() {
+                $(".se-pre-con").fadeOut("slow");
+                ;
+            });
+        </script>
         <!-- Scripts -->
         <script>
             anima_isHidden = function(e) {
