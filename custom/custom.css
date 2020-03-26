@@ -7,8 +7,8 @@ div[class*="gnbbar"] {
 }
 /** Mouseover event **/
 .gnbmenu:hover, .gnbsubmenu:hover {
-    box-shadow: inset 0 0 0 1000px #E8E9ED;
-    transition: all 100ms ease !important;
+    box-shadow: inset 0 0 0 1000px #E0E0E0;
+    transition: all 50ms ease !important;
 }
 
 
@@ -75,12 +75,6 @@ div.topbtn.show {
 /** Guide **/
 div[class^="guidemeasureruler"] {
     overflow: initial !important;
-}
-
-/** Table style **/
-.table {
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 /** Page loading **/

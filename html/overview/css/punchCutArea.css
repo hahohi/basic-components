@@ -1,0 +1,4547 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+@font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-700";
+                          src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        
+.punchcutarea {
+  width               : 100%;
+  min-width           : 1680px;
+  height              : 100vh;
+  min-height          : 2874px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(245, 246, 247, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.punchcutarea .landscape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 981px;
+  height              : 505px;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 399px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 399px;
+  box-sizing          : border-box;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 180px;
+  height              : 284px;
+  width               : 474px;
+  position            : absolute;
+  margin              : 0;
+  left                : 678px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 224px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide .rectangle {
+  background-color    : rgba(0, 112, 192, 1.0);
+  top                 : 206px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide .do {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.punchcutarea .landscape .a270 .guide .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  border-radius       : 19px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide .mask .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide .mask .mobilelighttheme21navigationbarnavibar01l {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide .mask .w760mll062listcontentsarea1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 227px;
+  width               : 478px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 284px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .rectangle {
+  background-color    : rgba(255, 0, 0, 1.0);
+  top                 : 207px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .donu2019t {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 209px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.punchcutarea .landscape .a270 .guide1 .a270260ud68cuc804uc2dccutoutuc5d0uace0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 237px;
+  height              : auto;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .landscape .a270 .guide1 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 194px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .device .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .device .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  border-radius       : 19px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .device .mask .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .device .mask .rectangle11 {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .device .mask .mobilelighttheme21navigationbarnavibar01l {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .device .mask .w760mll062listcontentsarea1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 227px;
+  width               : 478px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 196px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .guide1 .guide2 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 196px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a270 .a270260 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 93px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .landscape .a90 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : 323px;
+  width               : 471px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 229px;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .rectangle {
+  background-color    : rgba(255, 0, 0, 1.0);
+  top                 : 212px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .donu2019t {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 214px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.punchcutarea .landscape .a90 .guide .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 194px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .device .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .device .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  border-radius       : 19px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .device .mask .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .device .mask .w760mll062listcontentsarea1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 478px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .device .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide .guide2 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .a90260 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 124px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .landscape .a90 .guide1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 323px;
+  width               : 183px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 194px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .device .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .device .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  border-radius       : 19px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .device .mask .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .device .mask .rectangle11 {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : -4px;
+  height              : 186px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .device .mask .w760mll062listcontentsarea1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 227px;
+  width               : 478px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .device .mask .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 244px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .guide2 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 212px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .guide2 .safearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .landscape .a90 .guide1 .rectangle {
+  background-color    : rgba(0, 112, 192, 1.0);
+  top                 : 245px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .landscape .a90 .guide1 .do {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 247px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.punchcutarea .landscape .a90 .guide1 .backgroundud65cuc6a9ud558uc5ecpunc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 275px;
+  height              : auto;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .landscape .ub2e8ub9d0uc0c1ub2e8uc5d0statusbaruac00 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.punchcutarea .landscape .landscape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : 727px;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 621px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 621px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 621px;
+  box-sizing          : border-box;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 544px;
+  width               : 992px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 505px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 97px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide5 .guide6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide5 .guide6 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide5 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 97px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide5 .device .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 97px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide5 .device .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide5 .device .rectangle1 {
+  background-color    : rgba(128, 127, 128, 1.0);
+  top                 : 4px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 127px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : 97px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide11 .guide6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide11 .guide6 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide11 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 97px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide11 .device .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 97px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide11 .device .rectangle2 {
+  background-color    : rgba(128, 127, 128, 1.0);
+  top                 : 4px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide11 .device .rectangle1 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 3px;
+  height              : 16px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  border-radius       : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 267px;
+  height              : 99px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide21 .guide6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide21 .guide6 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide21 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide21 .device .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 97px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide21 .device .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .guide21 .device .galaxya9s {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .rectangle {
+  background-color    : rgba(255, 102, 0, 1.0);
+  top                 : 377px;
+  height              : 18px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .caution {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 379px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide4 .cutoutuc601uc5educ5d0indicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 410px;
+  height              : auto;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 401px;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 508px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .guide5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .guide5 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 366px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .device .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 366px;
+  box-sizing          : border-box;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(37, 37, 37, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .device .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .device .rectangle1 {
+  background-color    : rgba(128, 127, 128, 1.0);
+  top                 : 12px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 117px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .device .rectangle2 {
+  background-color    : rgba(128, 127, 128, 1.0);
+  top                 : 12px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .device .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .rectangle {
+  background-color    : rgba(255, 0, 0, 1.0);
+  top                 : 384px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide1 .donu2019t {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 386px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 491px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 398px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .rectangle1 {
+  background-color    : rgba(250, 102, 98, 1.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  border-radius       : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : 48px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 14px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 365px;
+  height              : 14px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .guide5 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 365px;
+  height              : 14px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 366px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .device .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .device .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 366px;
+  box-sizing          : border-box;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(37, 37, 37, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide2 .uiuad6cuc131uc694uc18cub4e4uc740uc544ub798ubd89uc740uc601uc5educ744 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 420px;
+  height              : auto;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 433px;
+  width               : 222px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .guide5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 404px;
+  width               : 222px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .guide5 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 2px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .guide5 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 27px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .guide5 .statusbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .guide5 .safetyareacomponen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 150px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .guide5 .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 106px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .guide5 .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 207px;
+  height              : 197px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 366px;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .device .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 366px;
+  box-sizing          : border-box;
+  width               : 176px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 12px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(37, 37, 37, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .device .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .device .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .device .rectangle1 {
+  background-color    : rgba(128, 127, 128, 1.0);
+  top                 : 35px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .device .rectangle2 {
+  background-color    : rgba(128, 127, 128, 1.0);
+  top                 : 35px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .device .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 8px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .rectangle {
+  background-color    : rgba(0, 112, 192, 1.0);
+  top                 : 415px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .guide .group .guide3 .do {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 417px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .se10xuacfcuc81cuc9c4ud589uc2dcdev {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.punchcutarea .cutuc601uc5educ5d0ub300ud55cuace0ub824 .cutuc601uc5educ5d0ub300ud55cuace0ub8241 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.punchcutarea .immersivemodelandscape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1546px;
+  height              : 1248px;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 560px;
+  height              : 688px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 688px;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 688px;
+  width               : 715px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 688px;
+  box-sizing          : border-box;
+  width               : 715px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 142px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .contentsbox1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 142px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .contentsbox1 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 142px;
+  box-sizing          : border-box;
+  width               : 505px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedsubjectimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedsubjectimage .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedsubjectimage .guidenumberingicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedsubjectimage .guidenumberingicon .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedsubjectimage .guidenumberingicon .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedsubjectimage .guideproperty {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedformpropertynormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedformpropertynormalcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedformpropertynormalcopy .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedformpropertynormalcopy .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 181px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedformpropertynormalcopy .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .type .guidemodifiedformpropertynormalcopy .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 300px;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .a1uae30ubcf8ruac12uc744uac00uc9c4ubaa8ub378uc801uc6a9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 276px;
+  height              : auto;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 185px;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 264px;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 223px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 185px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurearea .area {
+  background-color    : rgba(255, 129, 195, 1.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : -39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 261px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size1 .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 130px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size1 .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size1 .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size1 .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size1 .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .rectangle {
+  background-color    : rgba(156, 217, 163, 1.0);
+  top                 : 234px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  border-radius       : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .guidenumberingshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 225px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .guidenumberingshape .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .guidenumberingshape .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 132px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 261px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 374px;
+  height              : 274px;
+  width               : 402px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .a2noteub4f1uc791uc740ruac12uc744uac00uc9c4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 250px;
+  height              : auto;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 238px;
+  width               : 402px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 185px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .device .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .device .mask {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 3px;
+  height              : 179px;
+  width               : 357px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  border-radius       : 7px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .device .mask .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 357px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .device .mask .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 357px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .device .mask .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 358px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 238px;
+  width               : 402px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 319px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 81px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 223px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 185px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurearea .area {
+  background-color    : rgba(255, 129, 195, 1.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : -42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .rectangle {
+  background-color    : rgba(156, 217, 163, 1.0);
+  top                 : 222px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  border-radius       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .guidenumberingshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 207px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .guidenumberingshape .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .guidenumberingshape .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 84px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .backgroundud65cuc6a9uc774uc5b4ub824uc6b4uacbd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 485px;
+  height              : auto;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.punchcutarea .immersivemodelandscape .guide1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 319px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 319px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 319px;
+  box-sizing          : border-box;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 239px;
+  width               : 577px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .device {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 183px;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 194px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .device .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 183px;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .device .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 171px;
+  width               : 361px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  border-radius       : 9px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .device .mask .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 171px;
+  width               : 361px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .device .mask .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -5px;
+  height              : 181px;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : -10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 239px;
+  width               : 565px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .backgroundud65cuc6a9ud558uc5ecpunc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 222px;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 169px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 169px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurearea .area {
+  background-color    : rgba(255, 129, 195, 1.0);
+  top                 : 0px;
+  height              : 169px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -11px;
+  height              : 36px;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 201px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 564px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 201px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 124px;
+  height              : 24px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .immersivemodelandscape .landscapeub0b4uc6a9uacfcub3d9uc77cud558uba70 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.punchcutarea .immersivemodelandscape .immersivemodelands {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.punchcutarea .punchcutarea1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.punchcutarea .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 752px;
+  height              : 14px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 899px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1353px;
+  height              : 14px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 644px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 1364px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 1364px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu16thumbnailnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1322px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu16thumbnailnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu16thumbnailnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu15notificationbadgenormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1278px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu15notificationbadgenormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu14descriptionnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1234px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu14descriptionnormal .gnbmenu .a14description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu13viewcontrolsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1190px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu13viewcontrolsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu12textfieldsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1146px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu12textfieldsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu12textfieldsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu11toastnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1102px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu11toastnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu11toastnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu11toastnormal .gnbmenu .a11toast {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu10searchnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1058px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu10searchnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu10searchnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu10searchnormal .gnbmenu .a10search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu9scrollingnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1014px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu9scrollingnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu9scrollingnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu8progressnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 970px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu8progressnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu8progressnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu8progressnormal .gnbmenu .a8progress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu7noitemsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 926px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu7noitemsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu7noitemsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu7noitemsnormal .gnbmenu .a7noitems {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu6listsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 882px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu6listsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu6listsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu6listsnormal .gnbmenu .a6lists {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu5dividersnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 838px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu5dividersnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu5dividersnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu4dialogsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 794px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+}
+.punchcutarea .gnbbar0overview .gnbmenu4dialogsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu4dialogsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu4dialogsnormal .gnbmenu .a4dialogs {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu3controllersnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 750px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu3controllersnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu3controllersnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu2buttonsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 706px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu2buttonsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu2buttonsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu1appbarnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 662px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu1appbarnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu1appbarnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0fonttablenormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 618px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 574px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 530px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal1 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal1 .gnbsubmenu .bg {
+  background-color    : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal1 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 486px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal2 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal2 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal2 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 442px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal3 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal3 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal3 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 398px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal4 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal4 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal4 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 354px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal5 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal5 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal5 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 310px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal6 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal6 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal6 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 266px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal7 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal7 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal7 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 222px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal8 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal8 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal8 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 178px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal9 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal9 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbsubmenunormal9 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0overviewselected {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 134px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0overviewselected .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0overviewselected .gnbmenu .bg {
+  background-color    : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenu0overviewselected .gnbmenu .overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnbmenuhistorynormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 90px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenuhistorynormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenuhistorynormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnbmenuhistorynormal .gnbmenu .history {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnblogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnblogo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnblogo .gotohome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnblogo .gotohome .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnblogo .gotohome .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 45px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.punchcutarea .gnbbar0overview .gnblogo .gotohome .group .webapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 18.0px;
+}
+.punchcutarea .gnbbar0overview .gnblogo .gotohome .group .basiccomponentgui {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
