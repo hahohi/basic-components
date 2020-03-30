@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
 @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
                           font-family: "SamsungOneKorean-400";
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-500";
@@ -81,7 +80,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu16thumbnailnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -130,7 +129,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu15notificationbadgenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -179,7 +178,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu14descriptionnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -239,7 +238,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu13viewcontrolsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -288,7 +287,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu12textfieldsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -337,7 +336,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu11toastnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -386,7 +385,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu10searchnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -435,7 +434,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu9scrollingnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -484,7 +483,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu8progressnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -533,7 +532,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu7noitemsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -582,7 +581,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu6listsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -631,7 +630,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu5dividersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -680,7 +679,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.3;
+  opacity             : 1.0;
 }
 .index .gnbbarbasic .gnbmenu4dialogsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
@@ -1174,7 +1173,7 @@ div {
   text-align          : left;
   line-height         : 96.0px;
 }
-.index .a200219updated {
+.index .a200330updated {
   background-color    : rgba(255,255,255,0.0);
   top                 : 530px;
   height              : auto;

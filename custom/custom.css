@@ -4,6 +4,7 @@ div[class*="gnbbar"] {
     height: 100vh !important;
     overflow-x: hidden !important;
     position: fixed !important;
+    border-right: 1px solid #ededed;
 }
 /** Mouseover event **/
 .gnbmenu:hover, .gnbsubmenu:hover {
@@ -24,15 +25,15 @@ div.indexfooter.footercontainer {
 /** GNB Scroll Style **/
 div[class^="gnbbar"]::-webkit-scrollbar,
 div[class^="gnbbar"]::-webkit-scrollbar-thumb {
-  width: 6px;
-  border-radius: 13px;
-  background-clip: padding-box;
+    width: 6px;
+    border-radius: 13px;
+    background-clip: padding-box;
 }
 div[class^="gnbbar"]::-webkit-scrollbar-thumb {        
-  box-shadow: inset 0 0 0 10px;
+    box-shadow: inset 0 0 0 10px;
 }
 div[class^="gnbbar"]:hover {
-  color: rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.25);
 }
 div[class^="gnbbar"] {
     transition: color .2s ease;
@@ -88,4 +89,9 @@ div[class^="guidemeasureruler"] {
 	height: 100%;
 	z-index: 9999;
 	background: url(../assets/Preloader_61.gif) center no-repeat #fff;
+}
+
+/** Error fix **/
+.group3 .mobilelighttheme06listsreorderselectbg .selectbg {
+    border-width: 0.25px !important;
 }
