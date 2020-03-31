@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -9,16 +9,16 @@
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-300";
                           src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a71noitembutton {
@@ -753,7 +753,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 101px;
   height              : 29px;
-  width               : 257px;
+  width               : 221px;
   position            : absolute;
   margin              : 0;
   left                : 885px;
@@ -764,7 +764,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 257px;
+  width               : 221px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -776,7 +776,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
   height              : 17px;
-  width               : 238px;
+  width               : 202px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -803,7 +803,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 17px;
-  width               : 185px;
+  width               : 149px;
   position            : absolute;
   margin              : 0;
   left                : 53px;
@@ -849,7 +849,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 181px;
+  left                : 145px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -3154,20 +3154,21 @@ div {
   line-height         : 84.0px;
 }
 .a71noitembutton .gnbbar7noitems {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 1056px;
+  height              : 1036px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a71noitembutton .gnbbar7noitems .rectangle {
+.a71noitembutton .gnbbar7noitems .background {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 1056px;
+  height              : 1036px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
@@ -3177,7 +3178,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu16thumbnailnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1014px;
+  top                 : 994px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3226,7 +3227,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu15notificationbadgenormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 970px;
+  top                 : 951px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3275,7 +3276,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu14descriptionnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 926px;
+  top                 : 908px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3306,7 +3307,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a71noitembutton .gnbbar7noitems .gnbmenu14descriptionnormal .gnbmenu .rectangle1 {
+.a71noitembutton .gnbbar7noitems .gnbmenu14descriptionnormal .gnbmenu .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3335,7 +3336,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu13viewcontrolsnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 882px;
+  top                 : 865px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3384,7 +3385,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu12textfieldsnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 838px;
+  top                 : 822px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3433,7 +3434,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu11toastnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 794px;
+  top                 : 779px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3482,7 +3483,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu10searchnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 750px;
+  top                 : 736px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3531,7 +3532,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu9scrollingnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 706px;
+  top                 : 693px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3580,7 +3581,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu8progressnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 662px;
+  top                 : 650px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3629,7 +3630,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu7noitemsnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 486px;
+  top                 : 478px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3678,7 +3679,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu6listsnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 442px;
+  top                 : 435px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3727,7 +3728,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu5dividersnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 398px;
+  top                 : 392px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3776,7 +3777,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu4dialogsselected {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 354px;
+  top                 : 349px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3825,7 +3826,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu3controllersnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 310px;
+  top                 : 306px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3874,7 +3875,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu2buttonsnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 266px;
+  top                 : 263px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3923,7 +3924,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu1appbarnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 222px;
+  top                 : 220px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -3972,7 +3973,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenu0fonttablenormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 178px;
+  top                 : 177px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -4070,7 +4071,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbmenuhistorynormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
+  top                 : 91px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -4129,7 +4130,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a71noitembutton .gnbbar7noitems .gnblogo .background {
+.a71noitembutton .gnbbar7noitems .gnblogo .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -4151,7 +4152,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a71noitembutton .gnbbar7noitems .gnblogo .gotohome .rectangle1 {
+.a71noitembutton .gnbbar7noitems .gnblogo .gotohome .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -4208,7 +4209,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbsubmenunormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 530px;
+  top                 : 521px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -4257,7 +4258,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbsubmenunormal1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 574px;
+  top                 : 564px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
@@ -4306,7 +4307,7 @@ div {
 }
 .a71noitembutton .gnbbar7noitems .gnbsubmenunormal2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 618px;
+  top                 : 607px;
   height              : 42px;
   width               : 320px;
   position            : absolute;
