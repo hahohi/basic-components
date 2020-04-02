@@ -1,0 +1,2719 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,300');
+
+@font-face {
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-700";
+                          src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        
+.a88progressmasterswitch {
+  width               : 100%;
+  min-width           : 1680px;
+  height              : 100vh;
+  min-height          : 1212px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(245, 246, 247, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a88progressmasterswitch .stylebuttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1087px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .stylebuttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .stylebuttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .stylebuttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
+}
+.a88progressmasterswitch .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 801px;
+  height              : 142px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 142px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 142px;
+  box-sizing          : border-box;
+  width               : 505px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guideformnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guideformnormal .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guideformnormal .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 178px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guideformnormal .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 172px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a88progressmasterswitch .shape .guideformnormal .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a88progressmasterswitch .shape .guideformnormal .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a88progressmasterswitch .shape .guidesubjecttype {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guidesubjecttype .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guidesubjecttype .guidenumberingicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guidesubjecttype .guidenumberingicon .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .shape .guidesubjecttype .guidenumberingicon .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .shape .guidesubjecttype .guideproperty {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.a88progressmasterswitch .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 801px;
+  height              : 206px;
+  width               : 715px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 206px;
+  width               : 715px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 206px;
+  box-sizing          : border-box;
+  width               : 715px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 126px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 181px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 126px;
+  width               : 398px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 64px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 64px;
+  width               : 360px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 64px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .masterbg {
+  background-color    : rgba(62, 145, 255, 1.0);
+  top                 : 0px;
+  height              : 64px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 26px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 27px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchbg {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 4px;
+  height              : 19px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  border-radius       : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchborder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 21px;
+  width               : 253px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title .on {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 253px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 68px;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 18px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255, 129, 195, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurearea .area {
+  background-color    : rgba(255, 129, 195, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 336px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 64px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 64px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 64px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 281px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 64px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 64px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 64px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .guidenumberingshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .guidenumberingshape .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .guidenumberingshape .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .keyscreens {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : 587px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 587px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 587px;
+  box-sizing          : border-box;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .guidekeyscreensmobileportrait {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .guidekeyscreensmobileportrait .scrmoport {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  object-fit          : cover;
+}
+.a88progressmasterswitch .a88progressmasterswitch1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.a88progressmasterswitch .gnbbar6lists {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 1380px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 1380px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1338px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1295px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1252px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .a14description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1209px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1166px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1123px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .a11toast {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1080px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .a10search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1037px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 521px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .bg {
+  background-color    : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .a8progress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 564px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 607px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 650px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 693px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 736px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 779px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 822px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 865px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
+  background-color    : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 908px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 951px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 994px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 435px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .a6lists {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 392px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 306px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 263px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 220px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 177px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 134px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .history {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnblogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnblogo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 45px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .group .webapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 18.0px;
+}
+.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .group .basiccomponentgui {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
