@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1487px;
+  min-height          : 1532px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -52,7 +52,7 @@ div {
 .a123errormessage .textfieldswithlabels {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
-  height              : 1088px;
+  height              : 1133px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .a123errormessage .textfieldswithlabels .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1088px;
+  height              : 1133px;
   width               : 1240px;
   position            : relative;
   margin              : 0;
@@ -73,8 +73,8 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .type {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
-  height              : 379px;
+  top                 : 0px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -85,7 +85,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -96,7 +96,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -111,7 +111,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .type .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 137px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -365,6 +365,88 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a123errormessage .textfieldswithlabels .group .type .general .guidemodifiedformpropertynormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a123errormessage .textfieldswithlabels .group .type .general .guidemodifiedformpropertynormalcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a123errormessage .textfieldswithlabels .group .type .general .guidemodifiedformpropertynormalcopy .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a123errormessage .textfieldswithlabels .group .type .general .guidemodifiedformpropertynormalcopy .group1 .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a123errormessage .textfieldswithlabels .group .type .general .guidemodifiedformpropertynormalcopy .group1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a123errormessage .textfieldswithlabels .group .type .general .guidemodifiedformpropertynormalcopy .group1 .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a123errormessage .textfieldswithlabels .group .type .general .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -406,7 +488,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 246px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -560,7 +642,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 324px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -791,7 +873,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .image {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 843px;
+  top                 : 854px;
   height              : 245px;
   width               : 505px;
   position            : absolute;
@@ -864,7 +946,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 218px;
+  width               : 284px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
@@ -878,7 +960,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 212px;
+  left                : 278px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -894,7 +976,7 @@ div {
   width               : 149px;
   position            : absolute;
   margin              : 0;
-  left                : 63px;
+  left                : 129px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1018,7 +1100,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 208px;
+  width               : 274px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
@@ -1032,7 +1114,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 202px;
+  left                : 268px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1048,7 +1130,7 @@ div {
   width               : 139px;
   position            : absolute;
   margin              : 0;
-  left                : 63px;
+  left                : 129px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1213,8 +1295,8 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .type1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 444px;
-  height              : 379px;
+  top                 : 427px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1225,7 +1307,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .type1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1236,7 +1318,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .type1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -1251,7 +1333,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .type1 .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 137px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -1505,6 +1587,88 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a123errormessage .textfieldswithlabels .group .type1 .general .guidemodifiedformpropertynormalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a123errormessage .textfieldswithlabels .group .type1 .general .guidemodifiedformpropertynormalcopy2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a123errormessage .textfieldswithlabels .group .type1 .general .guidemodifiedformpropertynormalcopy2 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a123errormessage .textfieldswithlabels .group .type1 .general .guidemodifiedformpropertynormalcopy2 .group1 .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a123errormessage .textfieldswithlabels .group .type1 .general .guidemodifiedformpropertynormalcopy2 .group1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a123errormessage .textfieldswithlabels .group .type1 .general .guidemodifiedformpropertynormalcopy2 .group1 .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a123errormessage .textfieldswithlabels .group .type1 .general .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -1546,7 +1710,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .type1 .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 246px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1700,7 +1864,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .type1 .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 324px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1931,8 +2095,8 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
-  height              : 1043px;
+  top                 : 0px;
+  height              : 1099px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1943,7 +2107,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1043px;
+  height              : 1099px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1954,7 +2118,7 @@ div {
 .a123errormessage .textfieldswithlabels .group .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 1043px;
+  height              : 1099px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -1968,7 +2132,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 582px;
+  top                 : 609px;
   height              : 78px;
   width               : 360px;
   position            : absolute;
@@ -2078,7 +2242,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 582px;
+  top                 : 609px;
   height              : 116px;
   width               : 18px;
   position            : absolute;
@@ -2172,7 +2336,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 582px;
+  top                 : 609px;
   height              : 116px;
   width               : 24px;
   position            : absolute;
@@ -2266,7 +2430,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 582px;
+  top                 : 609px;
   height              : 10px;
   width               : 398px;
   position            : absolute;
@@ -2371,7 +2535,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 634px;
+  top                 : 661px;
   height              : 10px;
   width               : 398px;
   position            : absolute;
@@ -2476,7 +2640,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 544px;
+  top                 : 571px;
   height              : 116px;
   width               : 6px;
   position            : absolute;
@@ -2581,7 +2745,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 608px;
+  top                 : 635px;
   height              : 26px;
   width               : 312px;
   position            : absolute;
@@ -2625,7 +2789,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .area1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 592px;
+  top                 : 619px;
   height              : 16px;
   width               : 312px;
   position            : absolute;
@@ -2669,7 +2833,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .area2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 644px;
+  top                 : 671px;
   height              : 16px;
   width               : 312px;
   position            : absolute;
@@ -2713,7 +2877,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 589px;
+  top                 : 616px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -2751,7 +2915,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .guidenumberingtype1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 641px;
+  top                 : 668px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -2789,7 +2953,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .guidenumberingtype2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 610px;
+  top                 : 637px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -2827,7 +2991,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .guidenumberingtype3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 628px;
+  top                 : 655px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -2865,7 +3029,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .symbol1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 384px;
+  top                 : 411px;
   height              : 78px;
   width               : 360px;
   position            : absolute;
@@ -2957,7 +3121,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 384px;
+  top                 : 411px;
   height              : 116px;
   width               : 18px;
   position            : absolute;
@@ -3051,7 +3215,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 384px;
+  top                 : 411px;
   height              : 116px;
   width               : 24px;
   position            : absolute;
@@ -3145,7 +3309,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 384px;
+  top                 : 411px;
   height              : 18px;
   width               : 398px;
   position            : absolute;
@@ -3250,7 +3414,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 428px;
+  top                 : 455px;
   height              : 18px;
   width               : 398px;
   position            : absolute;
@@ -3355,7 +3519,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .spacing8 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 438px;
+  top                 : 465px;
   height              : 8px;
   width               : 398px;
   position            : absolute;
@@ -3460,7 +3624,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .size1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 346px;
+  top                 : 373px;
   height              : 116px;
   width               : 6px;
   position            : absolute;
@@ -3565,7 +3729,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .area3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 402px;
+  top                 : 429px;
   height              : 26px;
   width               : 312px;
   position            : absolute;
@@ -3609,7 +3773,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .area4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 446px;
+  top                 : 473px;
   height              : 16px;
   width               : 312px;
   position            : absolute;
@@ -3653,7 +3817,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .guidenumberingtype4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 391px;
+  top                 : 418px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -3691,7 +3855,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .guidenumberingtype5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 443px;
+  top                 : 470px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -3729,7 +3893,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .guidenumberingtype6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 420px;
+  top                 : 447px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -3767,7 +3931,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .default {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 413px;
+  top                 : 440px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3783,7 +3947,7 @@ div {
 }
 .a123errormessage .textfieldswithlabels .group .guide .withlabels {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 604px;
+  top                 : 631px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3797,9 +3961,9 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.a123errormessage .textfieldswithlabels .group .leftsideofthetex {
+.a123errormessage .textfieldswithlabels .group .leftsideofthet {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 1111px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -3808,10 +3972,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 22.0px;
 }
 .a123errormessage .a123errormessage1 {
   background-color    : rgba(255,255,255,0.0);
@@ -3831,7 +3995,7 @@ div {
 }
 .a123errormessage .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1362px;
+  top                 : 1407px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -4926,7 +5090,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a123errormessage .gnbbar12textfields .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a123errormessage .gnbbar12textfields .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

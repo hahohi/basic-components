@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2469px;
+  min-height          : 2561px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a82progresscircle .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2344px;
+  top                 : 2436px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -101,8 +101,8 @@ div {
 }
 .a82progresscircle .indeterminate {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1335px;
-  height              : 929px;
+  top                 : 1365px;
+  height              : 991px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -112,8 +112,8 @@ div {
 }
 .a82progresscircle .indeterminate .table {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 657px;
-  height              : 272px;
+  top                 : 641px;
+  height              : 350px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -123,7 +123,7 @@ div {
 }
 .a82progresscircle .indeterminate .table .a2st {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 164px;
+  top                 : 242px;
   height              : 108px;
   width               : 1240px;
   position            : absolute;
@@ -343,7 +343,7 @@ div {
 }
 .a82progresscircle .indeterminate .table .a1st {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
+  top                 : 134px;
   height              : 108px;
   width               : 1240px;
   position            : absolute;
@@ -575,7 +575,7 @@ div {
 }
 .a82progresscircle .indeterminate .table .head {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 78px;
   height              : 56px;
   width               : 1240px;
   position            : absolute;
@@ -701,11 +701,11 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a82progresscircle .indeterminate .colorprogresscir {
+.a82progresscircle .indeterminate .table .progresscircleinde {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 612px;
+  top                 : 36px;
   height              : auto;
-  width               : auto;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -715,12 +715,28 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
+}
+.a82progresscircle .indeterminate .table .color {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 128px;
-  height              : 424px;
+  top                 : 83px;
+  height              : 498px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -728,9 +744,26 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a82progresscircle .indeterminate .table1 .httpsmobilerndhub {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 476px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(95, 93, 203, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  text-decoration     : underline;
+}
 .a82progresscircle .indeterminate .table1 .a3rd {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 264px;
+  top                 : 305px;
   height              : 160px;
   width               : 1240px;
   position            : absolute;
@@ -1041,7 +1074,7 @@ div {
 }
 .a82progresscircle .indeterminate .table1 .a2st {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 156px;
+  top                 : 197px;
   height              : 108px;
   width               : 1240px;
   position            : absolute;
@@ -1352,7 +1385,7 @@ div {
 }
 .a82progresscircle .indeterminate .table1 .a1st {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
+  top                 : 97px;
   height              : 100px;
   width               : 1240px;
   position            : absolute;
@@ -1854,7 +1887,7 @@ div {
 }
 .a82progresscircle .indeterminate .table1 .head {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 41px;
   height              : 56px;
   width               : 1240px;
   position            : absolute;
@@ -2097,21 +2130,21 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a82progresscircle .indeterminate .viguidelineref {
+.a82progresscircle .indeterminate .table1 .viguideline {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
+  top                 : 0px;
   height              : auto;
-  width               : auto;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .indeterminate1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2132,7 +2165,7 @@ div {
 .a82progresscircle .determinate {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
-  height              : 981px;
+  height              : 1011px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2142,8 +2175,8 @@ div {
 }
 .a82progresscircle .determinate .viguide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 693px;
-  height              : 288px;
+  top                 : 726px;
+  height              : 285px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2153,7 +2186,7 @@ div {
 }
 .a82progresscircle .determinate .viguide .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
+  top                 : 42px;
   height              : 243px;
   width               : 1240px;
   position            : absolute;
@@ -2507,11 +2540,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .determinate .viguide .progresscirclede {
+.a82progresscircle .determinate .viguide .determinatevi {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : auto;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2521,12 +2554,12 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .a82progresscircle .determinate .table {
   background-color    : rgba(255,255,255,0.0);
   top                 : 83px;
-  height              : 550px;
+  height              : 583px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2536,7 +2569,7 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
+  top                 : 78px;
   height              : 505px;
   width               : 1240px;
   position            : absolute;
@@ -3895,11 +3928,11 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a82progresscircle .determinate .table .progresscirclede {
+.a82progresscircle .determinate .table .determinateusetof {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 36px;
   height              : auto;
-  width               : auto;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3909,7 +3942,23 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
+}
+.a82progresscircle .determinate .table .progresscircle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
 }
 .a82progresscircle .determinate .determinate1 {
   background-color    : rgba(255,255,255,0.0);
@@ -5333,7 +5382,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a82progresscircle .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

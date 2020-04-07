@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-300";
                           src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 4302px;
+  min-height          : 4387px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -52,7 +52,7 @@ div {
 .a103searchlist .clearsearchhistorybutton {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1344px;
-  height              : 457px;
+  height              : 485px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 457px;
+  height              : 485px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +74,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 457px;
+  height              : 485px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -85,7 +85,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 457px;
+  height              : 485px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -99,7 +99,7 @@ div {
 }
 .a103searchlist .clearsearchhistorybutton .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 203px;
+  top                 : 217px;
   height              : 52px;
   width               : 360px;
   position            : absolute;
@@ -159,21 +159,32 @@ div {
   text-align          : center;
   line-height         : 36.0px;
 }
-.a103searchlist .clearsearchhistorybutton .guide1 .symbol .mobilelighttheme11searchresentsearchlist .guidemeasurearea {
+.a103searchlist .clearsearchhistorybutton .guide1 .text {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 22px;
-  width               : 312px;
+  top                 : 225px;
+  height              : 37px;
+  width               : 374px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 139px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .clearsearchhistorybutton .guide1 .symbol .mobilelighttheme11searchresentsearchlist .guidemeasurearea .addsamecolorasneeded {
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 22px;
+  height              : 36px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
   width               : 312px;
   position            : absolute;
   margin              : 0;
@@ -181,21 +192,82 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a103searchlist .clearsearchhistorybutton .guide1 .symbol .mobilelighttheme11searchresentsearchlist .guidemeasurearea .area {
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurearea .area {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 22px;
+  height              : 36px;
   width               : 312px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
+}
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 36px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a103searchlist .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 203px;
-  height              : 15px;
+  top                 : 217px;
+  height              : 8px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -206,7 +278,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -217,7 +289,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -228,7 +300,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -239,7 +311,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -251,7 +323,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -261,9 +333,9 @@ div {
 }
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
+  top                 : -5px;
   height              : 18px;
-  width               : 15px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -289,7 +361,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -299,8 +371,8 @@ div {
 }
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 240px;
-  height              : 15px;
+  top                 : 261px;
+  height              : 8px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -311,7 +383,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -322,7 +394,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -333,7 +405,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -344,7 +416,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -356,7 +428,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -366,9 +438,9 @@ div {
 }
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
+  top                 : -5px;
   height              : 18px;
-  width               : 15px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -394,7 +466,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 8px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -443,7 +515,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 457px;
+  height              : 485px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -454,7 +526,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 457px;
+  height              : 485px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -465,7 +537,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 457px;
+  height              : 485px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -480,7 +552,7 @@ div {
 .a103searchlist .clearsearchhistorybutton .type .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 137px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -734,6 +806,88 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a103searchlist .clearsearchhistorybutton .type .general .guidemodifiedformpropertynormalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .clearsearchhistorybutton .type .general .guidemodifiedformpropertynormalcopy2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .clearsearchhistorybutton .type .general .guidemodifiedformpropertynormalcopy2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .clearsearchhistorybutton .type .general .guidemodifiedformpropertynormalcopy2 .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a103searchlist .clearsearchhistorybutton .type .general .guidemodifiedformpropertynormalcopy2 .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a103searchlist .clearsearchhistorybutton .type .general .guidemodifiedformpropertynormalcopy2 .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a103searchlist .clearsearchhistorybutton .type .general .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -775,7 +929,7 @@ div {
 }
 .a103searchlist .clearsearchhistorybutton .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 246px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -929,7 +1083,7 @@ div {
 }
 .a103searchlist .clearsearchhistorybutton .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 324px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1083,7 +1237,7 @@ div {
 }
 .a103searchlist .clearsearchhistorybutton .type .note {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 374px;
+  top                 : 402px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1292,7 +1446,7 @@ div {
 }
 .a103searchlist .searchbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1820px;
+  top                 : 1849px;
   height              : 555px;
   width               : 1240px;
   position            : absolute;
@@ -1457,7 +1611,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37px;
   height              : 90px;
@@ -1468,7 +1622,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 .guidemeasurearea2 {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 .guidemeasurearea2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -1479,7 +1633,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 .guidemeasurearea2 .addsamecolorasneeded {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 .guidemeasurearea2 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -1490,7 +1644,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 .guidemeasurearea2 .area {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 .guidemeasurearea2 .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 52px;
@@ -1501,7 +1655,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 .guidemeasurerulerbottom {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 52px;
   height              : 38px;
@@ -1513,7 +1667,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 .guidemeasurerulerbottom .background {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1524,7 +1678,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 .guidemeasurerulerbottom .a0 {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -1540,7 +1694,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing7 .guidemeasurerulerbottom .combinedshape {
+.a103searchlist .searchbar .guide1 .searchhistorylist .guide2 .spacing6 .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -2465,8 +2619,8 @@ div {
 }
 .a103searchlist .searchbar .guide1 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 148px;
-  height              : 10px;
+  top                 : 142px;
+  height              : 56px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2477,7 +2631,7 @@ div {
 .a103searchlist .searchbar .guide1 .spacing2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 56px;
   width               : 38px;
   position            : relative;
   margin              : 0;
@@ -2489,7 +2643,7 @@ div {
 .a103searchlist .searchbar .guide1 .spacing2 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 56px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2499,9 +2653,9 @@ div {
 }
 .a103searchlist .searchbar .guide1 .spacing2 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -4px;
+  top                 : 19px;
   height              : 18px;
-  width               : 16px;
+  width               : 17px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -2527,7 +2681,7 @@ div {
 .a103searchlist .searchbar .guide1 .spacing2 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 56px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2536,78 +2690,6 @@ div {
   opacity             : 1.0;
 }
 .a103searchlist .searchbar .guide1 .spacing3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 182px;
-  height              : 10px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 537px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerright {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 38px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerright .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerright .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -4px;
-  height              : 18px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 14px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerright .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 142px;
   height              : 94px;
@@ -2618,7 +2700,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerbottom {
+.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 38px;
@@ -2630,7 +2712,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerbottom .background {
+.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -2641,7 +2723,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerbottom .a0 {
+.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -2657,7 +2739,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerbottom .combinedshape {
+.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -2668,7 +2750,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurearea2 {
+.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurearea2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -2679,7 +2761,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurearea2 .addsamecolorasneeded {
+.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurearea2 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -2690,7 +2772,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurearea2 .area {
+.a103searchlist .searchbar .guide1 .spacing3 .guidemeasurearea2 .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -2701,9 +2783,114 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a103searchlist .searchbar .guide1 .spacing5 {
+.a103searchlist .searchbar .guide1 .spacing4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 142px;
+  height              : 6px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 139px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurearea2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurearea2 .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurearea2 .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerleft1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerleft1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerleft1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 19px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerleft1 .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a103searchlist .searchbar .guide1 .spacing4 .guidemeasurerulerleft1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchbar .guide1 .spacing5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
   height              : 6px;
   width               : 398px;
   position            : absolute;
@@ -2806,115 +2993,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .searchbar .guide1 .spacing6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
-  height              : 6px;
-  width               : 398px;
-  position            : absolute;
-  margin              : 0;
-  left                : 139px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurearea2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurearea2 .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurearea2 .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurerulerleft1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurerulerleft1 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurerulerleft1 .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -6px;
-  height              : 19px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurerulerleft1 .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : right;
-  line-height         : 18.0px;
-}
-.a103searchlist .searchbar .guide1 .spacing6 .guidemeasurerulerleft1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .a103searchlist .searchbar .guide1 .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 146px;
-  height              : 23px;
+  top                 : 147px;
+  height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
@@ -2925,7 +3007,7 @@ div {
 .a103searchlist .searchbar .guide1 .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 23px;
+  height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
@@ -2935,7 +3017,7 @@ div {
 }
 .a103searchlist .searchbar .guide1 .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
+  top                 : 0px;
   height              : 22px;
   width               : 24px;
   position            : absolute;
@@ -2951,12 +3033,12 @@ div {
 }
 .a103searchlist .searchbar .guide1 .guidenumberingicon1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 142px;
+  top                 : 147px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 495px;
+  left                : 482px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4870,6 +4952,115 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
+.a103searchlist .guide .tagrefer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 29px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 815px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .guide .tagrefer .rectangle {
+  background-color    : rgba(17, 186, 159, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .guide .tagrefer .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 17px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .guide .tagrefer .group .referto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a103searchlist .guide .tagrefer .group .pagename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .guide .tagrefer .group .pagename .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a103searchlist .guide .tagrefer .group .pagename .pagename1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a103searchlist .guide .tagrefer .group .pagename .label2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
 .a103searchlist .keyscreens {
   background-color    : rgba(255,255,255,0.0);
   top                 : 277px;
@@ -4928,7 +5119,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a103searchlist .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -4951,7 +5141,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a103searchlist .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -5171,115 +5360,6 @@ div {
   text-align          : left;
   line-height         : 17.0px;
 }
-.a103searchlist .keyscreens .tagrefer2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 211px;
-  height              : 29px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 885px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .keyscreens .tagrefer2 .rectangle {
-  background-color    : rgba(17, 186, 159, 1.0);
-  top                 : 0px;
-  height              : 29px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .keyscreens .tagrefer2 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 17px;
-  width               : 201px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .keyscreens .tagrefer2 .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a103searchlist .keyscreens .tagrefer2 .group .pagename {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .keyscreens .tagrefer2 .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a103searchlist .keyscreens .tagrefer2 .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a103searchlist .keyscreens .tagrefer2 .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 144px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
 .a103searchlist .searchhistory {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
@@ -5298,8 +5378,8 @@ div {
 }
 .a103searchlist .autocompletesuggestion {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2535px;
-  height              : 1562px;
+  top                 : 2564px;
+  height              : 1618px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -5310,7 +5390,7 @@ div {
 .a103searchlist .autocompletesuggestion .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 872px;
+  height              : 928px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -5321,7 +5401,7 @@ div {
 .a103searchlist .autocompletesuggestion .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 872px;
+  height              : 928px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -5332,7 +5412,7 @@ div {
 .a103searchlist .autocompletesuggestion .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 872px;
+  height              : 928px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -5346,7 +5426,7 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 408px;
+  top                 : 436px;
   height              : 56px;
   width               : 360px;
   position            : absolute;
@@ -5437,7 +5517,7 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .symbol .mobilelighttheme11searchsearchbar03 .samsung {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
+  top                 : 16px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -5451,7 +5531,7 @@ div {
   font-size           : 17.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
-  line-height         : 20.0px;
+  line-height         : 24.0px;
   text-decoration     : underline;
 }
 .a103searchlist .autocompletesuggestion .guide1 .symbol .mobilelighttheme11searchsearchbar03 .mobilelightthemeicon11searchsearchback {
@@ -5524,7 +5604,7 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 370px;
+  top                 : 398px;
   height              : 78px;
   width               : 320px;
   position            : absolute;
@@ -5795,8 +5875,8 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 414px;
-  height              : 10px;
+  top                 : 436px;
+  height              : 56px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -5807,7 +5887,7 @@ div {
 .a103searchlist .autocompletesuggestion .guide1 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 56px;
   width               : 38px;
   position            : relative;
   margin              : 0;
@@ -5819,7 +5899,7 @@ div {
 .a103searchlist .autocompletesuggestion .guide1 .spacing .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 56px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -5829,9 +5909,9 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .spacing .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -4px;
+  top                 : 19px;
   height              : 18px;
-  width               : 16px;
+  width               : 17px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -5857,7 +5937,7 @@ div {
 .a103searchlist .autocompletesuggestion .guide1 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 56px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5867,84 +5947,106 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 448px;
-  height              : 10px;
-  width               : 38px;
+  top                 : 436px;
+  height              : 94px;
+  width               : 20px;
   position            : absolute;
   margin              : 0;
-  left                : 540px;
+  left                : 180px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerright {
+.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
-  width               : 38px;
-  position            : relative;
+  height              : 56px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 38px;
+  width               : 20px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerright .background {
+.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 10px;
-  width               : 38px;
+  height              : 38px;
+  width               : 20px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerright .value {
+.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -4px;
-  height              : 18px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 14px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerright .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 13px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
+  text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
+.a103searchlist .autocompletesuggestion .guide1 .spacing1 .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10px;
-  width               : 9px;
+  top                 : 2px;
+  height              : 9px;
+  width               : 20px;
   position            : absolute;
   margin              : 0;
-  left                : 2px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a103searchlist .autocompletesuggestion .guide1 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 408px;
+  top                 : 436px;
   height              : 94px;
   width               : 20px;
   position            : absolute;
   margin              : 0;
-  left                : 180px;
+  left                : 520px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6033,12 +6135,12 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 408px;
+  top                 : 436px;
   height              : 94px;
-  width               : 20px;
+  width               : 12px;
   position            : absolute;
   margin              : 0;
-  left                : 520px;
+  left                : 224px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6046,7 +6148,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
-  width               : 20px;
+  width               : 12px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6057,7 +6159,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
-  width               : 20px;
+  width               : 12px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6068,7 +6170,7 @@ div {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 56px;
-  width               : 20px;
+  width               : 12px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6079,7 +6181,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 38px;
-  width               : 20px;
+  width               : 12px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6091,7 +6193,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 12px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6099,100 +6201,6 @@ div {
   opacity             : 1.0;
 }
 .a103searchlist .autocompletesuggestion .guide1 .spacing3 .guidemeasurerulerbottom .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 408px;
-  height              : 94px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 224px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerbottom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 38px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerbottom .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -6208,7 +6216,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerbottom .combinedshape {
+.a103searchlist .autocompletesuggestion .guide1 .spacing3 .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -6219,9 +6227,114 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 436px;
+  height              : 6px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerleft {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerleft .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerleft .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 19px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerleft .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a103searchlist .autocompletesuggestion .guide1 .spacing4 .guidemeasurerulerleft .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a103searchlist .autocompletesuggestion .guide1 .spacing5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 408px;
+  top                 : 486px;
   height              : 6px;
   width               : 398px;
   position            : absolute;
@@ -6324,114 +6437,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 458px;
-  height              : 6px;
-  width               : 398px;
-  position            : absolute;
-  margin              : 0;
-  left                : 142px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurerulerleft {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurerulerleft .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurerulerleft .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -6px;
-  height              : 19px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurerulerleft .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : right;
-  line-height         : 18.0px;
-}
-.a103searchlist .autocompletesuggestion .guide1 .spacing6 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .a103searchlist .autocompletesuggestion .guide1 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 415px;
+  top                 : 443px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -6469,7 +6477,7 @@ div {
 }
 .a103searchlist .autocompletesuggestion .guide1 .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 415px;
+  top                 : 443px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -6508,7 +6516,7 @@ div {
 .a103searchlist .autocompletesuggestion .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 379px;
+  height              : 435px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -6519,7 +6527,7 @@ div {
 .a103searchlist .autocompletesuggestion .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 435px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -6530,7 +6538,7 @@ div {
 .a103searchlist .autocompletesuggestion .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 435px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -6545,7 +6553,7 @@ div {
 .a103searchlist .autocompletesuggestion .type .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 165px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -6799,6 +6807,170 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy3 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy3 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy3 .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy3 .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy3 .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 137px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy5 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy5 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 217px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy5 .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy5 .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 134px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertynormalcopy5 .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a103searchlist .autocompletesuggestion .type .general .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -6840,7 +7012,7 @@ div {
 }
 .a103searchlist .autocompletesuggestion .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 274px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -6994,7 +7166,7 @@ div {
 }
 .a103searchlist .autocompletesuggestion .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 352px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -7225,7 +7397,7 @@ div {
 }
 .a103searchlist .autocompletesuggestion .image {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1089px;
+  top                 : 1145px;
   height              : 473px;
   width               : 505px;
   position            : absolute;
@@ -8115,7 +8287,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a103searchlist .autocompletesuggestion .keyscreens1 .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -8138,7 +8309,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a103searchlist .autocompletesuggestion .keyscreens1 .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -8280,56 +8450,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
-}
-.a103searchlist .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4177px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 .a103searchlist .gnbbar10search {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -9378,7 +9498,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a103searchlist .gnbbar10search .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a103searchlist .gnbbar10search .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -9580,6 +9700,56 @@ div {
   color               : rgba(37, 37, 37, 1.0);
   text-align          : justify;
   line-height         : 24.0px;
+}
+.a103searchlist .stylebuttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4262px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .stylebuttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .stylebuttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .stylebuttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

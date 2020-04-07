@@ -1,0 +1,4738 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+@font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-700";
+                          src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        
+.font {
+  width               : 100%;
+  min-width           : 1680px;
+  height              : 100vh;
+  min-height          : 1632px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(245, 246, 247, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.font .font1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 786px;
+  height              : 773px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .httpswwww3school {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 670px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(95, 93, 203, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  text-decoration     : underline;
+}
+.font .specialcharacters .httpswwww3school1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 697px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(95, 93, 203, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  text-decoration     : underline;
+}
+.font .specialcharacters .httpswwww3school2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 724px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(95, 93, 203, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  text-decoration     : underline;
+}
+.font .specialcharacters .httpsdevelopermo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 751px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(95, 93, 203, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  text-decoration     : underline;
+}
+.font .specialcharacters .httpsenwikipedia {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 633px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(95, 93, 203, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  text-decoration     : underline;
+}
+.font .specialcharacters .fallbackfontafa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 562px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.font .specialcharacters .table {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 125px;
+  height              : 425px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 369px;
+  height              : 56px;
+  width               : 1143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 359px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy41 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 489px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy41 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy41 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy41 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 619px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy5 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy5 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy5 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy6 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy6 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy6 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 881px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy7 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy7 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy7 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1012px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy8 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy8 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .named .tablecontent1stylecopy8 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 313px;
+  height              : 56px;
+  width               : 1143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 359px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 489px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style4 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style4 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style4 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 619px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style5 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style5 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style5 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style6 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style6 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style6 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 881px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style7 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style7 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style7 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .hex .tablecontent1style8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1012px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style8 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .hex .tablecontent1style8 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .hex .tablecontent1style8 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 257px;
+  height              : 56px;
+  width               : 1143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 359px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 489px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style4 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style4 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style4 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 619px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style5 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style5 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style5 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style6 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style6 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style6 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 881px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style7 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style7 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style7 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .decimal .tablecontent1style8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1012px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style8 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .decimal .tablecontent1style8 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .decimal .tablecontent1style8 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .tablecontent1stylecopy4 {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 257px;
+  height              : 168px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .tablecontent1stylecopy4 .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 168px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .tablecontent1stylecopy4 .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 52px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 201px;
+  height              : 56px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 326px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy41 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 586px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy41 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy41 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy41 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 716px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy5 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy5 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy5 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 847px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy6 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy6 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy6 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 978px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy7 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy7 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy7 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1109px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy8 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy8 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .unicodenumber .tablecontent1stylecopy8 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 119px;
+  height              : 82px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 26px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 326px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 26px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 52px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 586px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style4 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style4 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style4 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 52px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 716px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style5 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style5 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style5 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 26px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 847px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style6 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style6 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style6 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 52px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 978px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style7 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style7 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style7 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 52px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .name .tablecontent1style8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1109px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style8 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 82px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .name .tablecontent1style8 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .specialcharacters .table .name .tablecontent1style8 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 52px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .glyph {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 26px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style1 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 326px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style2 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style2 .a260 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style3 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 716px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style4 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style4 .u03bc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 586px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style5 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style5 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 847px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style6 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style6 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 978px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style7 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style7 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .table .glyph .tablecontent1style8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1109px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style8 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .specialcharacters .table .glyph .tablecontent1style8 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
+}
+.font .specialcharacters .ud2b9uc218ubb38uc790uc785ub825uc774ud544uc694ud55cuacbduc6b0ub2e4uc74cuc758 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.font .specialcharacters .specialcharacters1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 53.0px;
+}
+.font .fonttable {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : 432px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 152px;
+  height              : 280px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 168px;
+  height              : 56px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1stylecopy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 224px;
+  height              : 56px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1stylecopy .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1stylecopy .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1stylecopy .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 112px;
+  height              : 56px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .guiguidefontname .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .guiguidefontname .tablesubject {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 112px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablesubject .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 112px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .guiguidefontname .tablesubject .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 26px;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 280px;
+  width               : 845px;
+  position            : absolute;
+  margin              : 0;
+  left                : 395px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 224px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 422px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 112px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1stylecopy3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 168px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1stylecopy3 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1stylecopy3 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1stylecopy3 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 56px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style2 {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style2 .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .korean .tablecontent1style2 .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 224px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 112px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 382px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1stylecopy2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 168px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1stylecopy2 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1stylecopy2 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1stylecopy2 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 382px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 56px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style1 .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style1 .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style1 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 26px;
+  width               : 382px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style2 {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style2 .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 422px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .defaultlatincyrillicgreek .tablecontent1style2 .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 382px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .table .fontfilename .tablesubject {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 845px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .tablesubject .background {
+  background-color    : rgba(88, 87, 87, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 845px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .fonttable .table .fontfilename .tablesubject .subject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 805px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.font .fonttable .ubcf8uac00uc774ub4dcuc5d0uc11cuc0acuc6a9ud558ub294uae30ubcf8ud3f0ud2b8ub294 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.font .fonttable .fonttable1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 53.0px;
+}
+.font .gnbbarbasic {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 907px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .background {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 907px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu16thumbnailnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 865px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu16thumbnailnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu16thumbnailnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu15notificationbadgenormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 822px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu15notificationbadgenormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu14descriptionnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 779px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu14descriptionnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu14descriptionnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu14descriptionnormal .gnbmenu .a14description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu13viewcontrolsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 736px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu13viewcontrolsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu12textfieldsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 693px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu12textfieldsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu12textfieldsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu11toastnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 650px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu11toastnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu11toastnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu11toastnormal .gnbmenu .a11toast {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu10searchnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 607px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu10searchnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu10searchnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu10searchnormal .gnbmenu .a10search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu9scrollingnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 564px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu9scrollingnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu9scrollingnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu8progressnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 521px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu8progressnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu8progressnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu8progressnormal .gnbmenu .a8progress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu7noitemsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu7noitemsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu7noitemsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu6listsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 435px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu6listsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu6listsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu6listsnormal .gnbmenu .a6lists {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu5dividersnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 392px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu5dividersnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu5dividersnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu4dialogsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu4dialogsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu4dialogsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu4dialogsnormal .gnbmenu .a4dialogs {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu3controllersnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 306px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu3controllersnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu3controllersnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu2buttonsnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 263px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu2buttonsnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu2buttonsnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu1appbarnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 220px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu1appbarnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu1appbarnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu0fonttablenormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 177px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu0fonttablenormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu0fonttablenormal .gnbmenu .bg {
+  background-color    : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu0fonttablenormal .gnbmenu .a0font {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenu0overviewnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 134px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu0overviewnormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu0overviewnormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenu0overviewnormal .gnbmenu .overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnbmenuhistorynormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenuhistorynormal .gnbmenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenuhistorynormal .gnbmenu .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnbmenuhistorynormal .gnbmenu .history {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnblogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnblogo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 90px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnblogo .gotohome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnblogo .gotohome .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnblogo .gotohome .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 45px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.font .gnbbarbasic .gnblogo .gotohome .group .webapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.3px;
+  line-height         : 18.0px;
+}
+.font .gnbbarbasic .gnblogo .gotohome .group .basiccomponentgui {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

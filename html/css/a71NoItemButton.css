@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,300,400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -9,16 +9,16 @@
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-300";
                           src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a71noitembutton {
@@ -168,7 +168,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a71noitembutton .extendedappbar .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -191,7 +190,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a71noitembutton .extendedappbar .guide {
   background-color    : rgba(255,255,255,0.0);
@@ -483,10 +481,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 68px;
   height              : 44px;
-  width               : 360px;
+  width               : 216px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 72px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -494,7 +492,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 44px;
-  width               : 360px;
+  width               : 216px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -505,7 +503,7 @@ div {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 44px;
-  width               : 360px;
+  width               : 216px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -724,7 +722,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a71noitembutton .appbar .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -747,7 +744,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a71noitembutton .appbar .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -1153,10 +1149,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 68px;
   height              : 44px;
-  width               : 360px;
+  width               : 216px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 72px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1164,7 +1160,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 44px;
-  width               : 360px;
+  width               : 216px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1175,7 +1171,7 @@ div {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 44px;
-  width               : 360px;
+  width               : 216px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -4004,7 +4000,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a71noitembutton .gnbbar7noitems .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a71noitembutton .gnbbar7noitems .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

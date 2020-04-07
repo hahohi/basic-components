@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-500";
                           src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a410multichoicedialog {
@@ -934,7 +934,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 18px;
-  width               : 17px;
+  width               : 85px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -1003,8 +1003,8 @@ div {
 }
 .a410multichoicedialog .guide .guide1 .spacing4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 91px;
-  height              : 18px;
+  top                 : 90px;
+  height              : 19px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -1015,7 +1015,7 @@ div {
 .a410multichoicedialog .guide .guide1 .spacing4 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1027,7 +1027,7 @@ div {
 .a410multichoicedialog .guide .guide1 .spacing4 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1037,9 +1037,9 @@ div {
 }
 .a410multichoicedialog .guide .guide1 .spacing4 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 1px;
   height              : 18px;
-  width               : 16px;
+  width               : 79px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -1065,7 +1065,7 @@ div {
 .a410multichoicedialog .guide .guide1 .spacing4 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1076,7 +1076,7 @@ div {
 .a410multichoicedialog .guide .guide1 .spacing4 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -1087,7 +1087,7 @@ div {
 .a410multichoicedialog .guide .guide1 .spacing4 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -1098,7 +1098,7 @@ div {
 .a410multichoicedialog .guide .guide1 .spacing4 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -1602,7 +1602,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a410multichoicedialog .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1625,7 +1624,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a410multichoicedialog .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -3584,7 +3582,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a410multichoicedialog .gnbbar4dialogs .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a410multichoicedialog .gnbbar4dialogs .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

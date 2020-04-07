@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500,400');
 
 @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -13,19 +13,19 @@
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a22containedbutton {
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 11129px;
+  min-height          : 11226px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -49,11 +49,61 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
+.a22containedbutton .stylebuttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11091px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 864px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a22containedbutton .stylebuttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a22containedbutton .stylebuttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a22containedbutton .stylebuttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
+}
 .a22containedbutton .bodyarea2buttons {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 8038px;
-  height              : 2886px;
-  width               : 1241px;
+  top                 : 8133px;
+  height              : 2878px;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 380px;
@@ -62,8 +112,8 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2683px;
-  height              : 203px;
+  top                 : 2637px;
+  height              : 241px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +124,7 @@ div {
 .a22containedbutton .bodyarea2buttons .maxwidth .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 162px;
+  height              : 200px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -85,7 +135,7 @@ div {
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 162px;
+  height              : 200px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -96,7 +146,7 @@ div {
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 162px;
+  height              : 200px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -111,7 +161,7 @@ div {
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 82px;
+  height              : 120px;
   width               : 1040px;
   position            : absolute;
   margin              : 0;
@@ -122,7 +172,7 @@ div {
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 82px;
+  height              : 120px;
   width               : 1040px;
   position            : relative;
   margin              : 0;
@@ -132,7 +182,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .rectangle {
   background-color    : rgba(245, 246, 247, 1.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 44px;
   width               : 1040px;
   position            : absolute;
@@ -143,7 +193,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .mobilelighttheme02buttonraisedbuttonbody {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 44px;
   width               : 341px;
   position            : absolute;
@@ -184,7 +234,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .mobilelighttheme02buttonraisedbuttonbodycolored {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 44px;
   width               : 341px;
   position            : absolute;
@@ -225,7 +275,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 82px;
   width               : 24px;
   position            : absolute;
@@ -319,7 +369,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 82px;
   width               : 24px;
   position            : absolute;
@@ -413,7 +463,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 82px;
   width               : 24px;
   position            : absolute;
@@ -518,7 +568,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
+  top                 : 0px;
   height              : 38px;
   width               : 341px;
   position            : absolute;
@@ -539,14 +589,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size .guidemeasurerulerbottom .a0 {
+.a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size .guidemeasurerulerbottom .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
+  top                 : 7px;
+  height              : 18px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size .guidemeasurerulerbottom .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 155px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -557,7 +618,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
+  top                 : 27px;
   height              : 9px;
   width               : 341px;
   position            : absolute;
@@ -568,7 +629,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 44px;
   width               : 341px;
   position            : absolute;
@@ -612,7 +673,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
+  top                 : 0px;
   height              : 38px;
   width               : 341px;
   position            : absolute;
@@ -633,14 +694,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size1 .guidemeasurerulerbottom .a0 {
+.a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size1 .guidemeasurerulerbottom .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
+  top                 : 7px;
+  height              : 18px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size1 .guidemeasurerulerbottom .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 155px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -651,7 +723,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size1 .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
+  top                 : 27px;
   height              : 9px;
   width               : 341px;
   position            : absolute;
@@ -662,7 +734,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .maxwidth .guide .group .symbol .size1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 38px;
   height              : 44px;
   width               : 341px;
   position            : absolute;
@@ -711,12 +783,12 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .mindefaultwidth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2382px;
+  top                 : 2336px;
   height              : 241px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -731,7 +803,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .contentsbox {
+.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 200px;
@@ -742,7 +814,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .contentsbox .rectangle {
+.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 200px;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 200px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol .contentsbox .rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 200px;
@@ -757,8 +851,8 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group {
-  background-color    : rgba(255,255,255,0.0);
+.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol .rectangle {
+  background-color    : rgba(245, 246, 247, 1.0);
   top                 : 78px;
   height              : 44px;
   width               : 800px;
@@ -768,36 +862,14 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 800px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol .rectangle {
-  background-color    : rgba(245, 246, 247, 1.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 800px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol .mobilelighttheme02buttonraisedbuttonbody {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 78px;
   height              : 44px;
   width               : 241px;
   position            : absolute;
   margin              : 0;
-  left                : 64px;
+  left                : 284px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -833,12 +905,12 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .mindefaultwidth .guide .group .symbol .mobilelighttheme02buttonraisedbuttonbodycolored {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 78px;
   height              : 44px;
   width               : 241px;
   position            : absolute;
   margin              : 0;
-  left                : 495px;
+  left                : 715px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1458,7 +1530,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea2buttons .mindefaultwidth .defaultminwidth {
+.a22containedbutton .bodyarea2buttons .mindefaultwidth .mindefaultwidth1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1476,7 +1548,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1625px;
+  top                 : 1579px;
   height              : 697px;
   width               : 1240px;
   position            : absolute;
@@ -1551,9 +1623,9 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .colordefalut {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 730px;
-  height              : 835px;
-  width               : 1241px;
+  top                 : 726px;
+  height              : 793px;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1562,7 +1634,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .colordefalut .shape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
+  top                 : 0px;
   height              : 513px;
   width               : 505px;
   position            : absolute;
@@ -2760,7 +2832,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .colordefalut .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
+  top                 : 0px;
   height              : 759px;
   width               : 715px;
   position            : absolute;
@@ -3889,7 +3961,7 @@ div {
 }
 .a22containedbutton .bodyarea2buttons .colordefalut .typeface {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 609px;
+  top                 : 533px;
   height              : 226px;
   width               : 505px;
   position            : absolute;
@@ -4340,53 +4412,37 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a22containedbutton .bodyarea2buttons .colordefalut .whenthebuttonism {
+.a22containedbutton .bodyarea2buttons .colordefalut .whenthebuttonis {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
-  height              : auto;
-  width               : 540px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.a22containedbutton .bodyarea2buttons .colordefalut .default {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 771px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 22.0px;
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 26.0px;
+  line-height         : 22.0px;
 }
 .a22containedbutton .bodyarea2buttons .keyscreens1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 83px;
-  height              : 587px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a22containedbutton .bodyarea2buttons .keyscreens1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 587px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -4397,7 +4453,7 @@ div {
 .a22containedbutton .bodyarea2buttons .keyscreens1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 587px;
+  height              : 623px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -4408,6 +4464,22 @@ div {
   border-color        : rgba(227, 227, 227, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a22containedbutton .bodyarea2buttons .keyscreens1 .containedbuttonbod {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 559px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 519px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
 }
 .a22containedbutton .bodyarea2buttons .keyscreens1 .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
@@ -4430,7 +4502,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .bodyarea2buttons .keyscreens1 .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -4453,7 +4524,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .bodyarea2buttons .bodyarea2button {
   background-color    : rgba(255,255,255,0.0);
@@ -4462,7 +4532,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -4473,8 +4543,8 @@ div {
 }
 .a22containedbutton .bodyarea1button {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3904px;
-  height              : 3974px;
+  top                 : 3962px;
+  height              : 4011px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -4484,8 +4554,8 @@ div {
 }
 .a22containedbutton .bodyarea1button .multilinecase {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3679px;
-  height              : 295px;
+  top                 : 3751px;
+  height              : 260px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -4495,7 +4565,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .multilinecase .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
+  top                 : 41px;
   height              : 219px;
   width               : 1240px;
   position            : absolute;
@@ -5085,22 +5155,6 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .bodyarea1button .multilinecase .ud14duc2a4ud2b8uac00maxwidth60ub97c {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
-  height              : auto;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
 .a22containedbutton .bodyarea1button .multilinecase .multilinecasema {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -5119,7 +5173,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .defaultwidth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3343px;
+  top                 : 3415px;
   height              : 276px;
   width               : 1240px;
   position            : absolute;
@@ -5711,7 +5765,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .defaultwidth .ud654uba74uc5d0uc11cuac00uc7a5uae34ubc84ud2bcuc758labeluc5d0 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -5723,7 +5777,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .a22containedbutton .bodyarea1button .defaultwidth .defaultwidth2 {
   background-color    : rgba(255,255,255,0.0);
@@ -5743,7 +5797,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .minwidth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3042px;
+  top                 : 3114px;
   height              : 241px;
   width               : 1240px;
   position            : absolute;
@@ -6351,7 +6405,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2285px;
+  top                 : 2357px;
   height              : 697px;
   width               : 1240px;
   position            : absolute;
@@ -6426,8 +6480,8 @@ div {
 }
 .a22containedbutton .bodyarea1button .multilinecase1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2006px;
-  height              : 219px;
+  top                 : 2076px;
+  height              : 221px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -6437,7 +6491,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .multilinecase1 .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
+  top                 : 78px;
   height              : 143px;
   width               : 1240px;
   position            : absolute;
@@ -6526,7 +6580,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .multilinecase1 .radiuswidthuc0c1ud558uc88cuc6b0 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -6538,7 +6592,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .a22containedbutton .bodyarea1button .multilinecase1 .multilinecasema {
   background-color    : rgba(255,255,255,0.0);
@@ -6558,8 +6612,8 @@ div {
 }
 .a22containedbutton .bodyarea1button .maxwidth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1700px;
-  height              : 246px;
+  top                 : 1738px;
+  height              : 278px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -6569,8 +6623,8 @@ div {
 }
 .a22containedbutton .bodyarea1button .maxwidth .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
-  height              : 170px;
+  top                 : 78px;
+  height              : 200px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -6581,7 +6635,7 @@ div {
 .a22containedbutton .bodyarea1button .maxwidth .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 170px;
+  height              : 200px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -6592,7 +6646,7 @@ div {
 .a22containedbutton .bodyarea1button .maxwidth .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 170px;
+  height              : 200px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -6606,7 +6660,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .maxwidth .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
+  top                 : 40px;
   height              : 120px;
   width               : 398px;
   position            : absolute;
@@ -7415,7 +7469,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .maxwidth .listub108ube44uae30uc90075uc758widt {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -7427,7 +7481,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .a22containedbutton .bodyarea1button .maxwidth .maxwidth1 {
   background-color    : rgba(255,255,255,0.0);
@@ -7447,8 +7501,8 @@ div {
 }
 .a22containedbutton .bodyarea1button .defaultwidth1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 730px;
-  height              : 910px;
+  top                 : 766px;
+  height              : 912px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -7458,7 +7512,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .defaultwidth1 .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
+  top                 : 78px;
   height              : 834px;
   width               : 1240px;
   position            : absolute;
@@ -9639,7 +9693,7 @@ div {
 }
 .a22containedbutton .bodyarea1button .defaultwidth1 .listub108ube44uae30uc90060uc758widt {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -9651,7 +9705,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .a22containedbutton .bodyarea1button .defaultwidth1 .defaultwidth2 {
   background-color    : rgba(255,255,255,0.0);
@@ -9672,7 +9726,7 @@ div {
 .a22containedbutton .bodyarea1button .keyscreens1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 83px;
-  height              : 587px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -9683,7 +9737,7 @@ div {
 .a22containedbutton .bodyarea1button .keyscreens1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 587px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -9694,7 +9748,7 @@ div {
 .a22containedbutton .bodyarea1button .keyscreens1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 587px;
+  height              : 623px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -9705,6 +9759,22 @@ div {
   border-color        : rgba(227, 227, 227, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a22containedbutton .bodyarea1button .keyscreens1 .containedbuttonbod {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 559px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 519px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
 }
 .a22containedbutton .bodyarea1button .keyscreens1 .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
@@ -9727,7 +9797,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .bodyarea1button .keyscreens1 .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -9750,7 +9819,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .bodyarea1button .bodyarea1button1 {
   background-color    : rgba(255,255,255,0.0);
@@ -9771,7 +9839,7 @@ div {
 .a22containedbutton .listarea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1638px;
-  height              : 2106px;
+  height              : 2164px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -9781,7 +9849,7 @@ div {
 }
 .a22containedbutton .listarea .raisedstrokecase {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1792px;
+  top                 : 1850px;
   height              : 314px;
   width               : 1240px;
   position            : absolute;
@@ -10340,46 +10408,21 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a22containedbutton .listarea .raisedstrokecase .guide .guide1 .symbol .symbol1 .group4 .mobiledarktheme02buttonraisedbutton1 {
+.a22containedbutton .listarea .raisedstrokecase .guide .guide1 .symbol .symbol1 .group4 .border {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
-  width               : 86px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a22containedbutton .listarea .raisedstrokecase .guide .guide1 .symbol .symbol1 .group4 .mobiledarktheme02buttonraisedbutton1 .buttonbg {
-  background-color    : rgba(250, 250, 250, 1.0);
-  top                 : 0px;
-  height              : 36px;
+  box-sizing          : border-box;
   width               : 86px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   border-radius       : 18px;
-  transform           : rotate(0deg);
-  opacity             : 0.17;
-}
-.a22containedbutton .listarea .raisedstrokecase .guide .guide1 .symbol .symbol1 .group4 .mobiledarktheme02buttonraisedbutton1 .button {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 18px;
-  width               : 54px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(250, 250, 250, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
 }
 .a22containedbutton .listarea .raisedstrokecase .guide .guide1 .symbol .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
@@ -10437,8 +10480,8 @@ div {
 }
 .a22containedbutton .listarea .multiplebutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 730px;
-  height              : 1022px;
+  top                 : 766px;
+  height              : 1024px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -10448,7 +10491,7 @@ div {
 }
 .a22containedbutton .listarea .multiplebutton .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
+  top                 : 78px;
   height              : 946px;
   width               : 1240px;
   position            : absolute;
@@ -13400,8 +13443,8 @@ div {
 }
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 53px;
-  height              : 12px;
+  top                 : 51px;
+  height              : 14px;
   width               : 167px;
   position            : absolute;
   margin              : 0;
@@ -13412,7 +13455,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 14px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -13424,7 +13467,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 14px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -13434,7 +13477,7 @@ div {
 }
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -3px;
+  top                 : -2px;
   height              : 18px;
   width               : 47px;
   position            : absolute;
@@ -13462,7 +13505,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 14px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -13473,7 +13516,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 14px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -13484,7 +13527,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 14px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -13495,7 +13538,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 14px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -13506,7 +13549,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
-  height              : 12px;
+  height              : 13px;
   width               : 167px;
   position            : absolute;
   margin              : 0;
@@ -13578,7 +13621,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 13px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -13589,7 +13632,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 13px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -13600,7 +13643,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .spacing1 .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 13px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -13798,8 +13841,8 @@ div {
 }
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 23px;
-  height              : 30px;
+  top                 : 24px;
+  height              : 27px;
   width               : 81px;
   position            : absolute;
   margin              : 0;
@@ -13810,7 +13853,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .area .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 30px;
+  height              : 27px;
   width               : 81px;
   position            : relative;
   margin              : 0;
@@ -13821,7 +13864,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .area .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 30px;
+  height              : 27px;
   width               : 81px;
   position            : absolute;
   margin              : 0;
@@ -13832,7 +13875,7 @@ div {
 .a22containedbutton .listarea .multiplebutton .guide .guide1 .button02 .area .guidemeasurearea .area1 {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 30px;
+  height              : 27px;
   width               : 81px;
   position            : absolute;
   margin              : 0;
@@ -13918,7 +13961,7 @@ div {
 }
 .a22containedbutton .listarea .multiplebutton .ud654uba74uc5d0uc11cuac00uc7a5uae34ubc84ud2bcuc758labeluc5d0 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -13930,7 +13973,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .a22containedbutton .listarea .multiplebutton .ud55cud654uba74uc5d0ubc84ud2bcuc774uc5ecub7ecuac1cuac00ub098uc5f4ub420 {
   background-color    : rgba(255,255,255,0.0);
@@ -13951,7 +13994,7 @@ div {
 .a22containedbutton .listarea .keyscreens {
   background-color    : rgba(255,255,255,0.0);
   top                 : 83px;
-  height              : 587px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -13962,7 +14005,7 @@ div {
 .a22containedbutton .listarea .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 587px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -13973,7 +14016,7 @@ div {
 .a22containedbutton .listarea .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 587px;
+  height              : 623px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -13984,6 +14027,22 @@ div {
   border-color        : rgba(227, 227, 227, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a22containedbutton .listarea .keyscreens .containedbuttonlis {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 559px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
 }
 .a22containedbutton .listarea .keyscreens .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
@@ -14006,7 +14065,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .listarea .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -14029,7 +14087,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .listarea .title {
   background-color    : rgba(255,255,255,0.0);
@@ -14300,7 +14357,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .emphasis .case1 {
   background-color    : rgba(255,255,255,0.0);
@@ -14334,7 +14390,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .emphasis .case2 {
   background-color    : rgba(255,255,255,0.0);
@@ -14368,7 +14423,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .emphasis .case2 .group3 {
   background-color    : rgba(255,255,255,0.0);
@@ -14445,7 +14499,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .emphasis .case4 {
   background-color    : rgba(255,255,255,0.0);
@@ -14479,7 +14532,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .emphasis .case4 .group3 {
   background-color    : rgba(255,255,255,0.0);
@@ -14556,7 +14608,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .emphasis .case5 .group3 {
   background-color    : rgba(255,255,255,0.0);
@@ -14633,7 +14684,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a22containedbutton .emphasis .case6 .group3 {
   background-color    : rgba(255,255,255,0.0);
@@ -15708,7 +15758,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a22containedbutton .gnbbar2buttons .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a22containedbutton .gnbbar2buttons .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -15910,56 +15960,6 @@ div {
   color               : rgba(37, 37, 37, 1.0);
   text-align          : justify;
   line-height         : 24.0px;
-}
-.a22containedbutton .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11004px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a22containedbutton .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a22containedbutton .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a22containedbutton .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

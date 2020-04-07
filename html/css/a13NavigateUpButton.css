@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1480px;
+  min-height          : 1479px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -894,7 +894,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .contentsbox {
+.a13navigateupbutton .guide .guide1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 473px;
+  width               : 715px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 473px;
@@ -905,7 +916,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .contentsbox .rectangle {
+.a13navigateupbutton .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 473px;
@@ -920,7 +931,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group {
+.a13navigateupbutton .guide .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 160px;
   height              : 144px;
@@ -931,7 +942,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 68px;
@@ -942,7 +953,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
@@ -954,7 +965,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .background {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
@@ -965,7 +976,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -976,7 +987,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .actionbarbg {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -987,7 +998,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .mobilelightthemeicon01actionbartitlemore {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
   height              : 24px;
@@ -999,7 +1010,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .mobilelightthemeicon01actionbartitlemore .background1 {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1010,7 +1021,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .mobilelightthemeicon01actionbartitlemore .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 16px;
@@ -1021,7 +1032,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .sampletitle {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
   height              : auto;
@@ -1039,7 +1050,7 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .mobilelightthemeicon01actionbartitleback {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
   height              : 24px;
@@ -1051,7 +1062,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .mobilelightthemeicon01actionbartitleback .background1 {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1062,7 +1073,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .symbol .mobilelighttheme01actionbartitle1btnback .group1 .mobilelightthemeicon01actionbartitleback .fill1 {
+.a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 18px;
@@ -1073,7 +1084,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 94px;
   height              : 12px;
@@ -1084,7 +1095,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurearea {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -1095,7 +1106,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurearea .addsamecolorasneeded {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -1106,7 +1117,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurearea .area {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 12px;
@@ -1117,7 +1128,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurerulerright {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -1129,7 +1140,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurerulerright .background {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -1140,7 +1151,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurerulerright .value {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -3px;
   height              : 18px;
@@ -1151,7 +1162,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurerulerright .value .a0 {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1167,7 +1178,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a13navigateupbutton .guide .group .spacing .guidemeasurerulerright .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -1178,7 +1189,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing1 {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 106px;
@@ -1189,7 +1200,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurearea {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 68px;
@@ -1200,7 +1211,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurearea .addsamecolorasneeded {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
@@ -1211,7 +1222,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurearea .area {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 68px;
@@ -1222,7 +1233,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurerulertop {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1234,7 +1245,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurerulertop .background {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1245,7 +1256,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurerulertop .value {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
@@ -1256,7 +1267,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurerulertop .value .a0 {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1272,7 +1283,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a13navigateupbutton .guide .group .spacing1 .guidemeasurerulertop .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
@@ -1283,7 +1294,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing2 {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 106px;
@@ -1294,7 +1305,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurearea {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 68px;
@@ -1305,7 +1316,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurearea .addsamecolorasneeded {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
@@ -1316,7 +1327,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurearea .area {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 68px;
@@ -1327,7 +1338,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurerulertop {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1339,7 +1350,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurerulertop .background {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1350,7 +1361,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurerulertop .value {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
@@ -1361,7 +1372,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurerulertop .value .a0 {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1377,7 +1388,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a13navigateupbutton .guide .group .spacing2 .guidemeasurerulertop .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
@@ -1388,7 +1399,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size {
+.a13navigateupbutton .guide .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 43px;
   height              : 101px;
@@ -1399,7 +1410,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerbottom {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 63px;
   height              : 38px;
@@ -1411,7 +1422,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerbottom .background {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1422,7 +1433,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerbottom .a0 {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -1438,7 +1449,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerbottom .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -1449,7 +1460,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerleft {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 24px;
@@ -1461,7 +1472,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerleft .background {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1472,7 +1483,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerleft .value {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 19px;
@@ -1483,7 +1494,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerleft .value .a0 {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1499,7 +1510,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurerulerleft .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1510,7 +1521,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurearea {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 24px;
@@ -1521,7 +1532,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurearea .addsamecolorasneeded {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1532,7 +1543,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .size .guidemeasurearea .area {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 24px;
@@ -1543,7 +1554,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a13navigateupbutton .guide .group .size .guidenumberingicon {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1554,7 +1565,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidenumberingicon .oval {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1565,7 +1576,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .group .size .guidenumberingicon .a1 {
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1639,7 +1650,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a13navigateupbutton .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1662,7 +1672,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a13navigateupbutton .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
@@ -2973,7 +2982,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .gnbbar1appbar .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a13navigateupbutton .gnbbar1appbar .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

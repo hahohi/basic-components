@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1285px;
+  min-height          : 1245px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a87progresseditappbar .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1160px;
+  top                 : 1120px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -101,7 +101,7 @@ div {
 }
 .a87progresseditappbar .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 882px;
+  top                 : 842px;
   height              : 198px;
   width               : 1240px;
   position            : absolute;
@@ -697,25 +697,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .bottombareditpr {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 841px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-}
 .a87progresseditappbar .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 194px;
+  top                 : 235px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
@@ -771,7 +755,22 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
+}
+.a87progresseditappbar .bottombareditpr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
 }
 .a87progresseditappbar .a87progresseditappbar1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2179,7 +2178,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a87progresseditappbar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

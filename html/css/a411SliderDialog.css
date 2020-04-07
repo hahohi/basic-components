@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-500";
                           src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a411sliderdialog {
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1784px;
+  min-height          : 1840px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -52,7 +52,7 @@ div {
 .a411sliderdialog .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 778px;
+  height              : 834px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .a411sliderdialog .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 778px;
+  height              : 834px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +74,7 @@ div {
 .a411sliderdialog .guide .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 778px;
+  height              : 834px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -85,7 +85,7 @@ div {
 .a411sliderdialog .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 778px;
+  height              : 834px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -99,7 +99,7 @@ div {
 }
 .a411sliderdialog .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 270px;
+  top                 : 298px;
   height              : 200px;
   width               : 360px;
   position            : absolute;
@@ -370,7 +370,7 @@ div {
 }
 .a411sliderdialog .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 270px;
+  top                 : 298px;
   height              : 238px;
   width               : 24px;
   position            : absolute;
@@ -464,7 +464,7 @@ div {
 }
 .a411sliderdialog .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 358px;
+  top                 : 386px;
   height              : 32px;
   width               : 374px;
   position            : absolute;
@@ -569,12 +569,12 @@ div {
 }
 .a411sliderdialog .guide .guide1 .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 339px;
+  top                 : 367px;
   height              : 19px;
-  width               : 146px;
+  width               : 208px;
   position            : absolute;
   margin              : 0;
-  left                : 202px;
+  left                : 140px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -583,9 +583,9 @@ div {
   top                 : 0px;
   height              : 19px;
   width               : 146px;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 62px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -611,9 +611,70 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
+.a411sliderdialog .guide .guide1 .area .guidemeasurerulerleft {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .guide1 .area .guidemeasurerulerleft .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .guide1 .area .guidemeasurerulerleft .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .guide1 .area .guidemeasurerulerleft .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a411sliderdialog .guide .guide1 .area .guidemeasurerulerleft .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a411sliderdialog .guide .guide1 .area1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 339px;
+  top                 : 367px;
   height              : 19px;
   width               : 146px;
   position            : absolute;
@@ -657,8 +718,8 @@ div {
 }
 .a411sliderdialog .guide .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 321px;
-  height              : 18px;
+  top                 : 348px;
+  height              : 19px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -669,7 +730,7 @@ div {
 .a411sliderdialog .guide .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -680,7 +741,7 @@ div {
 .a411sliderdialog .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -691,7 +752,7 @@ div {
 .a411sliderdialog .guide .guide1 .spacing1 .guidemeasurearea .area2 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -702,7 +763,7 @@ div {
 .a411sliderdialog .guide .guide1 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -714,7 +775,7 @@ div {
 .a411sliderdialog .guide .guide1 .spacing1 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -724,9 +785,9 @@ div {
 }
 .a411sliderdialog .guide .guide1 .spacing1 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 1px;
   height              : 18px;
-  width               : 16px;
+  width               : 79px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -752,7 +813,7 @@ div {
 .a411sliderdialog .guide .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 19px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -762,7 +823,7 @@ div {
 }
 .a411sliderdialog .guide .guide1 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 270px;
+  top                 : 298px;
   height              : 238px;
   width               : 24px;
   position            : absolute;
@@ -856,7 +917,7 @@ div {
 }
 .a411sliderdialog .guide .guide1 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 390px;
+  top                 : 418px;
   height              : 24px;
   width               : 398px;
   position            : absolute;
@@ -892,7 +953,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 18px;
-  width               : 17px;
+  width               : 85px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -961,7 +1022,7 @@ div {
 }
 .a411sliderdialog .guide .guide1 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 326px;
+  top                 : 354px;
   height              : 23px;
   width               : 22px;
   position            : absolute;
@@ -999,7 +1060,7 @@ div {
 }
 .a411sliderdialog .guide .guide1 .guidenumberingtype1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 326px;
+  top                 : 354px;
   height              : 23px;
   width               : 22px;
   position            : absolute;
@@ -1037,8 +1098,8 @@ div {
 }
 .a411sliderdialog .guide .type {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 399px;
-  height              : 379px;
+  top                 : 427px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1049,7 +1110,7 @@ div {
 .a411sliderdialog .guide .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1060,7 +1121,7 @@ div {
 .a411sliderdialog .guide .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -1075,7 +1136,7 @@ div {
 .a411sliderdialog .guide .type .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 137px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -1329,6 +1390,88 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a411sliderdialog .guide .type .general .guidemodifiedformpropertynormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .type .general .guidemodifiedformpropertynormalcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .type .general .guidemodifiedformpropertynormalcopy .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .type .general .guidemodifiedformpropertynormalcopy .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a411sliderdialog .guide .type .general .guidemodifiedformpropertynormalcopy .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a411sliderdialog .guide .type .general .guidemodifiedformpropertynormalcopy .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a411sliderdialog .guide .type .general .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -1370,7 +1513,7 @@ div {
 }
 .a411sliderdialog .guide .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 246px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1483,7 +1626,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a411sliderdialog .guide .type .lighttheme .guidemodifiedformpropertysubtitlecopy2 {
+.a411sliderdialog .guide .type .lighttheme .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1495,7 +1638,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type .lighttheme .guidemodifiedformpropertysubtitlecopy2 .background {
+.a411sliderdialog .guide .type .lighttheme .guidemodifiedformpropertysubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1506,7 +1649,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type .lighttheme .guidemodifiedformpropertysubtitlecopy2 .text {
+.a411sliderdialog .guide .type .lighttheme .guidemodifiedformpropertysubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1524,7 +1667,7 @@ div {
 }
 .a411sliderdialog .guide .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 324px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1637,7 +1780,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a411sliderdialog .guide .type .darktheme .guidemodifiedformpropertysubtitlecopy3 {
+.a411sliderdialog .guide .type .darktheme .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1649,7 +1792,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type .darktheme .guidemodifiedformpropertysubtitlecopy3 .background {
+.a411sliderdialog .guide .type .darktheme .guidemodifiedformpropertysubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1660,7 +1803,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type .darktheme .guidemodifiedformpropertysubtitlecopy3 .text {
+.a411sliderdialog .guide .type .darktheme .guidemodifiedformpropertysubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1756,7 +1899,7 @@ div {
 .a411sliderdialog .guide .type1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1767,7 +1910,7 @@ div {
 .a411sliderdialog .guide .type1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1778,7 +1921,7 @@ div {
 .a411sliderdialog .guide .type1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -1793,7 +1936,7 @@ div {
 .a411sliderdialog .guide .type1 .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 137px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -2047,6 +2190,88 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a411sliderdialog .guide .type1 .general .guidemodifiedformpropertynormal3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .type1 .general .guidemodifiedformpropertynormal3 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .type1 .general .guidemodifiedformpropertynormal3 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a411sliderdialog .guide .type1 .general .guidemodifiedformpropertynormal3 .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a411sliderdialog .guide .type1 .general .guidemodifiedformpropertynormal3 .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a411sliderdialog .guide .type1 .general .guidemodifiedformpropertynormal3 .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a411sliderdialog .guide .type1 .general .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -2088,7 +2313,7 @@ div {
 }
 .a411sliderdialog .guide .type1 .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 246px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -2201,7 +2426,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a411sliderdialog .guide .type1 .lighttheme .guidemodifiedformpropertysubtitlecopy2 {
+.a411sliderdialog .guide .type1 .lighttheme .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2213,7 +2438,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type1 .lighttheme .guidemodifiedformpropertysubtitlecopy2 .background {
+.a411sliderdialog .guide .type1 .lighttheme .guidemodifiedformpropertysubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2224,7 +2449,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type1 .lighttheme .guidemodifiedformpropertysubtitlecopy2 .text {
+.a411sliderdialog .guide .type1 .lighttheme .guidemodifiedformpropertysubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2242,7 +2467,7 @@ div {
 }
 .a411sliderdialog .guide .type1 .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 324px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -2355,7 +2580,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a411sliderdialog .guide .type1 .darktheme .guidemodifiedformpropertysubtitlecopy3 {
+.a411sliderdialog .guide .type1 .darktheme .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2367,7 +2592,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type1 .darktheme .guidemodifiedformpropertysubtitlecopy3 .background {
+.a411sliderdialog .guide .type1 .darktheme .guidemodifiedformpropertysubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2378,7 +2603,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .guide .type1 .darktheme .guidemodifiedformpropertysubtitlecopy3 .text {
+.a411sliderdialog .guide .type1 .darktheme .guidemodifiedformpropertysubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2529,7 +2754,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a411sliderdialog .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2552,7 +2776,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a411sliderdialog .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -4461,7 +4684,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a411sliderdialog .gnbbar4dialogs .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a411sliderdialog .gnbbar4dialogs .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4666,7 +4889,7 @@ div {
 }
 .a411sliderdialog .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1659px;
+  top                 : 1715px;
   height              : 45px;
   width               : 274px;
   position            : absolute;

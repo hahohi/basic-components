@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2778px;
+  min-height          : 2806px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a86progressbottombar .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2653px;
+  top                 : 2681px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -99,10 +99,10 @@ div {
   text-align          : center;
   line-height         : 28.6px;
 }
-.a86progressbottombar .guide {
+.a86progressbottombar .progresscircle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2153px;
-  height              : 420px;
+  top                 : 1423px;
+  height              : 1178px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -110,10 +110,21 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 {
+.a86progressbottombar .progresscircle .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 730px;
+  height              : 448px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 379px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -121,10 +132,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .contentsbox {
+.a86progressbottombar .progresscircle .guide .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -132,10 +143,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .contentsbox .rectangle {
+.a86progressbottombar .progresscircle .guide .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -147,10 +158,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general {
+.a86progressbottombar .progresscircle .guide .type .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 137px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -158,7 +169,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -170,7 +181,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal .background {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -181,7 +192,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal .group {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -192,7 +203,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal .group .label1 {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -208,7 +219,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal .group .value {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -224,7 +235,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal .group .property {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -240,7 +251,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal1 {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
   height              : 28px;
@@ -252,7 +263,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal1 .background {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -263,7 +274,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal1 .group {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal1 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -274,7 +285,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal1 .group .label1 {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal1 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -290,7 +301,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal1 .group .value {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal1 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -306,7 +317,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal1 .group .property {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal1 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -322,7 +333,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal2 {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 81px;
   height              : 28px;
@@ -334,7 +345,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal2 .background {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal2 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -345,7 +356,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal2 .group {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -356,7 +367,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal2 .group .label1 {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal2 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -372,7 +383,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal2 .group .value {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -388,7 +399,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformnormal2 .group .property {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal2 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -404,7 +415,89 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .general .guideformsubtitle {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a86progressbottombar .progresscircle .guide .type .general .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -416,7 +509,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformsubtitle .background {
+.a86progressbottombar .progresscircle .guide .type .general .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -427,7 +520,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .general .guideformsubtitle .text {
+.a86progressbottombar .progresscircle .guide .type .general .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -443,9 +536,9 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a86progressbottombar .guide .type1 .lighttheme {
+.a86progressbottombar .progresscircle .guide .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 246px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -454,7 +547,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -466,7 +559,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight .background {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -477,7 +570,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight .group2 {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -488,7 +581,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight .group2 .label1 {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -504,7 +597,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight .group2 .group {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -515,7 +608,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight .group2 .group .rectangle {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .group .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -526,7 +619,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight .group2 .group .value {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -542,7 +635,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformlight .group2 .property {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -558,7 +651,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformsubtitle {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -570,7 +663,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformsubtitle .background {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -581,7 +674,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .lighttheme .guideformsubtitle .text {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -597,9 +690,9 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a86progressbottombar .guide .type1 .darktheme {
+.a86progressbottombar .progresscircle .guide .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 324px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -608,7 +701,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -620,7 +713,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark .background {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -631,7 +724,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark .group2 {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -642,7 +735,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark .group2 .label1 {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -658,7 +751,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark .group2 .group {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -669,7 +762,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark .group2 .group .rectangle {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -680,7 +773,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark .group2 .group .value {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -696,7 +789,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformdark .group2 .property {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -712,7 +805,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformsubtitle {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -724,7 +817,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformsubtitle .background {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -735,7 +828,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .darktheme .guideformsubtitle .text {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -751,7 +844,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a86progressbottombar .guide .type1 .guidesubjecttype {
+.a86progressbottombar .progresscircle .guide .type .guidesubjecttype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -763,7 +856,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .guidesubjecttype .background {
+.a86progressbottombar .progresscircle .guide .type .guidesubjecttype .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -774,7 +867,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .guidesubjecttype .guidenumberingtype {
+.a86progressbottombar .progresscircle .guide .type .guidesubjecttype .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -785,7 +878,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .guidesubjecttype .guidenumberingtype .oval {
+.a86progressbottombar .progresscircle .guide .type .guidesubjecttype .guidenumberingtype .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -796,7 +889,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .type1 .guidesubjecttype .guidenumberingtype .a1 {
+.a86progressbottombar .progresscircle .guide .type .guidesubjecttype .guidenumberingtype .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -812,7 +905,7 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.a86progressbottombar .guide .type1 .guidesubjecttype .guideproperty {
+.a86progressbottombar .progresscircle .guide .type .guidesubjecttype .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -828,10 +921,10 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a86progressbottombar .guide .guide2 {
+.a86progressbottombar .progresscircle .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 379px;
+  height              : 407px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -839,10 +932,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .contentsbox {
+.a86progressbottombar .progresscircle .guide .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -850,10 +943,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .contentsbox .rectangle {
+.a86progressbottombar .progresscircle .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 407px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -865,9 +958,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 124px;
+  top                 : 138px;
   height              : 132px;
   width               : 398px;
   position            : absolute;
@@ -876,7 +969,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 56px;
@@ -887,7 +980,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .rectangle {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -898,7 +991,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -910,7 +1003,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -921,7 +1014,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
   height              : 24px;
@@ -932,7 +1025,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -943,7 +1036,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .texttexttexu2026 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .texttexttexu2026 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -961,7 +1054,7 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -973,7 +1066,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .background1 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -984,7 +1077,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .path {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 12px;
@@ -995,7 +1088,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .path1 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 12px;
@@ -1006,7 +1099,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 78px;
@@ -1017,7 +1110,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1029,7 +1122,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1040,7 +1133,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop .value {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
@@ -1051,7 +1144,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop .value .a0 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1067,7 +1160,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop .combinedshape {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
@@ -1078,7 +1171,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop1 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 24px;
@@ -1090,7 +1183,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop1 .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1101,7 +1194,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop1 .value {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 19px;
@@ -1112,7 +1205,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop1 .value .a0 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1128,7 +1221,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurerulertop1 .combinedshape {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1139,7 +1232,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurearea {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 24px;
@@ -1150,7 +1243,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurearea .addsamecolorasneeded {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1161,7 +1254,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .size .guidemeasurearea .area {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 24px;
@@ -1172,7 +1265,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 94px;
@@ -1183,7 +1276,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing .guidemeasurerulerbottom {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 38px;
@@ -1195,7 +1288,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing .guidemeasurerulerbottom .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1206,7 +1299,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing .guidemeasurerulerbottom .a0 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -1222,7 +1315,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing .guidemeasurerulerbottom .combinedshape {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -1233,7 +1326,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing .guidemeasurearea {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1244,7 +1337,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing .guidemeasurearea .addsamecolorasneeded {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1255,7 +1348,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing .guidemeasurearea .area {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1266,7 +1359,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 94px;
@@ -1277,7 +1370,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 .guidemeasurerulerbottom {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 38px;
@@ -1289,7 +1382,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 .guidemeasurerulerbottom .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1300,7 +1393,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 .guidemeasurerulerbottom .a0 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -1316,7 +1409,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 .guidemeasurerulerbottom .combinedshape {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -1327,7 +1420,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 .guidemeasurearea {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1338,7 +1431,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1349,7 +1442,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing1 .guidemeasurearea .area {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1360,7 +1453,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 94px;
@@ -1371,7 +1464,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 .guidemeasurerulerbottom {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 38px;
@@ -1383,7 +1476,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 .guidemeasurerulerbottom .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -1394,7 +1487,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 .guidemeasurerulerbottom .a0 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -1410,7 +1503,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 .guidemeasurerulerbottom .combinedshape {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -1421,7 +1514,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 .guidemeasurearea {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1432,7 +1525,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 .guidemeasurearea .addsamecolorasneeded {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1443,7 +1536,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .spacing2 .guidemeasurearea .area {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1454,7 +1547,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .text {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 24px;
@@ -1465,7 +1558,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .text .guidemeasurearea {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .text .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1476,7 +1569,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .text .guidemeasurearea .addsamecolorasneeded {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .text .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1487,7 +1580,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .text .guidemeasurearea .area {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .text .guidemeasurearea .area {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
   height              : 24px;
@@ -1498,18 +1591,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide .guide2 .guide3 .guidenumberingtype {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 189px;
+  left                : 177px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .guidenumberingtype .oval {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidenumberingtype .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1520,7 +1613,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide .guide2 .guide3 .guidenumberingtype .a1 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidenumberingtype .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1536,7 +1629,7 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.a86progressbottombar .guide .bottombarprogress {
+.a86progressbottombar .progresscircle .guide .bottombarprogress {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1552,18 +1645,18 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a86progressbottombar .keyscreens {
+.a86progressbottombar .progresscircle .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1506px;
+  top                 : 83px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens .contentsbox {
+.a86progressbottombar .progresscircle .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 587px;
@@ -1574,7 +1667,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens .contentsbox .rectangle {
+.a86progressbottombar .progresscircle .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 587px;
@@ -1589,7 +1682,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens .guidekeyscreensmobileportrait {
+.a86progressbottombar .progresscircle .keyscreens .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -1600,7 +1693,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens .guidekeyscreensmobileportrait .scrmoport {
+.a86progressbottombar .progresscircle .keyscreens .guidekeyscreensmobileportrait .scrmoport {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -1610,16 +1703,15 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
-.a86progressbottombar .progresscircle {
+.a86progressbottombar .progresscircle .progresscircle1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1423px;
+  top                 : 0px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1628,18 +1720,29 @@ div {
   text-align          : left;
   line-height         : 53.0px;
 }
-.a86progressbottombar .type {
+.a86progressbottombar .progressbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 884px;
+  top                 : 194px;
+  height              : 1069px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progressbar .type {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 690px;
   height              : 379px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
-  left                : 1115px;
+  left                : 735px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .contentsbox {
+.a86progressbottombar .progressbar .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 379px;
@@ -1650,7 +1753,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .contentsbox .rectangle {
+.a86progressbottombar .progressbar .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 379px;
@@ -1665,7 +1768,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general {
+.a86progressbottombar .progressbar .type .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 109px;
@@ -1676,7 +1779,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal {
+.a86progressbottombar .progressbar .type .general .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -1688,7 +1791,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal .background {
+.a86progressbottombar .progressbar .type .general .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1699,7 +1802,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal .group {
+.a86progressbottombar .progressbar .type .general .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1710,7 +1813,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal .group .label1 {
+.a86progressbottombar .progressbar .type .general .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1726,7 +1829,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal .group .value {
+.a86progressbottombar .progressbar .type .general .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1742,7 +1845,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal .group .property {
+.a86progressbottombar .progressbar .type .general .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1758,7 +1861,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal1 {
+.a86progressbottombar .progressbar .type .general .guideformnormal1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
   height              : 28px;
@@ -1770,7 +1873,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal1 .background {
+.a86progressbottombar .progressbar .type .general .guideformnormal1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1781,7 +1884,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal1 .group {
+.a86progressbottombar .progressbar .type .general .guideformnormal1 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1792,7 +1895,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal1 .group .label1 {
+.a86progressbottombar .progressbar .type .general .guideformnormal1 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1808,7 +1911,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal1 .group .value {
+.a86progressbottombar .progressbar .type .general .guideformnormal1 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1824,7 +1927,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal1 .group .property {
+.a86progressbottombar .progressbar .type .general .guideformnormal1 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1840,7 +1943,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal2 {
+.a86progressbottombar .progressbar .type .general .guideformnormal2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 81px;
   height              : 28px;
@@ -1852,7 +1955,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal2 .background {
+.a86progressbottombar .progressbar .type .general .guideformnormal2 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1863,7 +1966,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal2 .group {
+.a86progressbottombar .progressbar .type .general .guideformnormal2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1874,7 +1977,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformnormal2 .group .label1 {
+.a86progressbottombar .progressbar .type .general .guideformnormal2 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1890,7 +1993,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal2 .group .value {
+.a86progressbottombar .progressbar .type .general .guideformnormal2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1906,7 +2009,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformnormal2 .group .property {
+.a86progressbottombar .progressbar .type .general .guideformnormal2 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1922,7 +2025,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .general .guideformsubtitle {
+.a86progressbottombar .progressbar .type .general .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1934,7 +2037,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformsubtitle .background {
+.a86progressbottombar .progressbar .type .general .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1945,7 +2048,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .general .guideformsubtitle .text {
+.a86progressbottombar .progressbar .type .general .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1961,7 +2064,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a86progressbottombar .type .lighttheme {
+.a86progressbottombar .progressbar .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
   top                 : 218px;
   height              : 53px;
@@ -1972,7 +2075,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformlight {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -1984,7 +2087,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformlight .background {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1995,7 +2098,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformlight .group2 {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2006,7 +2109,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformlight .group2 .label1 {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2022,7 +2125,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .lighttheme .guideformlight .group2 .group {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2033,7 +2136,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformlight .group2 .group .rectangle {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .group .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -2044,7 +2147,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformlight .group2 .group .value {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2060,7 +2163,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .lighttheme .guideformlight .group2 .property {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2076,7 +2179,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .lighttheme .guideformsubtitle {
+.a86progressbottombar .progressbar .type .lighttheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2088,7 +2191,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformsubtitle .background {
+.a86progressbottombar .progressbar .type .lighttheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2099,7 +2202,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .lighttheme .guideformsubtitle .text {
+.a86progressbottombar .progressbar .type .lighttheme .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2115,7 +2218,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a86progressbottombar .type .darktheme {
+.a86progressbottombar .progressbar .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
   top                 : 296px;
   height              : 53px;
@@ -2126,7 +2229,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformdark {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -2138,7 +2241,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformdark .background {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2149,7 +2252,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformdark .group2 {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2160,7 +2263,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformdark .group2 .label1 {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2176,7 +2279,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .darktheme .guideformdark .group2 .group {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2187,7 +2290,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformdark .group2 .group .rectangle {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -2198,7 +2301,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformdark .group2 .group .value {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2214,7 +2317,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .darktheme .guideformdark .group2 .property {
+.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2230,7 +2333,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .type .darktheme .guideformsubtitle {
+.a86progressbottombar .progressbar .type .darktheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2242,7 +2345,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformsubtitle .background {
+.a86progressbottombar .progressbar .type .darktheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -2253,7 +2356,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .darktheme .guideformsubtitle .text {
+.a86progressbottombar .progressbar .type .darktheme .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2269,7 +2372,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a86progressbottombar .type .guidesubjecttype {
+.a86progressbottombar .progressbar .type .guidesubjecttype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -2281,7 +2384,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .guidesubjecttype .background {
+.a86progressbottombar .progressbar .type .guidesubjecttype .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2292,7 +2395,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .guidesubjecttype .guidenumberingtype {
+.a86progressbottombar .progressbar .type .guidesubjecttype .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2303,7 +2406,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .guidesubjecttype .guidenumberingtype .oval {
+.a86progressbottombar .progressbar .type .guidesubjecttype .guidenumberingtype .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2314,7 +2417,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .type .guidesubjecttype .guidenumberingtype .a1 {
+.a86progressbottombar .progressbar .type .guidesubjecttype .guidenumberingtype .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2330,7 +2433,7 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.a86progressbottombar .type .guidesubjecttype .guideproperty {
+.a86progressbottombar .progressbar .type .guidesubjecttype .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -2346,18 +2449,18 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a86progressbottombar .guide1 {
+.a86progressbottombar .progressbar .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 884px;
+  top                 : 690px;
   height              : 379px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .contentsbox {
+.a86progressbottombar .progressbar .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 379px;
@@ -2368,7 +2471,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .contentsbox .rectangle {
+.a86progressbottombar .progressbar .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 379px;
@@ -2383,7 +2486,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 {
+.a86progressbottombar .progressbar .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 160px;
   height              : 59px;
@@ -2394,7 +2497,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .symbol {
+.a86progressbottombar .progressbar .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 59px;
@@ -2405,7 +2508,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .symbol .rectangle {
+.a86progressbottombar .progressbar .guide .guide1 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 59px;
@@ -2416,7 +2519,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .symbol .deletingu202640 {
+.a86progressbottombar .progressbar .guide .guide1 .symbol .deletingu202640 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 23px;
   height              : 16px;
@@ -2434,7 +2537,7 @@ div {
   text-align          : center;
   line-height         : 16.0px;
 }
-.a86progressbottombar .guide1 .guide2 .symbol .mobiledarktheme09progressbar {
+.a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2445,7 +2548,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .symbol .mobiledarktheme09progressbar .bar {
+.a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar .bar {
   background-color    : rgba(3, 129, 254, 1.0);
   top                 : 0px;
   height              : 3px;
@@ -2457,7 +2560,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.3;
 }
-.a86progressbottombar .guide1 .guide2 .symbol .mobiledarktheme09progressbar1 {
+.a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2468,7 +2571,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .symbol .mobiledarktheme09progressbar1 .bar {
+.a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar1 .bar {
   background-color    : rgba(3, 129, 254, 1.0);
   top                 : 0px;
   height              : 3px;
@@ -2480,7 +2583,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .size {
+.a86progressbottombar .progressbar .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2491,7 +2594,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurearea {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2502,7 +2605,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2513,7 +2616,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurearea .area {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 3px;
@@ -2524,7 +2627,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurerulerright {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2536,7 +2639,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurerulerright .background {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2547,7 +2650,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurerulerright .value {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -7px;
   height              : 18px;
@@ -2558,7 +2661,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurerulerright .value .a0 {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2574,7 +2677,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .guide1 .guide2 .size .guidemeasurerulerright .combinedshape {
+.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -2585,7 +2688,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .guidemeasurerulerleft {
+.a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 56px;
@@ -2597,7 +2700,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .guidemeasurerulerleft .background {
+.a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -2608,7 +2711,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .guidemeasurerulerleft .value {
+.a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
   height              : 19px;
@@ -2619,7 +2722,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .guidemeasurerulerleft .value .a0 {
+.a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : auto;
@@ -2635,7 +2738,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a86progressbottombar .guide1 .guide2 .guidemeasurerulerleft .combinedshape {
+.a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -2646,7 +2749,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .guidenumberingtype {
+.a86progressbottombar .progressbar .guide .guide1 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 17px;
   height              : 22px;
@@ -2657,7 +2760,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .guidenumberingtype .oval {
+.a86progressbottombar .progressbar .guide .guide1 .guidenumberingtype .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2668,7 +2771,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .guide1 .guide2 .guidenumberingtype .a1 {
+.a86progressbottombar .progressbar .guide .guide1 .guidenumberingtype .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2684,18 +2787,18 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.a86progressbottombar .keyscreens1 {
+.a86progressbottombar .progressbar .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 277px;
+  top                 : 83px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens1 .contentsbox {
+.a86progressbottombar .progressbar .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 587px;
@@ -2706,7 +2809,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens1 .contentsbox .rectangle {
+.a86progressbottombar .progressbar .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 587px;
@@ -2721,7 +2824,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens1 .guidekeyscreensmobileportrait {
+.a86progressbottombar .progressbar .keyscreens .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -2732,7 +2835,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .keyscreens1 .guidekeyscreensmobileportrait .scrmoport {
+.a86progressbottombar .progressbar .keyscreens .guidekeyscreensmobileportrait .scrmoport {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -2742,16 +2845,15 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
-.a86progressbottombar .progressbar {
+.a86progressbottombar .progressbar .progressbar1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 194px;
+  top                 : 0px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -4166,7 +4268,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a86progressbottombar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 946px;
+  min-height          : 1000px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,8 +51,8 @@ div {
 }
 .theme .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 239px;
-  height              : 627px;
+  top                 : 236px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .theme .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 627px;
+  height              : 623px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +74,7 @@ div {
 .theme .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 627px;
+  height              : 623px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -123,7 +123,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .theme .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -146,7 +145,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .theme .keyscreens .lighttheme {
   background-color    : rgba(255,255,255,0.0);
@@ -185,7 +183,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .theme .keyscreens .guidekeyscreensmobileportrait3 {
   background-color    : rgba(255,255,255,0.0);
@@ -208,7 +205,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .theme .therearedarkandl {
   background-color    : rgba(255,255,255,0.0);
@@ -224,7 +220,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .theme .theme1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1093,7 +1089,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.theme .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.theme .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

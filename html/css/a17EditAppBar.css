@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 3339px;
+  min-height          : 3367px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -49,9 +49,59 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
+.a17editappbar .stylebuttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3242px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .stylebuttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .stylebuttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .stylebuttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
+}
 .a17editappbar .landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1919px;
+  top                 : 1947px;
   height              : 1215px;
   width               : 1240px;
   position            : absolute;
@@ -1412,7 +1462,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 78px;
+  left                : 77px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -2221,7 +2271,7 @@ div {
 .a17editappbar .portrait {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
-  height              : 1565px;
+  height              : 1593px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2654,7 +2704,7 @@ div {
 .a17editappbar .portrait .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 996px;
-  height              : 569px;
+  height              : 597px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -2665,7 +2715,7 @@ div {
 .a17editappbar .portrait .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 569px;
+  height              : 597px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -2676,7 +2726,7 @@ div {
 .a17editappbar .portrait .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 569px;
+  height              : 597px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -2691,7 +2741,7 @@ div {
 .a17editappbar .portrait .type .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 109px;
+  height              : 137px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -2945,6 +2995,88 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a17editappbar .portrait .type .general .guideformnormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .portrait .type .general .guideformnormalcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .portrait .type .general .guideformnormalcopy .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .portrait .type .general .guideformnormalcopy .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a17editappbar .portrait .type .general .guideformnormalcopy .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a17editappbar .portrait .type .general .guideformnormalcopy .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a17editappbar .portrait .type .general .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -2986,7 +3118,7 @@ div {
 }
 .a17editappbar .portrait .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 246px;
   height              : 109px;
   width               : 465px;
   position            : absolute;
@@ -3396,7 +3528,7 @@ div {
 }
 .a17editappbar .portrait .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 352px;
+  top                 : 380px;
   height              : 109px;
   width               : 465px;
   position            : absolute;
@@ -3806,7 +3938,7 @@ div {
 }
 .a17editappbar .portrait .type .note {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 486px;
+  top                 : 514px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -3817,8 +3949,8 @@ div {
 }
 .a17editappbar .portrait .type .note .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
+  top                 : 25px;
+  height              : 28px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -3830,6 +3962,88 @@ div {
 .a17editappbar .portrait .type .note .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .portrait .type .note .guideformsubtitle .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .portrait .type .note .guideformsubtitle .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 299px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a17editappbar .portrait .type .note .guideformsubtitle .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a17editappbar .portrait .type .note .guideformsubtitle .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a17editappbar .portrait .type .note .guideformsubtitle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a17editappbar .portrait .type .note .guideformsubtitle1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : 25px;
   width               : 465px;
   position            : absolute;
@@ -3838,7 +4052,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a17editappbar .portrait .type .note .guideformsubtitle .text {
+.a17editappbar .portrait .type .note .guideformsubtitle1 .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3853,88 +4067,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 19.0px;
-}
-.a17editappbar .portrait .type .note .guideformnormal {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a17editappbar .portrait .type .note .guideformnormal .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a17editappbar .portrait .type .note .guideformnormal .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 373px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a17editappbar .portrait .type .note .guideformnormal .group .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 368px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a17editappbar .portrait .type .note .guideformnormal .group .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 237px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(88, 111, 254, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a17editappbar .portrait .type .note .guideformnormal .group .property {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
 }
 .a17editappbar .portrait .type .guidesubjecttype {
   background-color    : rgba(255,255,255,0.0);
@@ -4016,7 +4148,7 @@ div {
 .a17editappbar .portrait .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 731px;
-  height              : 834px;
+  height              : 862px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -4027,7 +4159,7 @@ div {
 .a17editappbar .portrait .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 834px;
+  height              : 862px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -4038,7 +4170,7 @@ div {
 .a17editappbar .portrait .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 834px;
+  height              : 862px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -4052,12 +4184,12 @@ div {
 }
 .a17editappbar .portrait .guide .maxtext {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 418px;
+  top                 : 432px;
   height              : 132px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
-  left                : 169px;
+  left                : 159px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4110,10 +4242,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : 36px;
-  width               : 144px;
+  width               : 146px;
   position            : absolute;
   margin              : 0;
-  left                : 192px;
+  left                : 191px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -4128,10 +4260,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : 36px;
-  width               : 144px;
+  width               : 146px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 23px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -4741,12 +4873,12 @@ div {
 }
 .a17editappbar .portrait .guide .defualt {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 284px;
+  top                 : 298px;
   height              : 132px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 169px;
+  left                : 159px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4799,10 +4931,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : 36px;
-  width               : 144px;
+  width               : 146px;
   position            : absolute;
   margin              : 0;
-  left                : 192px;
+  left                : 191px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -4817,10 +4949,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : 36px;
-  width               : 144px;
+  width               : 146px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 23px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -5292,12 +5424,12 @@ div {
 }
 .a17editappbar .portrait .guide .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 321px;
+  top                 : 335px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 169px;
+  left                : 159px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5330,12 +5462,12 @@ div {
 }
 .a17editappbar .portrait .guide .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 327px;
+  top                 : 341px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 218px;
+  left                : 208px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5424,7 +5556,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a17editappbar .portrait .keyscreen .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -5447,7 +5578,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a17editappbar .portrait .screenwidthu2264scree {
   background-color    : rgba(255,255,255,0.0);
@@ -5496,56 +5626,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
-}
-.a17editappbar .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3214px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a17editappbar .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a17editappbar .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a17editappbar .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 .a17editappbar .gnbbar1appbar {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -6790,7 +6870,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a17editappbar .gnbbar1appbar .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a17editappbar .gnbbar1appbar .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

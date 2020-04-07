@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -101,8 +101,8 @@ div {
 }
 .a89progresslist .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2378px;
-  height              : 220px;
+  top                 : 2337px;
+  height              : 261px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -112,7 +112,7 @@ div {
 }
 .a89progresslist .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 41px;
   height              : 220px;
   width               : 1240px;
   position            : absolute;
@@ -138,7 +138,7 @@ div {
 }
 .a89progresslist .guide .guide2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
+  top                 : 81px;
   height              : 140px;
   width               : 398px;
   position            : absolute;
@@ -680,10 +680,26 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a89progresslist .guide .listbottomprogress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
 .a89progresslist .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1690px;
-  height              : 587px;
+  top                 : 1607px;
+  height              : 670px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -693,7 +709,7 @@ div {
 }
 .a89progresslist .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 83px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
@@ -719,7 +735,7 @@ div {
 }
 .a89progresslist .keyscreens .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
+  top                 : 123px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
@@ -738,16 +754,15 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
-.a89progresslist .bottomoflist {
+.a89progresslist .keyscreens .bottomoflist {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1607px;
+  top                 : 0px;
   height              : auto;
-  width               : auto;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -755,22 +770,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 53.0px;
-}
-.a89progresslist .listbottomprogress {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2337px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
 }
 .a89progresslist .guide1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2200,7 +2199,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : auto;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2270,7 +2269,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a89progresslist .insidesinglelist {
   background-color    : rgba(255,255,255,0.0);
@@ -3694,7 +3692,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a89progresslist .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a89progresslist .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500,400');
 
 @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -13,19 +13,19 @@
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a21flatbutton {
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1577px;
+  min-height          : 1631px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -49,26 +49,60 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.a21flatbutton .a21flatbutton1 {
+.a21flatbutton .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
+  top                 : 1506px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .stylebuttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .stylebuttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .stylebuttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 31px;
   transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size           : 70.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 84.0px;
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
 }
 .a21flatbutton .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 599px;
+  height              : 625px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -79,7 +113,7 @@ div {
 .a21flatbutton .guide .typeface {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 599px;
+  height              : 625px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -90,7 +124,7 @@ div {
 .a21flatbutton .guide .typeface .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 599px;
+  height              : 625px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -101,7 +135,7 @@ div {
 .a21flatbutton .guide .typeface .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 599px;
+  height              : 625px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -115,7 +149,7 @@ div {
 }
 .a21flatbutton .guide .typeface .note {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 516px;
+  top                 : 542px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -248,7 +282,7 @@ div {
 .a21flatbutton .guide .typeface .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 139px;
+  height              : 165px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -422,7 +456,7 @@ div {
 }
 .a21flatbutton .guide .typeface .general .guideformnormal2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
+  top                 : 81px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -504,7 +538,7 @@ div {
 }
 .a21flatbutton .guide .typeface .general .guideformnormal3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 111px;
+  top                 : 109px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -584,6 +618,88 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a21flatbutton .guide .typeface .general .guideformnormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 137px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .typeface .general .guideformnormalcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .typeface .general .guideformnormalcopy .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .typeface .general .guideformnormalcopy .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a21flatbutton .guide .typeface .general .guideformnormalcopy .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a21flatbutton .guide .typeface .general .guideformnormalcopy .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a21flatbutton .guide .typeface .general .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -625,7 +741,7 @@ div {
 }
 .a21flatbutton .guide .typeface .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 248px;
+  top                 : 274px;
   height              : 109px;
   width               : 465px;
   position            : absolute;
@@ -1035,7 +1151,7 @@ div {
 }
 .a21flatbutton .guide .typeface .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 382px;
+  top                 : 408px;
   height              : 109px;
   width               : 465px;
   position            : absolute;
@@ -1523,7 +1639,7 @@ div {
 .a21flatbutton .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 599px;
+  height              : 625px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1534,7 +1650,7 @@ div {
 .a21flatbutton .guide .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 599px;
+  height              : 625px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1545,7 +1661,7 @@ div {
 .a21flatbutton .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 599px;
+  height              : 625px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -1559,7 +1675,7 @@ div {
 }
 .a21flatbutton .guide .guide1 .group {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 239px;
+  top                 : 252px;
   height              : 122px;
   width               : 398px;
   position            : absolute;
@@ -2259,7 +2375,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a21flatbutton .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2282,7 +2397,22 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
+}
+.a21flatbutton .a21flatbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 84.0px;
 }
 .a21flatbutton .gnbbar2buttons {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -3282,7 +3412,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .gnbbar2buttons .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a21flatbutton .gnbbar2buttons .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3484,56 +3614,6 @@ div {
   color               : rgba(37, 37, 37, 1.0);
   text-align          : justify;
   line-height         : 24.0px;
-}
-.a21flatbutton .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1452px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-300";
                           src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 4424px;
+  min-height          : 4456px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,8 +51,8 @@ div {
 }
 .a101persistentsearchbar .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1344px;
-  height              : 722px;
+  top                 : 1320px;
+  height              : 778px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .a101persistentsearchbar .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 722px;
+  height              : 778px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +74,7 @@ div {
 .a101persistentsearchbar .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 722px;
+  height              : 778px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -88,7 +88,7 @@ div {
 }
 .a101persistentsearchbar .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 320px;
+  top                 : 348px;
   height              : 56px;
   width               : 360px;
   position            : absolute;
@@ -163,7 +163,7 @@ div {
 }
 .a101persistentsearchbar .guide .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 320px;
+  top                 : 348px;
   height              : 6px;
   width               : 398px;
   position            : absolute;
@@ -268,7 +268,7 @@ div {
 }
 .a101persistentsearchbar .guide .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 370px;
+  top                 : 398px;
   height              : 6px;
   width               : 398px;
   position            : absolute;
@@ -373,7 +373,7 @@ div {
 }
 .a101persistentsearchbar .guide .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 320px;
+  top                 : 348px;
   height              : 56px;
   width               : 38px;
   position            : absolute;
@@ -445,7 +445,7 @@ div {
 }
 .a101persistentsearchbar .guide .size1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 326px;
+  top                 : 354px;
   height              : 44px;
   width               : 38px;
   position            : absolute;
@@ -517,7 +517,7 @@ div {
 }
 .a101persistentsearchbar .guide .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 320px;
+  top                 : 348px;
   height              : 94px;
   width               : 24px;
   position            : absolute;
@@ -611,7 +611,7 @@ div {
 }
 .a101persistentsearchbar .guide .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 308px;
+  top                 : 336px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -649,7 +649,7 @@ div {
 }
 .a101persistentsearchbar .guide .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 326px;
+  top                 : 354px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -687,8 +687,8 @@ div {
 }
 .a101persistentsearchbar .image {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1344px;
-  height              : 323px;
+  top                 : 1320px;
+  height              : 379px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -699,7 +699,7 @@ div {
 .a101persistentsearchbar .image .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 323px;
+  height              : 379px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -710,7 +710,7 @@ div {
 .a101persistentsearchbar .image .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 323px;
+  height              : 379px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -857,7 +857,7 @@ div {
 .a101persistentsearchbar .image .lighttheme {
   background-color    : rgba(255,255,255,0.0);
   top                 : 162px;
-  height              : 53px;
+  height              : 81px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -892,7 +892,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 239px;
+  width               : 187px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
@@ -906,7 +906,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 233px;
+  left                : 181px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -919,7 +919,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
-  width               : 129px;
+  width               : 77px;
   position            : absolute;
   margin              : 0;
   left                : 104px;
@@ -930,7 +930,7 @@ div {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
-  width               : 129px;
+  width               : 77px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -954,6 +954,110 @@ div {
   line-height         : 22.0px;
 }
 .a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormal .group2 .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 .group2 .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 .group2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 .group2 .group .rectangle {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 .group2 .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(60, 60, 60, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a101persistentsearchbar .image .lighttheme .guidemodifiedformpropertynormalcopy2 .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1010,8 +1114,8 @@ div {
 }
 .a101persistentsearchbar .image .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 240px;
-  height              : 53px;
+  top                 : 268px;
+  height              : 81px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -1046,7 +1150,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 292px;
+  width               : 169px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
@@ -1060,7 +1164,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 286px;
+  left                : 163px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1073,7 +1177,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
-  width               : 182px;
+  width               : 59px;
   position            : absolute;
   margin              : 0;
   left                : 104px;
@@ -1084,7 +1188,7 @@ div {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
-  width               : 182px;
+  width               : 59px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1108,6 +1212,110 @@ div {
   line-height         : 22.0px;
 }
 .a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormal .group2 .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 .group2 .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 .group2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 .group2 .group .rectangle {
+  background-color    : rgba(71, 71, 71, 1.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 .group2 .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a101persistentsearchbar .image .darktheme .guidemodifiedformpropertynormalcopy3 .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1241,7 +1449,7 @@ div {
 }
 .a101persistentsearchbar .type {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1687px;
+  top                 : 1719px;
   height              : 379px;
   width               : 505px;
   position            : absolute;
@@ -1960,7 +2168,7 @@ div {
 .a101persistentsearchbar .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 884px;
-  height              : 440px;
+  height              : 416px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -1971,7 +2179,7 @@ div {
 .a101persistentsearchbar .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 440px;
+  height              : 416px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -1982,7 +2190,7 @@ div {
 .a101persistentsearchbar .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 440px;
+  height              : 416px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -1997,7 +2205,7 @@ div {
 .a101persistentsearchbar .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 360px;
+  height              : 336px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2008,7 +2216,7 @@ div {
 .a101persistentsearchbar .guide1 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
-  height              : 360px;
+  height              : 336px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2018,7 +2226,7 @@ div {
 }
 .a101persistentsearchbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
+  top                 : 0px;
   height              : 292px;
   width               : 360px;
   position            : absolute;
@@ -2092,7 +2300,7 @@ div {
 }
 .a101persistentsearchbar .guide1 .symbol .mobilelighttheme11searchsearchbar01 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 304px;
+  top                 : 280px;
   height              : 56px;
   width               : 360px;
   position            : absolute;
@@ -2143,43 +2351,9 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.a101persistentsearchbar .guide1 .symbol .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a101persistentsearchbar .guide1 .symbol .mobilelightthemeindicator .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a101persistentsearchbar .guide1 .symbol .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 10px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
-}
 .a101persistentsearchbar .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
+  top                 : 40px;
   height              : 280px;
   width               : 360px;
   position            : absolute;
@@ -2355,56 +2529,23 @@ div {
 }
 .a101persistentsearchbar .guide1 .size1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 344px;
+  top                 : 320px;
   height              : 56px;
-  width               : 398px;
+  width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 440px;
+  left                : 800px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a101persistentsearchbar .guide1 .size1 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a101persistentsearchbar .guide1 .size1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a101persistentsearchbar .guide1 .size1 .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
 }
 .a101persistentsearchbar .guide1 .size1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
   width               : 38px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 360px;
+  left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2516,7 +2657,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a101persistentsearchbar .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2539,7 +2679,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a101persistentsearchbar .extentedappbar {
   background-color    : rgba(255,255,255,0.0);
@@ -2559,7 +2698,7 @@ div {
 }
 .a101persistentsearchbar .moreoption {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3056px;
+  top                 : 3088px;
   height              : 1163px;
   width               : 1240px;
   position            : absolute;
@@ -3422,90 +3561,14 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a101persistentsearchbar .moreoption .guide2 .guidenumberingshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 195px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 173px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a101persistentsearchbar .moreoption .guide2 .guidenumberingshape .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a101persistentsearchbar .moreoption .guide2 .guidenumberingshape .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a101persistentsearchbar .moreoption .guide2 .guidenumberingtype {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 217px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 192px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a101persistentsearchbar .moreoption .guide2 .guidenumberingtype .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a101persistentsearchbar .moreoption .guide2 .guidenumberingtype .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 17.0px;
-}
 .a101persistentsearchbar .moreoption .guide2 .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 209px;
+  top                 : 210px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 498px;
+  left                : 509px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3594,7 +3657,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a101persistentsearchbar .moreoption .keyscreens1 .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -3617,7 +3679,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a101persistentsearchbar .moreoption .image1 {
   background-color    : rgba(255,255,255,0.0);
@@ -4471,7 +4532,7 @@ div {
 }
 .a101persistentsearchbar .appbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2226px;
+  top                 : 2258px;
   height              : 670px;
   width               : 1240px;
   position            : absolute;
@@ -4538,7 +4599,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a101persistentsearchbar .appbar .keyscreens1 .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -4561,7 +4621,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a101persistentsearchbar .appbar .appbar1 {
   background-color    : rgba(255,255,255,0.0);
@@ -4815,7 +4874,7 @@ div {
 }
 .a101persistentsearchbar .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4299px;
+  top                 : 4331px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -5910,7 +5969,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a101persistentsearchbar .gnbbar10search .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a101persistentsearchbar .gnbbar10search .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

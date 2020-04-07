@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2906px;
+  min-height          : 2826px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a85progressextendedappbar .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2781px;
+  top                 : 2701px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -99,10 +99,10 @@ div {
   text-align          : center;
   line-height         : 28.6px;
 }
-.a85progressextendedappbar .guide {
+.a85progressextendedappbar .progresscircle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2303px;
-  height              : 398px;
+  top                 : 1492px;
+  height              : 1129px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -110,7 +110,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .contentsbox {
+.a85progressextendedappbar .progresscircle .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 731px;
+  height              : 398px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a85progressextendedappbar .progresscircle .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 398px;
@@ -121,7 +132,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .contentsbox .rectangle {
+.a85progressextendedappbar .progresscircle .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 398px;
@@ -136,7 +147,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 {
+.a85progressextendedappbar .progresscircle .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 318px;
@@ -147,7 +158,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 292px;
@@ -158,7 +169,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobilelighttheme01actionbartitleextendedappbar1line {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 292px;
@@ -170,7 +181,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .background {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 292px;
@@ -181,7 +192,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .appbarbg {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .appbarbg {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 280px;
@@ -192,7 +203,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 224px;
   height              : 56px;
@@ -203,7 +214,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .area {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .area {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -214,7 +225,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .beyond {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .beyond {
   background-color    : rgba(255,255,255,0.0);
   top                 : 111px;
   height              : 47px;
@@ -232,7 +243,7 @@ div {
   text-align          : center;
   line-height         : 47.0px;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobiledarktheme09progresscircle24x24 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobiledarktheme09progresscircle24x24 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 240px;
   height              : 24px;
@@ -244,7 +255,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobiledarktheme09progresscircle24x24 .background {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobiledarktheme09progresscircle24x24 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -255,7 +266,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobiledarktheme09progresscircle24x24 .path {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobiledarktheme09progresscircle24x24 .path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 12px;
@@ -266,7 +277,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .symbol .mobiledarktheme09progresscircle24x24 .path1 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .symbol .mobiledarktheme09progresscircle24x24 .path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 12px;
@@ -277,7 +288,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 240px;
   height              : 78px;
@@ -288,7 +299,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurearea {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -299,7 +310,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurearea .addsamecolorasneeded {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -310,7 +321,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurearea .area {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 24px;
@@ -321,7 +332,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -333,7 +344,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright .background {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -344,7 +355,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright .value {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 18px;
@@ -355,7 +366,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright .value .a0 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -371,7 +382,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright .combinedshape {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -382,7 +393,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright1 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 38px;
@@ -394,7 +405,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright1 .background {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -405,7 +416,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright1 .a0 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright1 .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -421,7 +432,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a85progressextendedappbar .guide .guide2 .size .guidemeasurerulerright1 .combinedshape {
+.a85progressextendedappbar .progresscircle .guide .guide1 .size .guidemeasurerulerright1 .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -432,7 +443,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 224px;
   height              : 94px;
@@ -443,7 +454,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing .guidemeasurerulerright {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 38px;
@@ -455,7 +466,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing .guidemeasurerulerright .background {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -466,7 +477,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing .guidemeasurerulerright .a0 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing .guidemeasurerulerright .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -482,7 +493,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a85progressextendedappbar .guide .guide2 .spacing .guidemeasurerulerright .combinedshape {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -493,7 +504,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing .guidemeasurearea {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -504,7 +515,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -515,7 +526,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .spacing .guidemeasurearea .area {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -526,7 +537,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 224px;
   height              : 94px;
@@ -537,7 +548,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy .guidemeasurerulerright {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 38px;
@@ -549,7 +560,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy .guidemeasurerulerright .background {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -560,7 +571,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy .guidemeasurerulerright .a0 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy .guidemeasurerulerright .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -576,7 +587,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy .guidemeasurerulerright .combinedshape {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -587,7 +598,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy .guidemeasurearea {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -598,7 +609,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy .guidemeasurearea .addsamecolorasneeded {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -609,7 +620,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .spacingcopy .guidemeasurearea .area {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacingcopy .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -620,7 +631,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .spacing1 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 224px;
   height              : 56px;
@@ -631,7 +642,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing1 .guidemeasurearea {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 16px;
@@ -642,7 +653,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
@@ -653,7 +664,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .spacing1 .guidemeasurearea .area {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing1 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 16px;
@@ -664,7 +675,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .spacing1 .guidemeasurearea1 {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing1 .guidemeasurearea1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
@@ -675,7 +686,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide .guide2 .spacing1 .guidemeasurearea1 .addsamecolorasneeded {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing1 .guidemeasurearea1 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
@@ -686,7 +697,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide .guide2 .spacing1 .guidemeasurearea1 .area {
+.a85progressextendedappbar .progresscircle .guide .guide1 .spacing1 .guidemeasurearea1 .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 16px;
@@ -697,14 +708,14 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .extendedappbarpro {
+.a85progressextendedappbar .progresscircle .extendedappbarpro {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2262px;
+  top                 : 83px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -713,18 +724,18 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a85progressextendedappbar .keyscreens {
+.a85progressextendedappbar .progresscircle .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1615px;
+  top                 : 124px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens .contentsbox {
+.a85progressextendedappbar .progresscircle .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 587px;
@@ -735,7 +746,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens .contentsbox .rectangle {
+.a85progressextendedappbar .progresscircle .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 587px;
@@ -750,7 +761,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens .guidekeyscreensmobileportrait {
+.a85progressextendedappbar .progresscircle .keyscreens .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -761,7 +772,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens .guidekeyscreensmobileportrait .scrmoport {
+.a85progressextendedappbar .progresscircle .keyscreens .guidekeyscreensmobileportrait .scrmoport {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -771,16 +782,15 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
-.a85progressextendedappbar .progresscircle {
+.a85progressextendedappbar .progresscircle .progresscircle1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1532px;
+  top                 : 0px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -789,18 +799,40 @@ div {
   text-align          : left;
   line-height         : 53.0px;
 }
-.a85progressextendedappbar .shape {
+.a85progressextendedappbar .progressbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 965px;
+  top                 : 194px;
+  height              : 1138px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a85progressextendedappbar .progressbar .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 731px;
+  height              : 407px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a85progressextendedappbar .progressbar .guide .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : 167px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
-  left                : 1115px;
+  left                : 735px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .contentsbox {
+.a85progressextendedappbar .progressbar .guide .shape .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 167px;
@@ -811,7 +843,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .contentsbox .rectangle {
+.a85progressextendedappbar .progressbar .guide .shape .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 167px;
@@ -826,7 +858,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .note {
+.a85progressextendedappbar .progressbar .guide .shape .note {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 53px;
@@ -837,7 +869,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .note .guideformnormal {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -849,7 +881,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .note .guideformnormal .background {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -860,7 +892,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .note .guideformnormal .group {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -871,7 +903,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .note .guideformnormal .group .label1 {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -887,7 +919,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a85progressextendedappbar .shape .note .guideformnormal .group .value {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -903,7 +935,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a85progressextendedappbar .shape .note .guideformnormal .group .property {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -919,7 +951,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a85progressextendedappbar .shape .note .guideformsubtitle {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -931,7 +963,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .note .guideformsubtitle .background {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -942,7 +974,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .note .guideformsubtitle .text {
+.a85progressextendedappbar .progressbar .guide .shape .note .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -958,7 +990,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a85progressextendedappbar .shape .guidesubjecttype {
+.a85progressextendedappbar .progressbar .guide .shape .guidesubjecttype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -970,7 +1002,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .guidesubjecttype .background {
+.a85progressextendedappbar .progressbar .guide .shape .guidesubjecttype .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -981,7 +1013,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .guidesubjecttype .guidenumberingicon {
+.a85progressextendedappbar .progressbar .guide .shape .guidesubjecttype .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -992,7 +1024,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .guidesubjecttype .guidenumberingicon .oval {
+.a85progressextendedappbar .progressbar .guide .shape .guidesubjecttype .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1003,7 +1035,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .shape .guidesubjecttype .guidenumberingicon .a1 {
+.a85progressextendedappbar .progressbar .guide .shape .guidesubjecttype .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1019,7 +1051,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a85progressextendedappbar .shape .guidesubjecttype .guideproperty {
+.a85progressextendedappbar .progressbar .guide .shape .guidesubjecttype .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -1035,18 +1067,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a85progressextendedappbar .guide1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 965px;
-  height              : 407px;
-  width               : 715px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a85progressextendedappbar .guide1 .contentsbox {
+.a85progressextendedappbar .progressbar .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 407px;
@@ -1057,7 +1078,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .contentsbox .rectangle {
+.a85progressextendedappbar .progressbar .guide .guide1 .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 407px;
+  width               : 715px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a85progressextendedappbar .progressbar .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 407px;
@@ -1072,7 +1104,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 283px;
@@ -1083,7 +1115,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .rectangle {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 283px;
@@ -1094,7 +1126,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 283px;
@@ -1106,7 +1138,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .background {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 283px;
@@ -1117,7 +1149,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .appbarbg {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .appbarbg {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 280px;
@@ -1128,7 +1160,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .beyond {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .beyond {
   background-color    : rgba(255,255,255,0.0);
   top                 : 111px;
   height              : 47px;
@@ -1146,7 +1178,7 @@ div {
   text-align          : center;
   line-height         : 47.0px;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar1 {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 280px;
   height              : 3px;
@@ -1157,7 +1189,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar1 .mobiledarktheme09progressbar {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar2 .mobiledarktheme09progressbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -1168,7 +1200,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar1 .mobiledarktheme09progressbar .bar {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar2 .mobiledarktheme09progressbar .bar {
   background-color    : rgba(3, 129, 254, 1.0);
   top                 : 0px;
   height              : 3px;
@@ -1180,7 +1212,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.3;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar1 .mobiledarktheme09progressbar1 {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar2 .mobiledarktheme09progressbar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -1191,7 +1223,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar1 .mobiledarktheme09progressbar1 .bar {
+.a85progressextendedappbar .progressbar .guide .guide1 .symbol .mobilelighttheme01actionbartitleextendedappbar1line .progressbar2 .mobiledarktheme09progressbar1 .bar {
   background-color    : rgba(3, 129, 254, 1.0);
   top                 : 0px;
   height              : 3px;
@@ -1203,7 +1235,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size {
+.a85progressextendedappbar .progressbar .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 320px;
   height              : 3px;
@@ -1214,7 +1246,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurearea {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -1225,7 +1257,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurearea .addsamecolorasneeded {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -1236,7 +1268,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurearea .area {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 3px;
@@ -1247,7 +1279,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurerulerright {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -1259,7 +1291,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurerulerright .background {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -1270,7 +1302,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurerulerright .value {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -7px;
   height              : 18px;
@@ -1281,7 +1313,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurerulerright .value .a0 {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1297,7 +1329,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a85progressextendedappbar .guide1 .size .guidemeasurerulerright .combinedshape {
+.a85progressextendedappbar .progressbar .guide .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
@@ -1308,7 +1340,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size1 {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 280px;
@@ -1319,7 +1351,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1330,7 +1362,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea .addsamecolorasneeded {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1341,7 +1373,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea .area {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1352,7 +1384,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea1 {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 112px;
   height              : 56px;
@@ -1363,7 +1395,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea1 .addsamecolorasneeded {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea1 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1374,7 +1406,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea1 .area {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea1 .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1385,7 +1417,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea2 {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 224px;
   height              : 56px;
@@ -1396,7 +1428,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea2 .addsamecolorasneeded {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea2 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1407,7 +1439,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea2 .area {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea2 .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1418,7 +1450,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea3 {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 56px;
@@ -1429,7 +1461,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea3 .addsamecolorasneeded {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea3 .addsamecolorasneeded {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1440,7 +1472,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea3 .area {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea3 .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1451,7 +1483,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea4 {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 168px;
   height              : 56px;
@@ -1462,7 +1494,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea4 .addsamecolorasneeded {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea4 .addsamecolorasneeded {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1473,7 +1505,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .size1 .guidemeasurearea4 .area {
+.a85progressextendedappbar .progressbar .guide .guide1 .size1 .guidemeasurearea4 .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
@@ -1484,33 +1516,33 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a85progressextendedappbar .guide1 .tag {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag {
   background-color    : rgba(255,255,255,0.0);
   top                 : 338px;
   height              : 29px;
-  width               : 181px;
+  width               : 190px;
   position            : absolute;
   margin              : 0;
   left                : 177px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 29px;
-  width               : 181px;
+  width               : 190px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer .rectangle {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer .rectangle {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 181px;
+  width               : 190px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1518,18 +1550,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer .group {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
   height              : 17px;
-  width               : 162px;
+  width               : 171px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer .group .referto {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer .group .referto {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1545,18 +1577,18 @@ div {
   text-align          : left;
   line-height         : 17.0px;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer .group .pagename {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer .group .pagename {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 17px;
-  width               : 109px;
+  width               : 118px;
   position            : absolute;
   margin              : 0;
   left                : 53px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer .group .pagename .label1 {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer .group .pagename .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1572,7 +1604,7 @@ div {
   text-align          : left;
   line-height         : 17.0px;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer .group .pagename .pagename1 {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer .group .pagename .pagename1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1588,14 +1620,14 @@ div {
   text-align          : left;
   line-height         : 17.0px;
 }
-.a85progressextendedappbar .guide1 .tag .tagrefer .group .pagename .label2 {
+.a85progressextendedappbar .progressbar .guide .guide1 .tag .tagrefer .group .pagename .label2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 105px;
+  left                : 114px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -1604,7 +1636,7 @@ div {
   text-align          : left;
   line-height         : 17.0px;
 }
-.a85progressextendedappbar .guide1 .guidenumberingshape {
+.a85progressextendedappbar .progressbar .guide .guide1 .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 299px;
   height              : 22px;
@@ -1615,7 +1647,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .guidenumberingshape .oval {
+.a85progressextendedappbar .progressbar .guide .guide1 .guidenumberingshape .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1626,7 +1658,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .guide1 .guidenumberingshape .a1 {
+.a85progressextendedappbar .progressbar .guide .guide1 .guidenumberingshape .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1642,34 +1674,18 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a85progressextendedappbar .extendedappbarpro1 {
+.a85progressextendedappbar .progressbar .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 924px;
-  height              : auto;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-}
-.a85progressextendedappbar .keyscreens1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 277px;
+  top                 : 124px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens1 .contentsbox {
+.a85progressextendedappbar .progressbar .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 587px;
@@ -1680,7 +1696,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens1 .contentsbox .rectangle {
+.a85progressextendedappbar .progressbar .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 587px;
@@ -1695,7 +1711,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens1 .guidekeyscreensmobileportrait {
+.a85progressextendedappbar .progressbar .keyscreens .guidekeyscreensmobileportrait {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -1706,7 +1722,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .keyscreens1 .guidekeyscreensmobileportrait .scrmoport {
+.a85progressextendedappbar .progressbar .keyscreens .guidekeyscreensmobileportrait .scrmoport {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -1716,16 +1732,31 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
-.a85progressextendedappbar .progressbar {
+.a85progressextendedappbar .progressbar .extendedappbarpro {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 194px;
+  top                 : 83px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.a85progressextendedappbar .progressbar .progressbar1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3140,7 +3171,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a85progressextendedappbar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a85progressextendedappbar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;

@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2894px;
+  min-height          : 3246px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,8 +51,8 @@ div {
 }
 .responsiveui .screenorientation {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1734px;
-  height              : 1079px;
+  top                 : 1691px;
+  height              : 1475px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -60,10 +60,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait {
+.responsiveui .screenorientation .padding {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 121px;
-  height              : 449px;
+  top                 : 1101px;
+  height              : 374px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -71,26 +71,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .portraitscreenwi {
+.responsiveui .screenorientation .padding .contentsbox {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.responsiveui .screenorientation .portrait .contentsbox {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
-  height              : 404px;
+  top                 : 42px;
+  height              : 298px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -98,10 +82,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .contentsbox .rectangle {
+.responsiveui .screenorientation .padding .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 404px;
+  height              : 298px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -113,1072 +97,627 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner12sublcd {
+.responsiveui .screenorientation .padding .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 186px;
-  height              : 203px;
-  width               : 72px;
+  top                 : 82px;
+  height              : 218px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 201px;
+  left                : 421px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner12sublcd .winner12 {
+.responsiveui .screenorientation .padding .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 155px;
-  height              : auto;
-  width               : auto;
+  top                 : 0px;
+  height              : 218px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .bg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme04dialogsdialogbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme04dialogsdialogbg .bg1 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 360px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 162px;
+  height              : 36px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .action2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 158px;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 114, 222, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .action1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 158px;
   position            : absolute;
   margin              : 0;
   left                : -1px;
   transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
   font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
+  color               : rgba(0, 114, 222, 1.0);
   text-align          : center;
-  line-height         : 24.0px;
+  line-height         : 36.0px;
 }
-.responsiveui .screenorientation .portrait .winner12sublcd .sublcd {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 179px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .winner1sub {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 126px;
-  width               : 55px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .winner1sub .rectanglecopy4 {
-  background-color    : rgba(176, 195, 247, 1.0);
-  top                 : 0px;
-  height              : 126px;
-  width               : 55px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .winner1sub .rectanglecopy41 {
-  background-color    : rgba(236, 240, 255, 1.0);
-  top                 : 7px;
-  height              : 110px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  border-radius       : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 110px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 9px;
-  width               : 110px;
-  position            : absolute;
-  margin              : 0;
-  left                : -38px;
-  transform           : rotate(-270deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler .value .rectangle {
-  background-color    : rgba(18, 206, 172, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 33px;
-  height              : 28px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .divider {
+  background-color    : rgba(230, 230, 230, 1.0);
   top                 : 10px;
-  height              : 9px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .value .rectangle {
-  background-color    : rgba(245, 82, 175, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.responsiveui .screenorientation .portrait .phoneportrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 197px;
-  height              : 192px;
-  width               : 56px;
-  position            : absolute;
-  margin              : 0;
-  left                : 366px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .phone {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .portrait1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 168px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .phoneport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 115px;
-  width               : 56px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .phoneport .rectangle {
-  background-color    : rgba(176, 195, 247, 1.0);
-  top                 : 0px;
-  height              : 115px;
-  width               : 56px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .phoneport .rectanglecopy7 {
-  background-color    : rgba(236, 240, 255, 1.0);
-  top                 : 2px;
-  height              : 111px;
-  width               : 52px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .phoneport .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 4px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 112px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
-  height              : 9px;
-  width               : 112px;
-  position            : absolute;
-  margin              : 0;
-  left                : -39px;
-  transform           : rotate(-270deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler .value .rectangle {
-  background-color    : rgba(18, 206, 172, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
-  height              : 28px;
-  width               : 52px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 9px;
-  width               : 52px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .value .rectangle {
-  background-color    : rgba(245, 82, 175, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.responsiveui .screenorientation .portrait .winner1portrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 187px;
-  height              : 202px;
-  width               : 91px;
-  position            : absolute;
-  margin              : 0;
-  left                : 516px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .portrait1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 178px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .winner1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 154px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .winner1land {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 126px;
-  width               : 91px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .winner1land .rectanglecopy5 {
-  background-color    : rgba(176, 195, 247, 1.0);
-  top                 : 0px;
-  height              : 126px;
-  width               : 91px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .winner1land .group9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 121px;
-  width               : 88px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .winner1land .group9 .rectanglecopy51 {
-  background-color    : rgba(236, 240, 255, 1.0);
-  top                 : 0px;
-  height              : 121px;
-  width               : 87px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .winner1land .group9 .lcut {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 121px;
-  width               : 88px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .winner1land .line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 122px;
+  height              : 16px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 45px;
+  left                : 155px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner1portrait .ruler {
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .loremipsumdolorsi {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 121px;
-  width               : 34px;
+  top                 : 69px;
+  height              : 69px;
+  width               : 312px;
   position            : absolute;
   margin              : 0;
-  left                : 29px;
+  left                : 24px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(80, 80, 80, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
 }
-.responsiveui .screenorientation .portrait .winner1portrait .ruler .combinedshape {
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .dialogheader {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 9px;
-  width               : 121px;
+  top                 : 26px;
+  height              : 24px;
+  width               : 312px;
   position            : absolute;
   margin              : 0;
-  left                : -44px;
-  transform           : rotate(-270deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .ruler .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 73px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 24px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
 }
-.responsiveui .screenorientation .portrait .winner1portrait .ruler .value .rectangle {
-  background-color    : rgba(18, 206, 172, 1.0);
+.responsiveui .screenorientation .padding .guide .guide1 {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 28px;
-  width               : 34px;
+  height              : 218px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner1portrait .ruler .value .value1 {
+.responsiveui .screenorientation .padding .guide .guide1 .spaing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
+  top                 : 0px;
+  height              : 26px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
 }
-.responsiveui .screenorientation .portrait .winner1portrait .ruler1 {
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 32px;
-  height              : 28px;
+  top                 : 0px;
+  height              : 26px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 360px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 18px;
   width               : 87px;
   position            : absolute;
   margin              : 0;
-  left                : 2px;
+  left                : 14px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 9px;
-  width               : 87px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .value {
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .value .rectangle {
-  background-color    : rgba(245, 82, 175, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
   line-height         : 18.0px;
 }
-.responsiveui .screenorientation .portrait .winner2portrait {
+.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 184px;
-  height              : 205px;
-  width               : 104px;
-  position            : absolute;
-  margin              : 0;
-  left                : 704px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .winner2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 157px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 19px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .portrait1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 181px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .winner2land {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : 104px;
-  width               : 129px;
-  position            : absolute;
-  margin              : 0;
-  left                : -12px;
-  transform           : rotate(-270deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .winner2land .rectanglecopy5 {
-  background-color    : rgba(176, 195, 247, 1.0);
   top                 : 0px;
-  height              : 104px;
-  width               : 129px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .winner2land .rectanglecopy51 {
-  background-color    : rgba(237, 241, 255, 1.0);
-  top                 : 2px;
-  height              : 100px;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  border-radius       : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .winner2land .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
-  height              : 4px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .winner2land .ovalcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 4px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .ruler {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 124px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .ruler .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : 9px;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : -45px;
-  transform           : rotate(-270deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .ruler .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .ruler .value .rectangle {
-  background-color    : rgba(18, 206, 172, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .ruler .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .ruler1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 28px;
-  width               : 100px;
+  height              : 24px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .combinedshape {
+.responsiveui .screenorientation .padding .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 9px;
-  width               : 100px;
+  top                 : 138px;
+  height              : 24px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .value {
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 33px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .value .rectangle {
-  background-color    : rgba(245, 82, 175, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
+  height              : 24px;
+  width               : 360px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .value .value1 {
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
+  top                 : 0px;
+  height              : 24px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 360px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 18px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
   line-height         : 18.0px;
 }
-.responsiveui .screenorientation .portrait .tabletportrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 113px;
-  height              : 276px;
-  width               : 129px;
-  position            : absolute;
-  margin              : 0;
-  left                : 901px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .tablet {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 228px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .portrait1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 252px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .tabletport {
+.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 200px;
-  width               : 129px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .tabletport .rectanglecopy2 {
-  background-color    : rgba(176, 195, 247, 1.0);
-  top                 : 0px;
-  height              : 200px;
-  width               : 129px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .tabletport .rectanglecopy21 {
-  background-color    : rgba(236, 240, 255, 1.0);
-  top                 : 6px;
-  height              : 188px;
-  width               : 117px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 188px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
-  height              : 9px;
-  width               : 188px;
-  position            : absolute;
-  margin              : 0;
-  left                : -71px;
-  transform           : rotate(-270deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 143px;
-  height              : 28px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler .value .rectangle {
-  background-color    : rgba(18, 206, 172, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 106px;
-  height              : 28px;
-  width               : 117px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 9px;
-  width               : 117px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .value .rectangle {
-  background-color    : rgba(245, 82, 175, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .value .value1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : auto;
-  width               : auto;
+  height              : 24px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : 20px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 360px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 18px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
   line-height         : 18.0px;
 }
-.responsiveui .screenorientation .landscape {
+.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 630px;
-  height              : 449px;
+  top                 : 0px;
+  height              : 20px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 19px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 360px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 18px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .pportraitl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 352px;
+  height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
 }
-.responsiveui .screenorientation .landscape .landscapescreenwi {
+.responsiveui .screenorientation .padding .ubcf8uac00uc774ub4dcuc5d0uc11cub294screenuc758ubc29ud5a5uc5d0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1192,11 +731,38 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
+}
+.responsiveui .screenorientation .landscape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 603px;
+  height              : 438px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .landscape .landscapescreenwi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 416px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
 }
 .responsiveui .screenorientation .landscape .contentsbox {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
+  top                 : 0px;
   height              : 404px;
   width               : 1240px;
   position            : absolute;
@@ -1222,7 +788,7 @@ div {
 }
 .responsiveui .screenorientation .landscape .phonelandscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 227px;
+  top                 : 182px;
   height              : 162px;
   width               : 117px;
   position            : absolute;
@@ -1313,32 +879,32 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 52px;
-  width               : 34px;
+  width               : 111px;
   position            : absolute;
   margin              : 0;
-  left                : 42px;
+  left                : 3px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenorientation .landscape .phonelandscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
+  top                 : 25px;
   height              : 9px;
-  width               : 52px;
+  width               : 46px;
   position            : absolute;
   margin              : 0;
-  left                : -9px;
+  left                : 33px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenorientation .landscape .phonelandscape .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 15px;
   height              : 28px;
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 39px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1360,7 +926,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -1368,6 +934,39 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
   line-height         : 18.0px;
+}
+.responsiveui .screenorientation .landscape .phonelandscape .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .landscape .phonelandscape .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .landscape .phonelandscape .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
 }
 .responsiveui .screenorientation .landscape .phonelandscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1431,7 +1030,7 @@ div {
 }
 .responsiveui .screenorientation .landscape .tabletlandscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 183px;
+  top                 : 138px;
   height              : 206px;
   width               : 202px;
   position            : absolute;
@@ -1510,21 +1109,21 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 117px;
-  width               : 34px;
+  width               : 188px;
   position            : absolute;
   margin              : 0;
-  left                : 84px;
+  left                : 7px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenorientation .landscape .tabletlandscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
+  top                 : 57px;
   height              : 9px;
-  width               : 117px;
+  width               : 111px;
   position            : absolute;
   margin              : 0;
-  left                : -42px;
+  left                : 38px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
@@ -1535,7 +1134,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 77px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1557,7 +1156,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 2px;
+  left                : 5px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -1565,6 +1164,39 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
   line-height         : 18.0px;
+}
+.responsiveui .screenorientation .landscape .tabletlandscape .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .landscape .tabletlandscape .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .landscape .tabletlandscape .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
 }
 .responsiveui .screenorientation .landscape .tabletlandscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1628,7 +1260,7 @@ div {
 }
 .responsiveui .screenorientation .landscape .winner1landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 221px;
+  top                 : 176px;
   height              : 168px;
   width               : 126px;
   position            : absolute;
@@ -1740,21 +1372,21 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 87px;
-  width               : 34px;
+  width               : 115px;
   position            : absolute;
   margin              : 0;
-  left                : 46px;
+  left                : 8px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenorientation .landscape .winner1landscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 39px;
+  top                 : 42px;
   height              : 9px;
-  width               : 87px;
+  width               : 81px;
   position            : absolute;
   margin              : 0;
-  left                : -27px;
+  left                : 14px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
@@ -1765,7 +1397,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1787,7 +1419,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -1796,9 +1428,42 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenorientation .landscape .winner1landscape .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .landscape .winner1landscape .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .landscape .winner1landscape .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenorientation .landscape .winner1landscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
+  top                 : 10px;
   height              : 28px;
   width               : 115px;
   position            : absolute;
@@ -1858,7 +1523,7 @@ div {
 }
 .responsiveui .screenorientation .landscape .winner2landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 208px;
+  top                 : 163px;
   height              : 181px;
   width               : 129px;
   position            : absolute;
@@ -1970,22 +1635,22 @@ div {
 .responsiveui .screenorientation .landscape .winner2landscape .ruler {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : 101px;
-  width               : 34px;
+  height              : 100px;
+  width               : 124px;
   position            : absolute;
   margin              : 0;
-  left                : 48px;
+  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenorientation .landscape .winner2landscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
+  top                 : 49px;
   height              : 9px;
-  width               : 100px;
+  width               : 94px;
   position            : absolute;
   margin              : 0;
-  left                : -34px;
+  left                : 16px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
@@ -1996,7 +1661,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 46px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2026,6 +1691,39 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
   line-height         : 18.0px;
+}
+.responsiveui .screenorientation .landscape .winner2landscape .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .landscape .winner2landscape .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .landscape .winner2landscape .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
 }
 .responsiveui .screenorientation .landscape .winner2landscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2087,9 +1785,1281 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenorientation .portrait {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 438px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .portraitscreenwi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 416px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.responsiveui .screenorientation .portrait .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 404px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 404px;
+  box-sizing          : border-box;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 141px;
+  height              : 203px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .winner12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 155px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .sublcd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 179px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .winner1sub {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 126px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .winner1sub .rectanglecopy4 {
+  background-color    : rgba(176, 195, 247, 1.0);
+  top                 : 0px;
+  height              : 126px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .winner1sub .rectanglecopy41 {
+  background-color    : rgba(236, 240, 255, 1.0);
+  top                 : 7px;
+  height              : 110px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-radius       : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 110px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 9px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : -28px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 28px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .value .rectangle {
+  background-color    : rgba(245, 82, 175, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner12sublcd .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .phoneportrait {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 152px;
+  height              : 192px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 366px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .phone {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 144px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .portrait1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .phoneport {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 115px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .phoneport .rectangle {
+  background-color    : rgba(176, 195, 247, 1.0);
+  top                 : 0px;
+  height              : 115px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .phoneport .rectanglecopy7 {
+  background-color    : rgba(236, 240, 255, 1.0);
+  top                 : 2px;
+  height              : 111px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .phoneport .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 111px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 9px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : -25px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 28px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .value .rectangle {
+  background-color    : rgba(245, 82, 175, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .phoneportrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .winner1portrait {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : 202px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 516px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .portrait1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 178px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .winner1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .winner1land {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 126px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .winner1land .rectanglecopy5 {
+  background-color    : rgba(176, 195, 247, 1.0);
+  top                 : 0px;
+  height              : 126px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .winner1land .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 121px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .winner1land .group9 .rectanglecopy51 {
+  background-color    : rgba(236, 240, 255, 1.0);
+  top                 : 0px;
+  height              : 121px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .winner1land .group9 .lcut {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 121px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .winner1land .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 122px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 121px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : 9px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 28px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .value .rectangle {
+  background-color    : rgba(245, 82, 175, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner1portrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .winner2portrait {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : 205px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 704px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .winner2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 157px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .portrait1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 181px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .winner2land {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 104px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : -12px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .winner2land .rectanglecopy5 {
+  background-color    : rgba(176, 195, 247, 1.0);
+  top                 : 0px;
+  height              : 104px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .winner2land .rectanglecopy51 {
+  background-color    : rgba(237, 241, 255, 1.0);
+  top                 : 2px;
+  height              : 100px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .winner2land .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .winner2land .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 124px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 9px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 76px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 28px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .value .rectangle {
+  background-color    : rgba(245, 82, 175, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .winner2portrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .tabletportrait {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 276px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 901px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .tablet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .portrait1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .tabletport {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 200px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .tabletport .rectanglecopy2 {
+  background-color    : rgba(176, 195, 247, 1.0);
+  top                 : 0px;
+  height              : 200px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .tabletport .rectanglecopy21 {
+  background-color    : rgba(236, 240, 255, 1.0);
+  top                 : 6px;
+  height              : 188px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 188px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 93px;
+  height              : 9px;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : -32px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 143px;
+  height              : 28px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 28px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .value .rectangle {
+  background-color    : rgba(245, 82, 175, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .portrait .tabletportrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
 .responsiveui .screenorientation .screenuc758ubc29ud5a5uc5d0ub530ub77cportr {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -2101,7 +3071,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .responsiveui .screenorientation .screenorientation1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2121,8 +3091,8 @@ div {
 }
 .responsiveui .screenheight {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1171px;
-  height              : 503px;
+  top                 : 1122px;
+  height              : 509px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2132,7 +3102,7 @@ div {
 }
 .responsiveui .screenheight .ubcf8uac00uc774ub4dcuc5d0uc11cuc9c0uce6dud558ub294screen {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -2144,7 +3114,7 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .responsiveui .screenheight .screenheight1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2164,7 +3134,7 @@ div {
 }
 .responsiveui .screenheight .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 99px;
+  top                 : 105px;
   height              : 404px;
   width               : 1240px;
   position            : absolute;
@@ -2201,8 +3171,8 @@ div {
 }
 .responsiveui .screenheight .guide .winner2portrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 139px;
-  height              : 205px;
+  top                 : 109px;
+  height              : 235px;
   width               : 104px;
   position            : absolute;
   margin              : 0;
@@ -2212,7 +3182,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner2portrait .winner2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 157px;
+  top                 : 187px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2228,7 +3198,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner2portrait .portrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 181px;
+  top                 : 211px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2244,7 +3214,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner2portrait .winner2land {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 42px;
   height              : 105px;
   width               : 130px;
   position            : absolute;
@@ -2312,31 +3282,31 @@ div {
 }
 .responsiveui .screenheight .guide .winner2portrait .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 124px;
-  width               : 35px;
+  top                 : 38px;
+  height              : 118px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 34px;
+  left                : 36px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner2portrait .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  top                 : 55px;
   height              : 9px;
-  width               : 124px;
+  width               : 118px;
   position            : absolute;
   margin              : 0;
-  left                : -44px;
+  left                : -42px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner2portrait .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
+  top                 : 45px;
   height              : 28px;
-  width               : 35px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2350,7 +3320,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2361,7 +3331,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 5px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -2370,10 +3340,103 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .winner2portrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2portrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2portrait .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2portrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .winner2portrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2portrait .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2portrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .winner2portrait .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .tabletportrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 68px;
-  height              : 276px;
+  top                 : 42px;
+  height              : 302px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -2383,7 +3446,7 @@ div {
 }
 .responsiveui .screenheight .guide .tabletportrait .tablet {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 228px;
+  top                 : 254px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2399,7 +3462,7 @@ div {
 }
 .responsiveui .screenheight .guide .tabletportrait .portrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 252px;
+  top                 : 278px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2415,7 +3478,7 @@ div {
 }
 .responsiveui .screenheight .guide .tabletportrait .tabletport {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 26px;
   height              : 200px;
   width               : 129px;
   position            : absolute;
@@ -2449,31 +3512,31 @@ div {
 }
 .responsiveui .screenheight .guide .tabletportrait .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 188px;
-  width               : 47px;
+  top                 : 38px;
+  height              : 182px;
+  width               : 46px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 42px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .tabletportrait .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
+  top                 : 87px;
   height              : 9px;
-  width               : 188px;
+  width               : 182px;
   position            : absolute;
   margin              : 0;
-  left                : -70px;
+  left                : -68px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .tabletportrait .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
+  top                 : 77px;
   height              : 28px;
-  width               : 47px;
+  width               : 46px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2487,7 +3550,7 @@ div {
   width               : 46px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2498,7 +3561,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 6px;
+  left                : 7px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -2507,10 +3570,103 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .tabletportrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletportrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletportrait .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletportrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .tabletportrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletportrait .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletportrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .tabletportrait .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .winner1portrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 142px;
-  height              : 202px;
+  top                 : 112px;
+  height              : 232px;
   width               : 91px;
   position            : absolute;
   margin              : 0;
@@ -2520,7 +3676,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner1portrait .winner1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 154px;
+  top                 : 184px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2536,7 +3692,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner1portrait .portrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 178px;
+  top                 : 208px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2552,7 +3708,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner1portrait .winner1land {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 30px;
   height              : 126px;
   width               : 91px;
   position            : absolute;
@@ -2619,31 +3775,31 @@ div {
 }
 .responsiveui .screenheight .guide .winner1portrait .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 122px;
-  width               : 35px;
+  top                 : 38px;
+  height              : 115px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 28px;
+  left                : 29px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner1portrait .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
+  top                 : 53px;
   height              : 9px;
-  width               : 121px;
+  width               : 115px;
   position            : absolute;
   margin              : 0;
-  left                : -43px;
+  left                : -41px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner1portrait .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
+  top                 : 43px;
   height              : 28px;
-  width               : 35px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2657,7 +3813,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2677,10 +3833,103 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .winner1portrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1portrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1portrait .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1portrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .winner1portrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1portrait .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1portrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .winner1portrait .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .tabletlandscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 138px;
-  height              : 206px;
+  top                 : 114px;
+  height              : 230px;
   width               : 202px;
   position            : absolute;
   margin              : 0;
@@ -2690,7 +3939,7 @@ div {
 }
 .responsiveui .screenheight .guide .tabletlandscape .landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 182px;
+  top                 : 206px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2706,7 +3955,7 @@ div {
 }
 .responsiveui .screenheight .guide .tabletlandscape .tablet {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 158px;
+  top                 : 182px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2722,7 +3971,7 @@ div {
 }
 .responsiveui .screenheight .guide .tabletlandscape .tabletand {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -35px;
+  top                 : -11px;
   height              : 201px;
   width               : 130px;
   position            : absolute;
@@ -2756,31 +4005,31 @@ div {
 }
 .responsiveui .screenheight .guide .tabletlandscape .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 117px;
-  width               : 35px;
+  top                 : 37px;
+  height              : 112px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 84px;
+  left                : 85px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .tabletlandscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
+  top                 : 51px;
   height              : 9px;
-  width               : 117px;
+  width               : 111px;
   position            : absolute;
   margin              : 0;
-  left                : -42px;
+  left                : -39px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .tabletlandscape .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
+  top                 : 41px;
   height              : 28px;
-  width               : 35px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2794,7 +4043,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2805,7 +4054,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 5px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -2814,10 +4063,103 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .tabletlandscape .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .phoneportrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 152px;
-  height              : 192px;
+  top                 : 122px;
+  height              : 222px;
   width               : 56px;
   position            : absolute;
   margin              : 0;
@@ -2827,7 +4169,7 @@ div {
 }
 .responsiveui .screenheight .guide .phoneportrait .phone {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
+  top                 : 174px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2843,7 +4185,7 @@ div {
 }
 .responsiveui .screenheight .guide .phoneportrait .portrait {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 168px;
+  top                 : 198px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2859,7 +4201,7 @@ div {
 }
 .responsiveui .screenheight .guide .phoneportrait .phoneport {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 30px;
   height              : 115px;
   width               : 56px;
   position            : absolute;
@@ -2905,31 +4247,31 @@ div {
 }
 .responsiveui .screenheight .guide .phoneportrait .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 111px;
-  width               : 35px;
+  top                 : 38px;
+  height              : 105px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 11px;
+  left                : 12px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .phoneportrait .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
+  top                 : 48px;
   height              : 9px;
-  width               : 111px;
+  width               : 105px;
   position            : absolute;
   margin              : 0;
-  left                : -38px;
+  left                : -35px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .phoneportrait .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 42px;
+  top                 : 39px;
   height              : 28px;
-  width               : 35px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2943,7 +4285,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2963,10 +4305,103 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .phoneportrait .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phoneportrait .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phoneportrait .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phoneportrait .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .phoneportrait .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phoneportrait .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phoneportrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .phoneportrait .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .winner12sublcd {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 141px;
-  height              : 203px;
+  top                 : 116px;
+  height              : 228px;
   width               : 72px;
   position            : absolute;
   margin              : 0;
@@ -2976,7 +4411,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner12sublcd .winner12 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 155px;
+  top                 : 180px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2992,7 +4427,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner12sublcd .sublcd {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 179px;
+  top                 : 204px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3008,7 +4443,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner12sublcd .winner1sub {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 25px;
   height              : 126px;
   width               : 55px;
   position            : absolute;
@@ -3043,8 +4478,8 @@ div {
 }
 .responsiveui .screenheight .guide .winner12sublcd .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 110px;
+  top                 : 38px;
+  height              : 104px;
   width               : 34px;
   position            : absolute;
   margin              : 0;
@@ -3054,18 +4489,18 @@ div {
 }
 .responsiveui .screenheight .guide .winner12sublcd .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
+  top                 : 48px;
   height              : 9px;
-  width               : 110px;
+  width               : 104px;
   position            : absolute;
   margin              : 0;
-  left                : -38px;
+  left                : -35px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner12sublcd .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 42px;
+  top                 : 37px;
   height              : 28px;
   width               : 34px;
   position            : absolute;
@@ -3092,7 +4527,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 5px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -3101,10 +4536,103 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .winner12sublcd .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .winner2landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 163px;
-  height              : 181px;
+  top                 : 133px;
+  height              : 211px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
@@ -3114,7 +4642,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner2landscape .winner2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 133px;
+  top                 : 163px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3130,7 +4658,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner2landscape .landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 157px;
+  top                 : 187px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3146,7 +4674,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner2landscape .winner2port {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 30px;
   height              : 104px;
   width               : 129px;
   position            : absolute;
@@ -3214,31 +4742,31 @@ div {
 }
 .responsiveui .screenheight .guide .winner2landscape .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 100px;
-  width               : 35px;
+  top                 : 38px;
+  height              : 94px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 47px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner2landscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
+  top                 : 43px;
   height              : 9px;
-  width               : 100px;
+  width               : 94px;
   position            : absolute;
   margin              : 0;
-  left                : -32px;
+  left                : -30px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner2landscape .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
+  top                 : 32px;
   height              : 28px;
-  width               : 35px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3252,7 +4780,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3263,7 +4791,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 4px;
+  left                : 3px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -3272,10 +4800,103 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .winner2landscape .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2landscape .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2landscape .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2landscape .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .winner2landscape .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2landscape .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner2landscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .winner2landscape .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .winner1landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 176px;
-  height              : 168px;
+  top                 : 146px;
+  height              : 198px;
   width               : 126px;
   position            : absolute;
   margin              : 0;
@@ -3285,7 +4906,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner1landscape .landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
+  top                 : 174px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3301,7 +4922,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner1landscape .winner1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 120px;
+  top                 : 150px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3317,7 +4938,7 @@ div {
 }
 .responsiveui .screenheight .guide .winner1landscape .winner1port {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -18px;
+  top                 : 12px;
   height              : 127px;
   width               : 92px;
   position            : absolute;
@@ -3384,31 +5005,31 @@ div {
 }
 .responsiveui .screenheight .guide .winner1landscape .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 87px;
-  width               : 35px;
+  top                 : 38px;
+  height              : 81px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 45px;
+  left                : 46px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner1landscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 39px;
+  top                 : 36px;
   height              : 9px;
-  width               : 87px;
+  width               : 81px;
   position            : absolute;
   margin              : 0;
-  left                : -26px;
+  left                : -24px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .winner1landscape .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
+  top                 : 25px;
   height              : 28px;
-  width               : 35px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3422,7 +5043,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3442,11 +5063,104 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .winner1landscape .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1landscape .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1landscape .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1landscape .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .winner1landscape .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1landscape .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 6px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .winner1landscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .winner1landscape .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
 .responsiveui .screenheight .guide .phonelandscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 210px;
-  height              : 134px;
-  width               : 116px;
+  top                 : 118px;
+  height              : 226px;
+  width               : 150px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -3455,7 +5169,7 @@ div {
 }
 .responsiveui .screenheight .guide .phonelandscape .landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 110px;
+  top                 : 202px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3471,7 +5185,7 @@ div {
 }
 .responsiveui .screenheight .guide .phonelandscape .phone {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 86px;
+  top                 : 178px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -3487,7 +5201,7 @@ div {
 }
 .responsiveui .screenheight .guide .phonelandscape .phoneland {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -29px;
+  top                 : 63px;
   height              : 115px;
   width               : 56px;
   position            : absolute;
@@ -3533,31 +5247,31 @@ div {
 }
 .responsiveui .screenheight .guide .phonelandscape .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 52px;
-  width               : 35px;
+  top                 : 101px;
+  height              : 46px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 42px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .phonelandscape .ruler .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
+  top                 : 19px;
   height              : 9px;
-  width               : 52px;
+  width               : 46px;
   position            : absolute;
   margin              : 0;
-  left                : -8px;
+  left                : -6px;
   transform           : rotate(-270deg);
   opacity             : 1.0;
 }
 .responsiveui .screenheight .guide .phonelandscape .ruler .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 8px;
   height              : 28px;
-  width               : 35px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3571,7 +5285,7 @@ div {
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3591,10 +5305,119 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.responsiveui .screenheight .guide .phonelandscape .ruler1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 39px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phonelandscape .ruler1 .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phonelandscape .ruler1 .value .rectangle {
+  background-color    : rgba(18, 206, 172, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phonelandscape .ruler1 .value .value1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.responsiveui .screenheight .guide .phonelandscape .ruler1 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phonelandscape .ruler1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 6px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenheight .guide .phonelandscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .phonelandscape .ruler1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.responsiveui .screenheight .guide .phonelandscape .statusbaruc601uc5edscreen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(18, 206, 172, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
 .responsiveui .screenwidth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 479px;
-  height              : 632px;
+  top                 : 416px;
+  height              : 646px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -3604,7 +5427,7 @@ div {
 }
 .responsiveui .screenwidth .ubcf8uac00uc774ub4dcuc5d0uc11cuc9c0uce6dud558ub294screen {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 36px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -3616,40 +5439,40 @@ div {
   font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 30.0px;
+  line-height         : 27.0px;
 }
 .responsiveui .screenwidth .httpswwwsitepoin {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 96px;
+  top                 : 95px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.8;
+  opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
+  color               : rgba(95, 93, 203, 1.0);
   text-align          : left;
-  line-height         : 19.0px;
+  line-height         : 22.0px;
   text-decoration     : underline;
 }
 .responsiveui .screenwidth .httpswwww3school {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 120px;
+  top                 : 122px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.8;
+  opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
+  color               : rgba(95, 93, 203, 1.0);
   text-align          : left;
-  line-height         : 19.0px;
+  line-height         : 22.0px;
   text-decoration     : underline;
 }
 .responsiveui .screenwidth .screenwidth1 {
@@ -3670,7 +5493,7 @@ div {
 }
 .responsiveui .screenwidth .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 154px;
+  top                 : 159px;
   height              : 404px;
   width               : 1240px;
   position            : absolute;
@@ -3923,7 +5746,7 @@ div {
 }
 .responsiveui .screenwidth .guide .phoneportrait .phoneport .oval {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
+  top                 : 3px;
   height              : 4px;
   width               : 4px;
   position            : absolute;
@@ -4758,8 +6581,8 @@ div {
 }
 .responsiveui .screenwidth .guide .winner1landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 108px;
-  height              : 236px;
+  top                 : 81px;
+  height              : 263px;
   width               : 150px;
   position            : absolute;
   margin              : 0;
@@ -4769,7 +6592,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner1landscape .winner1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 188px;
+  top                 : 215px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -4785,7 +6608,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner1landscape .landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 212px;
+  top                 : 239px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -4799,25 +6622,25 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.responsiveui .screenwidth .guide .winner1landscape .screenwidthuc5d0ubbf8ud3ecud568 {
+.responsiveui .screenwidth .guide .winner1landscape .uce74uba54ub77cuc601uc5edscreenwidthuc5d0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : -1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 16.0px;
   color               : rgba(18, 206, 172, 1.0);
-  text-align          : center;
+  text-align          : left;
   line-height         : 24.0px;
 }
 .responsiveui .screenwidth .guide .winner1landscape .winner1port {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
+  top                 : 78px;
   height              : 127px;
   width               : 92px;
   position            : absolute;
@@ -4884,7 +6707,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner1landscape .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
+  top                 : 101px;
   height              : 28px;
   width               : 117px;
   position            : absolute;
@@ -4944,12 +6767,12 @@ div {
 }
 .responsiveui .screenwidth .guide .winner1landscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 55px;
   height              : 40px;
-  width               : 25px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4960,7 +6783,7 @@ div {
   width               : 8px;
   position            : absolute;
   margin              : 0;
-  left                : 9px;
+  left                : 8px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4968,7 +6791,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 25px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -4982,7 +6805,7 @@ div {
   width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4993,7 +6816,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -5004,8 +6827,8 @@ div {
 }
 .responsiveui .screenwidth .guide .winner2landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 97px;
-  height              : 247px;
+  top                 : 69px;
+  height              : 275px;
   width               : 151px;
   position            : absolute;
   margin              : 0;
@@ -5015,7 +6838,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner2landscape .winner2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 199px;
+  top                 : 227px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -5031,7 +6854,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner2landscape .landscape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 223px;
+  top                 : 251px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -5048,22 +6871,22 @@ div {
 .responsiveui .screenwidth .guide .winner2landscape .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 151px;
+  height              : 48px;
+  width               : 150px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenwidth .guide .winner2landscape .size .screenwidthuc5d0ubbf8ud3ecud568 {
+.responsiveui .screenwidth .guide .winner2landscape .size .uce74uba54ub77cuc601uc5edscreenwidthuc5d0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -5074,7 +6897,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner2landscape .winner2port {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
+  top                 : 95px;
   height              : 104px;
   width               : 129px;
   position            : absolute;
@@ -5142,7 +6965,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner2landscape .ruler {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
+  top                 : 55px;
   height              : 40px;
   width               : 25px;
   position            : absolute;
@@ -5202,7 +7025,7 @@ div {
 }
 .responsiveui .screenwidth .guide .winner2landscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
+  top                 : 113px;
   height              : 28px;
   width               : 118px;
   position            : absolute;
@@ -5262,7 +7085,7 @@ div {
 }
 .responsiveui .screenwidth .viewportaviewpor {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 570px;
+  top                 : 575px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
@@ -5274,24 +7097,40 @@ div {
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 19.0px;
+  line-height         : 22.0px;
 }
 .responsiveui .screenwidth .httpsdevelopermo {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 613px;
+  top                 : 624px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.8;
+  opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 16.0px;
+  color               : rgba(95, 93, 203, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  text-decoration     : underline;
+}
+.responsiveui .responsiveuiub780uae30uae30uc758s {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 19.0px;
-  text-decoration     : underline;
+  line-height         : 27.0px;
 }
 .responsiveui .responsiveui1 {
   background-color    : rgba(255,255,255,0.0);
@@ -5308,38 +7147,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
-}
-.responsiveui .responsiveuiub780uae30uae30uc758s {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 194px;
-  height              : auto;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.responsiveui .ubcf8uac00uc774ub4dcuc5d0uc11cub294responsive {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 299px;
-  height              : auto;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
 }
 .responsiveui .gnbbar0overview {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -6192,7 +7999,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.responsiveui .gnbbar0overview .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -6963,6 +8770,11 @@ div {
   {
       opacity: 1;
     }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
 }
 .anima-component-wrapper,
 .anima-component-wrapper * {

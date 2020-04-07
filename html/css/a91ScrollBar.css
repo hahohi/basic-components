@@ -13,19 +13,19 @@
                           src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-500";
                           src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a91scrollbar {
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1423px;
+  min-height          : 1639px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -52,7 +52,7 @@ div {
 .a91scrollbar .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 417px;
+  height              : 633px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .a91scrollbar .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 417px;
+  height              : 633px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +74,7 @@ div {
 .a91scrollbar .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 417px;
+  height              : 633px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -86,18 +86,566 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol {
+.a91scrollbar .guide .a02 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 262px;
-  width               : 360px;
+  top                 : 340px;
+  height              : 253px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 322px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .symbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 177px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .symbol .rectangle {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .symbol .mobilelighttheme10scrollingscroll {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .symbol .mobilelighttheme10scrollingscroll .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .symbol .mobilelighttheme10scrollingscroll .scroll {
+  background-color    : rgba(222, 222, 222, 1.0);
+  top                 : 30px;
+  height              : 117px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  border-radius       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 253px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : 38px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottomcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottomcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottomcopy .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottomcopy .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurerulerbottomcopy .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 117px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .size .guidemeasurearea .area {
+  background-color    : rgba(255, 129, 195, 1.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 30px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 18px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a91scrollbar .guide .a02 .spacing .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 177px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing1 .guidemeasureareacopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing1 .guidemeasureareacopy2 .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing1 .guidemeasureareacopy2 .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 185px;
+  height              : 30px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasureareacopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasureareacopy .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasureareacopy .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasurerulerrightcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasurerulerrightcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasurerulerrightcopy .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 18px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasurerulerrightcopy .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a91scrollbar .guide .a02 .spacing2 .guidemeasurerulerrightcopy .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .guidenumberingshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .guidenumberingshape .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a02 .guidenumberingshape .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a91scrollbar .guide .a01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 300px;
+  width               : 361px;
   position            : absolute;
   margin              : 0;
   left                : 178px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06listsgrouplistbg {
+.a91scrollbar .guide .a01 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 262px;
@@ -108,7 +656,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06listsgrouplistbg .rectangle2 {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06listsgrouplistbg .rectangle2 {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 262px;
@@ -124,7 +683,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 210px;
   height              : 52px;
@@ -136,7 +695,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -147,7 +706,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line .title {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line .title {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 21px;
@@ -158,7 +717,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line .title .maintext1line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line .title .maintext1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 21px;
@@ -176,7 +735,7 @@ div {
   text-align          : left;
   line-height         : 21.0px;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 209px;
   height              : 1px;
@@ -188,7 +747,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
@@ -199,7 +758,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist .line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist .line {
   background-color    : rgba(230, 230, 230, 1.0);
   top                 : 0px;
   height              : 1px;
@@ -210,7 +769,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists3line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists3line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 124px;
   height              : 85px;
@@ -222,7 +781,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists3line .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists3line .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 85px;
@@ -233,7 +792,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists3line .title {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists3line .title {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 55px;
@@ -244,7 +803,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists3line .title .thispsdisjustas {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists3line .title .thispsdisjustas {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 30px;
@@ -262,7 +821,7 @@ div {
   text-align          : left;
   line-height         : 15.0px;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists3line .title .maintext3line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists3line .title .maintext3line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 21px;
@@ -280,7 +839,7 @@ div {
   text-align          : left;
   line-height         : 21.0px;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist1 {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 123px;
   height              : 1px;
@@ -292,7 +851,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist1 .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
@@ -303,7 +862,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist1 .line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist1 .line {
   background-color    : rgba(230, 230, 230, 1.0);
   top                 : 0px;
   height              : 1px;
@@ -314,7 +873,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line1 {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 71px;
   height              : 52px;
@@ -326,7 +885,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line1 .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -337,7 +896,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line1 .title {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line1 .title {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 21px;
@@ -348,7 +907,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists1line1 .title .maintext1line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists1line1 .title .maintext1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 21px;
@@ -366,7 +925,7 @@ div {
   text-align          : left;
   line-height         : 21.0px;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist2 {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 70px;
   height              : 1px;
@@ -378,7 +937,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist2 .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist2 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
@@ -389,7 +948,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme05dividersbasiclist2 .line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme05dividersbasiclist2 .line {
   background-color    : rgba(230, 230, 230, 1.0);
   top                 : 0px;
   height              : 1px;
@@ -400,7 +959,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists2lineprimarysub {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists2lineprimarysub {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 70px;
@@ -412,7 +971,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists2lineprimarysub .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists2lineprimarysub .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 70px;
@@ -423,7 +982,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists2lineprimarysub .title {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists2lineprimarysub .title {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 40px;
@@ -434,7 +993,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists2lineprimarysub .title .primarycolor {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists2lineprimarysub .title .primarycolor {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 15px;
@@ -452,7 +1011,7 @@ div {
   text-align          : left;
   line-height         : 15.0px;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme06lists2lineprimarysub .title .maintext2line {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme06lists2lineprimarysub .title .maintext2line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 21px;
@@ -470,7 +1029,7 @@ div {
   text-align          : left;
   line-height         : 21.0px;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme10scrollingscroll {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme10scrollingscroll {
   background-color    : rgba(255,255,255,0.0);
   top                 : 116px;
   height              : 102px;
@@ -482,7 +1041,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme10scrollingscroll .background {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme10scrollingscroll .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 102px;
@@ -493,7 +1052,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .symbol .mobilelighttheme10scrollingscroll .scroll {
+.a91scrollbar .guide .a01 .symbol .mobilelighttheme10scrollingscroll .scroll {
   background-color    : rgba(222, 222, 222, 1.0);
   top                 : 10px;
   height              : 82px;
@@ -505,29 +1064,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .size {
+.a91scrollbar .guide .a01 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 185px;
-  height              : 184px;
-  width               : 24px;
+  top                 : 0px;
+  height              : 300px;
+  width               : 26px;
   position            : absolute;
   margin              : 0;
-  left                : 514px;
+  left                : 335px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .size .guidemeasurearea {
+.a91scrollbar .guide .a01 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 116px;
   height              : 102px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .size .guidemeasurearea .addsamecolorasneeded {
+.a91scrollbar .guide .a01 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 102px;
@@ -538,7 +1097,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a91scrollbar .guide .size .guidemeasurearea .area {
+.a91scrollbar .guide .a01 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 102px;
@@ -549,19 +1108,19 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a91scrollbar .guide .size .guidemeasurerulerbottom {
+.a91scrollbar .guide .a01 .size .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 146px;
+  top                 : 262px;
   height              : 38px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .size .guidemeasurerulerbottom .background {
+.a91scrollbar .guide .a01 .size .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -572,7 +1131,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .guide .size .guidemeasurerulerbottom .a0 {
+.a91scrollbar .guide .a01 .size .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
@@ -588,7 +1147,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a91scrollbar .guide .size .guidemeasurerulerbottom .combinedshape {
+.a91scrollbar .guide .a01 .size .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
@@ -599,10 +1158,78 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a91scrollbar .guide .a01 .size .guidemeasuredot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : 1px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : -106px;
+  overflow            : hidden;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a01 .size .guidemeasuredot .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a01 .size .guidemeasuredot .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a01 .size .guidemeasuredotcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : 1px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : -130px;
+  overflow            : hidden;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a01 .size .guidemeasuredotcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .guide .a01 .size .guidemeasuredotcopy .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a91scrollbar .image {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 417px;
+  height              : 379px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -613,7 +1240,7 @@ div {
 .a91scrollbar .image .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 417px;
+  height              : 379px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -624,7 +1251,7 @@ div {
 .a91scrollbar .image .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 417px;
+  height              : 379px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -639,7 +1266,7 @@ div {
 .a91scrollbar .image .general {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
-  height              : 147px;
+  height              : 109px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -649,7 +1276,7 @@ div {
 }
 .a91scrollbar .image .general .guidepropertybasicformnormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 119px;
+  top                 : 53px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -729,9 +1356,91 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
+.a91scrollbar .image .general .guidepropertybasicformnormalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .image .general .guidepropertybasicformnormalcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .image .general .guidepropertybasicformnormalcopy .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .image .general .guidepropertybasicformnormalcopy .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a91scrollbar .image .general .guidepropertybasicformnormalcopy .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a91scrollbar .image .general .guidepropertybasicformnormalcopy .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a91scrollbar .image .general .guidemodifiedformpropertynormal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 91px;
+  top                 : 25px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -756,7 +1465,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 100px;
+  width               : 91px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
@@ -770,7 +1479,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 94px;
+  left                : 85px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -813,7 +1522,7 @@ div {
 }
 .a91scrollbar .image .general .guidemodifiedformpropertysubtitle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 66px;
+  top                 : 0px;
   height              : 25px;
   width               : 465px;
   position            : absolute;
@@ -850,77 +1559,9 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a91scrollbar .image .general .guidemodifiedformimage {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 46px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a91scrollbar .image .general .guidemodifiedformimage .bg {
-  background-color    : rgba(255, 0, 255, 1.0);
-  top                 : 0px;
-  height              : 46px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a91scrollbar .image .general .guidemodifiedformimage .resource {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 46px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  object-fit          : cover;
-}
-.a91scrollbar .image .general .guidemodifiedformimagecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 46px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 88px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a91scrollbar .image .general .guidemodifiedformimagecopy .bg {
-  background-color    : rgba(255, 0, 255, 1.0);
-  top                 : 0px;
-  height              : 46px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a91scrollbar .image .general .guidemodifiedformimagecopy .resource {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 46px;
-  width               : 46px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  object-fit          : cover;
-}
 .a91scrollbar .image .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 256px;
+  top                 : 218px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -952,25 +1593,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group {
+.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 396px;
+  width               : 181px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group .label1 {
+.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 385px;
+  left                : 175px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -979,23 +1620,45 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group .value {
+.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group2 .group .rectangle {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 132px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 18.0px;
-  color               : rgba(88, 111, 254, 1.0);
+  color               : rgba(60, 60, 60, 1.0);
   text-align          : left;
   line-height         : 22.0px;
 }
-.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group .property {
+.a91scrollbar .image .lighttheme .guidemodifiedformpropertynormalcopy .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1052,7 +1715,7 @@ div {
 }
 .a91scrollbar .image .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 334px;
+  top                 : 296px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1123,25 +1786,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group {
+.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 394px;
+  width               : 181px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group .label1 {
+.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 383px;
+  left                : 175px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1150,23 +1813,45 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group .value {
+.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group2 .group .rectangle {
+  background-color    : rgba(71, 71, 71, 1.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 132px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 18.0px;
-  color               : rgba(88, 111, 254, 1.0);
+  color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 22.0px;
 }
-.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group .property {
+.a91scrollbar .image .darktheme .guidemodifiedformpropertynormalcopy .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1317,7 +2002,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a91scrollbar .keyscreens .guidekeyscreensmobileportrait1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1340,7 +2024,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
 }
 .a91scrollbar .a72noitemtextonly {
   background-color    : rgba(255,255,255,0.0);
@@ -1357,56 +2040,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
-}
-.a91scrollbar .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1298px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a91scrollbar .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a91scrollbar .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a91scrollbar .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 .a91scrollbar .gnbbar9scrolling {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -2368,7 +3001,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a91scrollbar .gnbbar9scrolling .gnbmenu0fonttablenormal .gnbmenu .a0fonttable {
+.a91scrollbar .gnbbar9scrolling .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2570,6 +3203,56 @@ div {
   color               : rgba(37, 37, 37, 1.0);
   text-align          : justify;
   line-height         : 24.0px;
+}
+.a91scrollbar .stylebuttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1514px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .stylebuttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .stylebuttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a91scrollbar .stylebuttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
