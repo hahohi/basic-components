@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
 @font-face {
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
                           font-family: "SamsungOneKorean-400";
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-300";
@@ -48,6 +48,56 @@ div {
 }
 div {
   -webkit-text-size-adjust: none;
+}
+.a53dividerswitch .stylebuttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1222px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 853px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a53dividerswitch .stylebuttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a53dividerswitch .stylebuttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a53dividerswitch .stylebuttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
 }
 .a53dividerswitch .shape {
   background-color    : rgba(255,255,255,0.0);
@@ -781,15 +831,11 @@ div {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 85px;
-  box-sizing          : border-box;
   width               : 360px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   border-radius       : 26px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1434,10 +1480,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 128px;
-  width               : 541px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
-  left                : -1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1445,15 +1491,11 @@ div {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 128px;
-  box-sizing          : border-box;
-  width               : 541px;
+  width               : 540px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   border-radius       : 39px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1996,56 +2038,6 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a53dividerswitch .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1222px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 853px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a53dividerswitch .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a53dividerswitch .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a53dividerswitch .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 .a53dividerswitch .a53dividerswitch1 {
   background-color    : rgba(255,255,255,0.0);

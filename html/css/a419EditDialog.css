@@ -5,16 +5,16 @@
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-300";
@@ -3645,20 +3645,101 @@ div {
 }
 .a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 95px;
-  height              : 26px;
-  width               : 29px;
+  top                 : 69px;
+  height              : 62px;
+  width               : 336px;
   position            : absolute;
   margin              : 0;
-  left                : 307px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mb {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 26px;
   height              : auto;
   width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 307px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 19.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 62px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 62px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput .textline {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 60px;
+  height              : 2px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput .label {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 16px;
+  width               : 269px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 114, 222, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput .textinput {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 26px;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput .textinput .inputtext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3671,6 +3752,28 @@ div {
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
   line-height         : 26.0px;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput .textinput .mobilelighttheme13textfieldscursor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .input .mobilelighttheme13textfieldslabeltextinput .textinput .mobilelighttheme13textfieldscursor .cursor {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 2px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .btn-view {
   background-color    : rgba(255,255,255,0.0);
@@ -3747,109 +3850,6 @@ div {
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
   line-height         : 24.0px;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 62px;
-  width               : 315px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 62px;
-  width               : 315px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput .textline {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 60px;
-  height              : 2px;
-  width               : 267px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 16px;
-  width               : 269px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput .textinput {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 26px;
-  height              : 26px;
-  width               : 82px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput .textinput .inputtext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 19.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput .textinput .mobilelighttheme13textfieldscursor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 2px;
-  position            : absolute;
-  margin              : 0;
-  left                : 80px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .mobilelighttheme04dialogsinputeditdialognumberpicker .mobilelighttheme13textfieldslabeltextinput .textinput .mobilelighttheme13textfieldscursor .cursor {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 2px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .a419editdialog .numberpicker .guide .symbol .guidemeasuredot {
   background-color    : rgba(255,255,255,0.0);
@@ -4013,7 +4013,7 @@ div {
   opacity             : 1.0;
 }
 .a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 26px;
   width               : 268px;
