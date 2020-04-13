@@ -13,12 +13,12 @@
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-500";
                           src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a51dividerbasiclist {
@@ -796,7 +796,7 @@ div {
 }
 .a51dividerbasiclist .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 71px;
+  top                 : 90px;
   height              : 199px;
   width               : 398px;
   position            : absolute;
@@ -1596,6 +1596,115 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : center;
   line-height         : 18.0px;
+}
+.a51dividerbasiclist .guide .tagrefer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : 29px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 159px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .tagrefer .rectangle {
+  background-color    : rgba(17, 186, 159, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .tagrefer .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 17px;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .tagrefer .group .referto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a51dividerbasiclist .guide .tagrefer .group .pagename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .tagrefer .group .pagename .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a51dividerbasiclist .guide .tagrefer .group .pagename .pagename1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a51dividerbasiclist .guide .tagrefer .group .pagename .label2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
 }
 .a51dividerbasiclist .keyscreens {
   background-color    : rgba(255,255,255,0.0);

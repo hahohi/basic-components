@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1385px;
+  min-height          : 1562px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -770,7 +770,7 @@ div {
 .a16actionbutton .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 379px;
+  height              : 556px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -781,7 +781,7 @@ div {
 .a16actionbutton .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 556px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -792,7 +792,7 @@ div {
 .a16actionbutton .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 556px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -806,7 +806,7 @@ div {
 }
 .a16actionbutton .guide .a2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 192px;
+  top                 : 372px;
   height              : 144px;
   width               : 398px;
   position            : absolute;
@@ -1124,7 +1124,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 106px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 301px;
@@ -1135,7 +1135,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1146,7 +1146,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1157,7 +1157,7 @@ div {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 68px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1168,7 +1168,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 68px;
   height              : 38px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1180,7 +1180,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1194,7 +1194,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : -2px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1207,7 +1207,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1509,8 +1509,8 @@ div {
 }
 .a16actionbutton .guide .a2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 90px;
+  top                 : 0px;
+  height              : 78px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -1520,7 +1520,7 @@ div {
 }
 .a16actionbutton .guide .a2 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 54px;
   height              : 24px;
   width               : 24px;
   position            : absolute;
@@ -1553,7 +1553,7 @@ div {
 }
 .a16actionbutton .guide .a2 .size .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
+  top                 : 0px;
   height              : 38px;
   width               : 24px;
   position            : absolute;
@@ -1574,14 +1574,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a16actionbutton .guide .a2 .size .guidemeasurerulerbottom .a0 {
+.a16actionbutton .guide .a2 .size .guidemeasurerulerbottom .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
+  top                 : 7px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a2 .size .guidemeasurerulerbottom .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1592,114 +1603,9 @@ div {
 }
 .a16actionbutton .guide .a2 .size .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a2 .spacing5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 106px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 313px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 68px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurerulertop {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurerulertop .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurerulertop .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 18px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : -3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurerulertop .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a16actionbutton .guide .a2 .spacing5 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 3px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1813,7 +1719,7 @@ div {
 }
 .a16actionbutton .guide .a1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
+  top                 : 206px;
   height              : 144px;
   width               : 398px;
   position            : absolute;
@@ -2113,7 +2019,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 106px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 301px;
@@ -2124,7 +2030,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2135,7 +2041,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 68px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2146,7 +2052,7 @@ div {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 68px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2157,7 +2063,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 68px;
   height              : 38px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2169,7 +2075,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2183,7 +2089,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : -2px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -2196,7 +2102,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 12px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2205,8 +2111,8 @@ div {
 }
 .a16actionbutton .guide .a1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 90px;
+  top                 : 0px;
+  height              : 78px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -2216,7 +2122,7 @@ div {
 }
 .a16actionbutton .guide .a1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 54px;
   height              : 24px;
   width               : 24px;
   position            : absolute;
@@ -2249,7 +2155,7 @@ div {
 }
 .a16actionbutton .guide .a1 .size .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
+  top                 : 0px;
   height              : 38px;
   width               : 24px;
   position            : absolute;
@@ -2270,14 +2176,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a16actionbutton .guide .a1 .size .guidemeasurerulerbottom .a0 {
+.a16actionbutton .guide .a1 .size .guidemeasurerulerbottom .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
+  top                 : 7px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1 .size .guidemeasurerulerbottom .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -2288,114 +2205,9 @@ div {
 }
 .a16actionbutton .guide .a1 .size .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a1 .spacing2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 106px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 313px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 68px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurerulertop {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurerulertop .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurerulertop .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 18px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : -3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurerulertop .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a16actionbutton .guide .a1 .spacing2 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 3px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2545,6 +2357,724 @@ div {
   text-align          : center;
   line-height         : 13.0px;
 }
+.a16actionbutton .guide .a1copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 144px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 68px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .bg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 21px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .btn-view .menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : right;
+  line-height         : 21.0px;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .btn-view .menu1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : right;
+  line-height         : 21.0px;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 24px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .title .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 19.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .title .mobilelightthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .title .mobilelightthemeicon01actionbartitleback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .symbol .mobilelighttheme01actionbartitle2btnback .group .title .mobilelightthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 106px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 336px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacing .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacing .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 38px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a16actionbutton .guide .a1copy .spacing .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 106px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 279px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacing1 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing1 .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacing1 .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a16actionbutton .guide .a1copy .spacing1 .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 106px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 267px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurerulerbottom .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurerulerbottom .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a16actionbutton .guide .a1copy .spacingcopy .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 106px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 210px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a16actionbutton .guide .a1copy .spacingcopy2 .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 12px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 360px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -3px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a16actionbutton .guide .a1copy .size .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .guidenumberingtype {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 210px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .guidenumberingtype .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a16actionbutton .guide .a1copy .guidenumberingtype .a11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 10.78px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
 .a16actionbutton .keyscreen {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
@@ -2644,7 +3174,7 @@ div {
 }
 .a16actionbutton .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1260px;
+  top                 : 1437px;
   height              : 45px;
   width               : 274px;
   position            : absolute;

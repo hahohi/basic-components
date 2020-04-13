@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 3350px;
+  min-height          : 3353px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a414datepickerdialog2 .guide {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1373px;
+  top                 : 1376px;
   height              : 1772px;
   width               : 1240px;
   position            : absolute;
@@ -3704,60 +3704,72 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 799px;
-  height              : 175px;
-  width               : 342px;
+  top                 : 767px;
+  height              : 238px;
+  width               : 361px;
   position            : absolute;
   margin              : 0;
-  left                : 181px;
+  left                : 177px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a414datepickerdialog2 .guide .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 166px;
-  width               : 331px;
+  top                 : 0px;
+  height              : 238px;
+  width               : 361px;
   position            : absolute;
   margin              : 0;
-  left                : 11px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a414datepickerdialog2 .guide .guide2 .symbol .rectangle {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
-  height              : 166px;
-  width               : 331px;
+  height              : 238px;
+  width               : 360px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
+  top                 : 0px;
+  height              : 238px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 238px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
   height              : 164px;
   width               : 331px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 14px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 164px;
-  width               : 331px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a2019 {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .a2019 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -3775,7 +3787,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .jan {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .jan {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -3793,7 +3805,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a25 {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .a25 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -3811,7 +3823,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a2018 {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .a2018 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -3829,7 +3841,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .dec {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .dec {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -3847,7 +3859,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a24 {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .a24 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -3865,7 +3877,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a2017 {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .a2017 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -3883,7 +3895,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .nov {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .nov {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -3901,7 +3913,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a23 {
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .wheel .a23 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -3918,15 +3930,33 @@ div {
   color               : rgba(0, 114, 222, 1.0);
   text-align          : center;
   line-height         : 54.0px;
+}
+.a414datepickerdialog2 .guide .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtnl .november2018 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 36px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(69, 69, 69, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
 }
 .a414datepickerdialog2 .guide .guide2 .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
+  top                 : 57px;
   height              : 168px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 11px;
+  left                : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4031,12 +4061,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .area1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
+  top                 : 57px;
   height              : 168px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 126px;
+  left                : 130px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4141,12 +4171,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .area2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
+  top                 : 57px;
   height              : 168px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 241px;
+  left                : 245px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4251,12 +4281,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  top                 : 108px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4289,12 +4319,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 114px;
+  top                 : 164px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4327,12 +4357,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 50px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4365,12 +4395,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  top                 : 108px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 115px;
+  left                : 119px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4403,12 +4433,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 114px;
+  top                 : 164px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 115px;
+  left                : 119px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4441,12 +4471,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 50px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 115px;
+  left                : 119px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4479,12 +4509,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  top                 : 108px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 230px;
+  left                : 234px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4517,12 +4547,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 114px;
+  top                 : 164px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 230px;
+  left                : 234px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4555,12 +4585,12 @@ div {
 }
 .a414datepickerdialog2 .guide .guide2 .guidenumberingtype8 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 50px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 230px;
+  left                : 234px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4594,7 +4624,7 @@ div {
 .a414datepickerdialog2 .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 884px;
-  height              : 469px;
+  height              : 472px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -4605,7 +4635,7 @@ div {
 .a414datepickerdialog2 .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 469px;
+  height              : 472px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -4616,7 +4646,7 @@ div {
 .a414datepickerdialog2 .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 469px;
+  height              : 472px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -5431,7 +5461,7 @@ div {
 .a414datepickerdialog2 .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 389px;
+  height              : 392px;
   width               : 436px;
   position            : absolute;
   margin              : 0;
@@ -5442,22 +5472,22 @@ div {
 .a414datepickerdialog2 .guide1 .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 313px;
-  width               : 360px;
+  height              : 316px;
+  width               : 361px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 37px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a414datepickerdialog2 .guide1 .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 316px;
   width               : 360px;
   position            : relative;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -5465,7 +5495,7 @@ div {
 .a414datepickerdialog2 .guide1 .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 316px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -5476,7 +5506,7 @@ div {
 .a414datepickerdialog2 .guide1 .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .mobilelighttheme04dialogsdialogbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 316px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -5487,7 +5517,7 @@ div {
 .a414datepickerdialog2 .guide1 .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .mobilelighttheme04dialogsdialogbg .bg {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 316px;
   width               : 360px;
   position            : relative;
   margin              : 0;
@@ -5498,7 +5528,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .symbol .mobilelighttheme04dialogstimedatedatepickerwheel .btn-view {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 257px;
+  top                 : 260px;
   height              : 36px;
   width               : 312px;
   position            : absolute;
@@ -5747,7 +5777,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 110px;
   height              : 282px;
   width               : 14px;
   position            : absolute;
@@ -5841,7 +5871,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 110px;
   height              : 282px;
   width               : 14px;
   position            : absolute;
@@ -5946,7 +5976,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 110px;
   height              : 282px;
   width               : 14px;
   position            : absolute;
@@ -6040,7 +6070,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 110px;
   height              : 282px;
   width               : 14px;
   position            : absolute;
@@ -6134,7 +6164,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .spacing4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 271px;
+  top                 : 274px;
   height              : 24px;
   width               : 398px;
   position            : absolute;
@@ -6239,7 +6269,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .spacing5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 97px;
+  top                 : 100px;
   height              : 10px;
   width               : 398px;
   position            : absolute;
@@ -6449,7 +6479,7 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .spacing7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 331px;
+  top                 : 334px;
   height              : 20px;
   width               : 398px;
   position            : absolute;
@@ -6554,75 +6584,64 @@ div {
 }
 .a414datepickerdialog2 .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
-  height              : 33px;
-  width               : 384px;
+  top                 : 0px;
+  height              : 274px;
+  width               : 153px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 110px;
+  height              : 164px;
+  width               : 101px;
   position            : absolute;
   margin              : 0;
   left                : 52px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 {
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 33px;
-  width               : 384px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 33px;
-  width               : 332px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 33px;
-  width               : 332px;
+  height              : 164px;
+  width               : 101px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurearea .area {
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
-  height              : 33px;
-  width               : 332px;
+  height              : 164px;
+  width               : 101px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurerulerright {
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 33px;
+  top                 : 110px;
+  height              : 164px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 346px;
+  left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurerulerright .background {
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 33px;
+  height              : 164px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -6630,63 +6649,124 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurerulerright .value {
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 18px;
-  width               : 17px;
+  top                 : 75px;
+  height              : 19px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 14px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurerulerright .value .a0 {
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : -2px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
+  text-align          : right;
   line-height         : 18.0px;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size .group3 .guidemeasurerulerright .combinedshape {
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 33px;
+  height              : 164px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
-  left                : 2px;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a414datepickerdialog2 .guide1 .guide2 .size .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a414datepickerdialog2 .guide1 .guide2 .size1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 271px;
-  width               : 154px;
+  height              : 274px;
+  width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 167px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a414datepickerdialog2 .guide1 .guide2 .size1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 110px;
   height              : 164px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 52px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6712,67 +6792,6 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size1 .guidemeasurerulerleft {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
-  height              : 164px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size1 .guidemeasurerulerleft .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 164px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size1 .guidemeasurerulerleft .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 75px;
-  height              : 19px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size1 .guidemeasurerulerleft .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : right;
-  line-height         : 18.0px;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 164px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .a414datepickerdialog2 .guide1 .guide2 .size1 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -6780,7 +6799,7 @@ div {
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 52px;
+  left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -6837,19 +6856,19 @@ div {
 .a414datepickerdialog2 .guide1 .guide2 .size2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 271px;
+  height              : 274px;
   width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 282px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a414datepickerdialog2 .guide1 .guide2 .size2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 110px;
   height              : 164px;
-  width               : 101px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6860,7 +6879,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
-  width               : 101px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6871,7 +6890,7 @@ div {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 164px;
-  width               : 101px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6882,7 +6901,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 101px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6894,7 +6913,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 101px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6932,28 +6951,6 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 271px;
-  width               : 103px;
-  position            : absolute;
-  margin              : 0;
-  left                : 282px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
-  height              : 164px;
   width               : 102px;
   position            : absolute;
   margin              : 0;
@@ -6961,33 +6958,55 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurearea .addsamecolorasneeded {
+.a414datepickerdialog2 .guide1 .guide2 .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 36px;
+  width               : 384px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 164px;
-  width               : 102px;
+  height              : 36px;
+  width               : 332px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 332px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurearea .area {
+  background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 164px;
-  width               : 102px;
+  height              : 36px;
+  width               : 332px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurerulertop {
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 38px;
-  width               : 102px;
+  height              : 36px;
+  width               : 38px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6995,58 +7014,58 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurerulertop .background {
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 38px;
-  width               : 102px;
+  height              : 36px;
+  width               : 38px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurerulertop .value {
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 18px;
-  width               : 30px;
+  top                 : 9px;
+  height              : 19px;
+  width               : 17px;
   position            : absolute;
   margin              : 0;
-  left                : 36px;
+  left                : 7px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurerulertop .value .a0 {
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : -1px;
+  left                : -2px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
+  text-align          : right;
   line-height         : 18.0px;
 }
-.a414datepickerdialog2 .guide1 .guide2 .size3 .guidemeasurerulertop .combinedshape {
+.a414datepickerdialog2 .guide1 .guide2 .text .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
-  height              : 9px;
-  width               : 102px;
+  top                 : 0px;
+  height              : 36px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 27px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a414datepickerdialog2 .guide1 .guide2 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 53px;
+  top                 : 50px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -9291,7 +9310,7 @@ div {
 }
 .a414datepickerdialog2 .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3225px;
+  top                 : 3228px;
   height              : 45px;
   width               : 274px;
   position            : absolute;

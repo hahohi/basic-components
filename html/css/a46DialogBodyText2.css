@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 3021px;
+  min-height          : 3423px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -2053,7 +2053,7 @@ div {
 .a46dialogbodytext2 .detailview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1505px;
-  height              : 1311px;
+  height              : 1713px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -3129,6 +3129,926 @@ div {
   left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1371px;
+  height              : 342px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 264px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 264px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 264px;
+  box-sizing          : border-box;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 178px;
+  width               : 570px;
+  position            : absolute;
+  margin              : 0;
+  left                : 304px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .mobilelighttheme06lists2line02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .mobilelighttheme06lists2line02 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .mobilelighttheme06lists2line02 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 80px;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .mobilelighttheme06lists2line02 .title .maintext2line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 42px;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 42.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .mobilelighttheme06lists2line02 .title .subtext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 26.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 426px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 388px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 178px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 38px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 .guidemeasurerulerright .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing1 .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 8px;
+  width               : 426px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 388px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -5px;
+  height              : 18px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing2 .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : 42px;
+  width               : 462px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurearea .area {
+  background-color    : rgba(255, 198, 13, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 40px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 19px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing3 .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 30px;
+  width               : 462px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurearea .area {
+  background-color    : rgba(255, 198, 13, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 19px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing4 .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 110px;
+  height              : 30px;
+  width               : 426px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 388px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 18px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .spacing5 .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 19px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasuredot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : 1px;
+  width               : 493px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasuredot .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 493px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasuredot .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 492px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasuredotcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 493px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasuredotcopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 493px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .guide1 .guide2 .size .guidemeasuredotcopy .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 492px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .a2linelist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.a46dialogbodytext2 .detailview .mobilelandscape .ud14duc2a4ud2b8uc2a4ud0c0uc77cuc740basiclistuc758 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : auto;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
 }
 .a46dialogbodytext2 .detailview .keyscreens {
   background-color    : rgba(255,255,255,0.0);
@@ -4372,7 +5292,7 @@ div {
 }
 .a46dialogbodytext2 .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2896px;
+  top                 : 3298px;
   height              : 45px;
   width               : 274px;
   position            : absolute;

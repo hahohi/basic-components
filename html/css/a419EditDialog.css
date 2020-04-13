@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -400,7 +400,7 @@ div {
 }
 .a419editdialog .textfield .guide .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
+  top                 : 93px;
   height              : 19px;
   width               : 398px;
   position            : absolute;
@@ -3590,10 +3590,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 93px;
   height              : 211px;
-  width               : 436px;
+  width               : 360px;
   position            : absolute;
   margin              : 0;
-  left                : 140px;
+  left                : 178px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3602,9 +3602,9 @@ div {
   top                 : 0px;
   height              : 211px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 38px;
+  left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -3851,85 +3851,152 @@ div {
   text-align          : left;
   line-height         : 24.0px;
 }
-.a419editdialog .numberpicker .guide .symbol .guidemeasuredot {
+.a419editdialog .numberpicker .guide .guidemeasuredot {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 95px;
+  top                 : 188px;
   height              : 1px;
-  width               : 360px;
+  width               : 336px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 178px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .guidemeasuredot .background {
+.a419editdialog .numberpicker .guide .guidemeasuredot .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
-  width               : 360px;
+  width               : 336px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .guidemeasuredot .line {
+.a419editdialog .numberpicker .guide .guidemeasuredot .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
-  width               : 359px;
+  width               : 335px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size {
+.a419editdialog .numberpicker .guide .guidemeasuredot1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 26px;
-  width               : 330px;
+  top                 : 214px;
+  height              : 1px;
+  width               : 336px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 178px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurearea {
+.a419editdialog .numberpicker .guide .guidemeasuredot1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
+  height              : 1px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .guidemeasuredot1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 162px;
   height              : 26px;
-  width               : 268px;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 18px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 62px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurearea .addsamecolorasneeded {
+.a419editdialog .numberpicker .guide .size .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a419editdialog .numberpicker .guide .size .guidemeasurearea .area1 {
+  background-color    : rgba(255, 198, 13, 1.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a419editdialog .numberpicker .guide .size .guidemeasureareacopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
-  width               : 268px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a419editdialog .numberpicker .guide .size .guidemeasureareacopy .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurearea .area1 {
+.a419editdialog .numberpicker .guide .size .guidemeasureareacopy .area1 {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 26px;
-  width               : 268px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurerulerleft {
+.a419editdialog .numberpicker .guide .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -3941,7 +4008,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurerulerleft .background {
+.a419editdialog .numberpicker .guide .size .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -3952,7 +4019,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurerulerleft .value {
+.a419editdialog .numberpicker .guide .size .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 19px;
@@ -3963,7 +4030,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurerulerleft .value .a0 {
+.a419editdialog .numberpicker .guide .size .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3979,7 +4046,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a419editdialog .numberpicker .guide .symbol .size .guidemeasurerulerleft .combinedshape {
+.a419editdialog .numberpicker .guide .size .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -3990,51 +4057,51 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 {
+.a419editdialog .numberpicker .guide .size1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 95px;
+  top                 : 188px;
   height              : 26px;
-  width               : 330px;
+  width               : 329px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 140px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurearea {
+.a419editdialog .numberpicker .guide .size1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
-  width               : 268px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 62px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 129, 195, 1.0);
+.a419editdialog .numberpicker .guide .size1 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
-  width               : 268px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurearea .area1 {
-  background-color    : rgba(255, 129, 195, 1.0);
+.a419editdialog .numberpicker .guide .size1 .guidemeasurearea .area1 {
+  background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
   height              : 26px;
-  width               : 268px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurerulerleft {
+.a419editdialog .numberpicker .guide .size1 .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -4046,7 +4113,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurerulerleft .background {
+.a419editdialog .numberpicker .guide .size1 .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -4057,7 +4124,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurerulerleft .value {
+.a419editdialog .numberpicker .guide .size1 .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 19px;
@@ -4068,7 +4135,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurerulerleft .value .a0 {
+.a419editdialog .numberpicker .guide .size1 .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -4084,7 +4151,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a419editdialog .numberpicker .guide .symbol .size1 .guidemeasurerulerleft .combinedshape {
+.a419editdialog .numberpicker .guide .size1 .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 26px;
@@ -4095,51 +4162,51 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 {
+.a419editdialog .numberpicker .guide .size2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 121px;
+  top                 : 214px;
   height              : 10px;
   width               : 374px;
   position            : absolute;
   margin              : 0;
-  left                : 62px;
+  left                : 202px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurearea {
+.a419editdialog .numberpicker .guide .size2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
-  width               : 268px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
+.a419editdialog .numberpicker .guide .size2 .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 10px;
-  width               : 268px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurearea .area1 {
-  background-color    : rgba(255, 129, 195, 1.0);
+.a419editdialog .numberpicker .guide .size2 .guidemeasurearea .area1 {
+  background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 10px;
-  width               : 268px;
+  width               : 267px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurerulerleft {
+.a419editdialog .numberpicker .guide .size2 .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -4151,7 +4218,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurerulerleft .background {
+.a419editdialog .numberpicker .guide .size2 .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -4162,7 +4229,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurerulerleft .value {
+.a419editdialog .numberpicker .guide .size2 .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -4px;
   height              : 18px;
@@ -4173,7 +4240,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurerulerleft .value .a0 {
+.a419editdialog .numberpicker .guide .size2 .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -4189,7 +4256,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a419editdialog .numberpicker .guide .symbol .size2 .guidemeasurerulerleft .combinedshape {
+.a419editdialog .numberpicker .guide .size2 .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -4197,40 +4264,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .guidemeasuredot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 121px;
-  height              : 1px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .guidemeasuredot1 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a419editdialog .numberpicker .guide .symbol .guidemeasuredot1 .line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 359px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4623,8 +4656,8 @@ div {
 }
 .a419editdialog .numberpicker .guide .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 190px;
-  height              : 23px;
+  top                 : 188px;
+  height              : 26px;
   width               : 29px;
   position            : absolute;
   margin              : 0;
@@ -4635,7 +4668,7 @@ div {
 .a419editdialog .numberpicker .guide .area .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 23px;
+  height              : 26px;
   width               : 29px;
   position            : relative;
   margin              : 0;
@@ -4646,7 +4679,7 @@ div {
 .a419editdialog .numberpicker .guide .area .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 23px;
+  height              : 26px;
   width               : 29px;
   position            : absolute;
   margin              : 0;
@@ -4657,7 +4690,7 @@ div {
 .a419editdialog .numberpicker .guide .area .guidemeasurearea .area1 {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 23px;
+  height              : 26px;
   width               : 29px;
   position            : absolute;
   margin              : 0;

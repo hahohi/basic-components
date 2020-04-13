@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2359px;
+  min-height          : 2315px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a102expandablesearchbar .appbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1484px;
+  top                 : 1440px;
   height              : 670px;
   width               : 1240px;
   position            : absolute;
@@ -145,7 +145,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 61px;
   height              : 29px;
-  width               : 195px;
+  width               : 187px;
   position            : absolute;
   margin              : 0;
   left                : 885px;
@@ -156,7 +156,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 195px;
+  width               : 187px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -168,7 +168,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
   height              : 17px;
-  width               : 176px;
+  width               : 168px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -195,7 +195,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 17px;
-  width               : 123px;
+  width               : 115px;
   position            : absolute;
   margin              : 0;
   left                : 53px;
@@ -241,7 +241,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 119px;
+  left                : 111px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -269,7 +269,7 @@ div {
 .a102expandablesearchbar .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 884px;
-  height              : 440px;
+  height              : 396px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -280,7 +280,7 @@ div {
 .a102expandablesearchbar .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 440px;
+  height              : 396px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -291,7 +291,7 @@ div {
 .a102expandablesearchbar .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 440px;
+  height              : 396px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -305,7 +305,7 @@ div {
 }
 .a102expandablesearchbar .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 62px;
+  top                 : 40px;
   height              : 316px;
   width               : 360px;
   position            : absolute;
@@ -537,7 +537,7 @@ div {
 }
 .a102expandablesearchbar .guide .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 310px;
+  top                 : 288px;
   height              : 56px;
   width               : 398px;
   position            : absolute;
@@ -633,6 +633,111 @@ div {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 56px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a102expandablesearchbar .guide .sizecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 344px;
+  height              : 12px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 402px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -3px;
+  height              : 19px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a102expandablesearchbar .guide .sizecopy .guidemeasurearea .area {
+  background-color    : rgba(38, 231, 173, 1.0);
+  top                 : 0px;
+  height              : 12px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -864,7 +969,7 @@ div {
 }
 .a102expandablesearchbar .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2234px;
+  top                 : 2190px;
   height              : 45px;
   width               : 274px;
   position            : absolute;

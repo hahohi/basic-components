@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2997px;
+  min-height          : 2995px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -2053,7 +2053,7 @@ div {
 .a49singlechoicedialog .descriptionlist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1507px;
-  height              : 1285px;
+  height              : 1283px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2064,7 +2064,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 595px;
+  height              : 593px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2075,8 +2075,8 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 595px;
-  width               : 715px;
+  height              : 593px;
+  width               : 1240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2086,9 +2086,9 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 595px;
+  height              : 593px;
   box-sizing          : border-box;
-  width               : 715px;
+  width               : 1240px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -2097,822 +2097,22 @@ div {
   border-color        : rgba(227, 227, 227, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 407px;
-  width               : 505px;
-  position            : absolute;
-  margin              : 0;
-  left                : 735px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .contentsbox1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 407px;
-  width               : 505px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .contentsbox1 .rectangle {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 407px;
-  box-sizing          : border-box;
-  width               : 505px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(227, 227, 227, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
-  height              : 137px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 246px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal .group .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 240px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal .group .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 100px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(88, 111, 254, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal .group .property {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 53px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal1 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal1 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 123px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal1 .group .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 117px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal1 .group .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 80px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(88, 111, 254, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal1 .group .property {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 81px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal2 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal2 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal2 .group .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 116px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal2 .group .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 88px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(88, 111, 254, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal2 .group .property {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 109px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal3 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal3 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 143px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal3 .group .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 137px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal3 .group .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 98px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(88, 111, 254, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertynormal3 .group .property {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertysubtitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertysubtitle .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .general .guidemodifiedformpropertysubtitle .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 0.35;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 246px;
-  height              : 53px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal .group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal .group2 .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 124px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal .group2 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 74px;
-  position            : absolute;
-  margin              : 0;
-  left                : 50px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal .group2 .group .rectangle {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 74px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal .group2 .group .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(60, 60, 60, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertynormal .group2 .property {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertysubtitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertysubtitle .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .lighttheme .guidemodifiedformpropertysubtitle .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 0.35;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 324px;
-  height              : 53px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal .group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal .group2 .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 119px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal .group2 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 50px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal .group2 .group .rectangle {
-  background-color    : rgba(71, 71, 71, 1.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal .group2 .group .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertynormal .group2 .property {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertysubtitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertysubtitle .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .darktheme .guidemodifiedformpropertysubtitle .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 0.35;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .guidemodifiedsubjectimage {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
-  height              : 54px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .guidemodifiedsubjectimage .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 54px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .guidemodifiedsubjectimage .guidenumberingtype {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .guidemodifiedsubjectimage .guidenumberingtype .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .guidemodifiedsubjectimage .guidenumberingtype .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 17.0px;
-}
-.a49singlechoicedialog .descriptionlist .guide .type .guidemodifiedsubjectimage .guideproperty {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 517px;
+  height              : 513px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 159px;
+  left                : 421px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 441px;
+  height              : 437px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2923,7 +2123,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .bg {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
-  height              : 439px;
+  height              : 437px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2934,7 +2134,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 441px;
+  height              : 437px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2946,7 +2146,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 441px;
+  height              : 437px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2957,7 +2157,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme04dialogsdialogbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 441px;
+  height              : 437px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2968,7 +2168,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme04dialogsdialogbg .bg1 {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
-  height              : 441px;
+  height              : 437px;
   width               : 360px;
   position            : relative;
   margin              : 0;
@@ -2979,7 +2179,7 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .btn-view {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 385px;
+  top                 : 381px;
   height              : 36px;
   width               : 312px;
   position            : absolute;
@@ -3220,18 +2420,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme03controllersradiolist2 .mobilelighttheme03controllersradioon .radiofill {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme03controllersradiolist2 .mobilelighttheme03controllersradioon .radioborder {
+.a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme03controllersradiolist2 .mobilelighttheme03controllersradioon .radio {
   background-color    : rgba(255,255,255,0.0);
   top                 : 5px;
   height              : 22px;
@@ -3240,7 +2429,7 @@ div {
   margin              : 0;
   left                : 5px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.8;
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme03controllersradiolist3 {
   background-color    : rgba(255,255,255,0.0);
@@ -3306,7 +2495,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme03controllersradiolist3 .mobilelighttheme03controllersradioon .radio {
+.a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme03controllersradiolist3 .mobilelighttheme03controllersradioon .radiofill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .mobilelighttheme03controllersradiolist3 .mobilelighttheme03controllersradioon .radioborder {
   background-color    : rgba(255,255,255,0.0);
   top                 : 5px;
   height              : 22px;
@@ -3315,7 +2515,7 @@ div {
   margin              : 0;
   left                : 5px;
   transform           : rotate(0deg);
-  opacity             : 0.8;
+  opacity             : 1.0;
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .symbol .mobilelighttheme04dialogslistdialogdescriptionradiolist .loremipsumdolorsi {
   background-color    : rgba(255,255,255,0.0);
@@ -3355,7 +2555,7 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .line {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 240px;
+  top                 : 236px;
   height              : 107px;
   width               : 360px;
   position            : absolute;
@@ -3469,7 +2669,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 517px;
+  height              : 513px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -3479,7 +2679,7 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 188px;
+  top                 : 184px;
   height              : 329px;
   width               : 18px;
   position            : absolute;
@@ -3574,7 +2774,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 188px;
+  height              : 184px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3585,7 +2785,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 150px;
+  height              : 146px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3596,7 +2796,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 150px;
+  height              : 146px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3607,7 +2807,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 150px;
+  height              : 146px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3679,7 +2879,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 479px;
+  height              : 475px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3690,7 +2890,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 441px;
+  height              : 437px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3701,7 +2901,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 441px;
+  height              : 437px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3712,7 +2912,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 441px;
+  height              : 437px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3783,8 +2983,8 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 196px;
-  height              : 321px;
+  top                 : 194px;
+  height              : 319px;
   width               : 32px;
   position            : absolute;
   margin              : 0;
@@ -3926,7 +3126,7 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .size .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 283px;
+  top                 : 281px;
   height              : 38px;
   width               : 32px;
   position            : absolute;
@@ -3976,7 +3176,7 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 188px;
+  top                 : 184px;
   height              : 329px;
   width               : 18px;
   position            : absolute;
@@ -4175,7 +3375,7 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 180px;
+  top                 : 176px;
   height              : 8px;
   width               : 398px;
   position            : absolute;
@@ -4280,7 +3480,7 @@ div {
 }
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .spacing6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 399px;
+  top                 : 395px;
   height              : 24px;
   width               : 398px;
   position            : absolute;
@@ -4386,7 +3586,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 107px;
-  height              : 73px;
+  height              : 69px;
   width               : 312px;
   position            : absolute;
   margin              : 0;
@@ -4397,7 +3597,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .text .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 73px;
+  height              : 69px;
   width               : 312px;
   position            : relative;
   margin              : 0;
@@ -4408,7 +3608,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .text .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 73px;
+  height              : 69px;
   width               : 312px;
   position            : absolute;
   margin              : 0;
@@ -4419,7 +3619,7 @@ div {
 .a49singlechoicedialog .descriptionlist .guide .guide1 .guide2 .text .guidemeasurearea .area {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 73px;
+  height              : 69px;
   width               : 312px;
   position            : absolute;
   margin              : 0;
@@ -4506,7 +3706,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 344px;
   height              : 29px;
-  width               : 193px;
+  width               : 231px;
   position            : absolute;
   margin              : 0;
   left                : 885px;
@@ -4517,7 +3717,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 193px;
+  width               : 231px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -4529,7 +3729,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
   height              : 17px;
-  width               : 174px;
+  width               : 212px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -4556,7 +3756,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 17px;
-  width               : 121px;
+  width               : 159px;
   position            : absolute;
   margin              : 0;
   left                : 53px;
@@ -4596,6 +3796,115 @@ div {
   line-height         : 17.0px;
 }
 .a49singlechoicedialog .descriptionlist .keyscreens .tagrefer .group1 .pagename .label2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 310px;
+  height              : 29px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 885px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 .rectangle {
+  background-color    : rgba(17, 186, 159, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 17px;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 .group1 .referto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 .group1 .pagename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 .group1 .pagename .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 .group1 .pagename .pagename1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a49singlechoicedialog .descriptionlist .keyscreens .tagrefer1 .group1 .pagename .label2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -4748,7 +4057,7 @@ div {
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 159px;
+  left                : 158px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5195,8 +4504,8 @@ div {
 }
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 106px;
-  height              : 277px;
+  top                 : 107px;
+  height              : 276px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5207,7 +4516,7 @@ div {
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 239px;
+  height              : 238px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5216,9 +4525,9 @@ div {
   opacity             : 1.0;
 }
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 239px;
+  height              : 238px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5229,7 +4538,7 @@ div {
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 239px;
+  height              : 238px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5239,7 +4548,7 @@ div {
 }
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 239px;
+  top                 : 238px;
   height              : 38px;
   width               : 18px;
   position            : absolute;
@@ -5659,8 +4968,8 @@ div {
 }
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 106px;
-  height              : 277px;
+  top                 : 107px;
+  height              : 276px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5671,7 +4980,7 @@ div {
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing3 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 239px;
+  height              : 238px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5682,7 +4991,7 @@ div {
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing3 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 239px;
+  height              : 238px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5693,7 +5002,7 @@ div {
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing3 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 239px;
+  height              : 238px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -5703,7 +5012,7 @@ div {
 }
 .a49singlechoicedialog .list .guide .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 239px;
+  top                 : 238px;
   height              : 38px;
   width               : 18px;
   position            : absolute;
@@ -6290,7 +5599,7 @@ div {
 .a49singlechoicedialog .list .keyscreens .refer {
   background-color    : rgba(255,255,255,0.0);
   top                 : 371px;
-  height              : 63px;
+  height              : 29px;
   width               : 193px;
   position            : absolute;
   margin              : 0;
@@ -6303,7 +5612,7 @@ div {
   top                 : 0px;
   height              : 29px;
   width               : 193px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -6407,115 +5716,6 @@ div {
   text-align          : left;
   line-height         : 17.0px;
 }
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34px;
-  height              : 29px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 .rectangle {
-  background-color    : rgba(17, 186, 159, 1.0);
-  top                 : 0px;
-  height              : 29px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 17px;
-  width               : 150px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 .group .pagename {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 97px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a49singlechoicedialog .list .keyscreens .refer .tagrefer1 .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
 .a49singlechoicedialog .list .list1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -6534,7 +5734,7 @@ div {
 }
 .a49singlechoicedialog .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2872px;
+  top                 : 2870px;
   height              : 45px;
   width               : 274px;
   position            : absolute;

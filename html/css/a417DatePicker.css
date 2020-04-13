@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2672px;
+  min-height          : 2744px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -52,7 +52,7 @@ div {
 .a417datepicker .calendarview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
-  height              : 1110px;
+  height              : 1144px;
   width               : 1241px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .a417datepicker .calendarview .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 420px;
+  height              : 454px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +74,7 @@ div {
 .a417datepicker .calendarview .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 420px;
+  height              : 454px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -85,7 +85,7 @@ div {
 .a417datepicker .calendarview .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 420px;
+  height              : 454px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -99,8 +99,8 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 335px;
+  top                 : 40px;
+  height              : 337px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -111,7 +111,7 @@ div {
 .a417datepicker .calendarview .guide .symbol .mobilelighttheme06listsgrouplistbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 32px;
-  height              : 303px;
+  height              : 305px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -120,19 +120,20 @@ div {
   opacity             : 1.0;
 }
 .a417datepicker .calendarview .guide .symbol .mobilelighttheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
-  height              : 303px;
+  height              : 305px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
+  border-radius       : 26px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a417datepicker .calendarview .guide .symbol .mobilelighttheme04dialogstimedatedatepicker {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  top                 : 46px;
   height              : 277px;
   width               : 328px;
   position            : absolute;
@@ -1256,7 +1257,7 @@ div {
 .a417datepicker .calendarview .guide .symbol .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 335px;
+  height              : 323px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -1266,7 +1267,7 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  top                 : 46px;
   height              : 277px;
   width               : 38px;
   position            : absolute;
@@ -1388,7 +1389,7 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  top                 : 46px;
   height              : 277px;
   width               : 328px;
   position            : absolute;
@@ -1421,7 +1422,7 @@ div {
 }
 .a417datepicker .calendarview .guide .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
+  top                 : 72px;
   height              : 14px;
   width               : 398px;
   position            : absolute;
@@ -1526,7 +1527,7 @@ div {
 }
 .a417datepicker .calendarview .guide .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 343px;
+  top                 : 363px;
   height              : 14px;
   width               : 398px;
   position            : absolute;
@@ -1631,8 +1632,8 @@ div {
 }
 .a417datepicker .calendarview .guide .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 66px;
-  height              : 327px;
+  top                 : 72px;
+  height              : 342px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1643,7 +1644,7 @@ div {
 .a417datepicker .calendarview .guide .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 290px;
+  height              : 305px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1654,7 +1655,7 @@ div {
 .a417datepicker .calendarview .guide .spacing2 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 290px;
+  height              : 305px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1665,7 +1666,7 @@ div {
 .a417datepicker .calendarview .guide .spacing2 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 290px;
+  height              : 305px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1675,7 +1676,7 @@ div {
 }
 .a417datepicker .calendarview .guide .spacing2 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 290px;
+  top                 : 305px;
   height              : 37px;
   width               : 16px;
   position            : absolute;
@@ -1725,8 +1726,8 @@ div {
 }
 .a417datepicker .calendarview .guide .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 66px;
-  height              : 327px;
+  top                 : 72px;
+  height              : 342px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1737,7 +1738,7 @@ div {
 .a417datepicker .calendarview .guide .spacing3 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 290px;
+  height              : 305px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1748,7 +1749,7 @@ div {
 .a417datepicker .calendarview .guide .spacing3 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 290px;
+  height              : 305px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1759,7 +1760,7 @@ div {
 .a417datepicker .calendarview .guide .spacing3 .guidemeasurearea .area {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
-  height              : 290px;
+  height              : 305px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1769,7 +1770,7 @@ div {
 }
 .a417datepicker .calendarview .guide .spacing3 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 290px;
+  top                 : 305px;
   height              : 37px;
   width               : 16px;
   position            : absolute;
@@ -2007,6 +2008,115 @@ div {
   text-align          : left;
   line-height         : 17.0px;
 }
+.a417datepicker .calendarview .keyscreens .tagrefer1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 29px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 885px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .keyscreens .tagrefer1 .rectangle {
+  background-color    : rgba(17, 186, 159, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .keyscreens .tagrefer1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 17px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .keyscreens .tagrefer1 .group .referto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a417datepicker .calendarview .keyscreens .tagrefer1 .group .pagename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .keyscreens .tagrefer1 .group .pagename .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a417datepicker .calendarview .keyscreens .tagrefer1 .group .pagename .pagename1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a417datepicker .calendarview .keyscreens .tagrefer1 .group .pagename .label2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
 .a417datepicker .calendarview .calendarview1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -2025,8 +2135,8 @@ div {
 }
 .a417datepicker .wheelview {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1464px;
-  height              : 1003px;
+  top                 : 1498px;
+  height              : 1041px;
   width               : 1241px;
   position            : absolute;
   margin              : 0;
@@ -2037,7 +2147,7 @@ div {
 .a417datepicker .wheelview .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 313px;
+  height              : 351px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2048,7 +2158,7 @@ div {
 .a417datepicker .wheelview .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 351px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -2059,7 +2169,7 @@ div {
 .a417datepicker .wheelview .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 351px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -2071,55 +2181,44 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol {
+.a417datepicker .wheelview .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 233px;
-  width               : 360px;
+  height              : 271px;
+  width               : 436px;
   position            : absolute;
   margin              : 0;
-  left                : 440px;
+  left                : 402px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme06listsgrouplistbg {
+.a417datepicker .wheelview .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 233px;
+  top                 : 32px;
+  height              : 238px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme06listsgrouplistbg .rectangle2 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 233px;
+  height              : 238px;
   width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 233px;
-  width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .background {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 233px;
+  height              : 238px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2127,10 +2226,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogsdialogbg {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogsdialogbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 233px;
+  height              : 238px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -2138,10 +2237,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogsdialogbg .bg {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogsdialogbg .bg {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
-  height              : 233px;
+  height              : 238px;
   width               : 360px;
   position            : relative;
   margin              : 0;
@@ -2150,7 +2249,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel {
   background-color    : rgba(255,255,255,0.0);
   top                 : 60px;
   height              : 164px;
@@ -2161,7 +2260,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a2019 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a2019 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -2179,7 +2278,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .jan {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .jan {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -2197,7 +2296,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a25 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a25 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -2215,7 +2314,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a2018 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a2018 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -2233,7 +2332,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .dec {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .dec {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -2251,7 +2350,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a24 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a24 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -2269,7 +2368,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a2017 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a2017 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2287,7 +2386,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .nov {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .nov {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2305,7 +2404,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a23 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .wheel .a23 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2323,7 +2422,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a417datepicker .wheelview .guide .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .november2018 {
+.a417datepicker .wheelview .guide .guide1 .symbol .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .november2018 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 14px;
   height              : 36px;
@@ -2341,18 +2440,18 @@ div {
   text-align          : center;
   line-height         : 36.0px;
 }
-.a417datepicker .wheelview .guide .spacing {
+.a417datepicker .wheelview .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
+  top                 : 32px;
   height              : 14px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 402px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2363,7 +2462,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2374,7 +2473,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 14px;
@@ -2385,7 +2484,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurerulerright {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2397,7 +2496,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurerulerright .background {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2408,7 +2507,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurerulerright .value {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -2419,7 +2518,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurerulerright .value .a0 {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2435,7 +2534,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .spacing .guidemeasurerulerright .combinedshape {
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2446,18 +2545,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing1 {
+.a417datepicker .wheelview .guide .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 273px;
+  top                 : 256px;
   height              : 15px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 402px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 15px;
@@ -2468,7 +2567,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 15px;
@@ -2479,7 +2578,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 15px;
@@ -2490,7 +2589,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurerulerright {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 15px;
@@ -2502,7 +2601,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurerulerright .background {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 15px;
@@ -2513,7 +2612,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurerulerright .value {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -2524,7 +2623,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurerulerright .value .a0 {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : auto;
@@ -2540,7 +2639,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .spacing1 .guidemeasurerulerright .combinedshape {
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 15px;
@@ -2551,19 +2650,19 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .guidemeasurerulerleft {
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
+  top                 : 0px;
   height              : 32px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
-  left                : 440px;
+  left                : 38px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .guidemeasurerulerleft .background {
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 32px;
@@ -2574,7 +2673,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .guidemeasurerulerleft .value {
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 18px;
@@ -2585,7 +2684,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .guidemeasurerulerleft .value .a0 {
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2601,7 +2700,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .guidemeasurerulerleft .combinedshape {
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : 9px;
@@ -2612,18 +2711,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing2 {
+.a417datepicker .wheelview .guide .guide1 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 99px;
+  top                 : 82px;
   height              : 10px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 402px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -2634,7 +2733,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -2645,7 +2744,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 10px;
@@ -2656,7 +2755,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurerulerright {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -2668,7 +2767,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurerulerright .background {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -2679,7 +2778,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurerulerright .value {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -4px;
   height              : 19px;
@@ -2690,7 +2789,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurerulerright .value .a0 {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2706,7 +2805,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .spacing2 .guidemeasurerulerright .combinedshape {
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 10px;
@@ -2717,21 +2816,21 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .area {
+.a417datepicker .wheelview .guide .guide1 .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 45px;
+  top                 : 46px;
+  height              : 36px;
   width               : 384px;
   position            : absolute;
   margin              : 0;
-  left                : 454px;
+  left                : 52px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 36px;
   width               : 331px;
   position            : absolute;
   margin              : 0;
@@ -2739,10 +2838,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 36px;
   width               : 331px;
   position            : absolute;
   margin              : 0;
@@ -2750,10 +2849,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurearea .area1 {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 36px;
   width               : 331px;
   position            : absolute;
   margin              : 0;
@@ -2761,10 +2860,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurerulerright {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 36px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2773,10 +2872,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurerulerright .background {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 36px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2784,9 +2883,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurerulerright .value {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 9px;
   height              : 18px;
   width               : 17px;
   position            : absolute;
@@ -2795,7 +2894,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurerulerright .value .a0 {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2811,10 +2910,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .area .guidemeasurerulerright .combinedshape {
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 36px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2822,18 +2921,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing3 {
+.a417datepicker .wheelview .guide .guide1 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 109px;
+  top                 : 92px;
   height              : 164px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 440px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing3 .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .spacing3 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -2844,7 +2943,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing3 .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .spacing3 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2855,7 +2954,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing3 .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .spacing3 .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2866,18 +2965,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing4 {
+.a417datepicker .wheelview .guide .guide1 .spacing4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 109px;
+  top                 : 92px;
   height              : 164px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 555px;
+  left                : 153px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing4 .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .spacing4 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -2888,7 +2987,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing4 .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .spacing4 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2899,7 +2998,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing4 .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .spacing4 .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2910,18 +3009,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing5 {
+.a417datepicker .wheelview .guide .guide1 .spacing5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 109px;
+  top                 : 92px;
   height              : 164px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 670px;
+  left                : 268px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing5 .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .spacing5 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -2932,7 +3031,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing5 .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .spacing5 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2943,7 +3042,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing5 .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .spacing5 .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2954,18 +3053,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing6 {
+.a417datepicker .wheelview .guide .guide1 .spacing6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 109px;
+  top                 : 92px;
   height              : 164px;
   width               : 15px;
   position            : absolute;
   margin              : 0;
-  left                : 785px;
+  left                : 383px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing6 .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .spacing6 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -2976,7 +3075,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .spacing6 .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .spacing6 .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2987,7 +3086,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .spacing6 .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .spacing6 .guidemeasurearea .area1 {
   background-color    : rgba(38, 231, 173, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -2998,18 +3097,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .size {
+.a417datepicker .wheelview .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 109px;
+  top                 : 92px;
   height              : 164px;
   width               : 384px;
   position            : absolute;
   margin              : 0;
-  left                : 454px;
+  left                : 52px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3020,7 +3119,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3031,7 +3130,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea .area1 {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea .area1 {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -3042,7 +3141,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea1 {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3053,7 +3152,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea1 .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea1 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3064,7 +3163,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea1 .area1 {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea1 .area1 {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -3075,7 +3174,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea2 {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3086,7 +3185,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea2 .addsamecolorasneeded {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea2 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3097,7 +3196,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurearea2 .area1 {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurearea2 .area1 {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
   height              : 164px;
@@ -3108,7 +3207,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurerulerright {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3120,7 +3219,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurerulerright .background {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3131,7 +3230,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurerulerright .value {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 73px;
   height              : 18px;
@@ -3142,7 +3241,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurerulerright .value .a0 {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3158,7 +3257,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .size .guidemeasurerulerright .combinedshape {
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 164px;
@@ -3351,6 +3450,115 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 167px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 29px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 885px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 .rectangle {
+  background-color    : rgba(17, 186, 159, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 17px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 .group .referto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 .group .pagename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 .group .pagename .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 .group .pagename .pagename1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a417datepicker .wheelview .keyscreens .tagrefer1 .group .pagename .label2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -5362,7 +5570,7 @@ div {
 }
 .a417datepicker .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2547px;
+  top                 : 2619px;
   height              : 45px;
   width               : 274px;
   position            : absolute;

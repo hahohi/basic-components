@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -99,8 +99,8 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 824px;
-  height              : 164px;
+  top                 : 813px;
+  height              : 175px;
   width               : 337px;
   position            : absolute;
   margin              : 0;
@@ -110,7 +110,7 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 11px;
   height              : 164px;
   width               : 331px;
   position            : absolute;
@@ -262,8 +262,8 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .label1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 59px;
-  height              : 40px;
+  top                 : 54px;
+  height              : 56px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -276,7 +276,7 @@ div {
   font-size           : 32.0px;
   color               : rgba(0, 114, 222, 1.0);
   text-align          : center;
-  line-height         : 38.0px;
+  line-height         : 56.0px;
 }
 .a415timepickerdialog .a12h .guide .guide2 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a05 {
   background-color    : rgba(255,255,255,0.0);
@@ -316,9 +316,9 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : 50px;
-  width               : 101px;
+  top                 : 11px;
+  height              : 164px;
+  width               : 331px;
   position            : absolute;
   margin              : 0;
   left                : 6px;
@@ -327,10 +327,10 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
+  top                 : 54px;
+  height              : 56px;
   width               : 101px;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -339,7 +339,7 @@ div {
 .a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 50px;
+  height              : 56px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
@@ -347,10 +347,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea .area5 {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea .area1 {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 50px;
+  height              : 56px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
@@ -358,98 +358,98 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area1 {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 114px;
-  height              : 50px;
+  top                 : 110px;
+  height              : 54px;
   width               : 101px;
   position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide .guide2 .area1 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 101px;
-  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 198, 13, 1.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a415timepickerdialog .a12h .guide .guide2 .area1 .guidemeasurearea .area5 {
-  background-color    : rgba(255, 198, 13, 1.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a415timepickerdialog .a12h .guide .guide2 .area2 {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea1 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 57px;
-  height              : 50px;
+  top                 : 0px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea1 .area1 {
+  background-color    : rgba(255, 198, 13, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasureareacopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasureareacopy .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasureareacopy .area1 {
+  background-color    : rgba(255, 198, 13, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 56px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 107px;
+  left                : 101px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area2 .guidemeasurearea {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide .guide2 .area3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : 50px;
+  top                 : 54px;
+  height              : 56px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 236px;
+  left                : 230px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area3 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 101px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide .guide2 .area3 .guidemeasurearea .addsamecolorasneeded {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea3 .addsamecolorasneeded {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 50px;
+  height              : 56px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
@@ -457,10 +457,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area3 .guidemeasurearea .area5 {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea3 .area1 {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 50px;
+  height              : 56px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
@@ -468,32 +468,21 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area4 {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 114px;
-  height              : 50px;
+  top                 : 110px;
+  height              : 54px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 236px;
+  left                : 230px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area4 .guidemeasurearea {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea4 .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 50px;
-  width               : 101px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide .guide2 .area4 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 198, 13, 1.0);
-  top                 : 0px;
-  height              : 50px;
+  height              : 54px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
@@ -501,10 +490,43 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a415timepickerdialog .a12h .guide .guide2 .area4 .guidemeasurearea .area5 {
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasurearea4 .area1 {
   background-color    : rgba(255, 198, 13, 1.0);
   top                 : 0px;
-  height              : 50px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasureareacopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasureareacopy2 .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide .guide2 .area .guidemeasureareacopy2 .area1 {
+  background-color    : rgba(255, 198, 13, 1.0);
+  top                 : 0px;
+  height              : 54px;
   width               : 101px;
   position            : absolute;
   margin              : 0;
@@ -514,7 +536,7 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
+  top                 : 55px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -552,7 +574,7 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .guidenumberingtype1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 103px;
+  top                 : 111px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -588,9 +610,85 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
+.a415timepickerdialog .a12h .guide .guide2 .guidenumberingtypecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide .guide2 .guidenumberingtypecopy .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide .guide2 .guidenumberingtypecopy .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.a415timepickerdialog .a12h .guide .guide2 .guidenumberingtypecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide .guide2 .guidenumberingtypecopy2 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide .guide2 .guidenumberingtypecopy2 .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
 .a415timepickerdialog .a12h .guide .guide2 .guidenumberingtype2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
+  top                 : 55px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -628,7 +726,7 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .guidenumberingtype3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
+  top                 : 55px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -666,7 +764,7 @@ div {
 }
 .a415timepickerdialog .a12h .guide .guide2 .guidenumberingtype4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 103px;
+  top                 : 111px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
@@ -4359,10 +4457,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 389px;
-  width               : 438px;
+  width               : 436px;
   position            : absolute;
   margin              : 0;
-  left                : 382px;
+  left                : 383px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4373,7 +4471,7 @@ div {
   width               : 360px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4679,7 +4777,7 @@ div {
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4773,7 +4871,7 @@ div {
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 154px;
+  left                : 153px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4878,7 +4976,7 @@ div {
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 269px;
+  left                : 268px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4972,7 +5070,7 @@ div {
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 384px;
+  left                : 383px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5066,7 +5164,7 @@ div {
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5171,7 +5269,7 @@ div {
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5276,7 +5374,7 @@ div {
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5381,7 +5479,7 @@ div {
   width               : 360px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5418,18 +5516,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a415timepickerdialog .a12h .guide1 .guide2 .size {
+.a415timepickerdialog .a12h .guide1 .guide2 .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 64px;
   height              : 24px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a12h .guide1 .guide2 .size .group3 {
+.a415timepickerdialog .a12h .guide1 .guide2 .text .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -5440,47 +5538,141 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a12h .guide1 .guide2 .size .group3 .guidemeasurearea {
+.a415timepickerdialog .a12h .guide1 .guide2 .text .guidemeasurearea .addsamecolorasneeded {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
   width               : 360px;
-  position            : relative;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .text .guidemeasurearea .area {
+  background-color    : rgba(255, 198, 13, 1.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 271px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 107px;
+  height              : 164px;
+  width               : 101px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a12h .guide1 .guide2 .size .group3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 129, 195, 1.0);
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 360px;
+  height              : 164px;
+  width               : 101px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
-.a415timepickerdialog .a12h .guide1 .guide2 .size .group3 .guidemeasurearea .area {
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurearea .area {
   background-color    : rgba(255, 129, 195, 1.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 360px;
+  height              : 164px;
+  width               : 101px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.25;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a415timepickerdialog .a12h .guide1 .guide2 .size1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 271px;
-  width               : 102px;
+  width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 53px;
+  left                : 167px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5582,10 +5774,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 271px;
-  width               : 102px;
+  width               : 383px;
   position            : absolute;
   margin              : 0;
-  left                : 168px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5596,7 +5788,7 @@ div {
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 282px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5622,6 +5814,67 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.25;
 }
+.a415timepickerdialog .a12h .guide1 .guide2 .size2 .guidemeasurerulerleft {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 107px;
+  height              : 164px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size2 .guidemeasurerulerleft .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 164px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size2 .guidemeasurerulerleft .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 19px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size2 .guidemeasurerulerleft .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.a415timepickerdialog .a12h .guide1 .guide2 .size2 .guidemeasurerulerleft .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 164px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a415timepickerdialog .a12h .guide1 .guide2 .size2 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
@@ -5629,7 +5882,7 @@ div {
   width               : 101px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 282px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -5673,172 +5926,6 @@ div {
   line-height         : 18.0px;
 }
 .a415timepickerdialog .a12h .guide1 .guide2 .size2 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
-  height              : 9px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 271px;
-  width               : 384px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
-  height              : 164px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 282px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 164px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 164px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulerleft {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
-  height              : 164px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulerleft .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 164px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulerleft .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 75px;
-  height              : 19px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulerleft .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : right;
-  line-height         : 18.0px;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 164px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulertop {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 282px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulertop .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulertop .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 18px;
-  width               : 30px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulertop .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a415timepickerdialog .a12h .guide1 .guide2 .size3 .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
@@ -6234,7 +6321,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 313px;
@@ -6246,7 +6333,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .background {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 313px;
@@ -6257,7 +6344,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .mobilelighttheme04dialogsdialogbg {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .mobilelighttheme04dialogsdialogbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 313px;
@@ -6268,7 +6355,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .mobilelighttheme04dialogsdialogbg .bg {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .mobilelighttheme04dialogsdialogbg .bg {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 313px;
@@ -6280,7 +6367,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .btn-view {
   background-color    : rgba(255,255,255,0.0);
   top                 : 257px;
   height              : 36px;
@@ -6291,7 +6378,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view .done {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .btn-view .done {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
@@ -6309,7 +6396,7 @@ div {
   text-align          : center;
   line-height         : 36.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view .cancel {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .btn-view .cancel {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
@@ -6327,7 +6414,7 @@ div {
   text-align          : center;
   line-height         : 36.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view .divider {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .btn-view .divider {
   background-color    : rgba(230, 230, 230, 1.0);
   top                 : 10px;
   height              : 16px;
@@ -6338,7 +6425,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel {
   background-color    : rgba(255,255,255,0.0);
   top                 : 69px;
   height              : 164px;
@@ -6349,7 +6436,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a07 {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel .a07 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -6367,7 +6454,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a20 {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel .a20 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 54px;
@@ -6385,7 +6472,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a06 {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel .a06 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -6403,7 +6490,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a19 {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel .a19 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -6421,7 +6508,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .label1 {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 56px;
@@ -6439,7 +6526,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a05 {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel .a05 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -6457,7 +6544,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a18 {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .wheel .a18 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -6475,7 +6562,7 @@ div {
   text-align          : center;
   line-height         : 54.0px;
 }
-.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .settime {
+.a415timepickerdialog .a24h .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker24h .settime {
   background-color    : rgba(255,255,255,0.0);
   top                 : 26px;
   height              : 24px;
@@ -6936,7 +7023,7 @@ div {
   opacity             : 1.0;
 }
 .a415timepickerdialog .a24h .guide .guide1 .spacing4 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 80px;
   width               : 24px;
@@ -7080,7 +7167,7 @@ div {
   opacity             : 1.0;
 }
 .a415timepickerdialog .a24h .guide .guide1 .spacing5 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 80px;
   width               : 24px;
@@ -8399,7 +8486,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 99px;
+  width               : 111px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
@@ -8413,7 +8500,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 93px;
+  left                : 105px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -8426,7 +8513,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
-  width               : 25px;
+  width               : 37px;
   position            : absolute;
   margin              : 0;
   left                : 68px;
@@ -8437,7 +8524,7 @@ div {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
-  width               : 25px;
+  width               : 37px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8795,7 +8882,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 313px;
@@ -8807,7 +8894,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .background {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 313px;
@@ -8818,7 +8905,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .mobilelighttheme04dialogsdialogbg {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .mobilelighttheme04dialogsdialogbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 313px;
@@ -8829,7 +8916,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .mobilelighttheme04dialogsdialogbg .bg {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .mobilelighttheme04dialogsdialogbg .bg {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 313px;
@@ -8841,7 +8928,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .btn-view {
   background-color    : rgba(255,255,255,0.0);
   top                 : 257px;
   height              : 36px;
@@ -8852,7 +8939,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view .done {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .btn-view .done {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
@@ -8870,7 +8957,7 @@ div {
   text-align          : center;
   line-height         : 36.0px;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view .divider {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .btn-view .divider {
   background-color    : rgba(230, 230, 230, 1.0);
   top                 : 10px;
   height              : 16px;
@@ -8881,7 +8968,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .btn-view .cancel {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .btn-view .cancel {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
@@ -8899,7 +8986,7 @@ div {
   text-align          : center;
   line-height         : 36.0px;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .wheel {
   background-color    : rgba(255,255,255,0.0);
   top                 : 123px;
   height              : 56px;
@@ -8910,7 +8997,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .focus {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .wheel .focus {
   background-color    : rgba(3, 129, 254, 0.2);
   top                 : 7px;
   height              : 42px;
@@ -8921,7 +9008,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a06 {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .wheel .a06 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -8939,7 +9026,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .a11 {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .wheel .a11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -8957,7 +9044,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .wheel .label1 {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .wheel .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -8975,7 +9062,7 @@ div {
   text-align          : center;
   line-height         : 56.0px;
 }
-.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepicker12h .settime {
+.a415timepickerdialog .sip .guide .guide1 .symbol .mobilelighttheme04dialogstimedatetimepickersip .settime {
   background-color    : rgba(255,255,255,0.0);
   top                 : 26px;
   height              : 24px;
@@ -11512,11 +11599,6 @@ div {
   display             : flex;
   flex-direction      : column;
   justify-content     : center;
-}
-.anima-valign-text-bottom {
-  display             : flex;
-  flex-direction      : column;
-  justify-content     : flex-end;
 }
 .anima-component-wrapper,
 .anima-component-wrapper * {
