@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -9,12 +9,12 @@
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-300";
@@ -322,10 +322,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -416,10 +438,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing1 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 17px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing1 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 17px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .spacing1 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -609,10 +653,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 93px;
   position            : absolute;
   margin              : 0;
@@ -670,14 +736,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 51px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 50px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a02 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -855,10 +943,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -949,10 +1059,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing1 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 17px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing1 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 17px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .spacing1 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1142,10 +1274,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 51px;
   position            : absolute;
   margin              : 0;
@@ -1203,14 +1357,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 51px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 50px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a153numberbadgemaintab .numberbadgemaintab .guide .a01 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }

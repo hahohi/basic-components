@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Condensed:400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -13,12 +13,12 @@
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-300";
                           src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a66subheader {
@@ -1184,14 +1184,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 17px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1267,10 +1289,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -1350,10 +1394,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -1433,10 +1499,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -1516,10 +1604,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -1820,10 +1930,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 48px;
   position            : absolute;
   margin              : 0;
@@ -1936,14 +2068,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 17px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1997,14 +2151,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 17px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2124,10 +2300,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -2139,7 +2337,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 78px;
   height              : 4px;
-  width               : 534px;
+  width               : 533px;
   position            : absolute;
   margin              : 0;
   left                : 252px;
@@ -2218,14 +2416,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 4px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 3px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2301,10 +2521,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2373,10 +2615,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing4 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing4 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 71px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing4 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 72px;
+  height              : 71px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing4 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2686,10 +2950,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2780,14 +3066,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 4px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 3px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2874,14 +3182,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 28px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 27px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2924,10 +3254,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2996,10 +3348,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing2 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing2 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing2 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 32px;
+  height              : 31px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing2 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -3176,14 +3550,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 16px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 15px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3270,14 +3666,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3364,14 +3782,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 16px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 15px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3447,10 +3887,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3530,10 +3992,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing4 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing4 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing4 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing4 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -4324,14 +4808,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .notext .guide .guide1 .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .notext .guide .guide1 .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 16px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .notext .guide .guide1 .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 15px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .notext .guide .guide1 .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4418,14 +4924,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .notext .guide .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .notext .guide .guide1 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 16px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .notext .guide .guide1 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 15px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .notext .guide .guide1 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6036,10 +6564,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -6130,10 +6680,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 51px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 52px;
+  height              : 51px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -6191,10 +6763,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -6285,14 +6879,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 19px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 18px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6379,14 +6995,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 9px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }

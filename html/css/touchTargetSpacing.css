@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-400";
@@ -669,10 +669,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchtargetspacing .touchtargetspacing2 .guide .guide2 .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchtargetspacing .touchtargetspacing2 .guide .guide2 .spacing .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchtargetspacing .touchtargetspacing2 .guide .guide2 .spacing .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchtargetspacing .touchtargetspacing2 .guide .guide2 .spacing .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 5px;
   position            : absolute;
   margin              : 0;
@@ -1114,10 +1136,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchtargetspacing .touchtargetspacing2 .guide .guide1 .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchtargetspacing .touchtargetspacing2 .guide .guide1 .spacing .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchtargetspacing .touchtargetspacing2 .guide .guide1 .spacing .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchtargetspacing .touchtargetspacing2 .guide .guide1 .spacing .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 6px;
   position            : absolute;
   margin              : 0;

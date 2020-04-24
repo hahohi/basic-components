@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-400";
@@ -377,14 +377,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .guide .guide1 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .guide .guide1 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 62px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .guide .guide1 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 61px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .guide .guide1 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 62px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -449,10 +471,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .guide .guide1 .size1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .guide .guide1 .size1 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 30px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .guide .guide1 .size1 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 0, 204, 1.0);
   top                 : 0px;
-  height              : 31px;
+  height              : 30px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .guide .guide1 .size1 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2415,7 +2459,7 @@ div {
 }
 .touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
+  top                 : 66px;
   height              : 82px;
   width               : 86px;
   position            : absolute;
@@ -2510,7 +2554,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 44px;
   width               : 16px;
@@ -2559,10 +2603,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -2593,7 +2659,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 44px;
   width               : 16px;
@@ -2642,10 +2708,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .flat .textonly .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -3831,7 +3919,7 @@ div {
 }
 .touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
+  top                 : 66px;
   height              : 82px;
   width               : 152px;
   position            : absolute;
@@ -3927,7 +4015,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 44px;
   width               : 16px;
@@ -3976,10 +4064,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -4010,7 +4120,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 44px;
   width               : 16px;
@@ -4059,10 +4169,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .gray .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -4339,7 +4471,7 @@ div {
 }
 .touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
+  top                 : 65px;
   height              : 82px;
   width               : 152px;
   position            : absolute;
@@ -4435,7 +4567,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 44px;
   width               : 16px;
@@ -4484,10 +4616,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -4518,7 +4672,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 44px;
   width               : 16px;
@@ -4567,10 +4721,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .button .fabcontained .contained .color .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -5420,8 +5596,8 @@ div {
 }
 .touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 76px;
-  height              : 54px;
+  top                 : 89px;
+  height              : 53px;
   width               : 110px;
   position            : absolute;
   margin              : 0;
@@ -5533,7 +5709,7 @@ div {
 }
 .touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .text {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
+  top                 : 16px;
   height              : 22px;
   width               : 72px;
   position            : absolute;
@@ -5566,7 +5742,7 @@ div {
 }
 .touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
+  top                 : 0px;
   height              : 16px;
   width               : 110px;
   position            : absolute;
@@ -5647,10 +5823,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing .guidemeasurerulerright .rectangle3 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 16px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5658,9 +5834,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 15px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 39px;
+  top                 : 38px;
   height              : 15px;
   width               : 110px;
   position            : absolute;
@@ -5741,14 +5939,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing1 .guidemeasurerulerright .rectangle3 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 14px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .search .clear .cell1 .guide1 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8129,7 +8349,7 @@ div {
 .touchfeedbackrippleeffect .table .spinner {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1527px;
-  height              : 478px;
+  height              : 483px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -8140,7 +8360,7 @@ div {
 .touchfeedbackrippleeffect .table .spinner .body {
   background-color    : rgba(255,255,255,0.0);
   top                 : 308px;
-  height              : 170px;
+  height              : 175px;
   width               : 1085px;
   position            : absolute;
   margin              : 0;
@@ -8399,7 +8619,7 @@ div {
 .touchfeedbackrippleeffect .table .spinner .body .cell1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 170px;
+  height              : 175px;
   width               : 250px;
   position            : absolute;
   margin              : 0;
@@ -8473,7 +8693,7 @@ div {
 }
 .touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
+  top                 : 51px;
   height              : 124px;
   width               : 184px;
   position            : absolute;
@@ -8561,7 +8781,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 48px;
-  width               : 184px;
+  width               : 142px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8570,20 +8790,20 @@ div {
 }
 .touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 146px;
+  top                 : 9px;
+  height              : 31px;
+  width               : 84px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 58px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size .guidemeasurearea .area {
-  background-color    : rgba(255, 51, 255, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 48px;
-  width               : 146px;
+  height              : 31px;
+  width               : 84px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -8640,10 +8860,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size .guidemeasurerulerleft .rectangle3 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 47px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 48px;
+  height              : 47px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -8674,7 +8916,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 48px;
   width               : 20px;
@@ -8723,10 +8965,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 20px;
   position            : absolute;
   margin              : 0;
@@ -8757,7 +9021,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 48px;
   width               : 6px;
@@ -8806,10 +9070,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 6px;
   position            : absolute;
   margin              : 0;
@@ -8878,10 +9164,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size1 .guidemeasurerulertop .rectangle3 {
+  background-color    : rgba(255, 0, 204, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
@@ -8961,10 +9269,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing2 .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -8984,7 +9314,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .body .cell1 .symbol .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 48px;
   width               : 14px;
@@ -9564,7 +9894,7 @@ div {
 .touchfeedbackrippleeffect .table .spinner .appbar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 172px;
+  height              : 176px;
   width               : 1085px;
   position            : absolute;
   margin              : 0;
@@ -9628,7 +9958,7 @@ div {
 .touchfeedbackrippleeffect .table .spinner .appbar1 .cell {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 172px;
+  height              : 176px;
   width               : 250px;
   position            : absolute;
   margin              : 0;
@@ -9702,7 +10032,7 @@ div {
 }
 .touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
+  top                 : 52px;
   height              : 124px;
   width               : 137px;
   position            : absolute;
@@ -9790,7 +10120,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 48px;
-  width               : 137px;
+  width               : 95px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -9799,20 +10129,20 @@ div {
 }
 .touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 99px;
+  top                 : 9px;
+  height              : 29px;
+  width               : 37px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 58px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size .guidemeasurearea .area {
-  background-color    : rgba(255, 51, 255, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 48px;
-  width               : 99px;
+  height              : 29px;
+  width               : 37px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -9869,10 +10199,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size .guidemeasurerulerleft .rectangle3 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 47px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 48px;
+  height              : 47px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -9903,7 +10255,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 48px;
   width               : 20px;
@@ -9952,10 +10304,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 20px;
   position            : absolute;
   margin              : 0;
@@ -9986,7 +10360,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 48px;
   width               : 6px;
@@ -10035,10 +10409,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing1 .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 6px;
   position            : absolute;
   margin              : 0;
@@ -10107,10 +10503,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size1 .guidemeasurerulertop .rectangle3 {
+  background-color    : rgba(255, 0, 204, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
@@ -10190,10 +10608,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing2 .guidemeasurerulerbottom .rectangle3 {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -10213,7 +10653,7 @@ div {
   opacity             : 1.0;
 }
 .touchfeedbackrippleeffect .table .spinner .appbar1 .cell .symbol .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(51, 204, 0, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 48px;
   width               : 14px;

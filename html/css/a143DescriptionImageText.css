@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Condensed:400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -403,7 +403,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.1;
 }
-.a143descriptionimagetext .landscape .symbol .image1 {
+.a143descriptionimagetext .landscape .symbol .image2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 99px;
   height              : auto;
@@ -846,10 +846,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .landscape .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .landscape .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 227px;
   position            : absolute;
   margin              : 0;
@@ -962,10 +984,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .landscape .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .landscape .size1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 0, 204, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 341px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 342px;
   position            : absolute;
   margin              : 0;
@@ -973,7 +1017,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image {
+.a143descriptionimagetext .landscape .image1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 464px;
   height              : 167px;
@@ -984,7 +1028,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .contentsbox1 {
+.a143descriptionimagetext .landscape .image1 .contentsbox1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 167px;
@@ -995,7 +1039,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .contentsbox1 .rectangle {
+.a143descriptionimagetext .landscape .image1 .contentsbox1 .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 167px;
@@ -1010,7 +1054,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guidesubjectimage {
+.a143descriptionimagetext .landscape .image1 .guidesubjectimage {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -1022,7 +1066,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guidesubjectimage .background {
+.a143descriptionimagetext .landscape .image1 .guidesubjectimage .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -1033,7 +1077,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guidesubjectimage .guidenumberingicon1 {
+.a143descriptionimagetext .landscape .image1 .guidesubjectimage .guidenumberingicon1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -1044,7 +1088,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guidesubjectimage .guidenumberingicon1 .oval {
+.a143descriptionimagetext .landscape .image1 .guidesubjectimage .guidenumberingicon1 .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1055,7 +1099,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guidesubjectimage .guidenumberingicon1 .a1 {
+.a143descriptionimagetext .landscape .image1 .guidesubjectimage .guidenumberingicon1 .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1071,7 +1115,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .landscape .image .guidesubjectimage .guideproperty {
+.a143descriptionimagetext .landscape .image1 .guidesubjectimage .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -1087,7 +1131,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a143descriptionimagetext .landscape .image .guideformsubtitle {
+.a143descriptionimagetext .landscape .image1 .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 25px;
@@ -1099,7 +1143,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guideformsubtitle .background {
+.a143descriptionimagetext .landscape .image1 .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -1110,7 +1154,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guideformsubtitle .text {
+.a143descriptionimagetext .landscape .image1 .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1126,7 +1170,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a143descriptionimagetext .landscape .image .guideformnote {
+.a143descriptionimagetext .landscape .image1 .guideformnote {
   background-color    : rgba(255,255,255,0.0);
   top                 : 109px;
   height              : 28px;
@@ -1138,7 +1182,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guideformnote .background {
+.a143descriptionimagetext .landscape .image1 .guideformnote .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1149,7 +1193,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .landscape .image .guideformnote .note {
+.a143descriptionimagetext .landscape .image1 .guideformnote .note {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : auto;
@@ -1388,10 +1432,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .landscape .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .landscape .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 19px;
   position            : absolute;
   margin              : 0;
@@ -1515,10 +1581,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .landscape .spacing1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .landscape .spacing1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 19px;
   position            : absolute;
   margin              : 0;
@@ -1598,10 +1686,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .landscape .spacing2 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .landscape .spacing2 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing2 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing2 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 19px;
   position            : absolute;
   margin              : 0;
@@ -1692,10 +1802,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .landscape .spacing3 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .landscape .spacing3 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 15px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing3 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 16px;
+  height              : 15px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .landscape .spacing3 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1741,6 +1873,198 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
+.a143descriptionimagetext .image {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2235px;
+  height              : 167px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 167px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 167px;
+  box-sizing          : border-box;
+  width               : 505px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guidesubjectimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guidesubjectimage .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guidesubjectimage .guidenumberingicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guidesubjectimage .guidenumberingicon .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guidesubjectimage .guidenumberingicon .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a143descriptionimagetext .image .guidesubjectimage .guideproperty {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.a143descriptionimagetext .image .guideformsubtitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 25px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guideformsubtitle .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guideformsubtitle .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.35;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.a143descriptionimagetext .image .guideformnote {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guideformnote .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .image .guideformnote .note {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
 .a143descriptionimagetext .portrait {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1504px;
@@ -1756,7 +2080,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 731px;
   height              : 532px;
-  width               : 1240px;
+  width               : 715px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1768,7 +2092,7 @@ div {
   top                 : 0px;
   height              : 532px;
   width               : 715px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -1807,7 +2131,7 @@ div {
   width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 164px;
+  left                : 178px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2166,14 +2490,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2249,10 +2595,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -2332,10 +2700,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -2426,10 +2816,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing3 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing3 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2437,197 +2827,27 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a143descriptionimagetext .portrait .guide .image {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing3 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .portrait .guide .guide1 .symbol .guide2 .spacing3 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 167px;
-  width               : 505px;
+  height              : 20px;
+  width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 735px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .contentsbox {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 167px;
-  width               : 505px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .contentsbox .rectangle {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 167px;
-  box-sizing          : border-box;
-  width               : 505px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(227, 227, 227, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guidesubjectimage {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
-  height              : 54px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guidesubjectimage .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 54px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guidesubjectimage .guidenumberingicon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guidesubjectimage .guidenumberingicon .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guidesubjectimage .guidenumberingicon .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a143descriptionimagetext .portrait .guide .image .guidesubjectimage .guideproperty {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-}
-.a143descriptionimagetext .portrait .guide .image .guideformsubtitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guideformsubtitle .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guideformsubtitle .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 0.35;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
-}
-.a143descriptionimagetext .portrait .guide .image .guideformnote {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 109px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guideformnote .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 465px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a143descriptionimagetext .portrait .guide .image .guideformnote .note {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : 401px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(59, 59, 59, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
 }
 .a143descriptionimagetext .portrait .keyscreens {
   background-color    : rgba(255,255,255,0.0);
@@ -5623,10 +5843,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 0, 204, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 127px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 128px;
   position            : absolute;
   margin              : 0;
@@ -5739,10 +5981,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .tabletlandscape .w1280tll041dialogwidth4 .guide .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 85px;
   position            : absolute;
   margin              : 0;
@@ -5980,10 +6244,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 0, 204, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 93px;
   position            : absolute;
   margin              : 0;
@@ -6096,10 +6382,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .winnerlandscape .w820wll041dialogwidth3 .guide .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 62px;
   position            : absolute;
   margin              : 0;
@@ -6359,10 +6667,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 0, 204, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 0, 204, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 87px;
   position            : absolute;
   margin              : 0;
@@ -6475,10 +6805,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a143descriptionimagetext .width .data .mobilelandscape .w360mpl041dialogwidth2 .guide .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 57px;
   position            : absolute;
   margin              : 0;

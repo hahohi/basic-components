@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -3321,10 +3321,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a38chips .guide1 .guide3 .chips .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide1 .guide3 .chips .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 32px;
   position            : absolute;
   margin              : 0;
@@ -3404,10 +3426,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a38chips .guide1 .guide3 .chips .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide1 .guide3 .chips .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 10px;
   position            : absolute;
   margin              : 0;
@@ -3487,10 +3531,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a38chips .guide1 .guide3 .chips .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide1 .guide3 .chips .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 20px;
   position            : absolute;
   margin              : 0;
@@ -3581,14 +3647,80 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a38chips .guide1 .guide3 .chips .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide1 .guide3 .chips .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 40px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 39px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size .guidemeasurelinehorizontal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size .guidemeasurelinehorizontal .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size .guidemeasurelinehorizontal1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 1px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size .guidemeasurelinehorizontal1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3653,10 +3785,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a38chips .guide1 .guide3 .chips .size1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide1 .guide3 .chips .size1 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 59px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size1 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 60px;
+  height              : 59px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide1 .guide3 .chips .size1 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -4415,14 +4569,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 6px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 5px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4509,14 +4685,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 11px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4603,14 +4801,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .spacing2 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .spacing2 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing2 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 11px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing2 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4686,10 +4906,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -4780,10 +5022,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .spacing4 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .spacing4 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing4 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing4 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 11px;
   position            : absolute;
   margin              : 0;
@@ -4885,10 +5149,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .spacing5 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .spacing5 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing5 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .spacing5 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -4957,10 +5243,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 44px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 44px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5073,10 +5381,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .size1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .size1 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 44px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .size1 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 44px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .size1 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5189,10 +5519,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a38chips .guide2 .chips .size2 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a38chips .guide2 .chips .size2 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 44px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .size2 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 44px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a38chips .guide2 .chips .size2 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5260,1858 +5612,26 @@ div {
   opacity             : 1.0;
 }
 .a38chips .keyscreens .w360mpl038chips {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(8, 8, 8, 1.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .etc {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 135px;
-  height              : 340px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
-  height              : 72px;
-  width               : 214px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
-  height              : 21px;
-  width               : 214px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .bg {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 214px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(250, 250, 250, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 21px;
-  width               : 109px;
-  position            : absolute;
-  margin              : 0;
-  left                : 75px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .bg {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 109px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(250, 250, 250, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 15px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips1 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 21px;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .bg {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(250, 250, 250, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 15px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips2 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 85px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .bg {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 85px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(250, 250, 250, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips3 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 89px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .bg {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(250, 250, 250, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .chips .mobiledarktheme03controllerschips4 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
 }
 .a38chips .keyscreens .w360mpl038chips1 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a38chips .keyscreens .w360mpl038chips1 .etc {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 135px;
-  height              : 340px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
-  height              : 72px;
-  width               : 214px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
-  height              : 21px;
-  width               : 214px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .bg {
-  background-color    : rgba(229, 229, 229, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 214px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(37, 37, 37, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 21px;
-  width               : 109px;
-  position            : absolute;
-  margin              : 0;
-  left                : 75px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .bg {
-  background-color    : rgba(229, 229, 229, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 109px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(37, 37, 37, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 15px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips1 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 21px;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .bg {
-  background-color    : rgba(229, 229, 229, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(37, 37, 37, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 15px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips2 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 85px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .bg {
-  background-color    : rgba(229, 229, 229, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 85px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(37, 37, 37, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips3 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 89px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .bg {
-  background-color    : rgba(229, 229, 229, 1.0);
-  top                 : 0px;
-  height              : 21px;
-  box-sizing          : border-box;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(37, 37, 37, 0.2);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .btn-view .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .btn-view .mobiledarktheme03controllerschipsdelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .btn-view .mobiledarktheme03controllerschipsdelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .btn-view .mobiledarktheme03controllerschipsdelete .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 1px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .txt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 11px;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .chips .mobilelighttheme03controllerschips4 .txt .elzabeth {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 50px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a38chips .keyscreens .w360mpl038chips1 .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
 }
 .a38chips .a38chips1 {
   background-color    : rgba(255,255,255,0.0);

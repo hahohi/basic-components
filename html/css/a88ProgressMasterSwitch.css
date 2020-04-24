@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -580,10 +580,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -641,14 +663,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -757,10 +801,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .rectangle {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -851,10 +917,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -938,945 +1026,26 @@ div {
   opacity             : 1.0;
 }
 .a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(8, 8, 8, 1.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 44px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .masterbg {
-  background-color    : rgba(62, 145, 255, 1.0);
-  top                 : 0px;
-  height              : 43px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 18px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 195px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .switchbg {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 3px;
-  height              : 12px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  border-radius       : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .switchfill {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .switchborder {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : 14px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .title .on {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 75px;
-  height              : 17px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 171px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
 }
 .a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 44px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .masterbg {
-  background-color    : rgba(62, 145, 255, 1.0);
-  top                 : 0px;
-  height              : 43px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 18px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 195px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchbg {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 3px;
-  height              : 12px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  border-radius       : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchfill {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchborder {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : 14px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title .on {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 171px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
 }
 .a88progressmasterswitch .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -3549,7 +2718,7 @@ div {
   width               : 154px;
   position            : absolute;
   margin              : 0;
-  left                : 853px;
+  left                : 849px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3564,21 +2733,21 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guidemeasurelinehorizontalcopy2 {
+.a88progressmasterswitch .guidemeasurelinevertical {
   background-color    : rgba(255,255,255,0.0);
   top                 : 909px;
-  height              : 68px;
+  height              : 66px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 853px;
+  left                : 849px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guidemeasurelinehorizontalcopy2 .line {
+.a88progressmasterswitch .guidemeasurelinevertical .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 68px;
+  height              : 66px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -3586,21 +2755,21 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guidemeasurelinehorizontalcopy3 {
+.a88progressmasterswitch .guidemeasurelinevertical1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 909px;
-  height              : 68px;
+  height              : 66px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 888px;
+  left                : 884px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guidemeasurelinehorizontalcopy3 .line {
+.a88progressmasterswitch .guidemeasurelinevertical1 .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 68px;
+  height              : 66px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -3608,18 +2777,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guidemeasurelinehorizontalcopy {
+.a88progressmasterswitch .guidemeasurelinehorizontal1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 944px;
   height              : 1px;
   width               : 154px;
   position            : absolute;
   margin              : 0;
-  left                : 853px;
+  left                : 849px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guidemeasurelinehorizontalcopy .line {
+.a88progressmasterswitch .guidemeasurelinehorizontal1 .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;

@@ -123,6 +123,7 @@ div[class^="guidemeasureruler"] {
 .mobilelighttheme06listsreorderselectbg .selectbg {
     border-width: 0.25px !important;
 }
-.guidemeasurerulerbottom {
+.guidemeasurerulerbottom, .value,
+div[class*="guidemeasureruler"] .a0{
     white-space: nowrap;
 }

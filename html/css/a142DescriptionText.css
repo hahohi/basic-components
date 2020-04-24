@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Condensed:400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -360,10 +360,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide .guide2 .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide .guide2 .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide .guide2 .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 23px;
   position            : absolute;
   margin              : 0;
@@ -2591,8 +2613,8 @@ div {
 }
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 213px;
-  height              : 549px;
+  top                 : 281px;
+  height              : 481px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -2602,7 +2624,7 @@ div {
 }
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 68px;
+  top                 : 0px;
   height              : 481px;
   width               : 24px;
   position            : absolute;
@@ -2672,10 +2694,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -2685,7 +2729,7 @@ div {
 }
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 137px;
+  top                 : 69px;
   height              : 20px;
   width               : 374px;
   position            : absolute;
@@ -2766,10 +2810,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2777,9 +2821,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 491px;
+  top                 : 423px;
   height              : 20px;
   width               : 374px;
   position            : absolute;
@@ -2860,10 +2926,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2871,9 +2937,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 277px;
+  top                 : 209px;
   height              : 8px;
   width               : 374px;
   position            : absolute;
@@ -2954,10 +3042,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 8px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2965,9 +3053,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 7px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 331px;
+  top                 : 263px;
   height              : 8px;
   width               : 374px;
   position            : absolute;
@@ -3048,10 +3158,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing4 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing4 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 8px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -3059,9 +3169,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing4 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 7px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing4 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 411px;
+  top                 : 343px;
   height              : 8px;
   width               : 362px;
   position            : absolute;
@@ -3142,10 +3274,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing5 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing5 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 8px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -3153,9 +3285,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing5 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 7px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing5 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 234px;
+  top                 : 166px;
   height              : 20px;
   width               : 374px;
   position            : absolute;
@@ -3236,10 +3390,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing6 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing6 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -3247,9 +3401,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing6 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing6 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 339px;
+  top                 : 271px;
   height              : 191px;
   width               : 12px;
   position            : absolute;
@@ -3319,10 +3495,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing7 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing7 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing7 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing7 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 12px;
   position            : absolute;
   margin              : 0;
@@ -3330,42 +3528,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .size {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .size .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 360px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 51, 255, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 360px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.37;
-}
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing8 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 68px;
+  top                 : 0px;
   height              : 481px;
   width               : 24px;
   position            : absolute;
@@ -3435,10 +3600,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing8 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing8 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing8 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing8 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3448,7 +3635,7 @@ div {
 }
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .text {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 146px;
+  top                 : 78px;
   height              : 34px;
   width               : 323px;
   position            : absolute;
@@ -3519,7 +3706,7 @@ div {
 }
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .text1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 254px;
+  top                 : 186px;
   height              : 23px;
   width               : 312px;
   position            : absolute;
@@ -3552,7 +3739,7 @@ div {
 }
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .text2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 328px;
+  top                 : 260px;
   height              : 83px;
   width               : 311px;
   position            : absolute;
@@ -3623,7 +3810,7 @@ div {
 }
 .a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 180px;
+  top                 : 112px;
   height              : 8px;
   width               : 374px;
   position            : absolute;
@@ -3704,14 +3891,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing9 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing9 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 8px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing9 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 7px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .subtitlebulletlist .guide1 .guide2 .guide3 .spacing9 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5863,39 +6072,6 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a142descriptiontext .bodytext .guide .guide1 .symbol .size {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a142descriptiontext .bodytext .guide .guide1 .symbol .size .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 360px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a142descriptiontext .bodytext .guide .guide1 .symbol .size .guidemeasurearea .area {
-  background-color    : rgba(255, 51, 255, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 360px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.37;
-}
 .a142descriptiontext .bodytext .guide .guide1 .symbol .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 68px;
@@ -5968,10 +6144,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -6051,10 +6249,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -6145,14 +6365,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing2 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing2 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing2 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a142descriptiontext .bodytext .guide .guide1 .symbol .spacing2 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }

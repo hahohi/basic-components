@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -291,10 +291,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 5px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 6px;
+  height              : 5px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -352,10 +374,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .progressbg2 .guide2 .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 420px;
   position            : absolute;
   margin              : 0;
@@ -963,10 +1007,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .dot .guide2 .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .dot .guide2 .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 20px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .dot .guide2 .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 21px;
+  height              : 20px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .dot .guide2 .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1046,10 +1112,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .dot .guide2 .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .dot .guide2 .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .dot .guide2 .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .dot .guide2 .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 21px;
   position            : absolute;
   margin              : 0;
@@ -2181,10 +2269,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 10px;
   position            : absolute;
   margin              : 0;
@@ -2264,10 +2374,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 41px;
   position            : absolute;
   margin              : 0;
@@ -2312,7 +2444,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 64px;
   height              : 38px;
-  width               : 41px;
+  width               : 42px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2324,7 +2456,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 41px;
+  width               : 42px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2338,7 +2470,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 5px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -2347,11 +2479,33 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
-  width               : 41px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
+  width               : 42px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2430,10 +2584,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 40px;
   position            : absolute;
   margin              : 0;
@@ -2513,10 +2689,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing4 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing4 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing4 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing4 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 42px;
   position            : absolute;
   margin              : 0;
@@ -2596,10 +2794,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing5 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing5 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing5 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing5 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 41px;
   position            : absolute;
   margin              : 0;
@@ -2679,10 +2899,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing6 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing6 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing6 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing6 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 42px;
   position            : absolute;
   margin              : 0;
@@ -2762,10 +3004,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing7 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing7 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing7 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing7 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 41px;
   position            : absolute;
   margin              : 0;
@@ -2845,10 +3109,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .spacing8 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .spacing8 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing8 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .spacing8 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 10px;
   position            : absolute;
   margin              : 0;
@@ -2917,10 +3203,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 63px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 64px;
+  height              : 63px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2989,14 +3297,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 14px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 13px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3050,10 +3380,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3111,10 +3463,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop1 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop1 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop1 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3172,10 +3546,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop2 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop2 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop2 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop2 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3233,10 +3629,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop3 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop3 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop3 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop3 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3294,10 +3712,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop4 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop4 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop4 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop4 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3355,10 +3795,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop5 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop5 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop5 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop5 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3416,10 +3878,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop6 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop6 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop6 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop6 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3477,10 +3961,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop7 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop7 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop7 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .levelbar .guide1 .group .size1 .guidemeasurerulertop7 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
@@ -3668,7 +4174,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 63px;
   height              : 1px;
-  width               : 413px;
+  width               : 411px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3679,7 +4185,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
-  width               : 413px;
+  width               : 411px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3690,7 +4196,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 76px;
   height              : 1px;
-  width               : 413px;
+  width               : 411px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3701,7 +4207,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
-  width               : 413px;
+  width               : 411px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3746,594 +4252,26 @@ div {
   opacity             : 1.0;
 }
 .a39slider .levelbar .keyscreens1 .w360mpd039slider2 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 243px;
-  height              : 22px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .bg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 69px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbarbg .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbarbg .rectangle {
-  background-color    : rgba(151, 151, 151, 0.3);
-  top                 : 1px;
-  height              : 2px;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 202px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot1 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot2 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 144px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot3 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 125px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot4 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 105px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot5 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot6 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot7 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 102px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpd039slider2 .levelbar1 .levelbar2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
 }
 .a39slider .levelbar .keyscreens1 .w360mpl039slider2 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 243px;
-  height              : 22px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .bg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 69px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbarbg .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbarbg .rectangle {
-  background-color    : rgba(151, 151, 151, 0.3);
-  top                 : 1px;
-  height              : 2px;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 202px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot1 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot2 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 144px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot3 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 125px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot4 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 105px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot5 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot6 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllerslevelbardot7 .dot1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 5px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 102px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .levelbar .keyscreens1 .w360mpl039slider2 .levelbar1 .levelbar2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
 }
 .a39slider .levelbar .title {
   background-color    : rgba(255,255,255,0.0);
@@ -5208,14 +5146,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 6px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 5px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5269,10 +5229,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .disabled .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 420px;
   position            : absolute;
   margin              : 0;
@@ -5413,14 +5395,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 6px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 5px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5474,10 +5478,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normal .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 420px;
   position            : absolute;
   margin              : 0;
@@ -5618,14 +5644,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 6px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 5px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5679,10 +5727,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy4 .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 420px;
   position            : absolute;
   margin              : 0;
@@ -5823,14 +5893,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 6px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 5px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5884,10 +5976,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .progressbg1 .guide1 .normalcopy6 .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 420px;
   position            : absolute;
   margin              : 0;
@@ -7219,10 +7333,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .normal .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .normal .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .normal .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .normal .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 49px;
   position            : absolute;
   margin              : 0;
@@ -7280,10 +7416,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .normal .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .normal .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 50px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .normal .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 51px;
+  height              : 50px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .normal .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -7461,10 +7619,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 49px;
   position            : absolute;
   margin              : 0;
@@ -7522,10 +7702,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 50px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 51px;
+  height              : 50px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .focusunfocus .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -7719,10 +7921,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .dim .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .dim .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .dim .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .dim .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 49px;
   position            : absolute;
   margin              : 0;
@@ -7780,10 +8004,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .dim .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .dim .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 50px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .dim .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 51px;
+  height              : 50px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .dim .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -7961,10 +8207,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .click .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .click .size .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .click .size .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .click .size .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 66px;
   position            : absolute;
   margin              : 0;
@@ -8022,10 +8290,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .scrubber .guide1 .click .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .scrubber .guide1 .click .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 65px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .click .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 66px;
+  height              : 65px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .scrubber .guide1 .click .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -9673,10 +9963,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a39slider .guide .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .guide .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 95px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .guide .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 96px;
+  height              : 95px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .guide .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -9745,14 +10057,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a39slider .guide .size1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a39slider .guide .size1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .guide .size1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 9px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a39slider .guide .size1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -10486,1188 +10820,26 @@ div {
   opacity             : 1.0;
 }
 .a39slider .keyscreens .w360mpd039slider1 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 123px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 171px;
-  height              : 167px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .disabled {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 155px;
-  height              : 12px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .disabled .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .disabled .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(102, 102, 102, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 140px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .disabled .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .disabled .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .disabled .disabled1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 44px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .mobiledarktheme09progressbarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .mobiledarktheme09progressbarbg .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .mobiledarktheme09progressbarbg .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 9px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 2px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 47px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .ripple {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .mobilelighttheme03controllersscrubbersize22click {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a2 .mobilelighttheme03controllersscrubbersize22click .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a1 .mobiledarktheme09progressbarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a1 .mobiledarktheme09progressbarbg .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a1 .mobiledarktheme09progressbarbg .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a1 .mobilelighttheme03controllersscrubbersize22click {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .a1 .mobilelighttheme03controllersscrubbersize22click .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .click .click1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 42px;
-  height              : 22px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .mobiledarktheme09progressbarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .mobiledarktheme09progressbarbg .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .mobiledarktheme09progressbarbg .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 47px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 109px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .unfocus .unfocus1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
-  height              : 22px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .mobiledarktheme09progressbarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .mobiledarktheme09progressbarbg .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .mobiledarktheme09progressbarbg .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 47px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .ripple {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 104px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 109px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .focus .focus1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .normal {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .normal .mobiledarktheme09progressbarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .normal .mobiledarktheme09progressbarbg .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .normal .mobiledarktheme09progressbarbg .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 9px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .normal .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .normal .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpd039slider1 .group .normal .normal1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
 }
 .a39slider .keyscreens .w360mpl039slider1 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 123px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 173px;
-  height              : 163px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .disabled {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 150px;
-  height              : 12px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .disabled .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .disabled .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(102, 102, 102, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 140px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .disabled .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .disabled .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .disabled .disabled1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
-  height              : 41px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 22px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 140px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 .mobiledarktheme09progressbar1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 .mobiledarktheme09progressbar1 .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 47px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 .ripple {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 .mobilelighttheme03controllersscrubbersize22click {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a2 .mobilelighttheme03controllersscrubbersize22click .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a1 .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a1 .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 140px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a1 .mobilelighttheme03controllersscrubbersize22click {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .a1 .mobilelighttheme03controllersscrubbersize22click .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .click .click1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 42px;
-  height              : 13px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 140px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus .mobiledarktheme09progressbar1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 2px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus .mobiledarktheme09progressbar1 .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 47px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 109px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .unfocus .unfocus1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 22px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 140px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .mobiledarktheme09progressbar1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 2px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .mobiledarktheme09progressbar1 .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 47px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .ripple {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 104px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 109px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .focus .focus1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .normal {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13px;
-  width               : 207px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .normal .mobiledarktheme09progressbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 2px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .normal .mobiledarktheme09progressbar .bar {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 140px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .normal .mobilelighttheme03controllersscrubbersize17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .normal .mobilelighttheme03controllersscrubbersize17 .scrubber1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a39slider .keyscreens .w360mpl039slider1 .group .normal .normal1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : auto;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 9.0px;
 }
 .a39slider .keyscreens .title {
   background-color    : rgba(255,255,255,0.0);

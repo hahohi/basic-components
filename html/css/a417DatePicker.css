@@ -149,8 +149,8 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 337px;
+  top                 : 34px;
+  height              : 343px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -160,7 +160,7 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol .mobilelighttheme06listsgrouplistbg {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 32px;
+  top                 : 38px;
   height              : 305px;
   width               : 360px;
   position            : absolute;
@@ -187,7 +187,7 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol .mobilelighttheme04dialogstimedatedatepicker {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
+  top                 : 52px;
   height              : 277px;
   width               : 328px;
   position            : absolute;
@@ -1311,7 +1311,7 @@ div {
 .a417datepicker .calendarview .guide .symbol .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 323px;
+  height              : 329px;
   width               : 398px;
   position            : absolute;
   margin              : 0;
@@ -1321,7 +1321,7 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
+  top                 : 52px;
   height              : 277px;
   width               : 38px;
   position            : absolute;
@@ -1369,10 +1369,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 277px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1380,10 +1380,32 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 276px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 277px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 32px;
+  height              : 38px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -1395,7 +1417,7 @@ div {
 .a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 32px;
+  height              : 38px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -1405,7 +1427,7 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft1 .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
+  top                 : 7px;
   height              : 18px;
   width               : 66px;
   position            : absolute;
@@ -1430,10 +1452,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
+.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft1 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft1 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 359px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .symbol .size .guidemeasurerulerleft1 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -1443,7 +1487,7 @@ div {
 }
 .a417datepicker .calendarview .guide .symbol .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
+  top                 : 52px;
   height              : 277px;
   width               : 328px;
   position            : absolute;
@@ -1546,14 +1590,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a417datepicker .calendarview .guide .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .calendarview .guide .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 14px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 13px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1640,10 +1706,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a417datepicker .calendarview .guide .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .calendarview .guide .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 14px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1651,10 +1717,32 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a417datepicker .calendarview .guide .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 13px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a417datepicker .calendarview .guide .spacing2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 72px;
-  height              : 342px;
+  height              : 343px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1687,7 +1775,7 @@ div {
 .a417datepicker .calendarview .guide .spacing2 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 305px;
-  height              : 37px;
+  height              : 38px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1699,7 +1787,7 @@ div {
 .a417datepicker .calendarview .guide .spacing2 .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 37px;
+  height              : 38px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1723,10 +1811,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a417datepicker .calendarview .guide .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .calendarview .guide .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1737,7 +1847,7 @@ div {
 .a417datepicker .calendarview .guide .spacing3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 72px;
-  height              : 342px;
+  height              : 343px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1770,7 +1880,7 @@ div {
 .a417datepicker .calendarview .guide .spacing3 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 305px;
-  height              : 37px;
+  height              : 38px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1782,7 +1892,7 @@ div {
 .a417datepicker .calendarview .guide .spacing3 .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 37px;
+  height              : 38px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1806,10 +1916,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a417datepicker .calendarview .guide .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .calendarview .guide .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .calendarview .guide .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -1855,2979 +1987,26 @@ div {
   opacity             : 1.0;
 }
 .a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 204px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 203px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.68px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 71px;
-  height              : 185px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 185px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 163px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 .a6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 .a5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 .a4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 .a3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 .a2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline06 .a31 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 142px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 .a30 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 .a29 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 .a28 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 .a27 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 .a26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 .a25 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline05 .a24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 120px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 .a23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 .a22 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 .a21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 .a20 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 .a19 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 .a18 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline04 .a17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 99px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 .a16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 .a15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 .a14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 .a13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 .a12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 .a11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline03 .a10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 78px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .a9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .a8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .a7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .a6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .a5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .selectbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .selectbg .area {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .selectbg .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 19px;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .a4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline02 .a3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 .a2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 .a30 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 .a29 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 .a28 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 .a27 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .numberline01 .a26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week .sun {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(153, 61, 61, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week .sat {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week .fri {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week .thu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week .wed {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week .tue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .week .mon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title .mobiledarkthemeicon04dialogdatepickernext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 194px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title .mobiledarkthemeicon04dialogdatepickernext .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title .mobiledarkthemeicon04dialogdatepickernext .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 8px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title .november2018 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 173px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.34px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 24.02px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title .mobiledarkthemeicon04dialogdatepickerprevious {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title .mobiledarkthemeicon04dialogdatepickerprevious .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpd0417datepicker1 .mobiledarktheme04dialogstimedatedatepicker .title .mobiledarkthemeicon04dialogdatepickerprevious .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 8px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 204px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
-  height              : 204px;
-  box-sizing          : border-box;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 71px;
-  height              : 185px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 185px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
-  height              : 155px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 133px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 .a6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 0.4;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 .a5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 .a4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 .a3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 .a2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline06 .a31 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 112px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 .a30 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 .a29 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 .a28 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 .a27 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 .a26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 .a25 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline05 .a24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 .a23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 .a22 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 .a21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 .a20 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 .a19 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 .a18 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline04 .a17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 69px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 .a16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 .a15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 .a14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 .a13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 .a12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 .a11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline03 .a10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 48px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .a9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .a8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .a7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .a6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .a5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .selectbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .selectbg .area {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .selectbg .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 19px;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .a4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline02 .a3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 26px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 .a2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(201, 81, 81, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 .a30 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 .a29 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 .a28 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 .a27 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .numberline01 .a26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.01px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week .sun {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(215, 126, 126, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week .sat {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 155px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week .fri {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week .thu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week .wed {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 61px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week .tue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .group .week .mon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 7.34px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : center;
-  line-height         : 21.35px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title .mobilelightthemeicon04dialogdatepickernext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 194px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title .mobilelightthemeicon04dialogdatepickernext .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title .mobilelightthemeicon04dialogdatepickernext .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 8px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title .november2018 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 173px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.34px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 24.02px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title .mobilelightthemeicon04dialogdatepickerprevious {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title .mobilelightthemeicon04dialogdatepickerprevious .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme04dialogstimedatedatepicker .title .mobilelightthemeicon04dialogdatepickerprevious .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 8px;
-  width               : 5px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.68px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .calendarview .keyscreens .w360mpl0417datepicker1 .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
 }
 .a417datepicker .calendarview .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -5005,8 +2184,8 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 271px;
+  top                 : 34px;
+  height              : 277px;
   width               : 436px;
   position            : absolute;
   margin              : 0;
@@ -5016,7 +2195,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 32px;
+  top                 : 38px;
   height              : 238px;
   width               : 360px;
   position            : absolute;
@@ -5275,7 +2454,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 32px;
+  top                 : 38px;
   height              : 14px;
   width               : 398px;
   position            : absolute;
@@ -5356,10 +2535,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 13px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 14px;
+  height              : 13px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5369,7 +2570,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 256px;
+  top                 : 262px;
   height              : 15px;
   width               : 398px;
   position            : absolute;
@@ -5450,10 +2651,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 14px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 14px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5464,7 +2687,7 @@ div {
 .a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 32px;
+  height              : 38px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -5476,7 +2699,7 @@ div {
 .a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 32px;
+  height              : 38px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -5486,7 +2709,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
+  top                 : 7px;
   height              : 18px;
   width               : 66px;
   position            : absolute;
@@ -5511,10 +2734,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 359px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 360px;
   position            : absolute;
   margin              : 0;
@@ -5524,7 +2769,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
+  top                 : 88px;
   height              : 10px;
   width               : 398px;
   position            : absolute;
@@ -5605,10 +2850,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 9px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 10px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .spacing2 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5618,7 +2885,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
+  top                 : 52px;
   height              : 36px;
   width               : 384px;
   position            : absolute;
@@ -5699,10 +2966,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -5710,9 +2977,31 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 204, 0, 1.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .area .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a417datepicker .wheelview .guide .guide1 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 92px;
+  top                 : 98px;
   height              : 164px;
   width               : 14px;
   position            : absolute;
@@ -5745,7 +3034,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .spacing4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 92px;
+  top                 : 98px;
   height              : 164px;
   width               : 14px;
   position            : absolute;
@@ -5778,7 +3067,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .spacing5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 92px;
+  top                 : 98px;
   height              : 164px;
   width               : 14px;
   position            : absolute;
@@ -5811,7 +3100,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .spacing6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 92px;
+  top                 : 98px;
   height              : 164px;
   width               : 15px;
   position            : absolute;
@@ -5844,7 +3133,7 @@ div {
 }
 .a417datepicker .wheelview .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 92px;
+  top                 : 98px;
   height              : 164px;
   width               : 384px;
   position            : absolute;
@@ -5969,14 +3258,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 164px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 163px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a417datepicker .wheelview .guide .guide1 .size .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 164px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6018,1240 +3329,26 @@ div {
   opacity             : 1.0;
 }
 .a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 159px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 159px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.68px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 159px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 159px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogsdialogbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 159px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogsdialogbg .bg {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 159px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 110px;
-  width               : 221px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 110px;
-  width               : 221px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .a2019 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 153px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .jan {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 76px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .a25 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 21.35px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .a2018 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : 37px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 153px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 37.36px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .dec {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : 37px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 76px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 37.36px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .a24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : 37px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 21.35px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 37.36px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .a2017 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 153px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .nov {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 76px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .mobiledarktheme04dialogstimedatedatepickerwheel .wheel .a23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.2;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 21.35px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpd0417datepicker2 .mobiledarktheme04dialogstimedatedatepickerwheelnobtn .november2018 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 24px;
-  width               : 221px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.34px;
-  color               : rgba(204, 204, 204, 1.0);
-  text-align          : center;
-  line-height         : 24.02px;
 }
 .a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 160px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  box-sizing          : border-box;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 159px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 159px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogsdialogbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 159px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogsdialogbg .bg {
-  background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
-  height              : 159px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 110px;
-  width               : 221px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 110px;
-  width               : 221px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a2019 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 153px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .jan {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 76px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a25 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 21.35px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a2018 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : 37px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 153px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 37.36px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .dec {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : 37px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 76px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 37.36px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : 37px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 21.35px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 37.36px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a2017 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 153px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .nov {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 76px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.01px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .mobilelighttheme04dialogstimedatedatepickerwheel .wheel .a23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 21.35px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 36.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme04dialogstimedatedatepickerwheelnobtn .november2018 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 24px;
-  width               : 221px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.34px;
-  color               : rgba(69, 69, 69, 1.0);
-  text-align          : center;
-  line-height         : 24.02px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 163px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.68px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a417datepicker .wheelview .keyscreens .w360mpl0417datepicker2 .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
 }
 .a417datepicker .wheelview .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);

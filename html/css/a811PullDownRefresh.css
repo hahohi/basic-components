@@ -1915,10 +1915,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 73px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 74px;
+  height              : 73px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2009,14 +2031,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 55px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2091,635 +2135,26 @@ div {
   opacity             : 1.0;
 }
 .a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(8, 8, 8, 1.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme09progresspulldownrefresh01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 101px;
-  height              : 33px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 103px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme09progresspulldownrefresh01 .bg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 33px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme09progresspulldownrefresh01 .ic {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 14px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .group .actionbarbg {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 159px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
 }
 .a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 101px;
-  height              : 33px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 103px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 .bg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 33px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 .mobilelightthemeicon09progresspulldownrefresh01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 15px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 .mobilelightthemeicon09progresspulldownrefresh01 .ic {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .group .actionbarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 159px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
 }
 .a811pulldownrefresh .pulldownrefreshci {
   background-color    : rgba(255,255,255,0.0);

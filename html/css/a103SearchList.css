@@ -386,14 +386,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 14px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -524,14 +546,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacingcopy .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacingcopy .guidemeasurerulerright .rectangle {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacingcopy .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 14px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacingcopy .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -717,14 +761,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -778,10 +844,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -839,10 +927,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop1 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop1 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .size .size1 .guidemeasurerulertop1 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -911,14 +1021,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 84px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 83px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1038,10 +1170,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -1121,10 +1275,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -1204,10 +1380,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacing4 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacing4 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing4 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing4 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
@@ -1320,10 +1518,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacing5 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacing5 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 8px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing5 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing5 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1436,10 +1656,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a103searchlist .autocompletesuggestion .guide .spacing6 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .autocompletesuggestion .guide .spacing6 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 8px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing6 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .autocompletesuggestion .guide .spacing6 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -3277,1327 +3519,24 @@ div {
   opacity             : 1.0;
 }
 .a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme06listssubheader02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 25px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme06listssubheader02 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme06listssubheader02 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme06listssubheader02 .title .subheadertext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 39px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .bg {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 4px;
-  height              : 29px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-  transform           : rotate(0deg);
-  opacity             : 0.05;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .mobilelightthemeicon11searchsearchclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .mobilelightthemeicon11searchsearchclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .mobilelightthemeicon11searchsearchclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.33px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-  text-decoration     : underline;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .mobilelightthemeicon11searchsearchback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .mobilelightthemeicon11searchsearchback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobilelighttheme11searchsearchbar03 .mobilelightthemeicon11searchsearchback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobiledarktheme11searchcursor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 2px;
-  position            : absolute;
-  margin              : 0;
-  left                : 85px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobiledarktheme11searchcursor .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .group .mobiledarktheme11searchcursor .cursor {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 10px;
-  height              : 17px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 106px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
-  height              : 106px;
-  box-sizing          : border-box;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 156px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt .group1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 120px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt .group1 .account {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt .group1 .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 121px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt1 .group1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 73px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt1 .group1 .account {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt1 .group1 .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt2 .group1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt2 .group1 .account {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpl103searchlist2 .mobilelighttheme11searchautocompletetxt2 .group1 .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
 }
 .a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 106px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 156px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 120px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt .group .account {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt .group .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 121px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt1 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 73px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt1 .group .account {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt1 .group .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt2 .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt2 .group .account {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchautocompletetxt2 .group .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme06listssubheader02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 25px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme06listssubheader02 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme06listssubheader02 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme06listssubheader02 .title .subheadertext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .bg {
-  background-color    : rgba(250, 250, 250, 1.0);
-  top                 : 4px;
-  height              : 29px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-  transform           : rotate(0deg);
-  opacity             : 0.17;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .mobiledarkthemeicon11searchsearchclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .mobiledarkthemeicon11searchsearchclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .mobiledarkthemeicon11searchsearchclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .samsung {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.33px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-  text-decoration     : underline;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .mobiledarkthemeicon11searchsearchback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .mobiledarkthemeicon11searchsearchback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchsearchbar03 .mobiledarkthemeicon11searchsearchback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchcursor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 2px;
-  position            : absolute;
-  margin              : 0;
-  left                : 85px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchcursor .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme11searchcursor .cursor {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 10px;
-  height              : 17px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(8, 8, 8, 1.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .autocompletesuggestion .keyscreens .w360mpd103searchlist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4605,7 +3544,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 60px;
   height              : 29px;
-  width               : 221px;
+  width               : 220px;
   position            : absolute;
   margin              : 0;
   left                : 885px;
@@ -4616,7 +3555,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 221px;
+  width               : 220px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -4922,10 +3861,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -5005,10 +3966,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -5154,14 +4137,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .horizon .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .horizon .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .horizon .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .horizon .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5226,10 +4231,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .vertical .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .vertical .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .vertical .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorylist .guide2 .size .vertical .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -5557,10 +4584,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -5640,10 +4689,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing1 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing1 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing1 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
@@ -5723,10 +4794,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
@@ -5817,14 +4910,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 14px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5878,14 +4993,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright1 .rectangle {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright1 .rectangle1 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 14px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing3 .guidemeasurerulerright1 .rectangle2 {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5994,10 +5131,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing4 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing4 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 8px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing4 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing4 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -6110,10 +5269,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing5 .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing5 .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 8px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing5 .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 8px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .spacing5 .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -6125,10 +5306,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 98px;
-  width               : 104px;
+  width               : 548px;
   position            : absolute;
   margin              : 0;
-  left                : 512px;
+  left                : 68px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6136,7 +5317,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 62px;
   height              : 36px;
-  width               : 104px;
+  width               : 548px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6150,7 +5331,7 @@ div {
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 66px;
+  left                : 510px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -6193,10 +5374,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .horizon .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .horizon .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -6204,11 +5385,33 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .horizon .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .horizon .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .horizon .guidemeasurelinehorizontal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
-  width               : 66px;
+  width               : 510px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6219,7 +5422,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
-  width               : 66px;
+  width               : 510px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6230,7 +5433,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35px;
   height              : 1px;
-  width               : 66px;
+  width               : 510px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6241,7 +5444,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1px;
-  width               : 66px;
+  width               : 510px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6255,7 +5458,7 @@ div {
   width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 444px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6277,7 +5480,7 @@ div {
   width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 444px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6375,10 +5578,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .vertical .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .vertical .guidemeasurerulertop .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .vertical .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size .vertical .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -6447,10 +5672,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size1 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size1 .guidemeasurerulertop .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size1 .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size1 .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -6541,14 +5788,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size2 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size2 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 84px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size2 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 83px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .searchbar .guide1 .searchhistorybar .size2 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7958,10 +7227,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 204, 0, 1.0);
+  top                 : 53px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 54px;
+  height              : 53px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .text .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -8052,14 +7343,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 11px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8146,14 +7459,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 11px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .clearsearchhistorybutton .guide1 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -9724,10 +9059,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .guide .size .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .guide .size .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 55px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .guide .size .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 55px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .guide .size .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -9840,14 +9197,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a103searchlist .searchhistory .guide .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a103searchlist .searchhistory .guide .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .guide .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 11px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a103searchlist .searchhistory .guide .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -9888,7 +9267,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 29px;
-  width               : 199px;
+  width               : 142px;
   position            : absolute;
   margin              : 0;
   left                : 440px;
@@ -9899,7 +9278,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 199px;
+  width               : 142px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -9977,1414 +9356,24 @@ div {
   opacity             : 1.0;
 }
 .a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchresentsearchlist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 142px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchresentsearchlist .bg {
-  background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
-  height              : 142px;
-  box-sizing          : border-box;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchresentsearchlist .clearsearchhistory {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 112px;
-  height              : 24px;
-  width               : 210px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.67px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchresentsearchlist .mobilelighttheme05dividersbasiclist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 105px;
-  height              : 2px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchresentsearchlist .mobilelighttheme05dividersbasiclist .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchresentsearchlist .mobilelighttheme05dividersbasiclist .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 1px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 156px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 181px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete .mobilelightthemeicon11searchsearchrecentclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete .mobilelightthemeicon11searchsearchrecentclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete .mobilelightthemeicon11searchsearchrecentclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 121px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete1 .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 181px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete1 .mobilelightthemeicon11searchsearchrecentclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete1 .mobilelightthemeicon11searchsearchrecentclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete1 .mobilelightthemeicon11searchsearchrecentclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete2 .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 181px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete2 .mobilelightthemeicon11searchsearchrecentclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete2 .mobilelightthemeicon11searchsearchrecentclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchlisticondelete2 .mobilelightthemeicon11searchsearchrecentclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme06listssubheader02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 25px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme06listssubheader02 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme06listssubheader02 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme06listssubheader02 .title .subheadertext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchsearchbar02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchsearchbar02 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchsearchbar02 .bg {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 4px;
-  height              : 29px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-  transform           : rotate(0deg);
-  opacity             : 0.05;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme11searchsearchbar02 .search {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.33px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobiledarktheme11searchcursor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 2px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobiledarktheme11searchcursor .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobiledarktheme11searchcursor .cursor {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 10px;
-  height              : 17px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelightthemeicon11searchsearchvoice {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelightthemeicon11searchsearchvoice .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelightthemeicon11searchsearchvoice .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 13px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpl103searchlist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
 }
 .a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchresentsearchlist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 142px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchresentsearchlist .bg {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 141px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchresentsearchlist .mobiledarktheme05dividersbasiclist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 105px;
-  height              : 2px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchresentsearchlist .mobiledarktheme05dividersbasiclist .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 2px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchresentsearchlist .mobiledarktheme05dividersbasiclist .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 1px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchresentsearchlist .clearsearchhistory {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 112px;
-  height              : 24px;
-  width               : 210px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 10.67px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 156px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 181px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete .mobiledarkthemeicon11searchsearchrecentclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete .mobiledarkthemeicon11searchsearchrecentclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete .mobiledarkthemeicon11searchsearchrecentclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 121px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete1 .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 181px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete1 .mobiledarkthemeicon11searchsearchrecentclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete1 .mobiledarkthemeicon11searchsearchrecentclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete1 .mobiledarkthemeicon11searchsearchrecentclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 85px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete2 .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 181px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete2 .mobiledarkthemeicon11searchsearchrecentclose {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete2 .mobiledarkthemeicon11searchsearchrecentclose .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchlisticondelete2 .mobiledarkthemeicon11searchsearchrecentclose .close {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme06listssubheader02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 25px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme06listssubheader02 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme06listssubheader02 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme06listssubheader02 .title .subheadertext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 9.33px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : left;
-  line-height         : 11.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchsearchbar02 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchsearchbar02 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchsearchbar02 .bg {
-  background-color    : rgba(250, 250, 250, 1.0);
-  top                 : 4px;
-  height              : 29px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-  transform           : rotate(0deg);
-  opacity             : 0.17;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchsearchbar02 .search {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 11.33px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchsearchbar02 .mobiledarkthemeicon11searchsearchback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchsearchbar02 .mobiledarkthemeicon11searchsearchback .background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchsearchbar02 .mobiledarkthemeicon11searchsearchback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 12px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchcursor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 38px;
-  width               : 2px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchcursor .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme11searchcursor .cursor {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 10px;
-  height              : 17px;
-  width               : 1px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarkthemeicon11searchsearchvoice {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
-  height              : 17px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarkthemeicon11searchsearchvoice .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarkthemeicon11searchsearchvoice .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 13px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(8, 8, 8, 1.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a103searchlist .searchhistory .keyscreens .w360mpd103searchlist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }

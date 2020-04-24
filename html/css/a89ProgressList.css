@@ -136,10 +136,32 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a89progresslist .guide .guidemeasurerulerleft .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide .guidemeasurerulerleft .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 23px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guidemeasurerulerleft .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 23px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guidemeasurerulerleft .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -299,7 +321,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a89progresslist .guide .guide2 .size .guidemeasurerulertop {
+.a89progresslist .guide .guide2 .size .guidemeasurerulertopsize1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -311,7 +333,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a89progresslist .guide .guide2 .size .guidemeasurerulertop .background {
+.a89progresslist .guide .guide2 .size .guidemeasurerulertopsize1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
@@ -322,7 +344,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a89progresslist .guide .guide2 .size .guidemeasurerulertop .value {
+.a89progresslist .guide .guide2 .size .guidemeasurerulertopsize1 .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
@@ -333,7 +355,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a89progresslist .guide .guide2 .size .guidemeasurerulertop .value .a0 {
+.a89progresslist .guide .guide2 .size .guidemeasurerulertopsize1 .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -349,10 +371,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a89progresslist .guide .guide2 .size .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide .guide2 .size .guidemeasurerulertopsize1 .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .size .guidemeasurerulertopsize1 .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .size .guidemeasurerulertopsize1 .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -443,14 +487,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a89progresslist .guide .guide2 .spacing .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide .guide2 .spacing .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 17px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -537,14 +603,36 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a89progresslist .guide .guide2 .spacing1 .guidemeasurerulerright .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide .guide2 .spacing1 .guidemeasurerulerright .rectangle {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
+  height              : 1px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing1 .guidemeasurerulerright .rectangle1 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 19px;
+  height              : 1px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing1 .guidemeasurerulerright .rectangle2 {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -628,7 +716,7 @@ div {
 .a89progresslist .guide .guide2 .spacing2 .guidemeasurelinevertical1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 58px;
+  height              : 56px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -639,7 +727,7 @@ div {
 .a89progresslist .guide .guide2 .spacing2 .guidemeasurelinevertical1 .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 58px;
+  height              : 56px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -686,10 +774,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a89progresslist .guide .guide2 .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide .guide2 .spacing2 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing2 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing2 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 252px;
   position            : absolute;
   margin              : 0;
@@ -733,7 +843,7 @@ div {
 .a89progresslist .guide .guide2 .spacing3 .guidemeasurelinevertical {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 58px;
+  height              : 56px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -744,7 +854,7 @@ div {
 .a89progresslist .guide .guide2 .spacing3 .guidemeasurelinevertical .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 58px;
+  height              : 56px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -813,10 +923,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a89progresslist .guide .guide2 .spacing3 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide .guide2 .spacing3 .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing3 .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide .guide2 .spacing3 .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 252px;
   position            : absolute;
   margin              : 0;
@@ -878,2556 +1010,26 @@ div {
   opacity             : 1.0;
 }
 .a89progresslist .keyscreens .w360mpd089progresslist2 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme01actionbartitle1btn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme01actionbartitle1btn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme01actionbartitle1btn .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme01actionbartitle1btn .group .actionbarbg {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme01actionbartitle1btn .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 159px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 422px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 414px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 414px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 396px;
-  height              : 17px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 112px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 354px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 353px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 318px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line1 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line1 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 318px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist1 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 283px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line2 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line2 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 282px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist2 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 248px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line3 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line3 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line3 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 247px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist3 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist3 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 212px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line4 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line4 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line4 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 212px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist4 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist4 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 177px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line5 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line5 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line5 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 176px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist5 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist5 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 141px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line6 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line6 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line6 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 141px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist6 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist6 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 106px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line7 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line7 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line7 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 105px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist7 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist7 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 71px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line8 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line8 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line8 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 70px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist8 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist8 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line9 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line9 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line9 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist9 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme05dividersbasiclist9 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line10 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line10 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .list01 .mobiledarktheme06lists1line10 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(8, 8, 8, 1.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpd089progresslist2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a89progresslist .keyscreens .w360mpl089progresslist2 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 414px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 414px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 414px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
-  height              : 414px;
-  box-sizing          : border-box;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 389px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 112px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobiledarktheme09progresscircle24x24 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 347px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 346px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 311px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line1 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line1 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 311px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist1 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 276px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line2 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line2 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 275px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist2 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 241px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line3 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line3 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line3 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 240px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist3 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist3 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 205px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line4 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line4 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line4 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 205px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist4 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist4 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 170px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line5 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line5 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line5 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 169px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist5 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist5 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 134px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line6 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line6 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line6 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 134px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist6 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist6 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 99px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line7 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line7 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line7 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 98px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist7 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist7 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line8 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line8 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line8 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 63px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist8 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist8 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line9 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line9 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line9 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist9 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme05dividersbasiclist9 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -7px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line10 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line10 .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .list01 .mobilelighttheme06lists1line10 .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme01actionbartitle1btn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme01actionbartitle1btn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme01actionbartitle1btn .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme01actionbartitle1btn .group .actionbarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme01actionbartitle1btn .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 159px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens .w360mpl089progresslist2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
 }
 .a89progresslist .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
@@ -3980,10 +1582,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a89progresslist .guide1 .guide2 .a16px .size .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide1 .guide2 .a16px .size .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a16px .size .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a16px .size .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -3994,7 +1618,7 @@ div {
 .a89progresslist .guide1 .guide2 .a16px .size .guidemeasurelinevertical {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 103px;
+  height              : 101px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4005,7 +1629,7 @@ div {
 .a89progresslist .guide1 .guide2 .a16px .size .guidemeasurelinevertical .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 103px;
+  height              : 101px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4016,7 +1640,7 @@ div {
 .a89progresslist .guide1 .guide2 .a16px .size .guidemeasurelinevertical1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 103px;
+  height              : 101px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4027,7 +1651,7 @@ div {
 .a89progresslist .guide1 .guide2 .a16px .size .guidemeasurelinevertical1 .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 103px;
+  height              : 101px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4118,10 +1742,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a89progresslist .guide1 .guide2 .a16px .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide1 .guide2 .a16px .spacing .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a16px .spacing .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a16px .spacing .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -4595,10 +2241,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a89progresslist .guide1 .guide2 .a24px .size .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide1 .guide2 .a24px .size .guidemeasurerulerbottom .rectangle {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 2px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a24px .size .guidemeasurerulerbottom .rectangle1 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a24px .size .guidemeasurerulerbottom .rectangle2 {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 6px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -4609,7 +2277,7 @@ div {
 .a89progresslist .guide1 .guide2 .a24px .size .guidemeasurelinevertical {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 153px;
+  height              : 151px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4620,7 +2288,7 @@ div {
 .a89progresslist .guide1 .guide2 .a24px .size .guidemeasurelinevertical .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 153px;
+  height              : 151px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4631,7 +2299,7 @@ div {
 .a89progresslist .guide1 .guide2 .a24px .size .guidemeasurelinevertical1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 153px;
+  height              : 151px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4642,7 +2310,7 @@ div {
 .a89progresslist .guide1 .guide2 .a24px .size .guidemeasurelinevertical1 .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 153px;
+  height              : 151px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -4733,10 +2401,32 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a89progresslist .guide1 .guide2 .a24px .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
+.a89progresslist .guide1 .guide2 .a24px .spacing .guidemeasurerulertop .rectangle {
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 27px;
   height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a24px .spacing .guidemeasurerulertop .rectangle1 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a89progresslist .guide1 .guide2 .a24px .spacing .guidemeasurerulertop .rectangle2 {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 31px;
+  height              : 1px;
   width               : 36px;
   position            : absolute;
   margin              : 0;
@@ -4940,1420 +2630,26 @@ div {
   opacity             : 1.0;
 }
 .a89progresslist .keyscreens1 .w360mpd089progresslist1 {
-  background-color    : rgba(1, 1, 1, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .background {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme01actionbartitle1btn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme01actionbartitle1btn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme01actionbartitle1btn .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme01actionbartitle1btn .group .actionbarbg {
-  background-color    : rgba(1, 1, 1, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme01actionbartitle1btn .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 159px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarkthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarkthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarkthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.74;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 140px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 140px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(37, 37, 37, 1.0);
-  top                 : 0px;
-  height              : 139px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 48px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists1line .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists1line .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists1line .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists3line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
-  height              : 57px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists3line .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 57px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists3line .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 37px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists3line .title .thispsdisjustas {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : 20px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.67px;
-  color               : rgba(153, 153, 153, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists3line .title .maintext3line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 95px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 213px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 57px;
-  height              : 17px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 208px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 9px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 9px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 17px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 208px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme05dividersbasiclist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme05dividersbasiclist .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme05dividersbasiclist .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme05dividersbasiclist1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme05dividersbasiclist1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme05dividersbasiclist1 .line {
-  background-color    : rgba(212, 212, 212, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 0.15;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists2lineprimarysub {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 47px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists2lineprimarysub .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 47px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists2lineprimarysub .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 27px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists2lineprimarysub .title .primarycolor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : 10px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.67px;
-  color               : rgba(62, 145, 255, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .list01 .mobiledarktheme06lists2lineprimarysub .title .maintext2line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(250, 250, 250, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 475px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(8, 8, 8, 1.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpd089progresslist1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a89progresslist .keyscreens1 .w360mpl089progresslist1 {
-  background-color    : rgba(242, 242, 242, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .background {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 61px;
-  height              : 140px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06listsgrouplistbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 140px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06listsgrouplistbg .rectangle2 {
-  background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
-  height              : 140px;
-  box-sizing          : border-box;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(214, 214, 214, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 48px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists1line .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists1line .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists1line .title .maintext1line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists3line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 83px;
-  height              : 57px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists3line .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 57px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists3line .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 37px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists3line .title .thispsdisjustas {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : 20px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.67px;
-  color               : rgba(144, 144, 144, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists3line .title .maintext3line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 95px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 213px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle16x16 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 57px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 208px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 9px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x24 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 9px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 208px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobiledarktheme09progresscircle24x241 .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 8px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme05dividersbasiclist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 47px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme05dividersbasiclist .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme05dividersbasiclist .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme05dividersbasiclist1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme05dividersbasiclist1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme05dividersbasiclist1 .line {
-  background-color    : rgba(230, 230, 230, 1.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 213px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists2lineprimarysub {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 47px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists2lineprimarysub .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 47px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists2lineprimarysub .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 27px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists2lineprimarysub .title .primarycolor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : 10px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 8.67px;
-  color               : rgba(0, 114, 222, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .list01 .mobilelighttheme06lists2lineprimarysub .title .maintext2line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme01actionbartitle1btn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 46px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme01actionbartitle1btn .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme01actionbartitle1btn .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme01actionbartitle1btn .group .actionbarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme01actionbartitle1btn .group .sampletitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : 159px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.67px;
-  color               : rgba(37, 37, 37, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelightthemeindicator {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelightthemeindicator .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelightthemeindicator .wifi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 5px;
-  height              : 6px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  transform           : rotate(0deg);
-  opacity             : 0.5;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
-  height              : 33px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
-  background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 32px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-}
-.a89progresslist .keyscreens1 .w360mpl089progresslist1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 0.55;
 }
 .a89progresslist .keyscreens1 .tagrefer {
   background-color    : rgba(255,255,255,0.0);
