@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1631px;
+  min-height          : 1672px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a21flatbutton .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1506px;
+  top                 : 1547px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -102,7 +102,7 @@ div {
 .a21flatbutton .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 625px;
+  height              : 666px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -113,7 +113,7 @@ div {
 .a21flatbutton .guide .typeface {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 625px;
+  height              : 666px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -124,7 +124,7 @@ div {
 .a21flatbutton .guide .typeface .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 625px;
+  height              : 666px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -135,7 +135,7 @@ div {
 .a21flatbutton .guide .typeface .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 625px;
+  height              : 666px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -149,7 +149,7 @@ div {
 }
 .a21flatbutton .guide .typeface .note {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 542px;
+  top                 : 583px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -618,7 +618,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a21flatbutton .guide .typeface .general .guideformnormalcopy {
+.a21flatbutton .guide .typeface .general .guideformnormal4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 137px;
   height              : 28px;
@@ -630,7 +630,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .guide .typeface .general .guideformnormalcopy .background {
+.a21flatbutton .guide .typeface .general .guideformnormal4 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -641,7 +641,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .guide .typeface .general .guideformnormalcopy .group {
+.a21flatbutton .guide .typeface .general .guideformnormal4 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -652,7 +652,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .guide .typeface .general .guideformnormalcopy .group .label1 {
+.a21flatbutton .guide .typeface .general .guideformnormal4 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -668,7 +668,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a21flatbutton .guide .typeface .general .guideformnormalcopy .group .value {
+.a21flatbutton .guide .typeface .general .guideformnormal4 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -684,7 +684,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a21flatbutton .guide .typeface .general .guideformnormalcopy .group .property {
+.a21flatbutton .guide .typeface .general .guideformnormal4 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -741,8 +741,8 @@ div {
 }
 .a21flatbutton .guide .typeface .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 274px;
-  height              : 109px;
+  top                 : 279px;
+  height              : 122px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -870,9 +870,43 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a21flatbutton .guide .typeface .lighttheme .guideformlight1 {
+.a21flatbutton .guide .typeface .lighttheme .guideformdivider {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .typeface .lighttheme .guideformdivider .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .typeface .lighttheme .guideformdivider .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 1px;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.a21flatbutton .guide .typeface .lighttheme .guideformlight1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -992,7 +1026,7 @@ div {
 }
 .a21flatbutton .guide .typeface .lighttheme .guideformlight2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 81px;
+  top                 : 94px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -1151,8 +1185,8 @@ div {
 }
 .a21flatbutton .guide .typeface .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 408px;
-  height              : 109px;
+  top                 : 431px;
+  height              : 122px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -1280,9 +1314,43 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a21flatbutton .guide .typeface .darktheme .guideformdark1 {
+.a21flatbutton .guide .typeface .darktheme .guideformdivider {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .typeface .darktheme .guideformdivider .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .typeface .darktheme .guideformdivider .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 1px;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.a21flatbutton .guide .typeface .darktheme .guideformdark1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -1402,7 +1470,7 @@ div {
 }
 .a21flatbutton .guide .typeface .darktheme .guideformdark2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 81px;
+  top                 : 94px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -1639,7 +1707,7 @@ div {
 .a21flatbutton .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 625px;
+  height              : 666px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1650,7 +1718,7 @@ div {
 .a21flatbutton .guide .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 625px;
+  height              : 666px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1661,7 +1729,7 @@ div {
 .a21flatbutton .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 625px;
+  height              : 666px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -1675,20 +1743,20 @@ div {
 }
 .a21flatbutton .guide .guide1 .group {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 252px;
-  height              : 122px;
-  width               : 398px;
+  top                 : 259px;
+  height              : 148px;
+  width               : 578px;
   position            : absolute;
   margin              : 0;
-  left                : 159px;
+  left                : 68px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a21flatbutton .guide .guide1 .group .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35px;
-  height              : 52px;
-  width               : 360px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1698,8 +1766,8 @@ div {
 .a21flatbutton .guide .guide1 .group .symbol .bg {
   background-color    : rgba(245, 246, 247, 1.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 360px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1709,8 +1777,8 @@ div {
 .a21flatbutton .guide .guide1 .group .symbol .mobilelighttheme02buttonflatbuttonlist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 360px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1721,8 +1789,8 @@ div {
 .a21flatbutton .guide .guide1 .group .symbol .mobilelighttheme02buttonflatbuttonlist .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 360px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1731,20 +1799,20 @@ div {
 }
 .a21flatbutton .guide .guide1 .group .symbol .mobilelighttheme02buttonflatbuttonlist .mobilelighttheme02buttonflatbutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : 36px;
-  width               : 54px;
+  top                 : 12px;
+  height              : 54px;
+  width               : 81px;
   position            : absolute;
   margin              : 0;
-  left                : 266px;
+  left                : 399px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a21flatbutton .guide .guide1 .group .symbol .mobilelighttheme02buttonflatbuttonlist .mobilelighttheme02buttonflatbutton .button {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 36px;
-  width               : 56px;
+  height              : 54px;
+  width               : 83px;
   position            : absolute;
   margin              : 0;
   left                : -1px;
@@ -1753,48 +1821,402 @@ div {
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 500;
   font-style          : normal;
-  font-size           : 17.0px;
+  font-size           : 25.5px;
   color               : rgba(0, 114, 222, 1.0);
   text-align          : center;
-  line-height         : 36.0px;
+  line-height         : 54.0px;
 }
 .a21flatbutton .guide .guide1 .group .symbol .mobilelighttheme02buttonflatbuttonlist .flatbutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 21px;
-  width               : 218px;
+  top                 : 23px;
+  height              : 32px;
+  width               : 327px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 36px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 18.0px;
+  font-size           : 27.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
-  line-height         : 21.0px;
+  line-height         : 32.0px;
+}
+.a21flatbutton .guide .guide1 .group .spacing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 113px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 366px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 18px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 78px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing .guidemeasurearea .area {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a21flatbutton .guide .guide1 .group .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 113px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 378px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 35px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 24px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a21flatbutton .guide .guide1 .group .spacing2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 113px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 480px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 35px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurearea .area {
+  background-color    : rgba(102, 0, 255, 1.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 24px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 113px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 504px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 9px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 78px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurearea .area {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 36px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
 }
 .a21flatbutton .guide .guide1 .group .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 43px;
-  height              : 36px;
-  width               : 132px;
+  top                 : 49px;
+  height              : 54px;
+  width               : 176px;
   position            : absolute;
   margin              : 0;
-  left                : 266px;
+  left                : 402px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a21flatbutton .guide .guide1 .group .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 54px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 94px;
+  left                : 138px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1802,7 +2224,7 @@ div {
 .a21flatbutton .guide .guide1 .group .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 54px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1812,7 +2234,7 @@ div {
 }
 .a21flatbutton .guide .guide1 .group .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
+  top                 : 18px;
   height              : 18px;
   width               : 55px;
   position            : absolute;
@@ -1840,7 +2262,7 @@ div {
 .a21flatbutton .guide .guide1 .group .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 36px;
+  height              : 54px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1851,442 +2273,77 @@ div {
 .a21flatbutton .guide .guide1 .group .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 36px;
-  width               : 54px;
+  height              : 54px;
+  width               : 78px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 54px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
 }
 .a21flatbutton .guide .guide1 .group .size .guidemeasurearea .area {
-  background-color    : rgba(255, 198, 13, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 36px;
-  width               : 54px;
-  position            : absolute;
+  height              : 54px;
+  width               : 78px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a21flatbutton .guide .guide1 .group .spacing {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 87px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 242px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop {
+.a21flatbutton .guide .guide1 .group .size .guidemeasurelinehorizontal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 35px;
-  width               : 8px;
+  height              : 1px;
+  width               : 138px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .background {
+.a21flatbutton .guide .guide1 .group .size .guidemeasurelinehorizontal .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 35px;
-  width               : 8px;
+  height              : 1px;
+  width               : 138px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .value {
+.a21flatbutton .guide .guide1 .group .size .guidemeasurelinehorizontalcopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 18px;
-  width               : 10px;
+  top                 : 53px;
+  height              : 1px;
+  width               : 138px;
   position            : absolute;
   margin              : 0;
-  left                : -1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .value .a0 {
+.a21flatbutton .guide .guide1 .group .size .guidemeasurelinehorizontalcopy .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
-  height              : 9px;
-  width               : 8px;
+  height              : 1px;
+  width               : 138px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 52px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a21flatbutton .guide .guide1 .group .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 87px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 250px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
-  height              : 35px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a21flatbutton .guide .guide1 .group .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 87px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 320px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
-  height              : 35px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a21flatbutton .guide .guide1 .group .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 87px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 336px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 18px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
-  height              : 9px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 52px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a21flatbutton .guide .guide1 .group .spacing3 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
 }
 .a21flatbutton .guide .guide1 .group .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 33px;
+  top                 : 45px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 253px;
+  left                : 391px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2354,19 +2411,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a21flatbutton .keyscreens .w360mpl021flatbutton {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a21flatbutton .keyscreens .w360mpl021flatbutton .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -2376,19 +2434,452 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .keyscreens .guidekeyscreensmobileportrait1 {
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 70px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 70px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 70px;
+  box-sizing          : border-box;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist .mobilelighttheme02buttonflatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 24px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist .mobilelighttheme02buttonflatbutton .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.33px;
+  color               : rgba(0, 114, 222, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist .flatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist1 .mobilelighttheme02buttonflatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 24px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist1 .mobilelighttheme02buttonflatbutton .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.33px;
+  color               : rgba(0, 114, 222, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .list01 .mobilelighttheme02buttonflatbuttonlist1 .flatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme01actionbartitle1btn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme01actionbartitle1btn .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme01actionbartitle1btn .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme01actionbartitle1btn .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelighttheme01actionbartitle1btn .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpl021flatbutton .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a21flatbutton .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a21flatbutton .keyscreens .w360mpd021flatbutton .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -2397,6 +2888,434 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 70px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 70px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 0px;
+  height              : 69px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist .mobiledarktheme02buttonflatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 24px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist .mobiledarktheme02buttonflatbutton .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.33px;
+  color               : rgba(62, 145, 255, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist .flatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist1 .mobiledarktheme02buttonflatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 24px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist1 .mobiledarktheme02buttonflatbutton .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.33px;
+  color               : rgba(62, 145, 255, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .list01 .mobiledarktheme02buttonflatbuttonlist1 .flatbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme01actionbartitle1btn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme01actionbartitle1btn .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme01actionbartitle1btn .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme01actionbartitle1btn .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarktheme01actionbartitle1btn .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a21flatbutton .keyscreens .w360mpd021flatbutton .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
 }
 .a21flatbutton .a21flatbutton1 {
   background-color    : rgba(255,255,255,0.0);
@@ -3729,4 +4648,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

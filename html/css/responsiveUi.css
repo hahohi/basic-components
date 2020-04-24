@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300');
 
 @font-face {
                           font-family: "SamsungOneKorean-400";
@@ -187,14 +187,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .action2 {
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .mobilelighttheme01actionbaractionbutton {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
-  width               : 158px;
+  width               : 155px;
   position            : absolute;
   margin              : 0;
-  left                : 155px;
+  left                : 157px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .mobilelighttheme01actionbaractionbutton .action {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 157px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -205,7 +216,18 @@ div {
   text-align          : center;
   line-height         : 36.0px;
 }
-.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .action1 {
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .mobilelighttheme01actionbaractionbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .btn-view .mobilelighttheme01actionbaractionbutton1 .action {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
@@ -230,13 +252,36 @@ div {
   width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 155px;
+  left                : 156px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .loremipsumdolorsi {
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme17descriptiondescription01 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 69px;
+  height              : 69px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme17descriptiondescription01 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 69px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme17descriptiondescription01 .thisfunctionallows {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : 69px;
   width               : 312px;
   position            : absolute;
@@ -252,9 +297,32 @@ div {
   text-align          : left;
   line-height         : 23.0px;
 }
-.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .dialogheader {
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme04dialogsdialogheader {
   background-color    : rgba(255,255,255,0.0);
   top                 : 26px;
+  height              : 24px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme04dialogsdialogheader .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.responsiveui .screenorientation .padding .guide .symbol .mobilelighttheme04dialogsdialog01 .mobilelighttheme04dialogsdialogheader .dialogheader {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : 24px;
   width               : 312px;
   position            : absolute;
@@ -303,27 +371,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 26px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .padding .guide .guide1 .spaing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -408,27 +465,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 24px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .padding .guide .guide1 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -513,27 +559,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 20px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .padding .guide .guide1 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -618,27 +653,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 19px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .padding .guide .guide1 .spacing2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -946,27 +970,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .landscape .phonelandscape .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 111px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .landscape .phonelandscape .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 111px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .landscape .phonelandscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1176,27 +1189,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .landscape .tabletlandscape .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 188px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .landscape .tabletlandscape .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 188px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .landscape .tabletlandscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1439,27 +1441,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .landscape .winner1landscape .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .landscape .winner1landscape .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 115px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .landscape .winner1landscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1703,27 +1694,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .landscape .winner2landscape .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .landscape .winner2landscape .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 124px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .landscape .winner2landscape .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1987,27 +1967,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner12sublcd .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .portrait .winner12sublcd .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 47px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .portrait .winner12sublcd .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2229,27 +2198,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .phoneportrait .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 52px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .portrait .phoneportrait .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 52px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .portrait .phoneportrait .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2492,27 +2450,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner1portrait .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 61px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .portrait .winner1portrait .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 61px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .portrait .winner1portrait .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2745,27 +2692,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .winner2portrait .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .portrait .winner2portrait .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 100px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .portrait .winner2portrait .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -2975,27 +2911,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenorientation .portrait .tabletportrait .ruler .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 117px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenorientation .portrait .tabletportrait .ruler .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 117px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenorientation .portrait .tabletportrait .ruler1 {
   background-color    : rgba(255,255,255,0.0);
@@ -3411,27 +3336,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .winner2portrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .winner2portrait .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 100px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .tabletportrait {
   background-color    : rgba(255,255,255,0.0);
@@ -3641,27 +3555,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .tabletportrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 117px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .tabletportrait .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 117px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .winner1portrait {
   background-color    : rgba(255,255,255,0.0);
@@ -3904,27 +3807,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .winner1portrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 62px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .winner1portrait .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 62px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .tabletlandscape {
   background-color    : rgba(255,255,255,0.0);
@@ -4134,27 +4026,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .tabletlandscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 188px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .tabletlandscape .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 188px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .phoneportrait {
   background-color    : rgba(255,255,255,0.0);
@@ -4376,27 +4257,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .phoneportrait .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 52px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .phoneportrait .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 52px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .winner12sublcd {
   background-color    : rgba(255,255,255,0.0);
@@ -4607,27 +4477,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .winner12sublcd .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .winner12sublcd .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 47px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .winner2landscape {
   background-color    : rgba(255,255,255,0.0);
@@ -4871,27 +4730,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .winner2landscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .winner2landscape .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 124px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .winner1landscape {
   background-color    : rgba(255,255,255,0.0);
@@ -5134,27 +4982,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .winner1landscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .winner1landscape .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 115px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .phonelandscape {
   background-color    : rgba(255,255,255,0.0);
@@ -5376,27 +5213,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.responsiveui .screenheight .guide .phonelandscape .ruler1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 6px;
-  width               : 111px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .responsiveui .screenheight .guide .phonelandscape .ruler1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 6px;
   width               : 111px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .responsiveui .screenheight .guide .phonelandscape .statusbaruc601uc5edscreen {
   background-color    : rgba(255,255,255,0.0);
@@ -8806,4 +8632,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

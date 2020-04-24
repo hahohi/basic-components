@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-300";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1214px;
+  min-height          : 1240px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -49,10 +49,60 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
+.a152numberbadgelist .buttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1115px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .buttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .buttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .buttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
+}
 .a152numberbadgelist .numberbadgelist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
-  height              : 815px;
+  height              : 841px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -63,8 +113,8 @@ div {
 .a152numberbadgelist .numberbadgelist .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 607px;
-  height              : 208px;
-  width               : 1240px;
+  height              : 234px;
+  width               : 715px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -74,8 +124,8 @@ div {
 .a152numberbadgelist .numberbadgelist .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 208px;
-  width               : 1240px;
+  height              : 234px;
+  width               : 715px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -85,9 +135,9 @@ div {
 .a152numberbadgelist .numberbadgelist .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 208px;
+  height              : 234px;
   box-sizing          : border-box;
-  width               : 1240px;
+  width               : 715px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -100,41 +150,52 @@ div {
 .a152numberbadgelist .numberbadgelist .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 128px;
-  width               : 392px;
+  height              : 154px;
+  width               : 572px;
   position            : absolute;
   margin              : 0;
-  left                : 424px;
+  left                : 88px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .rectangle {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 78px;
+  width               : 540px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 38px;
-  height              : 52px;
-  width               : 360px;
+  top                 : 0px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .rectangle1 {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .rectangle1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 52px;
-  width               : 360px;
+  top                 : 0px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .mobilelighttheme06lists1linebadge {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .mobilelighttheme06lists1linebadge {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 52px;
-  width               : 360px;
+  top                 : 0px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -142,33 +203,33 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .mobilelighttheme06lists1linebadge .background {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .mobilelighttheme06lists1linebadge .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 360px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .mobilelighttheme06lists1linebadge .title {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .mobilelighttheme06lists1linebadge .title {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 21px;
-  width               : 279px;
+  top                 : 23px;
+  height              : 32px;
+  width               : 419px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 36px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .mobilelighttheme06lists1linebadge .title .maintext1line {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .mobilelighttheme06lists1linebadge .title .maintext1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 21px;
-  width               : 279px;
+  height              : 32px;
+  width               : 419px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -177,100 +238,89 @@ div {
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 18.0px;
+  font-size           : 27.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
-  line-height         : 21.0px;
+  line-height         : 32.0px;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 17px;
-  width               : 17px;
+  top                 : 27px;
+  height              : 26px;
+  width               : 26px;
   position            : absolute;
   margin              : 0;
-  left                : 319px;
+  left                : 479px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin .bg {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 17px;
-  width               : 17px;
+  height              : 26px;
+  width               : 26px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin .a9 {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .symbol .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin .a9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
+  top                 : 3px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 4px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 500;
   font-style          : normal;
-  font-size           : 11.0px;
+  font-size           : 16.5px;
   color               : rgba(250, 250, 250, 1.0);
   text-align          : center;
-  line-height         : 13.0px;
+  line-height         : 19.0px;
 }
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 90px;
-  width               : 16px;
+  height              : 116px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 303px;
+  left                : 454px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 16px;
+  height              : 78px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 16px;
-  position            : absolute;
+  height              : 78px;
+  width               : 24px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
+  top                 : 78px;
   height              : 38px;
-  width               : 16px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -282,7 +332,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 16px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -296,7 +346,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -309,7 +359,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 16px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -319,52 +369,41 @@ div {
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 90px;
-  width               : 24px;
+  height              : 116px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 336px;
+  left                : 504px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 24px;
+  height              : 78px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 24px;
-  position            : absolute;
+  height              : 78px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a152numberbadgelist .numberbadgelist .guide .guide1 .spacing1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 52px;
+  top                 : 78px;
   height              : 38px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -376,7 +415,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -390,7 +429,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -403,7 +442,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -413,52 +452,85 @@ div {
 .a152numberbadgelist .numberbadgelist .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 73px;
+  height              : 91px;
+  width               : 94px;
   position            : absolute;
   margin              : 0;
-  left                : 319px;
+  left                : 478px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 17px;
-  width               : 17px;
+  top                 : 65px;
+  height              : 26px;
+  width               : 26px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurearea .area {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 26px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelinehorizontal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 1px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelinehorizontal .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 17px;
-  width               : 17px;
+  height              : 1px;
+  width               : 62px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelinehorizontalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 90px;
+  height              : 1px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelinehorizontalcopy .line {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 17px;
-  width               : 17px;
+  height              : 1px;
+  width               : 62px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 17px;
+  width               : 26px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -466,29 +538,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom .background {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 17px;
+  width               : 26px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom .value {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
   width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 2px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom .value .a0 {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -504,33 +576,77 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom .combinedshape {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 17px;
+  width               : 26px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom1 {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelinevertical {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 18px;
+  top                 : 38px;
+  height              : 53px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelinevertical .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelineverticalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 53px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurelineverticalcopy .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 26px;
   width               : 32px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 62px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom1 .background {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 26px;
   width               : 32px;
   position            : absolute;
   margin              : 0;
@@ -538,9 +654,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom1 .value {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 4px;
   height              : 18px;
   width               : 14px;
   position            : absolute;
@@ -549,7 +665,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom1 .value .a0 {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -565,16 +681,250 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerbottom1 .combinedshape {
+.a152numberbadgelist .numberbadgelist .guide .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 18px;
+  height              : 26px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .guidenumberingshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 466px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .guidenumberingshape .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .guide .guide1 .guidenumberingshape .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a152numberbadgelist .numberbadgelist .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 607px;
+  height              : 142px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 142px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 142px;
+  box-sizing          : border-box;
+  width               : 505px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guideformnormal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guideformnormal .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guideformnormal .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 22px;
+  width               : 178px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guideformnormal .group .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 172px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a152numberbadgelist .numberbadgelist .shape .guideformnormal .group .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(88, 111, 254, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a152numberbadgelist .numberbadgelist .shape .guideformnormal .group .property {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(59, 59, 59, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a152numberbadgelist .numberbadgelist .shape .guidesubjectshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guidesubjectshape .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guidesubjectshape .guidenumberingicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guidesubjectshape .guidenumberingicon .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .shape .guidesubjectshape .guidenumberingicon .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a152numberbadgelist .numberbadgelist .shape .guidesubjectshape .guideproperty {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
 }
 .a152numberbadgelist .numberbadgelist .keyscreens {
   background-color    : rgba(255,255,255,0.0);
@@ -613,19 +963,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 500px;
+  left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -635,14 +986,2565 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 261px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 177px;
+  box-sizing          : border-box;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 141px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 107px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist1 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 71px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line2 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 71px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist2 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line3 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme05dividersbasiclist3 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line4 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line4 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list02 .mobilelighttheme06lists1line4 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06listssubheader02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 237px;
+  height              : 25px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06listssubheader02 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06listssubheader02 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06listssubheader02 .title .subheadertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 9.33px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 177px;
+  box-sizing          : border-box;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 141px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist1 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 71px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line2 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist2 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme06lists1line3 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .list01 .mobilelighttheme05dividersbasiclist3 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn .group .mobilelightthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn .group .mobilelightthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme01actionbartitle1btn .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06lists1linebadge {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06lists1linebadge .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06lists1linebadge .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06lists1linebadge .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpl152numberbadgelist .mobilelighttheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin .a9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 7.33px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 9.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 40px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 630px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .background {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 262px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 0px;
+  height              : 176px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 141px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist1 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line2 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist2 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line3 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme05dividersbasiclist3 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line4 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line4 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list02 .mobiledarktheme06lists1line4 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme06listssubheader02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 237px;
+  height              : 25px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme06listssubheader02 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme06listssubheader02 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme06listssubheader02 .title .subheadertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 9.33px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 0px;
+  height              : 176px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 141px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 106px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist1 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 71px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line2 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist2 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1line3 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme05dividersbasiclist3 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1linebadge {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1linebadge .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1linebadge .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1linebadge .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin1 .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme06lists1linebadge .mobiledarktheme19notificationsbadgenumbermin1 .a9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 7.33px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 9.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme19notificationsbadgenumbermin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme19notificationsbadgenumbermin .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .list01 .mobiledarktheme19notificationsbadgenumbermin .a9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 7.33px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 9.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn .group .mobiledarkthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn .group .mobiledarkthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme01actionbartitle1btn .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a152numberbadgelist .numberbadgelist .keyscreens .w360mpd152numberbadgelist .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
 .a152numberbadgelist .numberbadgelist .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
   top                 : 104px;
   height              : 29px;
-  width               : 169px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 755px;
+  left                : 885px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -650,7 +3552,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 169px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -658,84 +3560,30 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .group {
+.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .basic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
-  height              : 17px;
-  width               : 150px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 10px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.8;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 17.0px;
 }
-.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .group .pagename {
+.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .pagename {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 97px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 6px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a152numberbadgelist .numberbadgelist .keyscreens .tagrefer .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -759,56 +3607,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
-}
-.a152numberbadgelist .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1089px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a152numberbadgelist .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a152numberbadgelist .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a152numberbadgelist .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 .a152numberbadgelist .gnbbar15notificationbadges {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -2174,4 +4972,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

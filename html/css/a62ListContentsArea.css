@@ -124,7 +124,7 @@ div {
 .a62listcontentsarea .listbackground .guide .shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 323px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -135,7 +135,7 @@ div {
 .a62listcontentsarea .listbackground .guide .shape .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 323px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -146,7 +146,7 @@ div {
 .a62listcontentsarea .listbackground .guide .shape .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 313px;
+  height              : 323px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -160,7 +160,7 @@ div {
 }
 .a62listcontentsarea .listbackground .guide .shape .darktheme1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 230px;
+  top                 : 240px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -314,7 +314,7 @@ div {
 }
 .a62listcontentsarea .listbackground .guide .shape .lighttheme1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 152px;
+  top                 : 157px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -760,11 +760,15 @@ div {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 262px;
+  box-sizing          : border-box;
   width               : 360px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   border-radius       : 26px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1136,27 +1140,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .listbackground .guide .guide1 .guide2 .guide3 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 262px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a62listcontentsarea .listbackground .guide .guide1 .guide2 .guide3 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 262px;
   width               : 24px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a62listcontentsarea .listbackground .guide .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -1230,27 +1223,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .listbackground .guide .guide1 .guide2 .guide3 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 262px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a62listcontentsarea .listbackground .guide .guide1 .guide2 .guide3 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 262px;
   width               : 24px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a62listcontentsarea .listbackground .guide .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -1377,19 +1359,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .listbackground .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .listbackground .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -1399,19 +1382,1210 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .listbackground .keyscreens .guidekeyscreensmobileportrait1 {
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 215px;
+  box-sizing          : border-box;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line1 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line1 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist1 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line2 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line2 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme05dividersbasiclist2 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line3 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list02 .mobilelighttheme06lists3line3 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme06listssubheader02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 236px;
+  height              : 25px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme06listssubheader02 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme06listssubheader02 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme06listssubheader02 .title .subheadertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 9.33px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 176px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 176px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 176px;
+  box-sizing          : border-box;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist1 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme05dividersbasiclist2 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists2lineprimarysub {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists2lineprimarysub .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists2lineprimarysub .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 27px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists2lineprimarysub .title .primarycolor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 10px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(0, 114, 222, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .list01 .mobilelighttheme06lists2lineprimarysub .title .maintext2line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpl062listcontentsarea1 .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .listbackground .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -1420,6 +2594,1188 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line1 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line1 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist1 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line2 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line2 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme05dividersbasiclist2 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line3 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list02 .mobiledarktheme06lists3line3 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme06listssubheader02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 236px;
+  height              : 25px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme06listssubheader02 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme06listssubheader02 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme06listssubheader02 .title .subheadertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 9.33px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 176px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 175px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 0px;
+  height              : 175px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist1 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme05dividersbasiclist2 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists2lineprimarysub {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists2lineprimarysub .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists2lineprimarysub .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 27px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists2lineprimarysub .title .primarycolor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 10px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(62, 145, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .list01 .mobiledarktheme06lists2lineprimarysub .title .maintext2line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a62listcontentsarea .listbackground .keyscreens .w360mpd062listcontentsarea1 .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
 }
 .a62listcontentsarea .listbackground .listbackground1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1507,7 +3863,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertytitleshape {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -1519,7 +3875,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertytitleshape .background {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -1530,7 +3886,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertytitleshape .guidenumberingicon {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -1541,7 +3897,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertytitleshape .guidenumberingicon .oval {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1552,7 +3908,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertytitleshape .guidenumberingicon .a1 {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1568,7 +3924,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertytitleshape .guideproperty {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -1584,7 +3940,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertybasicformnormal {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 28px;
@@ -1596,7 +3952,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertybasicformnormal .background {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1607,7 +3963,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertybasicformnormal .group {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1618,7 +3974,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertybasicformnormal .group .label1 {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1634,7 +3990,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertybasicformnormal .group .value {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1650,7 +4006,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape .guidepropertybasicformnormal .group .property {
+.a62listcontentsarea .darktheme .darkmode .guide .shape .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1703,7 +4059,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertytitleshape {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -1715,7 +4071,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertytitleshape .background {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -1726,7 +4082,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertytitleshape .guidenumberingicon {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -1737,7 +4093,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertytitleshape .guidenumberingicon .oval {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1748,7 +4104,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertytitleshape .guidenumberingicon .a1 {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1764,7 +4120,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertytitleshape .guideproperty {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -1780,7 +4136,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertybasicformnormal {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 28px;
@@ -1792,7 +4148,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertybasicformnormal .background {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1803,7 +4159,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertybasicformnormal .group {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1814,7 +4170,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertybasicformnormal .group .label1 {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1830,7 +4186,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertybasicformnormal .group .value {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1846,7 +4202,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guidepropertybasicformnormal .group .property {
+.a62listcontentsarea .darktheme .darkmode .guide .shape1 .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1923,12 +4279,12 @@ div {
 }
 .a62listcontentsarea .darktheme .darkmode .guide .guide1 .guide2 .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 30px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 73px;
+  left                : 91px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2159,7 +4515,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertytitleshape {
+.a62listcontentsarea .lighttheme .guide .shape .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -2171,7 +4527,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertytitleshape .background {
+.a62listcontentsarea .lighttheme .guide .shape .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2182,7 +4538,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertytitleshape .guidenumberingicon {
+.a62listcontentsarea .lighttheme .guide .shape .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -2193,7 +4549,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertytitleshape .guidenumberingicon .oval {
+.a62listcontentsarea .lighttheme .guide .shape .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2204,7 +4560,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertytitleshape .guidenumberingicon .a1 {
+.a62listcontentsarea .lighttheme .guide .shape .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2220,7 +4576,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertytitleshape .guideproperty {
+.a62listcontentsarea .lighttheme .guide .shape .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -2236,7 +4592,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertybasicformstroke {
+.a62listcontentsarea .lighttheme .guide .shape .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 28px;
@@ -2248,7 +4604,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertybasicformstroke .background {
+.a62listcontentsarea .lighttheme .guide .shape .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2259,7 +4615,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertybasicformstroke .group {
+.a62listcontentsarea .lighttheme .guide .shape .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2270,7 +4626,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertybasicformstroke .group .label1 {
+.a62listcontentsarea .lighttheme .guide .shape .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2286,7 +4642,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertybasicformstroke .group .value {
+.a62listcontentsarea .lighttheme .guide .shape .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2302,7 +4658,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .lighttheme .guide .shape .guidepropertybasicformstroke .group .property {
+.a62listcontentsarea .lighttheme .guide .shape .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2591,7 +4947,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertytitleshape {
+.a62listcontentsarea .lighttheme .guide1 .shape .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -2603,7 +4959,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertytitleshape .background {
+.a62listcontentsarea .lighttheme .guide1 .shape .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2614,7 +4970,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertytitleshape .guidenumberingicon {
+.a62listcontentsarea .lighttheme .guide1 .shape .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -2625,7 +4981,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertytitleshape .guidenumberingicon .oval {
+.a62listcontentsarea .lighttheme .guide1 .shape .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2636,7 +4992,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertytitleshape .guidenumberingicon .a1 {
+.a62listcontentsarea .lighttheme .guide1 .shape .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2652,7 +5008,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertytitleshape .guideproperty {
+.a62listcontentsarea .lighttheme .guide1 .shape .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -2668,7 +5024,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertybasicformnormal {
+.a62listcontentsarea .lighttheme .guide1 .shape .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 28px;
@@ -2680,7 +5036,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertybasicformnormal .background {
+.a62listcontentsarea .lighttheme .guide1 .shape .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2691,7 +5047,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertybasicformnormal .group {
+.a62listcontentsarea .lighttheme .guide1 .shape .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2702,7 +5058,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertybasicformnormal .group .label1 {
+.a62listcontentsarea .lighttheme .guide1 .shape .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2718,7 +5074,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertybasicformnormal .group .value {
+.a62listcontentsarea .lighttheme .guide1 .shape .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2734,7 +5090,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape .guidepropertybasicformnormal .group .property {
+.a62listcontentsarea .lighttheme .guide1 .shape .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2787,7 +5143,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertytitleshape {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -2799,7 +5155,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertytitleshape .background {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2810,7 +5166,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertytitleshape .guidenumberingicon {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -2821,7 +5177,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertytitleshape .guidenumberingicon .oval {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2832,7 +5188,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertytitleshape .guidenumberingicon .a1 {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2848,7 +5204,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertytitleshape .guideproperty {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -2864,7 +5220,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertybasicformnormal {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 28px;
@@ -2876,7 +5232,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertybasicformnormal .background {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2887,7 +5243,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertybasicformnormal .group {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2898,7 +5254,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertybasicformnormal .group .label1 {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2914,7 +5270,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertybasicformnormal .group .value {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2930,7 +5286,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a62listcontentsarea .lighttheme .guide1 .shape1 .guidepropertybasicformnormal .group .property {
+.a62listcontentsarea .lighttheme .guide1 .shape1 .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3007,12 +5363,12 @@ div {
 }
 .a62listcontentsarea .lighttheme .guide1 .guide2 .guide3 .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
+  top                 : 32px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 74px;
+  left                : 89px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4673,4 +7029,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

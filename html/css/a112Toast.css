@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500,400|Roboto+Condensed:400');
 
 @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-600";
                           src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
@@ -48,6 +48,56 @@ div {
 }
 div {
   -webkit-text-size-adjust: none;
+}
+.a112toast .buttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2384px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .buttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .buttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .buttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
 }
 .a112toast .default {
   background-color    : rgba(255,255,255,0.0);
@@ -99,53 +149,53 @@ div {
 }
 .a112toast .default .guide1 .maxwidth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 272px;
-  height              : 112px;
-  width               : 380px;
+  top                 : 263px;
+  height              : 145px;
+  width               : 502px;
   position            : absolute;
   margin              : 0;
-  left                : 234px;
+  left                : 176px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 74px;
-  width               : 342px;
+  top                 : 11px;
+  height              : 96px;
+  width               : 453px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 11px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .symbol .rectangle {
   background-color    : rgba(252, 252, 252, 1.0);
-  top                 : 0px;
+  top                 : 15px;
   height              : 74px;
   width               : 342px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 56px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .symbol .mobiledarktheme12toast2linemax {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 302px;
+  height              : 96px;
+  width               : 453px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .symbol .mobiledarktheme12toast2linemax .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 302px;
+  height              : 96px;
+  width               : 453px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -155,82 +205,71 @@ div {
 .a112toast .default .guide1 .maxwidth .symbol .mobiledarktheme12toast2linemax .group .bg {
   background-color    : rgba(102, 102, 102, 1.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 302px;
+  height              : 96px;
+  width               : 453px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 22px;
+  border-radius       : 33px;
   transform           : rotate(0deg);
   opacity             : 0.95;
 }
 .a112toast .default .guide1 .maxwidth .symbol .mobiledarktheme12toast2linemax .group .texttexttexttext {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 40px;
-  width               : 262px;
+  top                 : 18px;
+  height              : 60px;
+  width               : 393px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 30px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 16.0px;
+  font-size           : 24.0px;
   color               : rgba(250, 250, 250, 1.0);
   text-align          : center;
-  line-height         : 20.0px;
+  line-height         : 30.0px;
 }
 .a112toast .default .guide1 .maxwidth .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 112px;
-  width               : 20px;
+  top                 : 11px;
+  height              : 134px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 11px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 20px;
+  height              : 96px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .maxwidth .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 74px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .maxwidth .spacing .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 20px;
-  position            : absolute;
+  height              : 96px;
+  width               : 30px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .maxwidth .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
+  top                 : 96px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -242,7 +281,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -256,7 +295,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -269,7 +308,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -278,53 +317,42 @@ div {
 }
 .a112toast .default .guide1 .maxwidth .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 112px;
-  width               : 20px;
+  top                 : 11px;
+  height              : 134px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 322px;
+  left                : 434px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 20px;
+  height              : 96px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .maxwidth .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 74px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .maxwidth .spacing1 .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 74px;
-  width               : 20px;
-  position            : absolute;
+  height              : 96px;
+  width               : 30px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .maxwidth .spacing1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 74px;
+  top                 : 96px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -336,7 +364,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -350,7 +378,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -363,7 +391,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -372,56 +400,45 @@ div {
 }
 .a112toast .default .guide1 .maxwidth .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 380px;
+  top                 : 11px;
+  height              : 18px;
+  width               : 461px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 41px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 342px;
+  height              : 18px;
+  width               : 393px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .maxwidth .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 342px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .maxwidth .spacing2 .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 342px;
-  position            : absolute;
+  height              : 18px;
+  width               : 393px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .maxwidth .spacing2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 342px;
+  left                : 423px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -429,7 +446,7 @@ div {
 .a112toast .default .guide1 .maxwidth .spacing2 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -439,7 +456,7 @@ div {
 }
 .a112toast .default .guide1 .maxwidth .spacing2 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -3px;
+  top                 : 0px;
   height              : 18px;
   width               : 15px;
   position            : absolute;
@@ -467,7 +484,7 @@ div {
 .a112toast .default .guide1 .maxwidth .spacing2 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -477,56 +494,45 @@ div {
 }
 .a112toast .default .guide1 .maxwidth .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 62px;
-  height              : 12px;
-  width               : 380px;
+  top                 : 89px;
+  height              : 18px;
+  width               : 461px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 41px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .spacing3 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 342px;
+  height              : 18px;
+  width               : 393px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .maxwidth .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 342px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .maxwidth .spacing3 .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 342px;
-  position            : absolute;
+  height              : 18px;
+  width               : 393px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .maxwidth .spacing3 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 342px;
+  left                : 423px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -534,7 +540,7 @@ div {
 .a112toast .default .guide1 .maxwidth .spacing3 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -544,7 +550,7 @@ div {
 }
 .a112toast .default .guide1 .maxwidth .spacing3 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -3px;
+  top                 : 0px;
   height              : 18px;
   width               : 15px;
   position            : absolute;
@@ -572,7 +578,7 @@ div {
 .a112toast .default .guide1 .maxwidth .spacing3 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -582,47 +588,36 @@ div {
 }
 .a112toast .default .guide1 .maxwidth .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 50px;
-  width               : 262px;
+  top                 : 29px;
+  height              : 60px;
+  width               : 393px;
   position            : absolute;
   margin              : 0;
-  left                : 40px;
+  left                : 41px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .maxwidth .area .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 50px;
-  width               : 262px;
+  height              : 60px;
+  width               : 393px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .maxwidth .area .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .maxwidth .area .guidemeasurearea .area1 {
-  background-color    : rgba(255, 198, 13, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 50px;
-  width               : 262px;
-  position            : absolute;
+  height              : 60px;
+  width               : 393px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .maxwidth .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
@@ -631,7 +626,7 @@ div {
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -664,12 +659,12 @@ div {
 }
 .a112toast .default .guide1 .maxwidth .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
+  top                 : 18px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 32px;
+  left                : 30px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -702,31 +697,31 @@ div {
 }
 .a112toast .default .guide1 .default2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 89px;
-  height              : 95px;
-  width               : 243px;
+  top                 : 80px;
+  height              : 115px;
+  width               : 327px;
   position            : absolute;
   margin              : 0;
-  left                : 283px;
+  left                : 250px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .default2 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : 44px;
-  width               : 167px;
+  top                 : 11px;
+  height              : 66px;
+  width               : 251px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .default2 .symbol .mobiledarktheme12toast1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 44px;
-  width               : 167px;
+  height              : 66px;
+  width               : 252px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -736,8 +731,8 @@ div {
 .a112toast .default .guide1 .default2 .symbol .mobiledarktheme12toast1line .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 44px;
-  width               : 167px;
+  height              : 66px;
+  width               : 252px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -747,38 +742,38 @@ div {
 .a112toast .default .guide1 .default2 .symbol .mobiledarktheme12toast1line .group .bg {
   background-color    : rgba(102, 102, 102, 1.0);
   top                 : 0px;
-  height              : 44px;
-  width               : 167px;
+  height              : 66px;
+  width               : 251px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 22px;
+  border-radius       : 33px;
   transform           : rotate(0deg);
   opacity             : 0.95;
 }
 .a112toast .default .guide1 .default2 .symbol .mobiledarktheme12toast1line .group .savingcontactu2026 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 20px;
-  width               : 127px;
+  top                 : 18px;
+  height              : 30px;
+  width               : 191px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 30px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 16.0px;
+  font-size           : 24.0px;
   color               : rgba(250, 250, 250, 1.0);
   text-align          : center;
-  line-height         : 20.0px;
+  line-height         : 30.0px;
 }
 .a112toast .default .guide1 .default2 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : 82px;
-  width               : 20px;
+  top                 : 11px;
+  height              : 104px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -787,9 +782,9 @@ div {
 }
 .a112toast .default .guide1 .default2 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
+  top                 : 66px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -801,7 +796,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -815,7 +810,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -828,7 +823,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -838,52 +833,41 @@ div {
 .a112toast .default .guide1 .default2 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 44px;
-  width               : 20px;
+  height              : 66px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .default2 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .default2 .spacing .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 44px;
-  width               : 20px;
-  position            : absolute;
+  height              : 66px;
+  width               : 30px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .default2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : 82px;
-  width               : 20px;
+  top                 : 11px;
+  height              : 104px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 185px;
+  left                : 259px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .default2 .spacing1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
+  top                 : 66px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -895,7 +879,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -909,7 +893,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -922,7 +906,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -932,55 +916,44 @@ div {
 .a112toast .default .guide1 .default2 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 44px;
-  width               : 20px;
+  height              : 66px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .default2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .default2 .spacing1 .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 44px;
-  width               : 20px;
-  position            : absolute;
+  height              : 66px;
+  width               : 30px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .default2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : 12px;
-  width               : 205px;
+  top                 : 11px;
+  height              : 18px;
+  width               : 259px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 68px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .default2 .spacing2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 221px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -988,7 +961,7 @@ div {
 .a112toast .default .guide1 .default2 .spacing2 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -998,7 +971,7 @@ div {
 }
 .a112toast .default .guide1 .default2 .spacing2 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -3px;
+  top                 : 0px;
   height              : 18px;
   width               : 15px;
   position            : absolute;
@@ -1026,7 +999,7 @@ div {
 .a112toast .default .guide1 .default2 .spacing2 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1037,55 +1010,44 @@ div {
 .a112toast .default .guide1 .default2 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 167px;
+  height              : 18px;
+  width               : 191px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .default2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 167px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .default2 .spacing2 .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 167px;
-  position            : absolute;
+  height              : 18px;
+  width               : 191px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .default2 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
-  height              : 12px;
-  width               : 205px;
+  top                 : 59px;
+  height              : 18px;
+  width               : 259px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 68px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .default2 .spacing3 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 221px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1093,7 +1055,7 @@ div {
 .a112toast .default .guide1 .default2 .spacing3 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1103,7 +1065,7 @@ div {
 }
 .a112toast .default .guide1 .default2 .spacing3 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -3px;
+  top                 : 0px;
   height              : 18px;
   width               : 15px;
   position            : absolute;
@@ -1131,7 +1093,7 @@ div {
 .a112toast .default .guide1 .default2 .spacing3 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1142,84 +1104,62 @@ div {
 .a112toast .default .guide1 .default2 .spacing3 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 167px;
+  height              : 18px;
+  width               : 191px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .default2 .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 167px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .default2 .spacing3 .guidemeasurearea .area1 {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 167px;
-  position            : absolute;
+  height              : 18px;
+  width               : 191px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .default2 .area {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 20px;
-  width               : 127px;
+  top                 : 29px;
+  height              : 30px;
+  width               : 191px;
   position            : absolute;
   margin              : 0;
-  left                : 58px;
+  left                : 68px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a112toast .default .guide1 .default2 .area .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 20px;
-  width               : 127px;
+  height              : 30px;
+  width               : 191px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .guide1 .default2 .area .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 127px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .default .guide1 .default2 .area .guidemeasurearea .area1 {
-  background-color    : rgba(255, 198, 13, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 20px;
-  width               : 127px;
-  position            : absolute;
+  height              : 30px;
+  width               : 191px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .default .guide1 .default2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : 44px;
+  top                 : 11px;
+  height              : 66px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1230,7 +1170,7 @@ div {
 .a112toast .default .guide1 .default2 .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 44px;
+  height              : 66px;
   width               : 38px;
   position            : relative;
   margin              : 0;
@@ -1242,7 +1182,7 @@ div {
 .a112toast .default .guide1 .default2 .size .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 44px;
+  height              : 66px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1252,7 +1192,7 @@ div {
 }
 .a112toast .default .guide1 .default2 .size .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
+  top                 : 24px;
   height              : 19px;
   width               : 56px;
   position            : absolute;
@@ -1280,7 +1220,7 @@ div {
 .a112toast .default .guide1 .default2 .size .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 44px;
+  height              : 66px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1295,7 +1235,7 @@ div {
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 36px;
+  left                : 35px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1328,12 +1268,12 @@ div {
 }
 .a112toast .default .guide1 .default2 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
+  top                 : 18px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 53px;
+  left                : 57px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1366,12 +1306,12 @@ div {
 }
 .a112toast .default .guide1 .default1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 125px;
+  top                 : 113px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 110px;
+  left                : 64px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1382,12 +1322,12 @@ div {
 }
 .a112toast .default .guide1 .maxwidth1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 316px;
+  top                 : 310px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
+  left                : 64px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1444,7 +1384,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal {
+.a112toast .default .image .general .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1456,7 +1396,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal .background {
+.a112toast .default .image .general .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1467,7 +1407,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal .group {
+.a112toast .default .image .general .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1478,7 +1418,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal .group .label1 {
+.a112toast .default .image .general .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1494,7 +1434,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal .group .value {
+.a112toast .default .image .general .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1510,7 +1450,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal .group .property {
+.a112toast .default .image .general .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1526,7 +1466,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal1 {
+.a112toast .default .image .general .guideformnormal1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28px;
   height              : 28px;
@@ -1538,7 +1478,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal1 .background {
+.a112toast .default .image .general .guideformnormal1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1549,7 +1489,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal1 .group {
+.a112toast .default .image .general .guideformnormal1 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1560,7 +1500,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal1 .group .label1 {
+.a112toast .default .image .general .guideformnormal1 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1576,7 +1516,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal1 .group .value {
+.a112toast .default .image .general .guideformnormal1 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1592,7 +1532,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal1 .group .property {
+.a112toast .default .image .general .guideformnormal1 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1608,7 +1548,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal2 {
+.a112toast .default .image .general .guideformnormal2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 28px;
@@ -1620,7 +1560,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal2 .background {
+.a112toast .default .image .general .guideformnormal2 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1631,7 +1571,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal2 .group {
+.a112toast .default .image .general .guideformnormal2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1642,7 +1582,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal2 .group .label1 {
+.a112toast .default .image .general .guideformnormal2 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1658,7 +1598,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal2 .group .value {
+.a112toast .default .image .general .guideformnormal2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1674,7 +1614,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .general .guidemodifiedformpropertynormal2 .group .property {
+.a112toast .default .image .general .guideformnormal2 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1690,7 +1630,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .image .guidemodifiedsubjectimage {
+.a112toast .default .image .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -1702,7 +1642,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .guidemodifiedsubjectimage .background {
+.a112toast .default .image .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -1713,7 +1653,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .guidemodifiedsubjectimage .guidenumberingicon {
+.a112toast .default .image .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -1724,7 +1664,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .guidemodifiedsubjectimage .guidenumberingicon .oval {
+.a112toast .default .image .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1735,7 +1675,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .image .guidemodifiedsubjectimage .guidenumberingicon .a1 {
+.a112toast .default .image .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1751,7 +1691,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a112toast .default .image .guidemodifiedsubjectimage .guideproperty {
+.a112toast .default .image .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -1815,7 +1755,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal {
+.a112toast .default .type .general .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1827,7 +1767,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal .background {
+.a112toast .default .type .general .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1838,7 +1778,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal .group {
+.a112toast .default .type .general .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1849,7 +1789,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal .group .label1 {
+.a112toast .default .type .general .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1865,7 +1805,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal .group .value {
+.a112toast .default .type .general .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1881,7 +1821,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal .group .property {
+.a112toast .default .type .general .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1897,7 +1837,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal1 {
+.a112toast .default .type .general .guideformnormal1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28px;
   height              : 28px;
@@ -1909,7 +1849,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal1 .background {
+.a112toast .default .type .general .guideformnormal1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1920,7 +1860,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal1 .group {
+.a112toast .default .type .general .guideformnormal1 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1931,7 +1871,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal1 .group .label1 {
+.a112toast .default .type .general .guideformnormal1 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1947,7 +1887,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal1 .group .value {
+.a112toast .default .type .general .guideformnormal1 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1963,7 +1903,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal1 .group .property {
+.a112toast .default .type .general .guideformnormal1 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1979,7 +1919,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal2 {
+.a112toast .default .type .general .guideformnormal2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
   height              : 28px;
@@ -1991,7 +1931,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal2 .background {
+.a112toast .default .type .general .guideformnormal2 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2002,7 +1942,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal2 .group {
+.a112toast .default .type .general .guideformnormal2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2013,7 +1953,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal2 .group .label1 {
+.a112toast .default .type .general .guideformnormal2 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2029,7 +1969,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal2 .group .value {
+.a112toast .default .type .general .guideformnormal2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2045,7 +1985,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal2 .group .property {
+.a112toast .default .type .general .guideformnormal2 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2061,7 +2001,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormalcopy {
+.a112toast .default .type .general .guideformnormal3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 84px;
   height              : 28px;
@@ -2073,7 +2013,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormalcopy .background {
+.a112toast .default .type .general .guideformnormal3 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2084,7 +2024,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormalcopy .group {
+.a112toast .default .type .general .guideformnormal3 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2095,7 +2035,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormalcopy .group .label1 {
+.a112toast .default .type .general .guideformnormal3 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2111,7 +2051,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormalcopy .group .value {
+.a112toast .default .type .general .guideformnormal3 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2127,7 +2067,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormalcopy .group .property {
+.a112toast .default .type .general .guideformnormal3 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2143,7 +2083,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal3 {
+.a112toast .default .type .general .guideformnormal4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 112px;
   height              : 28px;
@@ -2155,7 +2095,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal3 .background {
+.a112toast .default .type .general .guideformnormal4 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2166,7 +2106,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal3 .group {
+.a112toast .default .type .general .guideformnormal4 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2177,7 +2117,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal3 .group .label1 {
+.a112toast .default .type .general .guideformnormal4 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2193,7 +2133,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal3 .group .value {
+.a112toast .default .type .general .guideformnormal4 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2209,7 +2149,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .general .guidemodifiedformpropertynormal3 .group .property {
+.a112toast .default .type .general .guideformnormal4 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2225,7 +2165,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a112toast .default .type .guidemodifiedsubjectimage {
+.a112toast .default .type .guidesubjecttype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -2237,7 +2177,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .guidemodifiedsubjectimage .background {
+.a112toast .default .type .guidesubjecttype .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -2248,7 +2188,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .guidemodifiedsubjectimage .guidenumberingtype {
+.a112toast .default .type .guidesubjecttype .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2259,7 +2199,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .guidemodifiedsubjectimage .guidenumberingtype .oval {
+.a112toast .default .type .guidesubjecttype .guidenumberingtype .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2270,7 +2210,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .default .type .guidemodifiedsubjectimage .guidenumberingtype .a1 {
+.a112toast .default .type .guidesubjecttype .guidenumberingtype .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2286,7 +2226,7 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.a112toast .default .type .guidemodifiedsubjectimage .guideproperty {
+.a112toast .default .type .guidesubjecttype .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -2435,27 +2375,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .guide .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 64px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a112toast .guide .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 64px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a112toast .guide .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -2571,19 +2500,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a112toast .keyscreens .w360mpl112toast2 {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a112toast .keyscreens .w360mpl112toast2 .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -2593,25 +2523,512 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens .guidekeyscreensmobileportrait1 {
+.a112toast .keyscreens .w360mpl112toast2 .mobilelightthemeindicator {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobiledarktheme12toast2linemax {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 422px;
+  height              : 44px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobiledarktheme12toast2linemax .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 202px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobiledarktheme12toast2linemax .group .bg {
+  background-color    : rgba(102, 102, 102, 1.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobiledarktheme12toast2linemax .group .texttexttexttext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 27px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 13.33px;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens .w360mpl112toast2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a112toast .keyscreens .w360mpd112toast2 {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a112toast .keyscreens .w360mpd112toast2 .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme12toast2linemax {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 422px;
+  height              : 44px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme12toast2linemax .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 202px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme12toast2linemax .group .bg {
+  background-color    : rgba(102, 102, 102, 1.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme12toast2linemax .group .texttexttexttext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 27px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 13.33px;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens .w360mpd112toast2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2652,19 +3069,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens1 .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a112toast .keyscreens1 .w360mpl112toast1 {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens1 .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a112toast .keyscreens1 .w360mpl112toast1 .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -2674,25 +3092,512 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens1 .guidekeyscreensmobileportrait1 {
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelightthemeindicator {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobiledarktheme12toast1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 435px;
+  height              : 31px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobiledarktheme12toast1line .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 112px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobiledarktheme12toast1line .group .bg {
+  background-color    : rgba(102, 102, 102, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobiledarktheme12toast1line .group .savingcontactu2026 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 13px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 13.33px;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a112toast .keyscreens1 .w360mpl112toast1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a112toast .keyscreens1 .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a112toast .keyscreens1 .w360mpd112toast1 .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme12toast1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 435px;
+  height              : 31px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme12toast1line .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 112px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme12toast1line .group .bg {
+  background-color    : rgba(102, 102, 102, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme12toast1line .group .savingcontactu2026 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 13px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 13.33px;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a112toast .keyscreens1 .w360mpd112toast1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2711,56 +3616,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
-}
-.a112toast .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2384px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a112toast .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a112toast .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a112toast .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 .a112toast .gnbbar11toast {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -4077,4 +4932,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

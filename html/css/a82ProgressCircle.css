@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2561px;
+  min-height          : 2562px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a82progresscircle .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2436px;
+  top                 : 2437px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -102,19 +102,19 @@ div {
 .a82progresscircle .indeterminate {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1365px;
-  height              : 991px;
-  width               : 1240px;
+  height              : 993px;
+  width               : 1242px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 379px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 641px;
-  height              : 350px;
-  width               : 1240px;
+  top                 : 642px;
+  height              : 351px;
+  width               : 1242px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -123,8 +123,8 @@ div {
 }
 .a82progresscircle .indeterminate .table .a2st {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 242px;
-  height              : 108px;
+  top                 : 241px;
+  height              : 110px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -133,22 +133,10 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a2st .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 108px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table .a2st .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 100px;
+  height              : 110px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -156,24 +144,39 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a2st .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table .a2st .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a2st .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
+  top                 : 42px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -183,47 +186,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table .a2st .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 108px;
-  width               : 450px;
+  height              : 110px;
+  width               : 452px;
   position            : absolute;
   margin              : 0;
   left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table .a2st .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 450px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a2st .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table .a2st .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 452px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a2st .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 52px;
   width               : 410px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -234,12 +240,12 @@ div {
 }
 .a82progresscircle .indeterminate .table .a2st .tablecontent1style2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 1px;
   height              : 108px;
   width               : 690px;
   position            : absolute;
   margin              : 0;
-  left                : 550px;
+  left                : 551px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -348,52 +354,55 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a1st .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table .a1st .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a1st .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table .a1st .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a1st .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
+  top                 : 42px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -403,47 +412,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table .a1st .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 450px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 452px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table .a1st .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 450px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a1st .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table .a1st .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 452px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .a1st .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
+  top                 : 42px;
   height              : 26px;
   width               : 410px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -580,41 +592,55 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .head .tablesubject {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table .head .tablesubject .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table .head .tablesubject .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table .head .tablesubject .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .head .tablesubject .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -624,36 +650,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table .head .tablesubject1 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 450px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 452px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table .head .tablesubject1 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table .head .tablesubject1 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table .head .tablesubject1 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 452px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .head .tablesubject1 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 410px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -663,36 +703,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table .head .tablesubject2 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 690px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 692px;
   position            : absolute;
   margin              : 0;
-  left                : 550px;
-  overflow            : hidden;
+  left                : 549px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table .head .tablesubject2 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table .head .tablesubject2 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 690px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table .head .tablesubject2 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 692px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table .head .tablesubject2 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 650px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -708,7 +762,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -724,7 +778,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -736,17 +790,17 @@ div {
 .a82progresscircle .indeterminate .table1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 83px;
-  height              : 498px;
+  height              : 499px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .httpsmobilerndhub {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 476px;
+  top                 : 477px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -773,47 +827,50 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 162px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 160px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 162px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
+  top                 : 68px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -823,47 +880,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 200px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 162px;
+  width               : 202px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 200px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 160px;
   width               : 200px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 162px;
+  box-sizing          : border-box;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
+  top                 : 68px;
   height              : 26px;
   width               : 160px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -873,47 +933,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 162px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 300px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 299px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 160px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 162px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
+  top                 : 68px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -923,47 +986,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 162px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 535px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style3 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 534px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style3 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 160px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style3 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 162px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 67px;
+  top                 : 68px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -973,47 +1039,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style4 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 162px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 770px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style4 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 769px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style4 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 160px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style4 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 162px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style4 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
+  top                 : 16px;
   height              : 130px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1023,47 +1092,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style5 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 162px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 1005px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style5 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 160px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 1004px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style5 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 160px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style5 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 162px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a3rd .tablecontent1style5 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
+  top                 : 55px;
   height              : 52px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1084,47 +1156,50 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
+  top                 : 42px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1134,47 +1209,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 200px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 202px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 200px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 200px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 52px;
   width               : 160px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1184,47 +1262,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 300px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 299px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
+  top                 : 16px;
   height              : 78px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1234,47 +1315,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 535px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style3 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 534px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style3 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style3 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
+  top                 : 16px;
   height              : 78px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1284,47 +1368,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style4 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 770px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style4 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 769px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style4 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style4 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style4 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
+  top                 : 16px;
   height              : 78px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1334,47 +1421,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style5 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 110px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 1005px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style5 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 1004px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style5 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 108px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a2st .tablecontent1style5 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a2st .tablecontent1style5 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
+  top                 : 16px;
   height              : 78px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1395,47 +1485,50 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 102px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 100px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 102px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
+  top                 : 38px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1445,47 +1538,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 200px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 102px;
+  width               : 202px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 200px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 100px;
   width               : 200px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 102px;
+  box-sizing          : border-box;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
+  top                 : 38px;
   height              : 26px;
   width               : 160px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1495,47 +1591,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 102px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 300px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 299px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 100px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 102px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
+  top                 : 38px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1545,47 +1644,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 102px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 535px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style3 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 534px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style3 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 100px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style3 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 102px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
+  top                 : 38px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1595,47 +1697,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style4 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 102px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 770px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style4 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 769px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style4 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 100px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style4 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 102px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style4 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
+  top                 : 38px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1645,47 +1750,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style5 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 102px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 1005px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style5 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100px;
-  width               : 235px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 1004px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style5 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 100px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .a1st .tablecontent1style5 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 102px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .a1st .tablecontent1style5 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
+  top                 : 38px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1897,36 +2005,50 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table1 .head .tablesubject .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table1 .head .tablesubject .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .head .tablesubject .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -1936,36 +2058,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject1 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 200px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 202px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table1 .head .tablesubject1 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table1 .head .tablesubject1 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 200px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .head .tablesubject1 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject1 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 160px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -1975,36 +2111,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject2 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 300px;
-  overflow            : hidden;
+  left                : 299px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table1 .head .tablesubject2 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table1 .head .tablesubject2 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .head .tablesubject2 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject2 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -2014,36 +2164,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject3 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 535px;
-  overflow            : hidden;
+  left                : 534px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table1 .head .tablesubject3 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table1 .head .tablesubject3 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .head .tablesubject3 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject3 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -2053,36 +2217,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject4 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 770px;
-  overflow            : hidden;
+  left                : 769px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table1 .head .tablesubject4 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table1 .head .tablesubject4 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .head .tablesubject4 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject4 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -2092,36 +2270,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject5 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 235px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 237px;
   position            : absolute;
   margin              : 0;
-  left                : 1005px;
-  overflow            : hidden;
+  left                : 1004px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .indeterminate .table1 .head .tablesubject5 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .indeterminate .table1 .head .tablesubject5 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 235px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .indeterminate .table1 .head .tablesubject5 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 237px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .indeterminate .table1 .head .tablesubject5 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 195px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -2153,7 +2345,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -2166,10 +2358,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
   height              : 1011px;
-  width               : 1240px;
+  width               : 1242px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 379px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2180,7 +2372,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2559,8 +2751,8 @@ div {
 .a82progresscircle .determinate .table {
   background-color    : rgba(255,255,255,0.0);
   top                 : 83px;
-  height              : 583px;
-  width               : 1240px;
+  height              : 584px;
+  width               : 1242px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2569,9 +2761,9 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 78px;
-  height              : 505px;
-  width               : 1240px;
+  top                 : 77px;
+  height              : 507px;
+  width               : 1242px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2580,57 +2772,60 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 400px;
+  top                 : 401px;
   height              : 105px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 107px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 105px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 107px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
+  top                 : 41px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -2640,47 +2835,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 280px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 107px;
+  width               : 282px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 280px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 105px;
   width               : 280px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 107px;
+  box-sizing          : border-box;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
+  top                 : 41px;
   height              : 26px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -2935,47 +3133,50 @@ div {
   line-height         : 19.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 430px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 107px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
-  left                : 810px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 809px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 105px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 107px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a4rd .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
+  top                 : 41px;
   height              : 26px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -2986,57 +3187,60 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 318px;
+  top                 : 319px;
   height              : 82px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3046,47 +3250,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 280px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 282px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 280px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 280px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3096,47 +3303,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 379px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
+  top                 : 16px;
   height              : 52px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3146,47 +3356,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
-  left                : 810px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style3 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 809px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style3 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style3 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a3rd .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3197,57 +3410,60 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 236px;
+  top                 : 237px;
   height              : 82px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3257,47 +3473,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 280px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 282px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 280px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 280px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3307,47 +3526,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 379px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3357,47 +3579,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
-  left                : 810px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style3 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 809px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style3 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style3 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a2nd .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
+  top                 : 16px;
   height              : 52px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3409,8 +3634,8 @@ div {
 .a82progresscircle .determinate .table .progresscircletable .a1st {
   background-color    : rgba(255,255,255,0.0);
   top                 : 56px;
-  height              : 180px;
-  width               : 1240px;
+  height              : 182px;
+  width               : 1242px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3418,22 +3643,10 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 180px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 180px;
-  width               : 100px;
+  height              : 182px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3441,24 +3654,39 @@ div {
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 180px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 182px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 77px;
+  top                 : 78px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3468,47 +3696,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 180px;
-  width               : 280px;
+  height              : 182px;
+  width               : 282px;
   position            : absolute;
   margin              : 0;
   left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 180px;
-  width               : 280px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 180px;
   width               : 280px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 182px;
+  box-sizing          : border-box;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 77px;
+  top                 : 78px;
   height              : 26px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3518,47 +3749,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 180px;
-  width               : 430px;
+  height              : 182px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
   left                : 380px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 180px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 180px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 182px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 77px;
+  top                 : 78px;
   height              : 26px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3568,47 +3802,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style3 {
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 180px;
-  width               : 430px;
+  height              : 182px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
   left                : 810px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style3 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 180px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style3 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 180px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style3 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 182px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .tablecontent1style3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 77px;
+  top                 : 78px;
   height              : 26px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3619,12 +3856,12 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .fab {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 33px;
+  top                 : 34px;
   height              : 114px;
   width               : 114px;
   position            : absolute;
   margin              : 0;
-  left                : 397px;
+  left                : 398px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3685,12 +3922,12 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable .a1st .circleshapebutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
+  top                 : 28px;
   height              : 126px;
   width               : 126px;
   position            : absolute;
   margin              : 0;
-  left                : 830px;
+  left                : 831px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3763,46 +4000,60 @@ div {
 }
 .a82progresscircle .determinate .table .progresscircletable .head {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 1px;
   height              : 56px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .determinate .table .progresscircletable .head .tablesubject .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -3812,36 +4063,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject1 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 280px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 282px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .determinate .table .progresscircletable .head .tablesubject1 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject1 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 280px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject1 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject1 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -3851,36 +4116,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject2 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 430px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
-  overflow            : hidden;
+  left                : 379px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .determinate .table .progresscircletable .head .tablesubject2 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject2 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject2 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject2 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -3890,36 +4169,50 @@ div {
   line-height         : 26.0px;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject3 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 430px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
-  left                : 810px;
-  overflow            : hidden;
+  left                : 809px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .determinate .table .progresscircletable .head .tablesubject3 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject3 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 430px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a82progresscircle .determinate .table .progresscircletable .head .tablesubject3 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a82progresscircle .determinate .table .progresscircletable .head .tablesubject3 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 390px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -3935,7 +4228,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3951,7 +4244,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -3967,7 +4260,7 @@ div {
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -3992,7 +4285,7 @@ div {
   text-align          : left;
   line-height         : 84.0px;
 }
-.a82progresscircle .gnbbar6lists {
+.a82progresscircle .gnbbar8progress {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -4004,7 +4297,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .background {
+.a82progresscircle .gnbbar8progress .background {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -4015,7 +4308,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu16thumbnailnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu16thumbnailnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1338px;
   height              : 42px;
@@ -4026,7 +4319,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4037,7 +4330,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4048,7 +4341,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+.a82progresscircle .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4064,7 +4357,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu15notificationbadgenormal {
+.a82progresscircle .gnbbar8progress .gnbmenu15notificationbadgenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1295px;
   height              : 42px;
@@ -4075,7 +4368,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4086,7 +4379,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4097,7 +4390,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+.a82progresscircle .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4113,7 +4406,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu14descriptionnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu14descriptionnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1252px;
   height              : 42px;
@@ -4124,7 +4417,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4135,7 +4428,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4146,7 +4439,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+.a82progresscircle .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4157,7 +4450,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .a14description {
+.a82progresscircle .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .a14description {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4173,7 +4466,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu13viewcontrolsnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu13viewcontrolsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1209px;
   height              : 42px;
@@ -4184,7 +4477,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4195,7 +4488,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4206,7 +4499,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+.a82progresscircle .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4222,7 +4515,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu12textfieldsnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu12textfieldsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1166px;
   height              : 42px;
@@ -4233,7 +4526,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4244,7 +4537,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4255,7 +4548,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+.a82progresscircle .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4271,7 +4564,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu11toastnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu11toastnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1123px;
   height              : 42px;
@@ -4282,7 +4575,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu11toastnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu11toastnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4293,7 +4586,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4304,7 +4597,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .a11toast {
+.a82progresscircle .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .a11toast {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4320,7 +4613,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu10searchnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu10searchnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1080px;
   height              : 42px;
@@ -4331,7 +4624,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu10searchnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu10searchnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4342,7 +4635,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4353,7 +4646,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .a10search {
+.a82progresscircle .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .a10search {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4369,7 +4662,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu9scrollingnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu9scrollingnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1037px;
   height              : 42px;
@@ -4380,7 +4673,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4391,7 +4684,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4402,7 +4695,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+.a82progresscircle .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4418,7 +4711,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu8progressnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu8progressnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 521px;
   height              : 42px;
@@ -4429,7 +4722,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu8progressnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu8progressnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4440,7 +4733,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -4451,7 +4744,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .a8progress {
+.a82progresscircle .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .a8progress {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4467,7 +4760,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormal {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 564px;
   height              : 42px;
@@ -4478,7 +4771,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormal .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormal .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4489,7 +4782,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4500,7 +4793,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4516,7 +4809,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 607px;
   height              : 42px;
@@ -4527,7 +4820,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4538,7 +4831,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -4549,7 +4842,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4565,7 +4858,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy2 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 650px;
   height              : 42px;
@@ -4576,7 +4869,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4587,7 +4880,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4598,7 +4891,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4614,7 +4907,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy3 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 693px;
   height              : 42px;
@@ -4625,7 +4918,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4636,7 +4929,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4647,7 +4940,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4663,7 +4956,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy4 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 736px;
   height              : 42px;
@@ -4674,7 +4967,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4685,7 +4978,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4696,7 +4989,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4712,7 +5005,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy5 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 779px;
   height              : 42px;
@@ -4723,7 +5016,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4734,7 +5027,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4745,7 +5038,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4761,7 +5054,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy6 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 822px;
   height              : 42px;
@@ -4772,7 +5065,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4783,7 +5076,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4794,7 +5087,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4810,7 +5103,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy7 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 865px;
   height              : 42px;
@@ -4821,7 +5114,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4832,7 +5125,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4843,7 +5136,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4859,7 +5152,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy8 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 908px;
   height              : 42px;
@@ -4870,7 +5163,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4881,7 +5174,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4892,7 +5185,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4908,7 +5201,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy9 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 951px;
   height              : 42px;
@@ -4919,7 +5212,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4930,7 +5223,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4941,7 +5234,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4957,7 +5250,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy10 {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 994px;
   height              : 42px;
@@ -4968,7 +5261,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4979,7 +5272,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4990,7 +5283,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .text {
+.a82progresscircle .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5006,7 +5299,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu7noitemsnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu7noitemsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 478px;
   height              : 42px;
@@ -5017,7 +5310,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5028,7 +5321,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5039,7 +5332,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
+.a82progresscircle .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5055,7 +5348,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu6listsnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu6listsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 435px;
   height              : 42px;
@@ -5066,7 +5359,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu6listsnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu6listsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5077,7 +5370,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5088,7 +5381,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .a6lists {
+.a82progresscircle .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .a6lists {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5104,7 +5397,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu5dividersnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu5dividersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 392px;
   height              : 42px;
@@ -5115,7 +5408,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5126,7 +5419,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5137,7 +5430,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+.a82progresscircle .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .a5dividers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5153,7 +5446,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu4dialogsselected {
+.a82progresscircle .gnbbar8progress .gnbmenu4dialogsselected {
   background-color    : rgba(255,255,255,0.0);
   top                 : 349px;
   height              : 42px;
@@ -5164,7 +5457,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5175,7 +5468,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5186,7 +5479,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
+.a82progresscircle .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5202,7 +5495,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu3controllersnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu3controllersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 306px;
   height              : 42px;
@@ -5213,7 +5506,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5224,7 +5517,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5235,7 +5528,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+.a82progresscircle .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .a3controllers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5251,7 +5544,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu2buttonsnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu2buttonsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 263px;
   height              : 42px;
@@ -5262,7 +5555,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5273,7 +5566,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5284,7 +5577,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+.a82progresscircle .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5300,7 +5593,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu1appbarnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu1appbarnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 220px;
   height              : 42px;
@@ -5311,7 +5604,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5322,7 +5615,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5333,7 +5626,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+.a82progresscircle .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .a1appbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5349,7 +5642,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0fonttablenormal {
+.a82progresscircle .gnbbar8progress .gnbmenu0fonttablenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 177px;
   height              : 42px;
@@ -5360,7 +5653,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5371,7 +5664,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5382,7 +5675,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
+.a82progresscircle .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5398,7 +5691,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0overviewnormal {
+.a82progresscircle .gnbbar8progress .gnbmenu0overviewnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 134px;
   height              : 42px;
@@ -5409,7 +5702,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5420,7 +5713,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5431,7 +5724,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .overview {
+.a82progresscircle .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .overview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5447,7 +5740,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnbmenuhistorynormal {
+.a82progresscircle .gnbbar8progress .gnbmenuhistorynormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 91px;
   height              : 42px;
@@ -5458,7 +5751,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenuhistorynormal .gnbmenu {
+.a82progresscircle .gnbbar8progress .gnbmenuhistorynormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5469,7 +5762,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .bg {
+.a82progresscircle .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -5480,7 +5773,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .history {
+.a82progresscircle .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .history {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -5496,7 +5789,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnblogo {
+.a82progresscircle .gnbbar8progress .gnblogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -5508,7 +5801,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnblogo .background1 {
+.a82progresscircle .gnbbar8progress .gnblogo .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -5519,7 +5812,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnblogo .gotohome {
+.a82progresscircle .gnbbar8progress .gnblogo .gotohome {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -5530,7 +5823,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnblogo .gotohome .rectangle {
+.a82progresscircle .gnbbar8progress .gnblogo .gotohome .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -5541,7 +5834,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnblogo .gotohome .group {
+.a82progresscircle .gnbbar8progress .gnblogo .gotohome .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 22px;
   height              : 45px;
@@ -5552,7 +5845,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a82progresscircle .gnbbar6lists .gnblogo .gotohome .group .webapp {
+.a82progresscircle .gnbbar8progress .gnblogo .gotohome .group .webapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -5569,7 +5862,7 @@ div {
   letter-spacing      : 0.3px;
   line-height         : 18.0px;
 }
-.a82progresscircle .gnbbar6lists .gnblogo .gotohome .group .basiccomponentgui {
+.a82progresscircle .gnbbar8progress .gnblogo .gotohome .group .basiccomponentgui {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : auto;
@@ -5699,4 +5992,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

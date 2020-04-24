@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1479px;
+  min-height          : 1489px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -52,7 +52,7 @@ div {
 .a13navigateupbutton .image {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 473px;
+  height              : 483px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -63,7 +63,7 @@ div {
 .a13navigateupbutton .image .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 473px;
+  height              : 483px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -74,7 +74,7 @@ div {
 .a13navigateupbutton .image .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 473px;
+  height              : 483px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -500,7 +500,7 @@ div {
 }
 .a13navigateupbutton .image .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 312px;
+  top                 : 317px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -654,7 +654,7 @@ div {
 }
 .a13navigateupbutton .image .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 390px;
+  top                 : 400px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -886,7 +886,7 @@ div {
 .a13navigateupbutton .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 473px;
+  height              : 483px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -897,7 +897,7 @@ div {
 .a13navigateupbutton .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 473px;
+  height              : 483px;
   width               : 715px;
   position            : relative;
   margin              : 0;
@@ -908,7 +908,7 @@ div {
 .a13navigateupbutton .guide .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 473px;
+  height              : 483px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -919,7 +919,7 @@ div {
 .a13navigateupbutton .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 473px;
+  height              : 483px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -931,22 +931,33 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 160px;
-  height              : 144px;
-  width               : 422px;
+.a13navigateupbutton .guide .guide1 .bg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 190px;
+  height              : 102px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
-  left                : 147px;
+  left                : 88px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 152px;
+  height              : 178px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 68px;
-  width               : 360px;
+  height              : 102px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 24px;
@@ -956,8 +967,8 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 68px;
-  width               : 360px;
+  height              : 102px;
+  width               : 540px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -968,8 +979,8 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 68px;
-  width               : 360px;
+  height              : 102px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -979,8 +990,8 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -990,8 +1001,8 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1000,12 +1011,12 @@ div {
 }
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 24px;
-  width               : 24px;
+  top                 : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 316px;
+  left                : 474px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1013,8 +1024,8 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1023,41 +1034,41 @@ div {
 }
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 16px;
-  width               : 4px;
+  top                 : 6px;
+  height              : 24px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
+  top                 : 24px;
   height              : auto;
-  width               : 245px;
+  width               : 368px;
   position            : absolute;
   margin              : 0;
-  left                : 56px;
+  left                : 84px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 19.0px;
+  font-size           : 28.5px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
-  line-height         : 23.0px;
+  line-height         : 33.0px;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 24px;
-  width               : 24px;
+  top                 : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 30px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1065,8 +1076,8 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1075,20 +1086,20 @@ div {
 }
 .a13navigateupbutton .guide .guide1 .guide2 .symbol .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 18px;
-  width               : 11px;
+  top                 : 5px;
+  height              : 27px;
+  width               : 17px;
   position            : absolute;
   margin              : 0;
-  left                : 5px;
+  left                : 8px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 94px;
-  height              : 12px;
-  width               : 398px;
+  top                 : 122px;
+  height              : 18px;
+  width               : 578px;
   position            : absolute;
   margin              : 0;
   left                : 24px;
@@ -1098,44 +1109,33 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 360px;
+  height              : 18px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 12px;
-  width               : 360px;
-  position            : absolute;
+  height              : 18px;
+  width               : 540px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 360px;
+  left                : 540px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1143,7 +1143,7 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1153,7 +1153,7 @@ div {
 }
 .a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -3px;
+  top                 : 0px;
   height              : 18px;
   width               : 15px;
   position            : absolute;
@@ -1181,7 +1181,7 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .spacing .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 12px;
+  height              : 18px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1192,8 +1192,8 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 106px;
-  width               : 20px;
+  height              : 122px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 24px;
@@ -1203,41 +1203,30 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 68px;
-  width               : 20px;
+  height              : 84px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 68px;
-  width               : 20px;
-  position            : absolute;
+  height              : 84px;
+  width               : 30px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1249,7 +1238,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1263,7 +1252,7 @@ div {
   width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1287,7 +1276,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1297,52 +1286,41 @@ div {
 .a13navigateupbutton .guide .guide1 .guide2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 106px;
-  width               : 12px;
+  height              : 122px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
-  left                : 68px;
+  left                : 90px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 68px;
-  width               : 12px;
+  height              : 84px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 68px;
-  width               : 12px;
-  position            : absolute;
+  height              : 84px;
+  width               : 19px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a13navigateupbutton .guide .guide1 .guide2 .spacing2 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 12px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1354,7 +1332,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 12px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1368,7 +1346,7 @@ div {
   width               : 16px;
   position            : absolute;
   margin              : 0;
-  left                : -2px;
+  left                : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1379,7 +1357,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1392,7 +1370,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 12px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1401,46 +1379,57 @@ div {
 }
 .a13navigateupbutton .guide .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 43px;
-  height              : 101px;
-  width               : 68px;
+  top                 : 62px;
+  height              : 116px;
+  width               : 90px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom {
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 63px;
-  height              : 38px;
-  width               : 24px;
+  top                 : 0px;
+  height              : 116px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 44px;
+  left                : 54px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 38px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom .background {
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom .a0 {
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1449,21 +1438,76 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerbottom .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft {
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurelinevertical {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 24px;
+  top                 : 0px;
+  height              : 78px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurelinevertical .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurelineverticalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .vertical .guidemeasurelineverticalcopy .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurerulerleft {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -1472,10 +1516,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .background {
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 36px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
@@ -1483,9 +1527,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .value {
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
+  top                 : 9px;
   height              : 19px;
   width               : 17px;
   position            : absolute;
@@ -1494,7 +1538,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .value .a0 {
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1510,10 +1554,10 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurerulerleft .combinedshape {
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 36px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1521,51 +1565,84 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurelinehorizontal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurelinehorizontal .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurelinehorizontal1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .horizon .guidemeasurelinehorizontal1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 24px;
-  width               : 24px;
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurearea .area {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a13navigateupbutton .guide .guide1 .guide2 .guidenumberingicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 22px;
+  width               : 22px;
   position            : absolute;
   margin              : 0;
   left                : 44px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidenumberingicon {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 33px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidenumberingicon .oval {
+.a13navigateupbutton .guide .guide1 .guide2 .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1576,7 +1653,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .guide .guide1 .guide2 .size .guidenumberingicon .a1 {
+.a13navigateupbutton .guide .guide1 .guide2 .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1629,19 +1706,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -1651,19 +1729,342 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .keyscreens .guidekeyscreensmobileportrait1 {
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpl013navigateupbutton .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a13navigateupbutton .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -1673,9 +2074,331 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a13navigateupbutton .keyscreens .w360mpd013navigateupbutton .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
 .a13navigateupbutton .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1354px;
+  top                 : 1364px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -3299,4 +4022,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

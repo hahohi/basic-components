@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1245px;
+  min-height          : 1285px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a87progresseditappbar .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1120px;
+  top                 : 1160px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -102,7 +102,7 @@ div {
 .a87progresseditappbar .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 842px;
-  height              : 198px;
+  height              : 238px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -113,7 +113,7 @@ div {
 .a87progresseditappbar .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 198px;
+  height              : 238px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -124,7 +124,7 @@ div {
 .a87progresseditappbar .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 198px;
+  height              : 238px;
   box-sizing          : border-box;
   width               : 1240px;
   position            : relative;
@@ -139,19 +139,19 @@ div {
 .a87progresseditappbar .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 118px;
-  width               : 436px;
+  height              : 158px;
+  width               : 616px;
   position            : absolute;
   margin              : 0;
-  left                : 383px;
+  left                : 293px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a87progresseditappbar .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -161,8 +161,8 @@ div {
 .a87progresseditappbar .guide .guide1 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -172,8 +172,8 @@ div {
 .a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -184,40 +184,51 @@ div {
 .a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .cancel {
+.a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .mobilelighttheme01actionbaractionbutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 36px;
-  width               : 158px;
+  top                 : 15px;
+  height              : 54px;
+  width               : 234px;
   position            : absolute;
   margin              : 0;
-  left                : 23px;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .mobilelighttheme01actionbaractionbutton .action {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 236px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 500;
   font-style          : normal;
-  font-size           : 18.0px;
+  font-size           : 27.0px;
   color               : rgba(0, 114, 222, 1.0);
   text-align          : center;
-  line-height         : 36.0px;
+  line-height         : 54.0px;
 }
 .a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .mobiledarktheme09progresscircle24x24 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 24px;
-  width               : 24px;
+  top                 : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 246px;
+  left                : 369px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -225,8 +236,8 @@ div {
 .a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .mobiledarktheme09progresscircle24x24 .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -235,186 +246,31 @@ div {
 }
 .a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .mobiledarktheme09progresscircle24x24 .path {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 12px;
-  width               : 12px;
+  top                 : 17px;
+  height              : 18px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 11px;
+  left                : 17px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a87progresseditappbar .guide .guide1 .symbol .mobilelighttheme01actionbareditappbarcircle .mobiledarktheme09progresscircle24x24 .path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 12px;
-  width               : 12px;
+  height              : 18px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
   left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .size {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 64px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 284px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 114px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom1 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom1 .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 18px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 14px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom1 .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom1 .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a87progresseditappbar .guide .guide1 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a87progresseditappbar .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -424,73 +280,51 @@ div {
 .a87progresseditappbar .guide .guide1 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 24px;
+  height              : 84px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a87progresseditappbar .guide .guide1 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 24px;
-  position            : absolute;
+  height              : 84px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a87progresseditappbar .guide .guide1 .spacing .guidemeasurearea1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 24px;
+  height              : 84px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 336px;
+  left                : 504px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing .guidemeasurearea1 .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a87progresseditappbar .guide .guide1 .spacing .guidemeasurearea1 .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 24px;
-  position            : absolute;
+  height              : 84px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a87progresseditappbar .guide .guide1 .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 56px;
+  height              : 84px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -502,7 +336,7 @@ div {
 .a87progresseditappbar .guide .guide1 .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 84px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -512,7 +346,7 @@ div {
 }
 .a87progresseditappbar .guide .guide1 .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 19px;
+  top                 : 34px;
   height              : 19px;
   width               : 17px;
   position            : absolute;
@@ -523,7 +357,7 @@ div {
 }
 .a87progresseditappbar .guide .guide1 .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
+  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -540,7 +374,7 @@ div {
 .a87progresseditappbar .guide .guide1 .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 84px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -551,52 +385,41 @@ div {
 .a87progresseditappbar .guide .guide1 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 94px;
-  width               : 66px;
+  height              : 122px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
-  left                : 308px;
+  left                : 443px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 56px;
-  width               : 66px;
+  height              : 84px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 66px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 66px;
-  position            : absolute;
+  height              : 84px;
+  width               : 99px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulerbottom {
+.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 66px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -604,36 +427,36 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulerbottom .background {
+.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 66px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulerbottom .value {
+.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 35px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulerbottom .value .a0 {
+.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -642,11 +465,11 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulerbottom .combinedshape {
+.a87progresseditappbar .guide .guide1 .spacing1 .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 66px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -656,52 +479,41 @@ div {
 .a87progresseditappbar .guide .guide1 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 94px;
-  width               : 66px;
+  height              : 122px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
-  left                : 218px;
+  left                : 308px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 56px;
-  width               : 66px;
+  height              : 84px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 66px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 66px;
-  position            : absolute;
+  height              : 84px;
+  width               : 99px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulerbottom {
+.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 66px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -709,29 +521,151 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulerbottom .background {
+.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 66px;
+  width               : 99px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulerbottom .value {
+.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 35px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulerbottom .value .a0 {
+.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 96px;
+  width               : 209px;
+  position            : absolute;
+  margin              : 0;
+  left                : 407px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerright .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerright .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -744,14 +678,124 @@ div {
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size           : 15.0px;
   color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
+  text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .guide .guide1 .spacing2 .guidemeasurerulerbottom .combinedshape {
+.a87progresseditappbar .guide .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
-  height              : 9px;
-  width               : 66px;
+  top                 : 0px;
+  height              : 36px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurearea .area {
+  background-color    : rgba(255, 51, 255, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal1 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal2 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a87progresseditappbar .guide .guide1 .size .guidemeasurelinehorizontal3 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 1px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -795,25 +839,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .keyscreens .guidekeyscreensmobileportrait {
+.a87progresseditappbar .keyscreens .w360mpd087progresseditappbar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 500px;
+  left                : 630px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .keyscreens .guidekeyscreensmobileportrait .scrmoport {
+.a87progresseditappbar .keyscreens .w360mpl087progresseditappbar1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 370px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -821,10 +865,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 478px;
   height              : 29px;
-  width               : 185px;
+  width               : 164px;
   position            : absolute;
   margin              : 0;
-  left                : 755px;
+  left                : 885px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -832,7 +876,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 29px;
-  width               : 185px;
+  width               : 164px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -843,7 +887,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 185px;
+  width               : 164px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -851,84 +895,30 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .keyscreens .tag .tagrefer .group {
+.a87progresseditappbar .keyscreens .tag .tagrefer .basic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
-  height              : 17px;
-  width               : 166px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .keyscreens .tag .tagrefer .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 10px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.8;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 17.0px;
 }
-.a87progresseditappbar .keyscreens .tag .tagrefer .group .pagename {
+.a87progresseditappbar .keyscreens .tag .tagrefer .pagename {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 113px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a87progresseditappbar .keyscreens .tag .tagrefer .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 6px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a87progresseditappbar .keyscreens .tag .tagrefer .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a87progresseditappbar .keyscreens .tag .tagrefer .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 109px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -969,7 +959,7 @@ div {
   text-align          : left;
   line-height         : 84.0px;
 }
-.a87progresseditappbar .gnbbar6lists {
+.a87progresseditappbar .gnbbar8progress {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -981,7 +971,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .background {
+.a87progresseditappbar .gnbbar8progress .background {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -992,7 +982,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu16thumbnailnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu16thumbnailnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1338px;
   height              : 42px;
@@ -1003,7 +993,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1014,7 +1004,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1025,7 +1015,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+.a87progresseditappbar .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1041,7 +1031,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu15notificationbadgenormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu15notificationbadgenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1295px;
   height              : 42px;
@@ -1052,7 +1042,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1063,7 +1053,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1074,7 +1064,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+.a87progresseditappbar .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1090,7 +1080,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu14descriptionnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu14descriptionnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1252px;
   height              : 42px;
@@ -1101,7 +1091,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1112,7 +1102,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1123,7 +1113,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+.a87progresseditappbar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1134,7 +1124,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .a14description {
+.a87progresseditappbar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .a14description {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1150,7 +1140,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu13viewcontrolsnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu13viewcontrolsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1209px;
   height              : 42px;
@@ -1161,7 +1151,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1172,7 +1162,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1183,7 +1173,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+.a87progresseditappbar .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1199,7 +1189,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu12textfieldsnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu12textfieldsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1166px;
   height              : 42px;
@@ -1210,7 +1200,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1221,7 +1211,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1232,7 +1222,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+.a87progresseditappbar .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1248,7 +1238,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu11toastnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu11toastnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1123px;
   height              : 42px;
@@ -1259,7 +1249,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu11toastnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu11toastnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1270,7 +1260,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1281,7 +1271,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .a11toast {
+.a87progresseditappbar .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .a11toast {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1297,7 +1287,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu10searchnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu10searchnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1080px;
   height              : 42px;
@@ -1308,7 +1298,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu10searchnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu10searchnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1319,7 +1309,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1330,7 +1320,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .a10search {
+.a87progresseditappbar .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .a10search {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1346,7 +1336,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu9scrollingnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu9scrollingnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1037px;
   height              : 42px;
@@ -1357,7 +1347,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1368,7 +1358,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1379,7 +1369,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+.a87progresseditappbar .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1395,7 +1385,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu8progressnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu8progressnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 521px;
   height              : 42px;
@@ -1406,7 +1396,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu8progressnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu8progressnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1417,7 +1407,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -1428,7 +1418,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .a8progress {
+.a87progresseditappbar .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .a8progress {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1444,7 +1434,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormal {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 564px;
   height              : 42px;
@@ -1455,7 +1445,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormal .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormal .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1466,7 +1456,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1477,7 +1467,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1493,7 +1483,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 607px;
   height              : 42px;
@@ -1504,7 +1494,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1515,7 +1505,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1526,7 +1516,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1542,7 +1532,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy2 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 650px;
   height              : 42px;
@@ -1553,7 +1543,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1564,7 +1554,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1575,7 +1565,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1591,7 +1581,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy3 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 693px;
   height              : 42px;
@@ -1602,7 +1592,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1613,7 +1603,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1624,7 +1614,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1640,7 +1630,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy4 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 736px;
   height              : 42px;
@@ -1651,7 +1641,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1662,7 +1652,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1673,7 +1663,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1689,7 +1679,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy5 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 779px;
   height              : 42px;
@@ -1700,7 +1690,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1711,7 +1701,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1722,7 +1712,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1738,7 +1728,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy6 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 822px;
   height              : 42px;
@@ -1749,7 +1739,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1760,7 +1750,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -1771,7 +1761,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1787,7 +1777,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy7 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 865px;
   height              : 42px;
@@ -1798,7 +1788,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1809,7 +1799,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1820,7 +1810,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1836,7 +1826,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy8 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 908px;
   height              : 42px;
@@ -1847,7 +1837,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1858,7 +1848,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1869,7 +1859,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1885,7 +1875,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy9 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 951px;
   height              : 42px;
@@ -1896,7 +1886,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1907,7 +1897,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1918,7 +1908,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1934,7 +1924,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy10 {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 994px;
   height              : 42px;
@@ -1945,7 +1935,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1956,7 +1946,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1967,7 +1957,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .text {
+.a87progresseditappbar .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1983,7 +1973,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu7noitemsnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu7noitemsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 478px;
   height              : 42px;
@@ -1994,7 +1984,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2005,7 +1995,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2016,7 +2006,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
+.a87progresseditappbar .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2032,7 +2022,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu6listsnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu6listsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 435px;
   height              : 42px;
@@ -2043,7 +2033,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu6listsnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu6listsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2054,7 +2044,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2065,7 +2055,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .a6lists {
+.a87progresseditappbar .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .a6lists {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2081,7 +2071,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu5dividersnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu5dividersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 392px;
   height              : 42px;
@@ -2092,7 +2082,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2103,7 +2093,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2114,7 +2104,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+.a87progresseditappbar .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .a5dividers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2130,7 +2120,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu4dialogsselected {
+.a87progresseditappbar .gnbbar8progress .gnbmenu4dialogsselected {
   background-color    : rgba(255,255,255,0.0);
   top                 : 349px;
   height              : 42px;
@@ -2141,7 +2131,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2152,7 +2142,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2163,7 +2153,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
+.a87progresseditappbar .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2179,7 +2169,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu3controllersnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu3controllersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 306px;
   height              : 42px;
@@ -2190,7 +2180,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2201,7 +2191,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2212,7 +2202,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+.a87progresseditappbar .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .a3controllers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2228,7 +2218,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu2buttonsnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu2buttonsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 263px;
   height              : 42px;
@@ -2239,7 +2229,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2250,7 +2240,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2261,7 +2251,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+.a87progresseditappbar .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2277,7 +2267,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu1appbarnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu1appbarnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 220px;
   height              : 42px;
@@ -2288,7 +2278,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2299,7 +2289,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2310,7 +2300,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+.a87progresseditappbar .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .a1appbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2326,7 +2316,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0fonttablenormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0fonttablenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 177px;
   height              : 42px;
@@ -2337,7 +2327,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2348,7 +2338,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2359,7 +2349,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2375,7 +2365,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0overviewnormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0overviewnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 134px;
   height              : 42px;
@@ -2386,7 +2376,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2397,7 +2387,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2408,7 +2398,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .overview {
+.a87progresseditappbar .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .overview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2424,7 +2414,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenuhistorynormal {
+.a87progresseditappbar .gnbbar8progress .gnbmenuhistorynormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 91px;
   height              : 42px;
@@ -2435,7 +2425,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenuhistorynormal .gnbmenu {
+.a87progresseditappbar .gnbbar8progress .gnbmenuhistorynormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2446,7 +2436,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .bg {
+.a87progresseditappbar .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2457,7 +2447,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .history {
+.a87progresseditappbar .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .history {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2473,7 +2463,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnblogo {
+.a87progresseditappbar .gnbbar8progress .gnblogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -2485,7 +2475,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnblogo .background1 {
+.a87progresseditappbar .gnbbar8progress .gnblogo .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -2496,7 +2486,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnblogo .gotohome {
+.a87progresseditappbar .gnbbar8progress .gnblogo .gotohome {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -2507,7 +2497,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnblogo .gotohome .rectangle {
+.a87progresseditappbar .gnbbar8progress .gnblogo .gotohome .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -2518,7 +2508,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnblogo .gotohome .group {
+.a87progresseditappbar .gnbbar8progress .gnblogo .gotohome .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 22px;
   height              : 45px;
@@ -2529,7 +2519,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a87progresseditappbar .gnbbar6lists .gnblogo .gotohome .group .webapp {
+.a87progresseditappbar .gnbbar8progress .gnblogo .gotohome .group .webapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2546,7 +2536,7 @@ div {
   letter-spacing      : 0.3px;
   line-height         : 18.0px;
 }
-.a87progresseditappbar .gnbbar6lists .gnblogo .gotohome .group .basiccomponentgui {
+.a87progresseditappbar .gnbbar8progress .gnblogo .gotohome .group .basiccomponentgui {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : auto;
@@ -2676,4 +2666,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2151px;
+  min-height          : 2161px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a811pulldownrefresh .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2026px;
+  top                 : 2036px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -102,7 +102,7 @@ div {
 .a811pulldownrefresh .circledefine {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1258px;
-  height              : 688px;
+  height              : 698px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -112,7 +112,7 @@ div {
 }
 .a811pulldownrefresh .circledefine .table {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 468px;
+  top                 : 478px;
   height              : 220px;
   width               : 1240px;
   position            : absolute;
@@ -133,47 +133,50 @@ div {
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .circledefine .table .a2st .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .a2st .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -183,47 +186,50 @@ div {
   line-height         : 26.0px;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 572px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .circledefine .table .a2st .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 570px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .a2st .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 572px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 530px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -233,47 +239,50 @@ div {
   line-height         : 26.0px;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 572px;
   position            : absolute;
   margin              : 0;
-  left                : 670px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .circledefine .table .a2st .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 669px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 570px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .a2st .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 572px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a2st .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 530px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -282,7 +291,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a811pulldownrefresh .circledefine .table .a2st .mobilelightthemeicon09progresspulldownrefresh01 {
+.a811pulldownrefresh .circledefine .table .a2st .mobilelightthemeicon09progressrefresh01 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20px;
   height              : 42px;
@@ -293,7 +302,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .table .a2st .mobilelightthemeicon09progresspulldownrefresh01 .ic {
+.a811pulldownrefresh .circledefine .table .a2st .mobilelightthemeicon09progressrefresh01 .ic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -316,47 +325,50 @@ div {
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .circledefine .table .a1st .tablecontent1style .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 100px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .a1st .tablecontent1style .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -366,47 +378,50 @@ div {
   line-height         : 26.0px;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 572px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .circledefine .table .a1st .tablecontent1style1 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style1 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 570px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .a1st .tablecontent1style1 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 572px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style1 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 530px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -416,47 +431,50 @@ div {
   line-height         : 26.0px;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 84px;
+  width               : 572px;
   position            : absolute;
   margin              : 0;
-  left                : 670px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a811pulldownrefresh .circledefine .table .a1st .tablecontent1style2 .background {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 82px;
-  width               : 570px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 669px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style2 .rectangle {
-  background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 0px;
-  height              : 1px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 82px;
   width               : 570px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.08;
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .a1st .tablecontent1style2 .bg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  box-sizing          : border-box;
+  width               : 572px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(237, 237, 237, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .a1st .tablecontent1style2 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 28px;
+  top                 : 29px;
   height              : 26px;
   width               : 530px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -465,7 +483,7 @@ div {
   text-align          : left;
   line-height         : 26.0px;
 }
-.a811pulldownrefresh .circledefine .table .a1st .mobilelightthemeicon09progresspulldownrefresh01 {
+.a811pulldownrefresh .circledefine .table .a1st .mobilelightthemeicon09progressrefresh01 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20px;
   height              : 42px;
@@ -476,7 +494,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .table .a1st .mobilelightthemeicon09progresspulldownrefresh01 .ic {
+.a811pulldownrefresh .circledefine .table .a1st .mobilelightthemeicon09progressrefresh01 .ic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -499,36 +517,50 @@ div {
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .head .tablesubject {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 100px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .table .head .tablesubject .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a811pulldownrefresh .circledefine .table .head .tablesubject .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .head .tablesubject .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .head .tablesubject .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 60px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -538,36 +570,50 @@ div {
   line-height         : 26.0px;
 }
 .a811pulldownrefresh .circledefine .table .head .tablesubject1 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 570px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 572px;
   position            : absolute;
   margin              : 0;
-  left                : 100px;
-  overflow            : hidden;
+  left                : 99px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .table .head .tablesubject1 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a811pulldownrefresh .circledefine .table .head .tablesubject1 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 570px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .head .tablesubject1 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 572px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .head .tablesubject1 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 530px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -577,36 +623,50 @@ div {
   line-height         : 26.0px;
 }
 .a811pulldownrefresh .circledefine .table .head .tablesubject2 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 570px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 58px;
+  width               : 572px;
   position            : absolute;
   margin              : 0;
-  left                : 670px;
-  overflow            : hidden;
+  left                : 669px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .table .head .tablesubject2 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.a811pulldownrefresh .circledefine .table .head .tablesubject2 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 56px;
   width               : 570px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .circledefine .table .head .tablesubject2 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  box-sizing          : border-box;
+  width               : 572px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .table .head .tablesubject2 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 15px;
   height              : 26px;
   width               : 530px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -618,7 +678,7 @@ div {
 .a811pulldownrefresh .circledefine .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 407px;
+  height              : 417px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -629,7 +689,7 @@ div {
 .a811pulldownrefresh .circledefine .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -640,7 +700,7 @@ div {
 .a811pulldownrefresh .circledefine .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -909,7 +969,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a811pulldownrefresh .circledefine .type .general .guideformnormalcopy {
+.a811pulldownrefresh .circledefine .type .general .guideformnormal3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 109px;
   height              : 28px;
@@ -921,7 +981,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .general .guideformnormalcopy .background {
+.a811pulldownrefresh .circledefine .type .general .guideformnormal3 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -932,7 +992,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .general .guideformnormalcopy .group {
+.a811pulldownrefresh .circledefine .type .general .guideformnormal3 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -943,7 +1003,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .general .guideformnormalcopy .group .label1 {
+.a811pulldownrefresh .circledefine .type .general .guideformnormal3 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -959,7 +1019,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a811pulldownrefresh .circledefine .type .general .guideformnormalcopy .group .value {
+.a811pulldownrefresh .circledefine .type .general .guideformnormal3 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -975,7 +1035,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a811pulldownrefresh .circledefine .type .general .guideformnormalcopy .group .property {
+.a811pulldownrefresh .circledefine .type .general .guideformnormal3 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1032,7 +1092,7 @@ div {
 }
 .a811pulldownrefresh .circledefine .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 246px;
+  top                 : 251px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1041,7 +1101,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -1053,7 +1113,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight .background {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1064,7 +1124,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight .group2 {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1075,7 +1135,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight .group2 .label1 {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1091,7 +1151,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight .group2 .group {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1102,7 +1162,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight .group2 .group .rectangle {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly .group2 .group .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -1113,7 +1173,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight .group2 .group .value {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1129,7 +1189,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a811pulldownrefresh .circledefine .type .lighttheme .guideformlight .group2 .property {
+.a811pulldownrefresh .circledefine .type .lighttheme .guideformlightonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1186,7 +1246,7 @@ div {
 }
 .a811pulldownrefresh .circledefine .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 324px;
+  top                 : 334px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -1195,7 +1255,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -1207,7 +1267,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark .background {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -1218,7 +1278,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark .group2 {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -1229,7 +1289,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark .group2 .label1 {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1245,7 +1305,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark .group2 .group {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1256,7 +1316,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark .group2 .group .rectangle {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -1267,7 +1327,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark .group2 .group .value {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1283,7 +1343,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a811pulldownrefresh .circledefine .type .darktheme .guideformdark .group2 .property {
+.a811pulldownrefresh .circledefine .type .darktheme .guideformdarkonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1338,7 +1398,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a811pulldownrefresh .circledefine .type .guidesubjecttype {
+.a811pulldownrefresh .circledefine .type .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -1350,7 +1410,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .guidesubjecttype .background {
+.a811pulldownrefresh .circledefine .type .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -1361,7 +1421,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .guidesubjecttype .guidenumberingicon {
+.a811pulldownrefresh .circledefine .type .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -1372,7 +1432,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .guidesubjecttype .guidenumberingicon .oval {
+.a811pulldownrefresh .circledefine .type .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1383,7 +1443,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .circledefine .type .guidesubjecttype .guidenumberingicon .a1 {
+.a811pulldownrefresh .circledefine .type .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -1399,7 +1459,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .circledefine .type .guidesubjecttype .guideproperty {
+.a811pulldownrefresh .circledefine .type .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -1418,7 +1478,7 @@ div {
 .a811pulldownrefresh .circledefine .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 407px;
+  height              : 417px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1429,7 +1489,7 @@ div {
 .a811pulldownrefresh .circledefine .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -1440,7 +1500,7 @@ div {
 .a811pulldownrefresh .circledefine .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -1454,20 +1514,20 @@ div {
 }
 .a811pulldownrefresh .circledefine .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
-  height              : 120px;
-  width               : 120px;
+  top                 : 139px;
+  height              : 140px;
+  width               : 140px;
   position            : absolute;
   margin              : 0;
-  left                : 298px;
+  left                : 288px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .guide1 .symbol .mobilelighttheme09progresspulldownrefresh01 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -12px;
-  height              : 150px;
-  width               : 150px;
+  height              : 170px;
+  width               : 170px;
   position            : relative;
   margin              : 0;
   left                : -15px;
@@ -1477,8 +1537,8 @@ div {
 .a811pulldownrefresh .circledefine .guide1 .symbol .mobilelighttheme09progresspulldownrefresh01 .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 150px;
-  width               : 150px;
+  height              : 170px;
+  width               : 170px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1487,20 +1547,20 @@ div {
 }
 .a811pulldownrefresh .circledefine .guide1 .symbol .mobilelighttheme09progresspulldownrefresh01 .mobilelightthemeicon09progresspulldownrefresh01 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 41px;
-  height              : 63px;
-  width               : 60px;
+  top                 : 45px;
+  height              : 74px;
+  width               : 70px;
   position            : absolute;
   margin              : 0;
-  left                : 45px;
+  left                : 50px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a811pulldownrefresh .circledefine .guide1 .symbol .mobilelighttheme09progresspulldownrefresh01 .mobilelightthemeicon09progresspulldownrefresh01 .ic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 63px;
-  width               : 60px;
+  height              : 74px;
+  width               : 70px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1509,12 +1569,12 @@ div {
 }
 .a811pulldownrefresh .circledefine .guide1 .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
+  top                 : 146px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 298px;
+  left                : 292px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1774,7 +1834,7 @@ div {
 }
 .a811pulldownrefresh .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
+  top                 : 79px;
   height              : 74px;
   width               : 398px;
   position            : absolute;
@@ -1794,29 +1854,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 74px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a811pulldownrefresh .guide .guide1 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 74px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerbottom {
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 74px;
@@ -1828,7 +1877,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerbottom .background {
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 74px;
@@ -1839,7 +1888,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerbottom .value {
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28px;
   height              : 19px;
@@ -1850,7 +1899,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerbottom .value .a0 {
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : auto;
@@ -1866,7 +1915,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerbottom .combinedshape {
+.a811pulldownrefresh .guide .guide1 .spacing .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 74px;
@@ -1879,7 +1928,7 @@ div {
 }
 .a811pulldownrefresh .guide .guide1 .spacingcopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
+  top                 : 23px;
   height              : 56px;
   width               : 398px;
   position            : absolute;
@@ -1899,29 +1948,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 56px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerbottom {
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1933,7 +1971,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerbottom .background {
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1944,7 +1982,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerbottom .value {
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
   height              : 18px;
@@ -1955,7 +1993,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerbottom .value .a0 {
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1971,7 +2009,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerbottom .combinedshape {
+.a811pulldownrefresh .guide .guide1 .spacingcopy .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -1984,7 +2022,7 @@ div {
 }
 .a811pulldownrefresh .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 154px;
+  top                 : 153px;
   height              : 40px;
   width               : 40px;
   position            : absolute;
@@ -2004,27 +2042,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 40px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a811pulldownrefresh .guide .guide1 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 40px;
   width               : 40px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a811pulldownrefresh .keyscreens {
   background-color    : rgba(255,255,255,0.0);
@@ -2063,19 +2090,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 500px;
+  left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -2084,6 +2112,614 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme09progresspulldownrefresh01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 101px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme09progresspulldownrefresh01 .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme09progresspulldownrefresh01 .ic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 14px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarktheme01actionbartitle1btn .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpd0811pulldownrefresh .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 40px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 370px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .background {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 101px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 .mobilelightthemeicon09progresspulldownrefresh01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 15px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme09progresspulldownrefresh01 .mobilelightthemeicon09progresspulldownrefresh01 .ic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelighttheme01actionbartitle1btn .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a811pulldownrefresh .keyscreens .w360mpl0811pulldownrefresh .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
 }
 .a811pulldownrefresh .pulldownrefreshci {
   background-color    : rgba(255,255,255,0.0);
@@ -2117,7 +2753,7 @@ div {
   text-align          : left;
   line-height         : 84.0px;
 }
-.a811pulldownrefresh .gnbbar6lists {
+.a811pulldownrefresh .gnbbar8progress {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -2129,7 +2765,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .background {
+.a811pulldownrefresh .gnbbar8progress .background {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -2140,7 +2776,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu16thumbnailnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu16thumbnailnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1338px;
   height              : 42px;
@@ -2151,7 +2787,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2162,7 +2798,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2173,7 +2809,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2189,7 +2825,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu15notificationbadgenormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu15notificationbadgenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1295px;
   height              : 42px;
@@ -2200,7 +2836,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2211,7 +2847,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2222,7 +2858,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2238,7 +2874,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu14descriptionnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu14descriptionnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1252px;
   height              : 42px;
@@ -2249,7 +2885,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2260,7 +2896,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2271,7 +2907,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2282,7 +2918,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .a14description {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .a14description {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2298,7 +2934,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu13viewcontrolsnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu13viewcontrolsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1209px;
   height              : 42px;
@@ -2309,7 +2945,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2320,7 +2956,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2331,7 +2967,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2347,7 +2983,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu12textfieldsnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu12textfieldsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1166px;
   height              : 42px;
@@ -2358,7 +2994,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2369,7 +3005,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2380,7 +3016,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2396,7 +3032,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu11toastnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu11toastnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1123px;
   height              : 42px;
@@ -2407,7 +3043,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu11toastnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu11toastnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2418,7 +3054,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2429,7 +3065,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .a11toast {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .a11toast {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2445,7 +3081,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu10searchnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu10searchnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1080px;
   height              : 42px;
@@ -2456,7 +3092,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu10searchnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu10searchnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2467,7 +3103,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2478,7 +3114,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .a10search {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .a10search {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2494,7 +3130,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu9scrollingnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu9scrollingnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1037px;
   height              : 42px;
@@ -2505,7 +3141,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2516,7 +3152,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2527,7 +3163,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2543,7 +3179,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu8progressnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu8progressnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 521px;
   height              : 42px;
@@ -2554,7 +3190,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu8progressnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu8progressnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2565,7 +3201,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -2576,7 +3212,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .a8progress {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .a8progress {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2592,7 +3228,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormal {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 564px;
   height              : 42px;
@@ -2603,7 +3239,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormal .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormal .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2614,7 +3250,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2625,7 +3261,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2641,7 +3277,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 607px;
   height              : 42px;
@@ -2652,7 +3288,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2663,7 +3299,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2674,7 +3310,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2690,7 +3326,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy2 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 650px;
   height              : 42px;
@@ -2701,7 +3337,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2712,7 +3348,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2723,7 +3359,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2739,7 +3375,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy3 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 693px;
   height              : 42px;
@@ -2750,7 +3386,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2761,7 +3397,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2772,7 +3408,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2788,7 +3424,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy4 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 736px;
   height              : 42px;
@@ -2799,7 +3435,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2810,7 +3446,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2821,7 +3457,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2837,7 +3473,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy5 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 779px;
   height              : 42px;
@@ -2848,7 +3484,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2859,7 +3495,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2870,7 +3506,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2886,7 +3522,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy6 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 822px;
   height              : 42px;
@@ -2897,7 +3533,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2908,7 +3544,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2919,7 +3555,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2935,7 +3571,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy7 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 865px;
   height              : 42px;
@@ -2946,7 +3582,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2957,7 +3593,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2968,7 +3604,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2984,7 +3620,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy8 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 908px;
   height              : 42px;
@@ -2995,7 +3631,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3006,7 +3642,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3017,7 +3653,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3033,7 +3669,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy9 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 951px;
   height              : 42px;
@@ -3044,7 +3680,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3055,7 +3691,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3066,7 +3702,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3082,7 +3718,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy10 {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 994px;
   height              : 42px;
@@ -3093,7 +3729,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3104,7 +3740,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -3115,7 +3751,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .text {
+.a811pulldownrefresh .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3131,7 +3767,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu7noitemsnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu7noitemsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 478px;
   height              : 42px;
@@ -3142,7 +3778,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3153,7 +3789,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3164,7 +3800,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3180,7 +3816,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu6listsnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu6listsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 435px;
   height              : 42px;
@@ -3191,7 +3827,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu6listsnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu6listsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3202,7 +3838,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3213,7 +3849,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .a6lists {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .a6lists {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3229,7 +3865,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu5dividersnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu5dividersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 392px;
   height              : 42px;
@@ -3240,7 +3876,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3251,7 +3887,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3262,7 +3898,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .a5dividers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3278,7 +3914,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu4dialogsselected {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu4dialogsselected {
   background-color    : rgba(255,255,255,0.0);
   top                 : 349px;
   height              : 42px;
@@ -3289,7 +3925,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3300,7 +3936,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3311,7 +3947,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3327,7 +3963,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu3controllersnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu3controllersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 306px;
   height              : 42px;
@@ -3338,7 +3974,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3349,7 +3985,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3360,7 +3996,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .a3controllers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3376,7 +4012,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu2buttonsnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu2buttonsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 263px;
   height              : 42px;
@@ -3387,7 +4023,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3398,7 +4034,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3409,7 +4045,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3425,7 +4061,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu1appbarnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu1appbarnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 220px;
   height              : 42px;
@@ -3436,7 +4072,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3447,7 +4083,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3458,7 +4094,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .a1appbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3474,7 +4110,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0fonttablenormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0fonttablenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 177px;
   height              : 42px;
@@ -3485,7 +4121,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3496,7 +4132,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3507,7 +4143,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3523,7 +4159,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0overviewnormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0overviewnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 134px;
   height              : 42px;
@@ -3534,7 +4170,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3545,7 +4181,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3556,7 +4192,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .overview {
+.a811pulldownrefresh .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .overview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3572,7 +4208,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenuhistorynormal {
+.a811pulldownrefresh .gnbbar8progress .gnbmenuhistorynormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 91px;
   height              : 42px;
@@ -3583,7 +4219,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenuhistorynormal .gnbmenu {
+.a811pulldownrefresh .gnbbar8progress .gnbmenuhistorynormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3594,7 +4230,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .bg {
+.a811pulldownrefresh .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3605,7 +4241,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .history {
+.a811pulldownrefresh .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .history {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3621,7 +4257,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnblogo {
+.a811pulldownrefresh .gnbbar8progress .gnblogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -3633,7 +4269,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnblogo .background1 {
+.a811pulldownrefresh .gnbbar8progress .gnblogo .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -3644,7 +4280,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnblogo .gotohome {
+.a811pulldownrefresh .gnbbar8progress .gnblogo .gotohome {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -3655,7 +4291,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnblogo .gotohome .rectangle {
+.a811pulldownrefresh .gnbbar8progress .gnblogo .gotohome .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -3666,7 +4302,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnblogo .gotohome .group {
+.a811pulldownrefresh .gnbbar8progress .gnblogo .gotohome .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 22px;
   height              : 45px;
@@ -3677,7 +4313,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a811pulldownrefresh .gnbbar6lists .gnblogo .gotohome .group .webapp {
+.a811pulldownrefresh .gnbbar8progress .gnblogo .gotohome .group .webapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3694,7 +4330,7 @@ div {
   letter-spacing      : 0.3px;
   line-height         : 18.0px;
 }
-.a811pulldownrefresh .gnbbar6lists .gnblogo .gotohome .group .basiccomponentgui {
+.a811pulldownrefresh .gnbbar8progress .gnblogo .gotohome .group .basiccomponentgui {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : auto;
@@ -3824,4 +4460,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

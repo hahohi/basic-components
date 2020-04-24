@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1212px;
+  min-height          : 1256px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a88progressmasterswitch .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1087px;
+  top                 : 1131px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -218,7 +218,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a88progressmasterswitch .shape .guidesubjecttype {
+.a88progressmasterswitch .shape .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -230,7 +230,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .shape .guidesubjecttype .background {
+.a88progressmasterswitch .shape .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -241,7 +241,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .shape .guidesubjecttype .guidenumberingicon {
+.a88progressmasterswitch .shape .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -252,7 +252,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .shape .guidesubjecttype .guidenumberingicon .oval {
+.a88progressmasterswitch .shape .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -263,7 +263,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .shape .guidesubjecttype .guidenumberingicon .a1 {
+.a88progressmasterswitch .shape .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -279,7 +279,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .shape .guidesubjecttype .guideproperty {
+.a88progressmasterswitch .shape .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -298,18 +298,18 @@ div {
 .a88progressmasterswitch .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 206px;
+  height              : 250px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 376px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 206px;
+  height              : 250px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -320,7 +320,7 @@ div {
 .a88progressmasterswitch .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 206px;
+  height              : 250px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -335,19 +335,19 @@ div {
 .a88progressmasterswitch .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
-  height              : 126px;
-  width               : 398px;
+  height              : 170px;
+  width               : 578px;
   position            : absolute;
   margin              : 0;
-  left                : 181px;
+  left                : 87px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 126px;
-  width               : 398px;
+  height              : 170px;
+  width               : 578px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -357,8 +357,8 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 64px;
-  width               : 360px;
+  height              : 96px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -368,8 +368,8 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 64px;
-  width               : 360px;
+  height              : 96px;
+  width               : 540px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -379,8 +379,8 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 64px;
-  width               : 360px;
+  height              : 96px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -390,23 +390,23 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .masterbg {
   background-color    : rgba(62, 145, 255, 1.0);
   top                 : 0px;
-  height              : 64px;
-  width               : 360px;
+  height              : 96px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 26px;
+  border-radius       : 39px;
   transform           : rotate(0deg);
   opacity             : 0.8;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 27px;
-  width               : 43px;
+  top                 : 27px;
+  height              : 41px;
+  width               : 65px;
   position            : absolute;
   margin              : 0;
-  left                : 293px;
+  left                : 440px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -414,8 +414,8 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 27px;
-  width               : 43px;
+  height              : 41px;
+  width               : 65px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -424,54 +424,54 @@ div {
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchbg {
   background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 4px;
-  height              : 19px;
-  width               : 37px;
+  top                 : 6px;
+  height              : 28px;
+  width               : 56px;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
-  border-radius       : 9px;
+  left                : 4px;
+  border-radius       : 13px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchfill {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 22px;
+  top                 : 4px;
+  height              : 33px;
+  width               : 33px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 27px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchborder {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 23px;
-  width               : 22px;
+  top                 : 3px;
+  height              : 34px;
+  width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 26px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
-  height              : 21px;
-  width               : 253px;
+  top                 : 32px;
+  height              : 32px;
+  width               : 380px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 36px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title .on {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 21px;
-  width               : 253px;
+  height              : 32px;
+  width               : 380px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -480,19 +480,19 @@ div {
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 18.0px;
+  font-size           : 27.0px;
   color               : rgba(250, 250, 250, 1.0);
   text-align          : left;
-  line-height         : 21.0px;
+  line-height         : 32.0px;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 20px;
-  height              : 24px;
-  width               : 24px;
+  top                 : 30px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 257px;
+  left                : 386px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -500,8 +500,8 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -510,20 +510,20 @@ div {
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 12px;
-  width               : 12px;
+  top                 : 17px;
+  height              : 18px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 11px;
+  left                : 17px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .symbol .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 12px;
-  width               : 12px;
+  height              : 18px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
   left                : 1px;
@@ -532,20 +532,20 @@ div {
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
-  height              : 68px;
-  width               : 141px;
+  top                 : 68px;
+  height              : 102px;
+  width               : 192px;
   position            : absolute;
   margin              : 0;
-  left                : 257px;
+  left                : 386px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
-  height              : 24px;
-  width               : 24px;
+  top                 : 66px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -556,8 +556,8 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -571,7 +571,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -584,29 +584,29 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 {
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 36px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 103px;
+  left                : 154px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .background {
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 36px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -614,9 +614,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .value {
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
+  top                 : 9px;
   height              : 18px;
   width               : 17px;
   position            : absolute;
@@ -625,7 +625,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .value .a0 {
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -641,10 +641,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerbottom1 .combinedshape {
+.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 36px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -655,85 +655,63 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a88progressmasterswitch .guide .guide1 .guide2 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
+  height              : 36px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 102px;
-  width               : 24px;
+  height              : 134px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 336px;
+  left                : 504px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 64px;
-  width               : 24px;
+  height              : 96px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 64px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 64px;
-  width               : 24px;
-  position            : absolute;
+  height              : 96px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -741,29 +719,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .background {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .value {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .value .a0 {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -779,11 +757,11 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -793,52 +771,41 @@ div {
 .a88progressmasterswitch .guide .guide1 .guide2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 102px;
-  width               : 12px;
+  height              : 134px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 281px;
+  left                : 422px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 64px;
-  width               : 12px;
+  height              : 96px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 64px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 64px;
-  width               : 12px;
-  position            : absolute;
+  height              : 96px;
+  width               : 18px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 12px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -846,29 +813,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .background {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 12px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .value {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
-  left                : -2px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .value .a0 {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -884,11 +851,11 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
+.a88progressmasterswitch .guide .guide1 .guide2 .spacing1 .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 12px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -897,12 +864,12 @@ div {
 }
 .a88progressmasterswitch .guide .guide1 .guide2 .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 48px;
+  top                 : 57px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 235px;
+  left                : 373px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -935,7 +902,7 @@ div {
 }
 .a88progressmasterswitch .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 194px;
+  top                 : 171px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
@@ -970,19 +937,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 500px;
+  left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -992,14 +960,932 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 44px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .masterbg {
+  background-color    : rgba(62, 145, 255, 1.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 0.4;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 18px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .switchbg {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 3px;
+  height              : 12px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .switchfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .mobiledarktheme03controllersswitchon .switchborder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 14px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme03controllersmasterswitchon .title .on {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 17px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarktheme09progresscircle24x24white .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpd088progressmasterswitch .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 40px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 370px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .background {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 44px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .masterbg {
+  background-color    : rgba(62, 145, 255, 1.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 18px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchbg {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 3px;
+  height              : 12px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .mobilelighttheme03controllersswitchon .switchborder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 14px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobilelighttheme03controllersmasterswitchon1 .title .on {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme03controllersmasterswitchon .mobiledarktheme09progresscircle24x24white .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .keyscreens .w360mpl088progressmasterswitch .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
 .a88progressmasterswitch .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
   top                 : 107px;
   height              : 29px;
-  width               : 243px;
+  width               : 222px;
   position            : absolute;
   margin              : 0;
-  left                : 755px;
+  left                : 885px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1007,7 +1893,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 243px;
+  width               : 222px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1015,84 +1901,30 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .keyscreens .tagrefer .group {
+.a88progressmasterswitch .keyscreens .tagrefer .basic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
-  height              : 17px;
-  width               : 224px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .tagrefer .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 10px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.8;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 17.0px;
 }
-.a88progressmasterswitch .keyscreens .tagrefer .group .pagename {
+.a88progressmasterswitch .keyscreens .tagrefer .pagename {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 171px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a88progressmasterswitch .keyscreens .tagrefer .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 6px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a88progressmasterswitch .keyscreens .tagrefer .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a88progressmasterswitch .keyscreens .tagrefer .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 167px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -1117,7 +1949,7 @@ div {
   text-align          : left;
   line-height         : 84.0px;
 }
-.a88progressmasterswitch .gnbbar6lists {
+.a88progressmasterswitch .gnbbar8progress {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -1129,7 +1961,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .background {
+.a88progressmasterswitch .gnbbar8progress .background {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -1140,7 +1972,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu16thumbnailnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1338px;
   height              : 42px;
@@ -1151,7 +1983,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1162,7 +1994,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1173,7 +2005,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1189,7 +2021,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu15notificationbadgenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1295px;
   height              : 42px;
@@ -1200,7 +2032,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1211,7 +2043,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1222,7 +2054,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1238,7 +2070,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu14descriptionnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1252px;
   height              : 42px;
@@ -1249,7 +2081,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1260,7 +2092,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1271,7 +2103,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1282,7 +2114,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .a14description {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .a14description {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1298,7 +2130,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu13viewcontrolsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1209px;
   height              : 42px;
@@ -1309,7 +2141,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1320,7 +2152,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1331,7 +2163,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1347,7 +2179,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu12textfieldsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1166px;
   height              : 42px;
@@ -1358,7 +2190,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1369,7 +2201,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1380,7 +2212,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1396,7 +2228,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu11toastnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1123px;
   height              : 42px;
@@ -1407,7 +2239,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu11toastnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1418,7 +2250,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1429,7 +2261,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .a11toast {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .a11toast {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1445,7 +2277,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu10searchnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1080px;
   height              : 42px;
@@ -1456,7 +2288,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu10searchnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1467,7 +2299,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1478,7 +2310,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .a10search {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .a10search {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1494,7 +2326,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu9scrollingnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1037px;
   height              : 42px;
@@ -1505,7 +2337,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1516,7 +2348,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1527,7 +2359,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1543,7 +2375,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu8progressnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 521px;
   height              : 42px;
@@ -1554,7 +2386,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu8progressnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1565,7 +2397,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -1576,7 +2408,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .a8progress {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .a8progress {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1592,7 +2424,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 564px;
   height              : 42px;
@@ -1603,7 +2435,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormal .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1614,7 +2446,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1625,7 +2457,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1641,7 +2473,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 607px;
   height              : 42px;
@@ -1652,7 +2484,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1663,7 +2495,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1674,7 +2506,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1690,7 +2522,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 650px;
   height              : 42px;
@@ -1701,7 +2533,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1712,7 +2544,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1723,7 +2555,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1739,7 +2571,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 693px;
   height              : 42px;
@@ -1750,7 +2582,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1761,7 +2593,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1772,7 +2604,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1788,7 +2620,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 736px;
   height              : 42px;
@@ -1799,7 +2631,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1810,7 +2642,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1821,7 +2653,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1837,7 +2669,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 779px;
   height              : 42px;
@@ -1848,7 +2680,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1859,7 +2691,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1870,7 +2702,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1886,7 +2718,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 822px;
   height              : 42px;
@@ -1897,7 +2729,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1908,7 +2740,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1919,7 +2751,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1935,7 +2767,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 865px;
   height              : 42px;
@@ -1946,7 +2778,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -1957,7 +2789,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -1968,7 +2800,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -1984,7 +2816,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 908px;
   height              : 42px;
@@ -1995,7 +2827,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2006,7 +2838,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2017,7 +2849,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2033,7 +2865,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 951px;
   height              : 42px;
@@ -2044,7 +2876,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2055,7 +2887,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2066,7 +2898,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2082,7 +2914,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 994px;
   height              : 42px;
@@ -2093,7 +2925,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2104,7 +2936,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2115,7 +2947,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .text {
+.a88progressmasterswitch .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2131,7 +2963,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu7noitemsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 478px;
   height              : 42px;
@@ -2142,7 +2974,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2153,7 +2985,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2164,7 +2996,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2180,7 +3012,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu6listsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 435px;
   height              : 42px;
@@ -2191,7 +3023,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu6listsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2202,7 +3034,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2213,7 +3045,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .a6lists {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .a6lists {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2229,7 +3061,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu5dividersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 392px;
   height              : 42px;
@@ -2240,7 +3072,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2251,7 +3083,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2262,7 +3094,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .a5dividers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2278,7 +3110,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu4dialogsselected {
   background-color    : rgba(255,255,255,0.0);
   top                 : 349px;
   height              : 42px;
@@ -2289,7 +3121,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2300,7 +3132,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2311,7 +3143,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2327,7 +3159,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu3controllersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 306px;
   height              : 42px;
@@ -2338,7 +3170,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2349,7 +3181,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2360,7 +3192,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .a3controllers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2376,7 +3208,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu2buttonsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 263px;
   height              : 42px;
@@ -2387,7 +3219,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2398,7 +3230,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2409,7 +3241,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2425,7 +3257,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu1appbarnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 220px;
   height              : 42px;
@@ -2436,7 +3268,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2447,7 +3279,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2458,7 +3290,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .a1appbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2474,7 +3306,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0fonttablenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 177px;
   height              : 42px;
@@ -2485,7 +3317,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2496,7 +3328,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2507,7 +3339,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2523,7 +3355,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0overviewnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 134px;
   height              : 42px;
@@ -2534,7 +3366,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2545,7 +3377,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2556,7 +3388,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .overview {
+.a88progressmasterswitch .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .overview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2572,7 +3404,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal {
+.a88progressmasterswitch .gnbbar8progress .gnbmenuhistorynormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 91px;
   height              : 42px;
@@ -2583,7 +3415,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal .gnbmenu {
+.a88progressmasterswitch .gnbbar8progress .gnbmenuhistorynormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2594,7 +3426,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .bg {
+.a88progressmasterswitch .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2605,7 +3437,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .history {
+.a88progressmasterswitch .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .history {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -2621,7 +3453,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnblogo {
+.a88progressmasterswitch .gnbbar8progress .gnblogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -2633,7 +3465,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnblogo .background1 {
+.a88progressmasterswitch .gnbbar8progress .gnblogo .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -2644,7 +3476,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome {
+.a88progressmasterswitch .gnbbar8progress .gnblogo .gotohome {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -2655,7 +3487,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .rectangle {
+.a88progressmasterswitch .gnbbar8progress .gnblogo .gotohome .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -2666,7 +3498,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .group {
+.a88progressmasterswitch .gnbbar8progress .gnblogo .gotohome .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 22px;
   height              : 45px;
@@ -2677,7 +3509,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .group .webapp {
+.a88progressmasterswitch .gnbbar8progress .gnblogo .gotohome .group .webapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2694,7 +3526,7 @@ div {
   letter-spacing      : 0.3px;
   line-height         : 18.0px;
 }
-.a88progressmasterswitch .gnbbar6lists .gnblogo .gotohome .group .basiccomponentgui {
+.a88progressmasterswitch .gnbbar8progress .gnblogo .gotohome .group .basiccomponentgui {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : auto;
@@ -2709,6 +3541,94 @@ div {
   color               : rgba(37, 37, 37, 1.0);
   text-align          : justify;
   line-height         : 24.0px;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 909px;
+  height              : 1px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 853px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontal .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 909px;
+  height              : 68px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 853px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontalcopy2 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontalcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 909px;
+  height              : 68px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 888px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontalcopy3 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 944px;
+  height              : 1px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 853px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a88progressmasterswitch .guidemeasurelinehorizontalcopy .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -2824,4 +3744,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

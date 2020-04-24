@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300|Roboto+Condensed:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -13,19 +13,19 @@
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-500";
                           src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a66subheader {
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 6253px;
+  min-height          : 6299px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a66subheader .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6128px;
+  top                 : 6174px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -101,8 +101,8 @@ div {
 }
 .a66subheader .withoutchunking {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3640px;
-  height              : 2408px;
+  top                 : 3676px;
+  height              : 2418px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -113,7 +113,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1958px;
-  height              : 450px;
+  height              : 460px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -124,7 +124,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 409px;
+  height              : 419px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -135,7 +135,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider .guide1 .typeface {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 409px;
+  height              : 419px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -146,7 +146,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 409px;
+  height              : 419px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -157,7 +157,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 409px;
+  height              : 419px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -180,7 +180,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -192,7 +192,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -203,7 +203,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal .group {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -214,7 +214,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal .group .label1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -230,7 +230,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal .group .value {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -246,7 +246,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal .group .property {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -262,7 +262,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -274,7 +274,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal1 .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -285,7 +285,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal1 .text1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformsubtitle .text1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -301,7 +301,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal2 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
   height              : 28px;
@@ -313,7 +313,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal2 .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -324,7 +324,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal2 .group {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal1 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -335,7 +335,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal2 .group .label1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal1 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -351,7 +351,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal2 .group .value {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal1 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -367,7 +367,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal2 .group .property {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal1 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -383,7 +383,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal3 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 81px;
   height              : 28px;
@@ -395,7 +395,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal3 .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal2 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -406,7 +406,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal3 .group {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -417,7 +417,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal3 .group .label1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal2 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -433,7 +433,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal3 .group .value {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -449,7 +449,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guidepropertybasicformnormal3 .group .property {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .general .guideformnormal2 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -467,7 +467,7 @@ div {
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 220px;
+  top                 : 225px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -476,7 +476,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -488,7 +488,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -499,7 +499,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal .group2 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -510,7 +510,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal .group2 .label1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -526,7 +526,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal .group2 .group {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -537,7 +537,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal .group2 .group .rectangle {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly .group2 .group .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -548,7 +548,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal .group2 .group .value {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -564,7 +564,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal .group2 .property {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformlightonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -580,7 +580,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -592,7 +592,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal1 .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -603,7 +603,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guidepropertybasicformnormal1 .text1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .lighttheme .guideformsubtitle .text1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -621,7 +621,7 @@ div {
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 298px;
+  top                 : 308px;
   height              : 81px;
   width               : 465px;
   position            : absolute;
@@ -630,7 +630,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -642,7 +642,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -653,25 +653,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal .group2 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
-  width               : 178px;
+  width               : 169px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal .group2 .label1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 172px;
+  left                : 163px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -680,29 +680,29 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal .group2 .group {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
-  width               : 68px;
+  width               : 59px;
   position            : absolute;
   margin              : 0;
   left                : 104px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal .group2 .group .rectangle {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
-  width               : 68px;
+  width               : 59px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal .group2 .group .value {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -718,7 +718,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal .group2 .property {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -734,7 +734,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
   height              : 28px;
@@ -746,7 +746,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -757,7 +757,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 .group2 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -768,7 +768,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 .group2 .label1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -784,7 +784,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 .group2 .group {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -795,7 +795,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 .group2 .group .rectangle {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -806,7 +806,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 .group2 .group .value {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -822,7 +822,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal1 .group2 .property {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformdarkonly1 .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -838,7 +838,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal2 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -850,7 +850,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal2 .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -861,7 +861,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guidepropertybasicformnormal2 .text1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .darktheme .guideformsubtitle .text1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -877,7 +877,7 @@ div {
   text-align          : left;
   line-height         : 19.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidepropertytitletype {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidesubjectshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 30px;
   height              : 54px;
@@ -889,7 +889,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidepropertytitletype .background {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidesubjectshape .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 54px;
@@ -900,7 +900,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidepropertytitletype .guidenumberingicon {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidesubjectshape .guidenumberingicon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 22px;
@@ -911,7 +911,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidepropertytitletype .guidenumberingicon .oval {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidesubjectshape .guidenumberingicon .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -922,7 +922,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidepropertytitletype .guidenumberingicon .a1 {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidesubjectshape .guidenumberingicon .a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -938,7 +938,7 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidepropertytitletype .guideproperty {
+.a66subheader .withoutchunking .subheaderdivider .guide1 .typeface .guidesubjectshape .guideproperty {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
@@ -957,7 +957,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 409px;
+  height              : 419px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -968,7 +968,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 409px;
+  height              : 419px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -979,7 +979,7 @@ div {
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 409px;
+  height              : 419px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -993,7 +993,7 @@ div {
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 170px;
+  top                 : 175px;
   height              : 69px;
   width               : 289px;
   position            : absolute;
@@ -1035,27 +1035,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 18px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1068,27 +1057,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea1 .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea1 .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 18px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea2 {
   background-color    : rgba(255,255,255,0.0);
@@ -1101,27 +1079,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea2 .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea2 .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 18px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea3 {
   background-color    : rgba(255,255,255,0.0);
@@ -1134,27 +1101,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea3 .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea3 .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 18px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea4 {
   background-color    : rgba(255,255,255,0.0);
@@ -1167,27 +1123,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea4 .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurearea4 .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 18px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -1272,27 +1217,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 36px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -1366,27 +1300,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 36px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -1460,27 +1383,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 36px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing2 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -1554,27 +1466,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing3 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 18px;
   width               : 36px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .subheaderdivider .guide1 .guide2 .guide3 .spacing3 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -1740,19 +1641,18 @@ div {
   opacity             : 1.0;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol {
-  background-color    : rgba(228, 160, 160, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 44px;
   height              : 72px;
   width               : 720px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mask {
-  background-color    : rgba(228, 160, 160, 1.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .rectangle {
+  background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 72px;
   width               : 720px;
@@ -1762,16 +1662,91 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .symbol1 {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mobilelighttheme06listssubheadergroupingdivider {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -552px;
-  height              : 1008px;
-  width               : 720px;
+  top                 : 0px;
+  height              : 72px;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mobilelighttheme06listssubheadergroupingdivider .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 72px;
+  width               : 504px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mobilelighttheme06listssubheadergroupingdivider .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 464px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mobilelighttheme06listssubheadergroupingtitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 72px;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mobilelighttheme06listssubheadergroupingtitle .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 72px;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mobilelighttheme06listssubheadergroupingtitle .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 33px;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .symbol .mobilelighttheme06listssubheadergroupingtitle .title .subheadertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 33.0px;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
@@ -1795,27 +1770,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 72px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 72px;
   width               : 48px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -1871,10 +1835,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 44px;
   height              : 72px;
-  width               : 758px;
+  width               : 710px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 86px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1882,34 +1846,45 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 18px;
-  width               : 720px;
+  width               : 136px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(51, 204, 0, 1.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 136px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 18px;
-  width               : 720px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 166px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea1 .area {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 18px;
-  width               : 720px;
-  position            : absolute;
+  width               : 468px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -1918,7 +1893,7 @@ div {
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 720px;
+  left                : 672px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1972,19 +1947,19 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerrightcopy {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 18px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 720px;
+  left                : 672px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerrightcopy .background {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 18px;
@@ -1995,7 +1970,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerrightcopy .value {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 18px;
@@ -2006,7 +1981,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerrightcopy .value .a0 {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2022,7 +1997,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerrightcopy .combinedshape {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurerulerright1 .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 18px;
@@ -2033,38 +2008,49 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea1 {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 54px;
   height              : 18px;
-  width               : 720px;
+  width               : 136px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea1 .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea2 .area {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 18px;
-  width               : 720px;
-  position            : absolute;
+  width               : 136px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea1 .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 18px;
+  width               : 468px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing1 .guidemeasurearea3 .area {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 18px;
-  width               : 720px;
-  position            : absolute;
+  width               : 468px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
@@ -2088,27 +2074,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 72px;
-  width               : 30px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 72px;
   width               : 30px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing2 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -2162,7 +2137,7 @@ div {
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
+  top                 : 78px;
   height              : 4px;
   width               : 534px;
   position            : absolute;
@@ -2182,29 +2157,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 4px;
-  width               : 468px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 4px;
   width               : 468px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerleft {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 4px;
@@ -2216,7 +2180,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerleft .background {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 4px;
@@ -2227,7 +2191,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerleft .value {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -7px;
   height              : 18px;
@@ -2238,7 +2202,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerleft .value .a0 {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2254,7 +2218,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerleft .combinedshape {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 4px;
@@ -2287,27 +2251,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 72px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing3 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 72px;
   width               : 38px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .spacing3 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -2453,36 +2406,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .size1 .guidemeasurearea .area {
-  background-color    : rgba(255, 198, 13, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
   height              : 36px;
   width               : 136px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 29px;
-  width               : 171px;
+  width               : 150px;
   position            : absolute;
   margin              : 0;
-  left                : 86px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2490,7 +2432,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 29px;
-  width               : 171px;
+  width               : 150px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -2501,7 +2443,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 171px;
+  width               : 150px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2509,84 +2451,30 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .group {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .basic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
-  height              : 17px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 10px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.8;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 17.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .group .pagename {
+.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .pagename {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 99px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 6px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a66subheader .withoutchunking .notitlesubheader .guide1 .guide2 .tag .tagrefer .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 95px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -2671,19 +2559,18 @@ div {
   opacity             : 1.0;
 }
 .a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .symbol {
-  background-color    : rgba(228, 160, 160, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 32px;
   width               : 720px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .symbol .mask {
-  background-color    : rgba(228, 160, 160, 1.0);
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .symbol .rectangle {
+  background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 32px;
   width               : 720px;
@@ -2693,14 +2580,37 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .symbol .symbol1 {
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .symbol .mobilelighttheme06listssubheadergroupingnotitle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -246px;
-  height              : 1008px;
+  top                 : 0px;
+  height              : 32px;
   width               : 720px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .symbol .mobilelighttheme06listssubheadergroupingnotitle .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 720px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .symbol .mobilelighttheme06listssubheadergroupingnotitle .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 4px;
+  width               : 644px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2726,27 +2636,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 32px;
   width               : 38px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -2820,29 +2719,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 4px;
-  width               : 644px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 4px;
   width               : 644px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerleft {
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 4px;
@@ -2854,7 +2742,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerleft .background {
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 4px;
@@ -2865,7 +2753,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerleft .value {
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -7px;
   height              : 18px;
@@ -2876,7 +2764,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerleft .value .a0 {
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2892,7 +2780,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerleft .combinedshape {
+.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 4px;
@@ -2925,27 +2813,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 32px;
   width               : 38px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .notitlesubheader1 .group .guide1 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -2974,7 +2851,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 5px;
   height              : 18px;
-  width               : 21px;
+  width               : 27px;
   position            : absolute;
   margin              : 0;
   left                : 14px;
@@ -3220,10 +3097,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 123px;
   height              : 16px;
-  width               : 398px;
+  width               : 374px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 24px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3231,34 +3108,23 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
-  width               : 360px;
+  width               : 312px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 16px;
-  width               : 360px;
-  position            : absolute;
+  width               : 312px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -3267,7 +3133,7 @@ div {
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 360px;
+  left                : 336px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -3325,10 +3191,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 276px;
   height              : 36px;
-  width               : 398px;
+  width               : 374px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 24px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3336,34 +3202,23 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 36px;
-  width               : 360px;
+  width               : 312px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 36px;
-  width               : 360px;
-  position            : absolute;
+  width               : 312px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -3372,7 +3227,7 @@ div {
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 360px;
+  left                : 336px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -3430,10 +3285,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 436px;
   height              : 16px;
-  width               : 398px;
+  width               : 374px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 24px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3441,34 +3296,23 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
-  width               : 360px;
+  width               : 312px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 16px;
-  width               : 360px;
-  position            : absolute;
+  width               : 312px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -3477,7 +3321,7 @@ div {
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 360px;
+  left                : 336px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -3553,27 +3397,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 504px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing3 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 504px;
   width               : 24px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -3647,27 +3480,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .guide .guide1 .guide2 .spacing4 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 504px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing4 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
   height              : 504px;
   width               : 24px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .withoutchunking .guide .guide1 .guide2 .spacing4 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
@@ -3756,7 +3578,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .keyscreens .guidekeyscreensmobileportrait {
+.a66subheader .withoutchunking .keyscreens .w360mpl067subheader31 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -3767,18 +3589,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .withoutchunking .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .withoutchunking .keyscreens .guidekeyscreensmobileportrait1 {
+.a66subheader .withoutchunking .keyscreens .w360mpd067subheader31 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -3786,17 +3597,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .withoutchunking .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3818,7 +3618,7 @@ div {
 }
 .a66subheader .notext {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2418px;
+  top                 : 2454px;
   height              : 1062px;
   width               : 1240px;
   position            : absolute;
@@ -3923,11 +3723,15 @@ div {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 52px;
+  box-sizing          : border-box;
   width               : 360px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   border-radius       : 26px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4009,11 +3813,15 @@ div {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 85px;
+  box-sizing          : border-box;
   width               : 360px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   border-radius       : 26px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4204,11 +4012,15 @@ div {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
   height              : 123px;
+  box-sizing          : border-box;
   width               : 360px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   border-radius       : 26px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4451,27 +4263,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .notext .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .notext .guide .guide1 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 16px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .notext .guide .guide1 .spacing .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -4556,27 +4357,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .notext .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .notext .guide .guide1 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 16px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .notext .guide .guide1 .spacing1 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
@@ -4676,7 +4466,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .notext .keyscreens .guidekeyscreensmobileportrait {
+.a66subheader .notext .keyscreens .w360mpl067subheader2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -4687,18 +4477,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .notext .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .notext .keyscreens .guidekeyscreensmobileportrait1 {
+.a66subheader .notext .keyscreens .w360mpd067subheader2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -4706,17 +4485,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .notext .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4739,7 +4507,7 @@ div {
 .a66subheader .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1077px;
-  height              : 1181px;
+  height              : 1217px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -4750,7 +4518,7 @@ div {
 .a66subheader .text .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 491px;
+  height              : 527px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -4761,7 +4529,7 @@ div {
 .a66subheader .text .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 491px;
+  height              : 527px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -4772,7 +4540,7 @@ div {
 .a66subheader .text .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 491px;
+  height              : 527px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -5082,8 +4850,8 @@ div {
 }
 .a66subheader .text .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
-  height              : 109px;
+  top                 : 223px;
+  height              : 122px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -5211,9 +4979,43 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .text .type .lighttheme .guideformlight1 {
+.a66subheader .text .type .lighttheme .guideformdivider {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .type .lighttheme .guideformdivider .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .type .lighttheme .guideformdivider .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 1px;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.a66subheader .text .type .lighttheme .guideformlight1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -5333,7 +5135,7 @@ div {
 }
 .a66subheader .text .type .lighttheme .guideformlight2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 81px;
+  top                 : 94px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -5492,8 +5294,8 @@ div {
 }
 .a66subheader .text .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 352px;
-  height              : 109px;
+  top                 : 375px;
+  height              : 122px;
   width               : 465px;
   position            : absolute;
   margin              : 0;
@@ -5621,9 +5423,43 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a66subheader .text .type .darktheme .guideformdark1 {
+.a66subheader .text .type .darktheme .guideformdivider {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .type .darktheme .guideformdivider .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 465px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a66subheader .text .type .darktheme .guideformdivider .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 6px;
+  height              : 1px;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 0.08;
+}
+.a66subheader .text .type .darktheme .guideformdark1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -5743,7 +5579,7 @@ div {
 }
 .a66subheader .text .type .darktheme .guideformdark2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 81px;
+  top                 : 94px;
   height              : 28px;
   width               : 465px;
   position            : absolute;
@@ -5980,7 +5816,7 @@ div {
 .a66subheader .text .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 491px;
+  height              : 527px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -5991,7 +5827,7 @@ div {
 .a66subheader .text .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 491px;
+  height              : 527px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -6002,7 +5838,7 @@ div {
 .a66subheader .text .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 491px;
+  height              : 527px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -6016,20 +5852,20 @@ div {
 }
 .a66subheader .text .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 178px;
-  height              : 134px;
-  width               : 544px;
+  top                 : 209px;
+  height              : 148px;
+  width               : 616px;
   position            : absolute;
   margin              : 0;
-  left                : 86px;
+  left                : 50px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a66subheader .text .guide .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 134px;
-  width               : 544px;
+  height              : 148px;
+  width               : 616px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -6039,8 +5875,8 @@ div {
 .a66subheader .text .guide .guide1 .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 96px;
-  width               : 468px;
+  height              : 110px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -6049,9 +5885,9 @@ div {
 }
 .a66subheader .text .guide .guide1 .guide2 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
-  top                 : 1px;
-  height              : 95px;
-  width               : 468px;
+  top                 : 0px;
+  height              : 110px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6060,9 +5896,9 @@ div {
 }
 .a66subheader .text .guide .guide1 .guide2 .symbol .mobilelighttheme06listssubheader02 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 49px;
-  height              : 47px;
-  width               : 468px;
+  top                 : 56px;
+  height              : 54px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6073,8 +5909,8 @@ div {
 .a66subheader .text .guide .guide1 .guide2 .symbol .mobilelighttheme06listssubheader02 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 47px;
-  width               : 468px;
+  height              : 54px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6083,20 +5919,20 @@ div {
 }
 .a66subheader .text .guide .guide1 .guide2 .symbol .mobilelighttheme06listssubheader02 .title {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : 21px;
-  width               : 406px;
+  top                 : 20px;
+  height              : 24px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
-  left                : 31px;
+  left                : 36px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a66subheader .text .guide .guide1 .guide2 .symbol .mobilelighttheme06listssubheader02 .title .subheadertext {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 21px;
-  width               : 406px;
+  height              : 24px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6105,16 +5941,16 @@ div {
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 500;
   font-style          : normal;
-  font-size           : 18.2px;
+  font-size           : 21.0px;
   color               : rgba(144, 144, 144, 1.0);
   text-align          : left;
-  line-height         : 21.0px;
+  line-height         : 24.0px;
 }
 .a66subheader .text .guide .guide1 .guide2 .symbol .mobilelighttheme06listsgrouplistbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 50px;
-  width               : 468px;
+  height              : 57px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6123,9 +5959,9 @@ div {
 }
 .a66subheader .text .guide .guide1 .guide2 .symbol .mobilelighttheme06listsgrouplistbg .rectangle2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 49px;
-  width               : 468px;
+  top                 : 0px;
+  height              : 57px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6134,27 +5970,27 @@ div {
 }
 .a66subheader .text .guide .guide1 .guide2 .symbol .maintext1line {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 28px;
-  width               : 406px;
+  top                 : 1px;
+  height              : 32px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
-  left                : 31px;
+  left                : 36px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 23.4px;
+  font-size           : 27.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .a66subheader .text .guide .guide1 .guide2 .spacing {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 83px;
-  width               : 31px;
+  top                 : 58px;
+  height              : 90px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -6163,9 +5999,9 @@ div {
 }
 .a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
+  top                 : 52px;
   height              : 38px;
-  width               : 31px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6177,7 +6013,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 31px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6191,7 +6027,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 6px;
+  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -6204,7 +6040,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 31px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6214,40 +6050,29 @@ div {
 .a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
-  width               : 31px;
+  height              : 52px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .text .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 45px;
-  width               : 31px;
-  position            : absolute;
+  height              : 52px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .text .guide .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 45px;
+  top                 : 58px;
+  height              : 52px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -6255,10 +6080,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerbottom {
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 52px;
   width               : 38px;
   position            : relative;
   margin              : 0;
@@ -6267,10 +6092,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerbottom .background {
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 52px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -6278,9 +6103,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerbottom .value {
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
+  top                 : 17px;
   height              : 19px;
   width               : 17px;
   position            : absolute;
@@ -6289,9 +6114,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerbottom .value .a0 {
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 1px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -6305,10 +6130,10 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerbottom .combinedshape {
+.a66subheader .text .guide .guide1 .guide2 .size .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
+  height              : 52px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -6318,20 +6143,20 @@ div {
 }
 .a66subheader .text .guide .guide1 .guide2 .spacing1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 83px;
-  width               : 31px;
+  top                 : 57px;
+  height              : 91px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 475px;
+  left                : 542px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 45px;
+  top                 : 53px;
   height              : 38px;
-  width               : 31px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6343,7 +6168,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 31px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6357,7 +6182,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 6px;
+  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -6370,7 +6195,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 31px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6380,63 +6205,52 @@ div {
 .a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 45px;
-  width               : 31px;
+  height              : 53px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .text .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 45px;
-  width               : 31px;
-  position            : absolute;
+  height              : 53px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .text .guide .guide1 .guide2 .spacing2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 15px;
-  width               : 506px;
+  top                 : 58px;
+  height              : 19px;
+  width               : 542px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 74px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom {
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 19px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 468px;
+  left                : 504px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .background {
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 19px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -6444,9 +6258,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .value {
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
+  top                 : 1px;
   height              : 18px;
   width               : 15px;
   position            : absolute;
@@ -6455,7 +6269,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .value .a0 {
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -6471,10 +6285,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .combinedshape {
+.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 19px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -6485,7 +6299,7 @@ div {
 .a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 19px;
   width               : 468px;
   position            : absolute;
   margin              : 0;
@@ -6493,55 +6307,44 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 15px;
-  width               : 468px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .text .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 15px;
+  height              : 19px;
   width               : 468px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .text .guide .guide1 .guide2 .spacing3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 87px;
-  height              : 9px;
-  width               : 506px;
+  top                 : 100px;
+  height              : 10px;
+  width               : 542px;
   position            : absolute;
   margin              : 0;
-  left                : 38px;
+  left                : 74px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom {
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 10px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 468px;
+  left                : 504px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .background {
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 10px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -6549,7 +6352,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .value {
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -4px;
   height              : 18px;
@@ -6560,7 +6363,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .value .a0 {
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -6576,10 +6379,10 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerbottom .combinedshape {
+.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 10px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -6590,7 +6393,7 @@ div {
 .a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 10px;
   width               : 468px;
   position            : absolute;
   margin              : 0;
@@ -6598,80 +6401,58 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 9px;
-  width               : 468px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .text .guide .guide1 .guide2 .spacing3 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
-  height              : 9px;
+  height              : 10px;
   width               : 468px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .text .guide .guide1 .guide2 .size1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 66px;
-  height              : 21px;
-  width               : 406px;
+  top                 : 77px;
+  height              : 23px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
-  left                : 69px;
+  left                : 74px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a66subheader .text .guide .guide1 .guide2 .size1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 21px;
-  width               : 406px;
+  height              : 23px;
+  width               : 468px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .guide .guide1 .guide2 .size1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 21px;
-  width               : 406px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a66subheader .text .guide .guide1 .guide2 .size1 .guidemeasurearea .area {
-  background-color    : rgba(255, 198, 13, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 21px;
-  width               : 406px;
-  position            : absolute;
+  height              : 23px;
+  width               : 468px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a66subheader .text .guide .guide1 .guide2 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
+  top                 : 66px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 50px;
+  left                : 61px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6739,7 +6520,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .keyscreens .guidekeyscreensmobileportrait {
+.a66subheader .text .keyscreens .w360mpl067subheader1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -6750,18 +6531,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a66subheader .text .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .text .keyscreens .guidekeyscreensmobileportrait1 {
+.a66subheader .text .keyscreens .w360mpd067subheader1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
@@ -6769,17 +6539,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 630px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .text .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6917,18 +6676,7 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.a66subheader .subheadercase .case1default .subheaderdefault .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .subheadercase .case1default .subheaderdefault .guidekeyscreensmobileportrait .scrmoport {
+.a66subheader .subheadercase .case1default .subheaderdefault .w360mpl067subheader1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -6966,18 +6714,7 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.a66subheader .subheadercase .case1default .groupingdefault .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .subheadercase .case1default .groupingdefault .guidekeyscreensmobileportrait .scrmoport {
+.a66subheader .subheadercase .case1default .groupingdefault .w360mpl067subheader2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -7042,18 +6779,7 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.a66subheader .subheadercase .case2some .subheader .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .subheadercase .case2some .subheader .guidekeyscreensmobileportrait .scrmoport {
+.a66subheader .subheadercase .case2some .subheader .w360mpl067subheader31 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -7091,18 +6817,7 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.a66subheader .subheadercase .case2some .grouping .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a66subheader .subheadercase .case2some .grouping .guidekeyscreensmobileportrait .scrmoport {
+.a66subheader .subheadercase .case2some .grouping .w360mpl067subheader32 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 507px;
@@ -8705,4 +8420,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

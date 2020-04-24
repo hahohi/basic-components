@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300');
 
 @font-face {
                           font-family: "SamsungOneKorean-400";
@@ -1955,27 +1955,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 185px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 185px;
   width               : 28px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .punchcutarea .immersivemodelandscape .guide .guide2 .guide3 .guide4 .size .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
@@ -2384,27 +2373,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 185px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 185px;
   width               : 21px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .punchcutarea .immersivemodelandscape .guide .guide2 .guide11 .guide4 .guide5 .size1 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
@@ -2700,27 +2678,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 169px;
-  width               : 340px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 169px;
   width               : 340px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .punchcutarea .immersivemodelandscape .guide1 .guide2 .guide3 .size .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
@@ -4544,4 +4511,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

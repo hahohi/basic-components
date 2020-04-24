@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 1347px;
+  min-height          : 1391px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -49,9 +49,9 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.a51dividerbasiclist .stylebuttonsolidblue {
+.a51dividerbasiclist .buttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1222px;
+  top                 : 1266px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -60,7 +60,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .stylebuttonsolidblue .btn-view {
+.a51dividerbasiclist .buttonsolidblue .btn-view {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 45px;
@@ -71,7 +71,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .stylebuttonsolidblue .btn-view .rectangle {
+.a51dividerbasiclist .buttonsolidblue .btn-view .rectangle {
   background-color    : rgba(3, 129, 254, 1.0);
   top                 : 0px;
   height              : 45px;
@@ -83,7 +83,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .stylebuttonsolidblue .btn-view .text {
+.a51dividerbasiclist .buttonsolidblue .btn-view .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 8px;
   height              : auto;
@@ -102,7 +102,7 @@ div {
 .a51dividerbasiclist .shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 341px;
+  height              : 351px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -113,7 +113,7 @@ div {
 .a51dividerbasiclist .shape .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 341px;
+  height              : 351px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -124,7 +124,7 @@ div {
 .a51dividerbasiclist .shape .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 341px;
+  height              : 351px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -138,7 +138,7 @@ div {
 }
 .a51dividerbasiclist .shape .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 152px;
+  top                 : 157px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -251,7 +251,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a51dividerbasiclist .shape .lighttheme .guidemodifiedformpropertysubtitle {
+.a51dividerbasiclist .shape .lighttheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -263,7 +263,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .lighttheme .guidemodifiedformpropertysubtitle .background {
+.a51dividerbasiclist .shape .lighttheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -274,7 +274,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .lighttheme .guidemodifiedformpropertysubtitle .text {
+.a51dividerbasiclist .shape .lighttheme .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -292,7 +292,7 @@ div {
 }
 .a51dividerbasiclist .shape .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 230px;
+  top                 : 240px;
   height              : 81px;
   width               : 465px;
   position            : absolute;
@@ -405,7 +405,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 53px;
   height              : 28px;
@@ -417,7 +417,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy .background {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -428,7 +428,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy .group2 {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -439,7 +439,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy .group2 .label1 {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -455,7 +455,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy .group2 .group {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -466,7 +466,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy .group2 .group .rectangle {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -477,7 +477,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy .group2 .group .value {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -493,7 +493,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a51dividerbasiclist .shape .darktheme .guideformdarkonlycopy .group2 .property {
+.a51dividerbasiclist .shape .darktheme .guideformdarkonly1 .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -509,7 +509,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a51dividerbasiclist .shape .darktheme .guidemodifiedformpropertysubtitle {
+.a51dividerbasiclist .shape .darktheme .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -521,7 +521,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .darktheme .guidemodifiedformpropertysubtitle .background {
+.a51dividerbasiclist .shape .darktheme .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -532,7 +532,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .darktheme .guidemodifiedformpropertysubtitle .text {
+.a51dividerbasiclist .shape .darktheme .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -641,7 +641,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a51dividerbasiclist .shape .general .guidemodifiedformpropertysubtitle {
+.a51dividerbasiclist .shape .general .guideformsubtitle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -653,7 +653,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .general .guidemodifiedformpropertysubtitle .background {
+.a51dividerbasiclist .shape .general .guideformsubtitle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 25px;
@@ -664,7 +664,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .shape .general .guidemodifiedformpropertysubtitle .text {
+.a51dividerbasiclist .shape .general .guideformsubtitle .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -760,7 +760,7 @@ div {
 .a51dividerbasiclist .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 801px;
-  height              : 341px;
+  height              : 385px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -771,7 +771,7 @@ div {
 .a51dividerbasiclist .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 341px;
+  height              : 385px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -782,7 +782,7 @@ div {
 .a51dividerbasiclist .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 341px;
+  height              : 385px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -796,20 +796,20 @@ div {
 }
 .a51dividerbasiclist .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
-  height              : 199px;
-  width               : 398px;
+  top                 : 84px;
+  height              : 261px;
+  width               : 583px;
   position            : absolute;
   margin              : 0;
-  left                : 159px;
+  left                : 88px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a51dividerbasiclist .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
-  height              : 124px;
-  width               : 360px;
+  top                 : 38px;
+  height              : 185px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -818,9 +818,9 @@ div {
 }
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06listsgrouplistbg {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 123px;
-  width               : 360px;
+  top                 : 0px;
+  height              : 185px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -830,20 +830,24 @@ div {
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06listsgrouplistbg .rectangle2 {
   background-color    : rgba(252, 252, 252, 1.0);
   top                 : 0px;
-  height              : 123px;
-  width               : 360px;
+  height              : 185px;
+  box-sizing          : border-box;
+  width               : 540px;
   position            : relative;
   margin              : 0;
   left                : 0px;
-  border-radius       : 26px;
+  border-radius       : 39px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists1line {
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 72px;
-  height              : 52px;
-  width               : 360px;
+  top                 : 107px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -851,33 +855,94 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists1line .background {
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 360px;
+  height              : 78px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists1line .title {
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .mobilelighttheme03controllersswitchon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 21px;
-  width               : 312px;
+  top                 : 18px;
+  height              : 41px;
+  width               : 65px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 440px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists1line .title .maintext1line {
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .mobilelighttheme03controllersswitchon .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 21px;
-  width               : 312px;
+  height              : 41px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .mobilelighttheme03controllersswitchon .switchbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 29px;
+  box-sizing          : border-box;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-radius       : 13px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(143, 143, 143, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .mobilelighttheme03controllersswitchon .switchfill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .mobilelighttheme03controllersswitchon .switchborder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 34px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 32px;
+  width               : 380px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchlist .title .switchon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 380px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -886,77 +951,16 @@ div {
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 18.0px;
+  font-size           : 27.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
-  line-height         : 21.0px;
-}
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchoff {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
-  height              : 27px;
-  width               : 43px;
-  position            : absolute;
-  margin              : 0;
-  left                : 293px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchoff .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 27px;
-  width               : 43px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchoff .switchbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 19px;
-  box-sizing          : border-box;
-  width               : 37px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  border-radius       : 9px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(143, 143, 143, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchoff .switchfill {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme03controllersswitchoff .switchborder {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 23px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  line-height         : 32.0px;
 }
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme05dividersbasiclist {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 71px;
-  height              : 1px;
-  width               : 360px;
+  top                 : 105px;
+  height              : 2px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -967,8 +971,8 @@ div {
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme05dividersbasiclist .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1px;
-  width               : 360px;
+  height              : 2px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -979,18 +983,18 @@ div {
   background-color    : rgba(230, 230, 230, 1.0);
   top                 : 0px;
   height              : 1px;
-  width               : 320px;
+  width               : 480px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 30px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists2lineprimarysub {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 70px;
-  width               : 360px;
+  top                 : 0px;
+  height              : 105px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1001,8 +1005,8 @@ div {
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists2lineprimarysub .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 70px;
-  width               : 360px;
+  height              : 105px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1011,20 +1015,20 @@ div {
 }
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists2lineprimarysub .title {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 40px;
-  width               : 312px;
+  top                 : 23px;
+  height              : 61px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 36px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists2lineprimarysub .title .primarycolor {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 15px;
-  width               : 312px;
+  top                 : 37px;
+  height              : 23px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1033,16 +1037,16 @@ div {
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 13.0px;
+  font-size           : 19.5px;
   color               : rgba(0, 114, 222, 1.0);
   text-align          : left;
-  line-height         : 15.0px;
+  line-height         : 23.0px;
 }
 .a51dividerbasiclist .guide .guide1 .symbol .mobilelighttheme06lists2lineprimarysub .title .maintext2line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 21px;
-  width               : 312px;
+  height              : 32px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1051,27 +1055,27 @@ div {
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 18.0px;
+  font-size           : 27.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : left;
-  line-height         : 21.0px;
+  line-height         : 32.0px;
 }
 .a51dividerbasiclist .guide .guide1 .spacing {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 161px;
-  width               : 20px;
+  height              : 223px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 340px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a51dividerbasiclist .guide .guide1 .spacing .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 123px;
+  top                 : 185px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1083,7 +1087,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1097,7 +1101,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1110,7 +1114,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1120,52 +1124,41 @@ div {
 .a51dividerbasiclist .guide .guide1 .spacing .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 123px;
-  width               : 20px;
+  height              : 185px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 123px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
 }
 .a51dividerbasiclist .guide .guide1 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(0, 153, 255, 1.0);
   top                 : 0px;
-  height              : 123px;
-  width               : 20px;
-  position            : absolute;
+  height              : 185px;
+  width               : 30px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a51dividerbasiclist .guide .guide1 .spacing1 {
+.a51dividerbasiclist .guide .guide1 .spacingcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 161px;
-  width               : 20px;
+  height              : 223px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 510px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulerbottom {
+.a51dividerbasiclist .guide .guide1 .spacingcopy .guidemeasurerulerbottom {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 123px;
+  top                 : 185px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1173,25 +1166,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulerbottom .background {
+.a51dividerbasiclist .guide .guide1 .spacingcopy .guidemeasurerulerbottom .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 20px;
+  width               : 30px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulerbottom .a0 {
+.a51dividerbasiclist .guide .guide1 .spacingcopy .guidemeasurerulerbottom .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 6px;
   transform           : rotate(0deg);
   opacity             : 0.6;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -1200,11 +1193,105 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulerbottom .combinedshape {
+.a51dividerbasiclist .guide .guide1 .spacingcopy .guidemeasurerulerbottom .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 9px;
-  width               : 20px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .spacingcopy .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .spacingcopy .guidemeasurearea .area {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 0px;
+  height              : 185px;
+  width               : 30px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a51dividerbasiclist .guide .guide1 .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 223px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulertop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulertop .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulertop .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulertop .value .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurerulertop .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 9px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1213,53 +1300,42 @@ div {
 }
 .a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 123px;
-  width               : 20px;
+  top                 : 38px;
+  height              : 185px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 123px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
 }
 .a51dividerbasiclist .guide .guide1 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 123px;
-  width               : 20px;
-  position            : absolute;
+  height              : 185px;
+  width               : 6px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 {
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 161px;
-  width               : 4px;
+  height              : 223px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
-  left                : 336px;
+  left                : 504px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurerulertop {
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 .guidemeasurerulertop {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 4px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1267,29 +1343,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurerulertop .background {
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 .guidemeasurerulertop .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 4px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurerulertop .value {
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 .guidemeasurerulertop .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 18px;
   width               : 10px;
   position            : absolute;
   margin              : 0;
-  left                : -3px;
+  left                : -2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurerulertop .value .a0 {
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 .guidemeasurerulertop .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1305,207 +1381,80 @@ div {
   text-align          : center;
   line-height         : 18.0px;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurerulertop .combinedshape {
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 .guidemeasurerulertop .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 4px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurearea {
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 123px;
-  width               : 4px;
+  height              : 185px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
+.a51dividerbasiclist .guide .guide1 .spacingcopy2 .guidemeasurearea .area {
+  background-color    : rgba(102, 0, 255, 1.0);
   top                 : 0px;
-  height              : 123px;
-  width               : 4px;
-  position            : absolute;
+  height              : 185px;
+  width               : 6px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a51dividerbasiclist .guide .guide1 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 123px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 161px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurerulertop {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurerulertop .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurerulertop .value {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : 18px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : -3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurerulertop .value .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurerulertop .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 27px;
-  height              : 9px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 123px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 123px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a51dividerbasiclist .guide .guide1 .spacing3 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 123px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a51dividerbasiclist .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 143px;
   height              : 3px;
-  width               : 378px;
+  width               : 553px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 30px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a51dividerbasiclist .guide .guide1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 1px;
-  width               : 320px;
+  top                 : 0px;
+  height              : 2px;
+  width               : 480px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 1px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a51dividerbasiclist .guide .guide1 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 1px;
-  width               : 320px;
-  position            : absolute;
+  height              : 2px;
+  width               : 480px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a51dividerbasiclist .guide .guide1 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
-  width               : 38px;
+  width               : 43px;
   position            : absolute;
   margin              : 0;
-  left                : 340px;
+  left                : 510px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1514,7 +1463,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 3px;
-  width               : 38px;
+  width               : 43px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1561,12 +1510,12 @@ div {
 }
 .a51dividerbasiclist .guide .guide1 .guidenumberingshape {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 86px;
+  top                 : 122px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 4px;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1599,12 +1548,12 @@ div {
 }
 .a51dividerbasiclist .guide .tagrefer {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
+  top                 : 40px;
   height              : 29px;
-  width               : 169px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 159px;
+  left                : 88px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1612,7 +1561,7 @@ div {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 169px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1620,52 +1569,30 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a51dividerbasiclist .guide .tagrefer .group {
+.a51dividerbasiclist .guide .tagrefer .basic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
-  height              : 17px;
-  width               : 150px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .tagrefer .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 10px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.8;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 17.0px;
 }
-.a51dividerbasiclist .guide .tagrefer .group .pagename {
+.a51dividerbasiclist .guide .tagrefer .pagename {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 97px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .guide .tagrefer .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 6px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -1673,119 +1600,6 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 17.0px;
-}
-.a51dividerbasiclist .guide .tagrefer .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a51dividerbasiclist .guide .tagrefer .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a51dividerbasiclist .keyscreens {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 194px;
-  height              : 587px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 380px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .keyscreens .contentsbox {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 587px;
-  width               : 1240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .keyscreens .contentsbox .rectangle {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 587px;
-  box-sizing          : border-box;
-  width               : 1240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(227, 227, 227, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 370px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .keyscreens .guidekeyscreensmobileportrait1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 630px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a51dividerbasiclist .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 507px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .a51dividerbasiclist .a51dividerbasiclist1 {
   background-color    : rgba(255,255,255,0.0);
@@ -3004,6 +2818,2461 @@ div {
   text-align          : justify;
   line-height         : 24.0px;
 }
+.a51dividerbasiclist .keyscreens {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  height              : 587px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .contentsbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 587px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .contentsbox .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 587px;
+  box-sizing          : border-box;
+  width               : 1240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(227, 227, 227, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 40px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 370px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .background {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 215px;
+  box-sizing          : border-box;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line1 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line1 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist1 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line2 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line2 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme05dividersbasiclist2 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line3 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list02 .mobilelighttheme06lists3line3 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme06listssubheader02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 236px;
+  height              : 25px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme06listssubheader02 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme06listssubheader02 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme06listssubheader02 .title .subheadertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 9.33px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 176px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 176px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(252, 252, 252, 1.0);
+  top                 : 0px;
+  height              : 176px;
+  box-sizing          : border-box;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(214, 214, 214, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist1 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme05dividersbasiclist2 .line {
+  background-color    : rgba(230, 230, 230, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists2lineprimarysub {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists2lineprimarysub .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists2lineprimarysub .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 27px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists2lineprimarysub .title .primarycolor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 10px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(0, 114, 222, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .list01 .mobilelighttheme06lists2lineprimarysub .title .maintext2line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelighttheme01actionbartitle1btnback .group .mobilelightthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpl051dividerbasiclist .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 40px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 630px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .background {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 507px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 260px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 0px;
+  height              : 215px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line1 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line1 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist1 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line2 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line2 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line2 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme05dividersbasiclist2 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line3 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line3 .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list02 .mobiledarktheme06lists3line3 .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme06listssubheader02 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 236px;
+  height              : 25px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme06listssubheader02 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme06listssubheader02 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme06listssubheader02 .title .subheadertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 9.33px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 176px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06listsgrouplistbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 175px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06listsgrouplistbg .rectangle2 {
+  background-color    : rgba(37, 37, 37, 1.0);
+  top                 : 0px;
+  height              : 175px;
+  width               : 240px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 83px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists3line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists3line .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 37px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists3line .title .thispsdisjustas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 20px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(153, 153, 153, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists3line .title .maintext3line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist1 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line1 .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists1line1 .title .maintext1line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme05dividersbasiclist2 .line {
+  background-color    : rgba(212, 212, 212, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists2lineprimarysub {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists2lineprimarysub .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists2lineprimarysub .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 27px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists2lineprimarysub .title .primarycolor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 10px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 8.67px;
+  color               : rgba(62, 145, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .list01 .mobiledarktheme06lists2lineprimarysub .title .maintext2line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarktheme01actionbartitle1btnback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a51dividerbasiclist .keyscreens .w360mpd051dividerbasiclist .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
   opacity             : 0;
@@ -3118,4 +5387,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
 @font-face {
                           font-family: "SamsungOneKorean-600";
@@ -25,7 +25,7 @@
   width               : 100%;
   min-width           : 1680px;
   height              : 100vh;
-  min-height          : 2806px;
+  min-height          : 2826px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -51,7 +51,7 @@ div {
 }
 .a86progressbottombar .stylebuttonsolidblue {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2681px;
+  top                 : 2701px;
   height              : 45px;
   width               : 274px;
   position            : absolute;
@@ -101,19 +101,19 @@ div {
 }
 .a86progressbottombar .progresscircle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1423px;
-  height              : 1178px;
+  top                 : 1434px;
+  height              : 1188px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 412px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a86progressbottombar .progresscircle .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 730px;
-  height              : 448px;
+  height              : 458px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -124,7 +124,7 @@ div {
 .a86progressbottombar .progresscircle .guide .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 407px;
+  height              : 417px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -135,7 +135,7 @@ div {
 .a86progressbottombar .progresscircle .guide .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -146,7 +146,7 @@ div {
 .a86progressbottombar .progresscircle .guide .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -415,7 +415,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 109px;
   height              : 28px;
@@ -427,7 +427,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .background {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal3 .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -438,7 +438,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal3 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -449,7 +449,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group .label1 {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal3 .group .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -465,7 +465,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group .value {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal3 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -481,7 +481,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progresscircle .guide .type .general .guideformnormalcopy .group .property {
+.a86progressbottombar .progresscircle .guide .type .general .guideformnormal3 .group .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -538,7 +538,7 @@ div {
 }
 .a86progressbottombar .progresscircle .guide .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 246px;
+  top                 : 251px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -547,7 +547,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -559,7 +559,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .background {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -570,7 +570,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -581,7 +581,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .label1 {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -597,7 +597,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .group {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -608,7 +608,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .group .rectangle {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly .group2 .group .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -619,7 +619,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .group .value {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -635,7 +635,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlight .group2 .property {
+.a86progressbottombar .progresscircle .guide .type .lighttheme .guideformlightonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -692,7 +692,7 @@ div {
 }
 .a86progressbottombar .progresscircle .guide .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 324px;
+  top                 : 334px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -701,7 +701,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -713,7 +713,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .background {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -724,7 +724,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -735,7 +735,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .label1 {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -751,7 +751,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .group {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -762,7 +762,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .group .rectangle {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -773,7 +773,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .group .value {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -789,7 +789,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdark .group2 .property {
+.a86progressbottombar .progresscircle .guide .type .darktheme .guideformdarkonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -924,7 +924,7 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 407px;
+  height              : 417px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -935,7 +935,7 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -946,7 +946,7 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 407px;
+  height              : 417px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -960,20 +960,20 @@ div {
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 138px;
-  height              : 132px;
-  width               : 436px;
+  top                 : 129px;
+  height              : 160px;
+  width               : 616px;
   position            : absolute;
   margin              : 0;
-  left                : 140px;
+  left                : 50px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -983,8 +983,8 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -994,8 +994,8 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1006,8 +1006,8 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 360px;
+  height              : 84px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1016,20 +1016,20 @@ div {
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 24px;
-  width               : 124px;
+  top                 : 24px;
+  height              : 36px;
+  width               : 186px;
   position            : absolute;
   margin              : 0;
-  left                : 118px;
+  left                : 177px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 124px;
+  height              : 36px;
+  width               : 186px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1039,26 +1039,26 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .texttexttexu2026 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 92px;
+  height              : 36px;
+  width               : 138px;
   position            : absolute;
   margin              : 0;
-  left                : 32px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 14.0px;
+  font-size           : 21.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : center;
-  line-height         : 24.0px;
+  line-height         : 36.0px;
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1069,8 +1069,8 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1079,31 +1079,280 @@ div {
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .path {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 12px;
-  width               : 12px;
+  top                 : 17px;
+  height              : 18px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 11px;
+  left                : 17px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .symbol .mobilelighttheme09progressbottombarcircle .mobiledarktheme09progressbottomareacircle .group .mobiledarktheme09progresscircle24x24 .path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 12px;
-  width               : 12px;
+  height              : 18px;
+  width               : 18px;
   position            : absolute;
   margin              : 0;
   left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 122px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 38px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 177px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 122px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 401px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 38px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 177px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 122px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
+  background-color    : rgba(0, 153, 255, 1.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 12px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 78px;
-  width               : 180px;
+  height              : 98px;
+  width               : 251px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1114,10 +1363,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 156px;
+  left                : 215px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1126,7 +1375,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 38px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1140,7 +1389,7 @@ div {
   width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 3px;
+  left                : 9px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1164,17 +1413,17 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 27px;
   height              : 9px;
-  width               : 24px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 24px;
+  top                 : 62px;
+  height              : 36px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1183,10 +1432,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 36px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1194,9 +1443,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .value {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
+  top                 : 9px;
   height              : 19px;
   width               : 17px;
   position            : absolute;
@@ -1205,7 +1454,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .value .a0 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -1221,10 +1470,10 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulertop1 .combinedshape {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
+  height              : 36px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1234,233 +1483,122 @@ div {
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 24px;
-  width               : 24px;
+  top                 : 62px;
+  height              : 36px;
+  width               : 36px;
   position            : absolute;
   margin              : 0;
-  left                : 156px;
+  left                : 215px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 24px;
-  position            : absolute;
+  height              : 36px;
+  width               : 36px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinehorizontal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 94px;
-  width               : 118px;
+  top                 : 62px;
+  height              : 1px;
+  width               : 213px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 38px;
-  width               : 118px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinehorizontal .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 38px;
-  width               : 118px;
+  height              : 1px;
+  width               : 213px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 44px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 118px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 118px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 118px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 118px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinevertical {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 94px;
-  width               : 119px;
+  height              : 60px;
+  width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 279px;
+  left                : 215px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 38px;
-  width               : 119px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .background {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinevertical .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 38px;
-  width               : 119px;
+  height              : 60px;
+  width               : 1px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .a0 {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinevertical1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : auto;
+  top                 : 38px;
+  height              : 60px;
+  width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 44px;
+  left                : 250px;
   transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
+  opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurerulerbottom .combinedshape {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinevertical1 .line {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 119px;
+  top                 : 0px;
+  height              : 60px;
+  width               : 1px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea {
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinehorizontal1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 1px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a86progressbottombar .progresscircle .guide .guide1 .guide2 .size .guidemeasurelinehorizontal1 .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 119px;
+  height              : 1px;
+  width               : 213px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 119px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing1 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 119px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 56px;
+  height              : 84px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 398px;
+  left                : 578px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1468,7 +1606,7 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 84px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -1478,7 +1616,7 @@ div {
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 19px;
+  top                 : 33px;
   height              : 18px;
   width               : 17px;
   position            : absolute;
@@ -1506,7 +1644,7 @@ div {
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 84px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -1514,152 +1652,47 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 94px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : 38px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .a0 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 0.6;
-  font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 18.0px;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurerulerbottom .combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 9px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .spacing2 .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .text {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 24px;
-  width               : 91px;
+  top                 : 62px;
+  height              : 34px;
+  width               : 138px;
   position            : absolute;
   margin              : 0;
-  left                : 188px;
+  left                : 263px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .text .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 91px;
+  height              : 34px;
+  width               : 138px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .guide .guide1 .guide2 .text .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 91px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .text .guidemeasurearea .area {
-  background-color    : rgba(255, 198, 13, 1.0);
+  background-color    : rgba(255, 204, 0, 1.0);
   top                 : 0px;
-  height              : 24px;
-  width               : 91px;
-  position            : absolute;
+  height              : 34px;
+  width               : 138px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a86progressbottombar .progresscircle .guide .guide1 .guide2 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 43px;
+  top                 : 51px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 177px;
+  left                : 254px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1743,25 +1776,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .keyscreens .guidekeyscreensmobileportrait {
+.a86progressbottombar .progresscircle .keyscreens .w360mpl086progressbottombar2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 500px;
+  left                : 370px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progresscircle .keyscreens .guidekeyscreensmobileportrait .scrmoport {
+.a86progressbottombar .progresscircle .keyscreens .w360mpd086progressbottombar2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 630px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1784,7 +1817,7 @@ div {
 .a86progressbottombar .progressbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
-  height              : 1069px;
+  height              : 1079px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -1795,7 +1828,7 @@ div {
 .a86progressbottombar .progressbar .type {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 379px;
+  height              : 389px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1806,7 +1839,7 @@ div {
 .a86progressbottombar .progressbar .type .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 389px;
   width               : 505px;
   position            : absolute;
   margin              : 0;
@@ -1817,7 +1850,7 @@ div {
 .a86progressbottombar .progressbar .type .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 389px;
   box-sizing          : border-box;
   width               : 505px;
   position            : relative;
@@ -2127,7 +2160,7 @@ div {
 }
 .a86progressbottombar .progressbar .type .lighttheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 218px;
+  top                 : 223px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -2136,7 +2169,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -2148,7 +2181,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight .background {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2159,7 +2192,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2170,7 +2203,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .label1 {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2186,7 +2219,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .group {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2197,7 +2230,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .group .rectangle {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly .group2 .group .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -2208,7 +2241,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .group .value {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2224,7 +2257,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progressbar .type .lighttheme .guideformlight .group2 .property {
+.a86progressbottombar .progressbar .type .lighttheme .guideformlightonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2281,7 +2314,7 @@ div {
 }
 .a86progressbottombar .progressbar .type .darktheme {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 306px;
   height              : 53px;
   width               : 465px;
   position            : absolute;
@@ -2290,7 +2323,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly {
   background-color    : rgba(255,255,255,0.0);
   top                 : 25px;
   height              : 28px;
@@ -2302,7 +2335,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark .background {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -2313,7 +2346,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 22px;
@@ -2324,7 +2357,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .label1 {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly .group2 .label1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2340,7 +2373,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .group {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly .group2 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 22px;
@@ -2351,7 +2384,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .group .rectangle {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly .group2 .group .rectangle {
   background-color    : rgba(71, 71, 71, 1.0);
   top                 : 0px;
   height              : 22px;
@@ -2362,7 +2395,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .group .value {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly .group2 .group .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2378,7 +2411,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a86progressbottombar .progressbar .type .darktheme .guideformdark .group2 .property {
+.a86progressbottombar .progressbar .type .darktheme .guideformdarkonly .group2 .property {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2513,7 +2546,7 @@ div {
 .a86progressbottombar .progressbar .guide {
   background-color    : rgba(255,255,255,0.0);
   top                 : 690px;
-  height              : 379px;
+  height              : 389px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -2524,7 +2557,7 @@ div {
 .a86progressbottombar .progressbar .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 389px;
   width               : 715px;
   position            : absolute;
   margin              : 0;
@@ -2535,7 +2568,7 @@ div {
 .a86progressbottombar .progressbar .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 379px;
+  height              : 389px;
   box-sizing          : border-box;
   width               : 715px;
   position            : relative;
@@ -2549,20 +2582,20 @@ div {
 }
 .a86progressbottombar .progressbar .guide .guide1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 160px;
-  height              : 59px;
-  width               : 436px;
+  top                 : 150px;
+  height              : 89px;
+  width               : 616px;
   position            : absolute;
   margin              : 0;
-  left                : 140px;
+  left                : 50px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a86progressbottombar .progressbar .guide .guide1 .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 59px;
-  width               : 360px;
+  height              : 89px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -2572,8 +2605,8 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
-  height              : 59px;
-  width               : 360px;
+  height              : 89px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2582,27 +2615,27 @@ div {
 }
 .a86progressbottombar .progressbar .guide .guide1 .symbol .deletingu202640 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 23px;
-  height              : 16px;
+  top                 : 35px;
+  height              : 24px;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 136px;
+  left                : 205px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 14.0px;
+  font-size           : 21.0px;
   color               : rgba(37, 37, 37, 1.0);
   text-align          : center;
-  line-height         : 16.0px;
+  line-height         : 24.0px;
 }
 .a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 3px;
-  width               : 360px;
+  height              : 5px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2612,20 +2645,20 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar .bar {
   background-color    : rgba(3, 129, 254, 1.0);
   top                 : 0px;
-  height              : 3px;
-  width               : 360px;
+  height              : 5px;
+  width               : 540px;
   position            : relative;
   margin              : 0;
   left                : 0px;
-  border-radius       : 1px;
+  border-radius       : 2px;
   transform           : rotate(0deg);
   opacity             : 0.3;
 }
 .a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 3px;
-  width               : 170px;
+  height              : 5px;
+  width               : 255px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2635,20 +2668,20 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .symbol .mobiledarktheme09progressbar1 .bar {
   background-color    : rgba(3, 129, 254, 1.0);
   top                 : 0px;
-  height              : 3px;
-  width               : 170px;
+  height              : 5px;
+  width               : 255px;
   position            : relative;
   margin              : 0;
   left                : 0px;
-  border-radius       : 1px;
+  border-radius       : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .a86progressbottombar .progressbar .guide .guide1 .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 3px;
-  width               : 398px;
+  height              : 5px;
+  width               : 578px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
@@ -2658,44 +2691,33 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 3px;
-  width               : 360px;
+  height              : 5px;
+  width               : 540px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 3px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
 .a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
-  height              : 3px;
-  width               : 360px;
-  position            : absolute;
+  height              : 5px;
+  width               : 540px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
 .a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 3px;
+  height              : 5px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
-  left                : 360px;
+  left                : 540px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2703,7 +2725,7 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 3px;
+  height              : 5px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2713,7 +2735,7 @@ div {
 }
 .a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -7px;
+  top                 : -6px;
   height              : 18px;
   width               : 9px;
   position            : absolute;
@@ -2741,7 +2763,7 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 3px;
+  height              : 5px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2751,8 +2773,8 @@ div {
 }
 .a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 56px;
+  top                 : 0px;
+  height              : 89px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2764,7 +2786,7 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 89px;
   width               : 38px;
   position            : absolute;
   margin              : 0;
@@ -2774,7 +2796,7 @@ div {
 }
 .a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 19px;
+  top                 : 36px;
   height              : 19px;
   width               : 17px;
   position            : absolute;
@@ -2802,7 +2824,7 @@ div {
 .a86progressbottombar .progressbar .guide .guide1 .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
+  height              : 89px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
@@ -2812,12 +2834,12 @@ div {
 }
 .a86progressbottombar .progressbar .guide .guide1 .guidenumberingtype {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
+  top                 : 36px;
   height              : 22px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 152px;
+  left                : 222px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2885,25 +2907,25 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .keyscreens .guidekeyscreensmobileportrait {
+.a86progressbottombar .progressbar .keyscreens .w360mpl086progressbottombar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 500px;
+  left                : 370px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .progressbar .keyscreens .guidekeyscreensmobileportrait .scrmoport {
+.a86progressbottombar .progressbar .keyscreens .w360mpd086progressbottombar1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 630px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2939,7 +2961,7 @@ div {
   text-align          : left;
   line-height         : 84.0px;
 }
-.a86progressbottombar .gnbbar6lists {
+.a86progressbottombar .gnbbar8progress {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -2951,7 +2973,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .background {
+.a86progressbottombar .gnbbar8progress .background {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 1380px;
@@ -2962,7 +2984,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu16thumbnailnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu16thumbnailnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1338px;
   height              : 42px;
@@ -2973,7 +2995,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2984,7 +3006,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -2995,7 +3017,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
+.a86progressbottombar .gnbbar8progress .gnbmenu16thumbnailnormal .gnbmenu .a16thumbnail {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3011,7 +3033,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu15notificationbadgenormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu15notificationbadgenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1295px;
   height              : 42px;
@@ -3022,7 +3044,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3033,7 +3055,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3044,7 +3066,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
+.a86progressbottombar .gnbbar8progress .gnbmenu15notificationbadgenormal .gnbmenu .a15notificationbad {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3060,7 +3082,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu14descriptionnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu14descriptionnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1252px;
   height              : 42px;
@@ -3071,7 +3093,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3082,7 +3104,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3093,7 +3115,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .rectangle {
+.a86progressbottombar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3104,7 +3126,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu14descriptionnormal .gnbmenu .a14description {
+.a86progressbottombar .gnbbar8progress .gnbmenu14descriptionnormal .gnbmenu .a14description {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3120,7 +3142,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu13viewcontrolsnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu13viewcontrolsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1209px;
   height              : 42px;
@@ -3131,7 +3153,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3142,7 +3164,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3153,7 +3175,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
+.a86progressbottombar .gnbbar8progress .gnbmenu13viewcontrolsnormal .gnbmenu .a13viewcontrols {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3169,7 +3191,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu12textfieldsnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu12textfieldsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1166px;
   height              : 42px;
@@ -3180,7 +3202,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3191,7 +3213,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3202,7 +3224,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
+.a86progressbottombar .gnbbar8progress .gnbmenu12textfieldsnormal .gnbmenu .a12textfields {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3218,7 +3240,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu11toastnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu11toastnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1123px;
   height              : 42px;
@@ -3229,7 +3251,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu11toastnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu11toastnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3240,7 +3262,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3251,7 +3273,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu11toastnormal .gnbmenu .a11toast {
+.a86progressbottombar .gnbbar8progress .gnbmenu11toastnormal .gnbmenu .a11toast {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3267,7 +3289,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu10searchnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu10searchnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1080px;
   height              : 42px;
@@ -3278,7 +3300,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu10searchnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu10searchnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3289,7 +3311,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3300,7 +3322,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu10searchnormal .gnbmenu .a10search {
+.a86progressbottombar .gnbbar8progress .gnbmenu10searchnormal .gnbmenu .a10search {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3316,7 +3338,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu9scrollingnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu9scrollingnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1037px;
   height              : 42px;
@@ -3327,7 +3349,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3338,7 +3360,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3349,7 +3371,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
+.a86progressbottombar .gnbbar8progress .gnbmenu9scrollingnormal .gnbmenu .a9scrolling {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3365,7 +3387,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu8progressnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu8progressnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 521px;
   height              : 42px;
@@ -3376,7 +3398,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu8progressnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu8progressnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3387,7 +3409,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -3398,7 +3420,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu8progressnormal .gnbmenu .a8progress {
+.a86progressbottombar .gnbbar8progress .gnbmenu8progressnormal .gnbmenu .a8progress {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3414,7 +3436,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormal {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 564px;
   height              : 42px;
@@ -3425,7 +3447,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormal .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormal .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3436,7 +3458,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3447,7 +3469,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormal .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormal .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3463,7 +3485,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 607px;
   height              : 42px;
@@ -3474,7 +3496,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3485,7 +3507,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3496,7 +3518,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3512,7 +3534,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy2 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 650px;
   height              : 42px;
@@ -3523,7 +3545,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3534,7 +3556,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3545,7 +3567,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy2 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy2 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3561,7 +3583,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy3 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 693px;
   height              : 42px;
@@ -3572,7 +3594,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3583,7 +3605,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3594,7 +3616,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy3 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy3 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3610,7 +3632,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy4 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 736px;
   height              : 42px;
@@ -3621,7 +3643,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3632,7 +3654,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3643,7 +3665,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy4 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy4 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3659,7 +3681,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy5 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 779px;
   height              : 42px;
@@ -3670,7 +3692,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3681,7 +3703,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .bg {
   background-color    : rgba(224, 224, 224, 1.0);
   top                 : 0px;
   height              : 42px;
@@ -3692,7 +3714,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy5 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy5 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3708,7 +3730,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy6 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 822px;
   height              : 42px;
@@ -3719,7 +3741,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3730,7 +3752,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3741,7 +3763,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy6 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy6 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3757,7 +3779,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy7 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 865px;
   height              : 42px;
@@ -3768,7 +3790,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3779,7 +3801,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3790,7 +3812,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy7 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy7 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3806,7 +3828,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy8 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 908px;
   height              : 42px;
@@ -3817,7 +3839,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3828,7 +3850,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3839,7 +3861,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy8 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy8 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3855,7 +3877,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy9 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 951px;
   height              : 42px;
@@ -3866,7 +3888,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3877,7 +3899,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3888,7 +3910,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy9 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy9 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3904,7 +3926,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy10 {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 994px;
   height              : 42px;
@@ -3915,7 +3937,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3926,7 +3948,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3937,7 +3959,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbsubmenunormalcopy10 .gnbsubmenu .text {
+.a86progressbottombar .gnbbar8progress .gnbsubmenunormalcopy10 .gnbsubmenu .text {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -3953,7 +3975,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu7noitemsnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu7noitemsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 478px;
   height              : 42px;
@@ -3964,7 +3986,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3975,7 +3997,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -3986,7 +4008,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
+.a86progressbottombar .gnbbar8progress .gnbmenu7noitemsnormal .gnbmenu .a7noitem {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4002,7 +4024,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu6listsnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu6listsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 435px;
   height              : 42px;
@@ -4013,7 +4035,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu6listsnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu6listsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4024,7 +4046,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4035,7 +4057,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu6listsnormal .gnbmenu .a6lists {
+.a86progressbottombar .gnbbar8progress .gnbmenu6listsnormal .gnbmenu .a6lists {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4051,7 +4073,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu5dividersnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu5dividersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 392px;
   height              : 42px;
@@ -4062,7 +4084,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4073,7 +4095,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4084,7 +4106,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu5dividersnormal .gnbmenu .a5dividers {
+.a86progressbottombar .gnbbar8progress .gnbmenu5dividersnormal .gnbmenu .a5dividers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4100,7 +4122,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu4dialogsselected {
+.a86progressbottombar .gnbbar8progress .gnbmenu4dialogsselected {
   background-color    : rgba(255,255,255,0.0);
   top                 : 349px;
   height              : 42px;
@@ -4111,7 +4133,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4122,7 +4144,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4133,7 +4155,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
+.a86progressbottombar .gnbbar8progress .gnbmenu4dialogsselected .gnbmenu .a4dialogs {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4149,7 +4171,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu3controllersnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu3controllersnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 306px;
   height              : 42px;
@@ -4160,7 +4182,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4171,7 +4193,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4182,7 +4204,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu3controllersnormal .gnbmenu .a3controllers {
+.a86progressbottombar .gnbbar8progress .gnbmenu3controllersnormal .gnbmenu .a3controllers {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4198,7 +4220,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu2buttonsnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu2buttonsnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 263px;
   height              : 42px;
@@ -4209,7 +4231,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4220,7 +4242,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4231,7 +4253,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
+.a86progressbottombar .gnbbar8progress .gnbmenu2buttonsnormal .gnbmenu .a2buttons {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4247,7 +4269,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu1appbarnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu1appbarnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 220px;
   height              : 42px;
@@ -4258,7 +4280,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4269,7 +4291,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4280,7 +4302,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu1appbarnormal .gnbmenu .a1appbar {
+.a86progressbottombar .gnbbar8progress .gnbmenu1appbarnormal .gnbmenu .a1appbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4296,7 +4318,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0fonttablenormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu0fonttablenormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 177px;
   height              : 42px;
@@ -4307,7 +4329,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4318,7 +4340,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4329,7 +4351,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0fonttablenormal .gnbmenu .a0font {
+.a86progressbottombar .gnbbar8progress .gnbmenu0fonttablenormal .gnbmenu .a0font {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4345,7 +4367,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0overviewnormal {
+.a86progressbottombar .gnbbar8progress .gnbmenu0overviewnormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 134px;
   height              : 42px;
@@ -4356,7 +4378,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4367,7 +4389,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4378,7 +4400,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenu0overviewnormal .gnbmenu .overview {
+.a86progressbottombar .gnbbar8progress .gnbmenu0overviewnormal .gnbmenu .overview {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4394,7 +4416,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenuhistorynormal {
+.a86progressbottombar .gnbbar8progress .gnbmenuhistorynormal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 91px;
   height              : 42px;
@@ -4405,7 +4427,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenuhistorynormal .gnbmenu {
+.a86progressbottombar .gnbbar8progress .gnbmenuhistorynormal .gnbmenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4416,7 +4438,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .bg {
+.a86progressbottombar .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .bg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 42px;
@@ -4427,7 +4449,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnbmenuhistorynormal .gnbmenu .history {
+.a86progressbottombar .gnbbar8progress .gnbmenuhistorynormal .gnbmenu .history {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : auto;
@@ -4443,7 +4465,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnblogo {
+.a86progressbottombar .gnbbar8progress .gnblogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -4455,7 +4477,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnblogo .background1 {
+.a86progressbottombar .gnbbar8progress .gnblogo .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 90px;
@@ -4466,7 +4488,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnblogo .gotohome {
+.a86progressbottombar .gnbbar8progress .gnblogo .gotohome {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -4477,7 +4499,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnblogo .gotohome .rectangle {
+.a86progressbottombar .gnbbar8progress .gnblogo .gotohome .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 89px;
@@ -4488,7 +4510,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnblogo .gotohome .group {
+.a86progressbottombar .gnbbar8progress .gnblogo .gotohome .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 22px;
   height              : 45px;
@@ -4499,7 +4521,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a86progressbottombar .gnbbar6lists .gnblogo .gotohome .group .webapp {
+.a86progressbottombar .gnbbar8progress .gnblogo .gotohome .group .webapp {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -4516,7 +4538,7 @@ div {
   letter-spacing      : 0.3px;
   line-height         : 18.0px;
 }
-.a86progressbottombar .gnbbar6lists .gnblogo .gotohome .group .basiccomponentgui {
+.a86progressbottombar .gnbbar8progress .gnblogo .gotohome .group .basiccomponentgui {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : auto;
@@ -4646,4 +4668,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

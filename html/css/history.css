@@ -1,23 +1,23 @@
 
 @font-face {
-                          font-family: "SamsungOneKorean-500";
-                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-400";
+                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
                           font-family: "SamsungOneKorean-700";
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-400";
-                          src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-300";
                           src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-500";
+                          src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .history {
@@ -212,36 +212,50 @@ div {
   opacity             : 1.0;
 }
 .history .table .group4 .tablesubject {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 190px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 54px;
+  width               : 192px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
+  left                : -1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.history .table .group4 .tablesubject .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.history .table .group4 .tablesubject .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 52px;
   width               : 190px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.history .table .group4 .tablesubject .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  box-sizing          : border-box;
+  width               : 192px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .history .table .group4 .tablesubject .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 13px;
   height              : 26px;
   width               : 150px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -251,36 +265,50 @@ div {
   line-height         : 26.0px;
 }
 .history .table .group4 .tablesubject1 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 105px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 54px;
+  width               : 107px;
   position            : absolute;
   margin              : 0;
-  left                : 190px;
-  overflow            : hidden;
+  left                : 189px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.history .table .group4 .tablesubject1 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.history .table .group4 .tablesubject1 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 52px;
   width               : 105px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.history .table .group4 .tablesubject1 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  box-sizing          : border-box;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .history .table .group4 .tablesubject1 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 13px;
   height              : 26px;
   width               : 65px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -290,36 +318,50 @@ div {
   line-height         : 26.0px;
 }
 .history .table .group4 .tablesubject2 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 105px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 54px;
+  width               : 107px;
   position            : absolute;
   margin              : 0;
-  left                : 295px;
-  overflow            : hidden;
+  left                : 294px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.history .table .group4 .tablesubject2 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.history .table .group4 .tablesubject2 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 52px;
   width               : 105px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.history .table .group4 .tablesubject2 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  box-sizing          : border-box;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .history .table .group4 .tablesubject2 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 13px;
   height              : 26px;
   width               : 65px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -329,36 +371,50 @@ div {
   line-height         : 26.0px;
 }
 .history .table .group4 .tablesubject3 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 630px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 54px;
+  width               : 632px;
   position            : absolute;
   margin              : 0;
-  left                : 400px;
-  overflow            : hidden;
+  left                : 399px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.history .table .group4 .tablesubject3 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.history .table .group4 .tablesubject3 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 52px;
   width               : 630px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.history .table .group4 .tablesubject3 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  box-sizing          : border-box;
+  width               : 632px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .history .table .group4 .tablesubject3 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 13px;
   height              : 26px;
   width               : 590px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -368,36 +424,50 @@ div {
   line-height         : 26.0px;
 }
 .history .table .group4 .tablesubject4 {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 210px;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 54px;
+  width               : 212px;
   position            : absolute;
   margin              : 0;
-  left                : 1030px;
-  overflow            : hidden;
+  left                : 1029px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.history .table .group4 .tablesubject4 .background {
-  background-color    : rgba(88, 87, 87, 1.0);
-  top                 : 0px;
+.history .table .group4 .tablesubject4 .rectangle {
+  background-color    : rgba(132, 131, 131, 1.0);
+  top                 : 1px;
   height              : 52px;
   width               : 210px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.history .table .group4 .tablesubject4 .rectangle1 {
+  background-color    : rgba(116, 116, 116, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  box-sizing          : border-box;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(135, 135, 135, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .history .table .group4 .tablesubject4 .subject {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
+  top                 : 13px;
   height              : 26px;
   width               : 170px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -1623,4 +1693,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }

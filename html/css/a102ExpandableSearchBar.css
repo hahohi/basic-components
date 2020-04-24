@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
 
 @font-face {
+                          font-family: "SamsungOneKorean-600";
+                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                        }
+                        @font-face {
                           font-family: "SamsungOneKorean-400";
                           src: url('../fonts/SamsungOneKorean-400_v1.2_hinted_20180830.ttf') format("truetype");
                         }
@@ -9,16 +13,12 @@
                           src: url('../fonts/SamsungOneKorean-700_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-300";
-                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
-                        }
-                        @font-face {
                           font-family: "SamsungOneKorean-500";
                           src: url('../fonts/SamsungOneKorean-500_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         @font-face {
-                          font-family: "SamsungOneKorean-600";
-                          src: url('../fonts/SamsungOneKorean-600_v1.2_hinted_20180830.ttf') format("truetype");
+                          font-family: "SamsungOneKorean-300";
+                          src: url('../fonts/SamsungOneKorean-300_v1.2_hinted_20180830.ttf') format("truetype");
                         }
                         
 .a102expandablesearchbar {
@@ -49,6 +49,56 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
+.a102expandablesearchbar .buttonsolidblue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2190px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 863px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .buttonsolidblue .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .buttonsolidblue .btn-view .rectangle {
+  background-color    : rgba(3, 129, 254, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .buttonsolidblue .btn-view .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.6px;
+}
 .a102expandablesearchbar .appbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1440px;
@@ -60,7 +110,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 {
+.a102expandablesearchbar .appbar .keyscreens {
   background-color    : rgba(255,255,255,0.0);
   top                 : 83px;
   height              : 587px;
@@ -71,7 +121,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .contentsbox {
+.a102expandablesearchbar .appbar .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 587px;
@@ -82,7 +132,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .contentsbox .rectangle {
+.a102expandablesearchbar .appbar .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 587px;
@@ -97,19 +147,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -119,19 +170,376 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .guidekeyscreensmobileportrait1 {
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .actionbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitlesearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitlesearch .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitlesearch .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme01actionbartitle1btnsearchback .group .mobilelightthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpl102expandablesearchbar2 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -141,22 +549,378 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 {
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 46px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .actionbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitlesearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitlesearch .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitlesearch .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .sampletitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme01actionbartitle1btnsearchback .group .mobiledarkthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .w360mpd102expandablesearchbar2 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .appbar .keyscreens .tagrefer {
   background-color    : rgba(255,255,255,0.0);
   top                 : 61px;
   height              : 29px;
-  width               : 187px;
+  width               : 166px;
   position            : absolute;
   margin              : 0;
   left                : 885px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 .rectangle {
+.a102expandablesearchbar .appbar .keyscreens .tagrefer .rectangle {
   background-color    : rgba(17, 186, 159, 1.0);
   top                 : 0px;
   height              : 29px;
-  width               : 187px;
+  width               : 166px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -164,84 +928,30 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 .group {
+.a102expandablesearchbar .appbar .keyscreens .tagrefer .basic {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
-  height              : 17px;
-  width               : 168px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 10px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.8;
   font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 17.0px;
 }
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 .group .pagename {
+.a102expandablesearchbar .appbar .keyscreens .tagrefer .pagename {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 6px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a102expandablesearchbar .appbar .keyscreens1 .tagrefer1 .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 111px;
+  left                : 48px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -266,10 +976,10 @@ div {
   text-align          : left;
   line-height         : 53.0px;
 }
-.a102expandablesearchbar .guide {
+.a102expandablesearchbar .extentedappbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 884px;
-  height              : 396px;
+  top                 : 194px;
+  height              : 1086px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
@@ -277,7 +987,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .contentsbox {
+.a102expandablesearchbar .extentedappbar .guide {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 690px;
+  height              : 396px;
+  width               : 1240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .guide .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 396px;
@@ -288,7 +1009,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .contentsbox .rectangle {
+.a102expandablesearchbar .extentedappbar .guide .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 396px;
@@ -303,7 +1024,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol {
+.a102expandablesearchbar .extentedappbar .guide .symbol {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 316px;
@@ -314,7 +1035,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .rectangle {
+.a102expandablesearchbar .extentedappbar .guide .symbol .rectangle {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 304px;
@@ -325,7 +1046,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 24px;
   height              : 292px;
@@ -337,7 +1058,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .background {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 292px;
@@ -348,7 +1069,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .appbarbg {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .appbarbg {
   background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 280px;
@@ -359,7 +1080,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 224px;
   height              : 56px;
@@ -370,7 +1091,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .area {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .area {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -381,7 +1102,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
   height              : 24px;
@@ -393,7 +1114,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore .background1 {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -404,7 +1125,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore .combinedshape {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 16px;
@@ -415,7 +1136,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
   height              : 24px;
@@ -427,7 +1148,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch .background1 {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -438,7 +1159,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch .fill1 {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch .fill1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 18px;
@@ -449,7 +1170,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback {
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
   height              : 24px;
@@ -461,7 +1182,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback .background1 {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback .background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -472,7 +1193,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback .fill1 {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback .fill1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 18px;
@@ -483,7 +1204,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .beyond {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelighttheme01actionbartitleextendedappbar1line .beyond {
   background-color    : rgba(255,255,255,0.0);
   top                 : 110px;
   height              : 47px;
@@ -501,7 +1222,7 @@ div {
   text-align          : center;
   line-height         : 47.0px;
 }
-.a102expandablesearchbar .guide .symbol .mobilelightthemeindicator {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelightthemeindicator {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -513,7 +1234,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelightthemeindicator .background {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelightthemeindicator .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -524,7 +1245,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .symbol .mobilelightthemeindicator .wifi {
+.a102expandablesearchbar .extentedappbar .guide .symbol .mobilelightthemeindicator .wifi {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 10px;
@@ -535,7 +1256,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.5;
 }
-.a102expandablesearchbar .guide .size {
+.a102expandablesearchbar .extentedappbar .guide .size {
   background-color    : rgba(255,255,255,0.0);
   top                 : 288px;
   height              : 56px;
@@ -546,7 +1267,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .size .guidemeasurerulerright {
+.a102expandablesearchbar .extentedappbar .guide .size .guidemeasurerulerright {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -558,7 +1279,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .size .guidemeasurerulerright .background {
+.a102expandablesearchbar .extentedappbar .guide .size .guidemeasurerulerright .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -569,7 +1290,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .size .guidemeasurerulerright .value {
+.a102expandablesearchbar .extentedappbar .guide .size .guidemeasurerulerright .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
   height              : 18px;
@@ -580,7 +1301,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .size .guidemeasurerulerright .value .a0 {
+.a102expandablesearchbar .extentedappbar .guide .size .guidemeasurerulerright .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -596,7 +1317,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.a102expandablesearchbar .guide .size .guidemeasurerulerright .combinedshape {
+.a102expandablesearchbar .extentedappbar .guide .size .guidemeasurerulerright .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -607,7 +1328,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .size .guidemeasurearea {
+.a102expandablesearchbar .extentedappbar .guide .size .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 56px;
@@ -618,29 +1339,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .size .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .extentedappbar .guide .size .guidemeasurearea .area {
+  background-color    : rgba(255, 51, 255, 1.0);
   top                 : 0px;
   height              : 56px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a102expandablesearchbar .guide .size .guidemeasurearea .area {
-  background-color    : rgba(255, 129, 195, 1.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a102expandablesearchbar .guide .sizecopy {
+.a102expandablesearchbar .extentedappbar .guide .sizecopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 344px;
   height              : 12px;
@@ -651,7 +1361,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright {
+.a102expandablesearchbar .extentedappbar .guide .sizecopy .guidemeasurerulerleft {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -663,7 +1373,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .background {
+.a102expandablesearchbar .extentedappbar .guide .sizecopy .guidemeasurerulerleft .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -674,7 +1384,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .value {
+.a102expandablesearchbar .extentedappbar .guide .sizecopy .guidemeasurerulerleft .value {
   background-color    : rgba(255,255,255,0.0);
   top                 : -3px;
   height              : 19px;
@@ -685,7 +1395,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .value .a0 {
+.a102expandablesearchbar .extentedappbar .guide .sizecopy .guidemeasurerulerleft .value .a0 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -701,7 +1411,7 @@ div {
   text-align          : right;
   line-height         : 18.0px;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurerulerright .combinedshape {
+.a102expandablesearchbar .extentedappbar .guide .sizecopy .guidemeasurerulerleft .combinedshape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -712,7 +1422,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurearea {
+.a102expandablesearchbar .extentedappbar .guide .sizecopy .guidemeasurearea {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12px;
@@ -723,40 +1433,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurearea .addsamecolorasneeded {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .extentedappbar .guide .sizecopy .guidemeasurearea .area {
+  background-color    : rgba(51, 204, 0, 1.0);
   top                 : 0px;
   height              : 12px;
   width               : 360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 0.25;
+  opacity             : 0.37;
 }
-.a102expandablesearchbar .guide .sizecopy .guidemeasurearea .area {
-  background-color    : rgba(38, 231, 173, 1.0);
-  top                 : 0px;
-  height              : 12px;
-  width               : 360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.25;
-}
-.a102expandablesearchbar .keyscreens {
+.a102expandablesearchbar .extentedappbar .keyscreens {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 277px;
+  top                 : 83px;
   height              : 587px;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .keyscreens .contentsbox {
+.a102expandablesearchbar .extentedappbar .keyscreens .contentsbox {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 587px;
@@ -767,7 +1466,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .keyscreens .contentsbox .rectangle {
+.a102expandablesearchbar .extentedappbar .keyscreens .contentsbox .rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 587px;
@@ -782,19 +1481,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .keyscreens .guidekeyscreensmobileportrait {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 370px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .keyscreens .guidekeyscreensmobileportrait .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .background {
+  background-color    : rgba(242, 242, 242, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -804,19 +1504,387 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .keyscreens .guidekeyscreensmobileportrait1 {
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 195px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 195px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .appbarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 0px;
+  height              : 187px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 149px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .area {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitlesearch .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .actionbar .mobilelightthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme01actionbartitleextendedappbar1line .beyond {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 32px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 26.67px;
+  color               : rgba(37, 37, 37, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelightthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelightthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelightthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(242, 242, 242, 1.0);
+  top                 : 1px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarback .back1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarhome .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpl102expandablesearchbar1 .mobilelighttheme21navigationbarnavibar01 .mobilelightthemeicon21navigationbarrecent .recent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 0.55;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 40px;
   height              : 507px;
   width               : 240px;
   position            : absolute;
   margin              : 0;
   left                : 630px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .keyscreens .guidekeyscreensmobileportrait1 .scrmoport {
-  background-color    : rgba(255,255,255,0.0);
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .background {
+  background-color    : rgba(1, 1, 1, 1.0);
   top                 : 0px;
   height              : 507px;
   width               : 240px;
@@ -826,14 +1894,436 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a102expandablesearchbar .extentedappbar {
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 194px;
+  top                 : 16px;
+  height              : 195px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 195px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .appbarbg {
+  background-color    : rgba(1, 1, 1, 1.0);
+  top                 : 0px;
+  height              : 187px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 149px;
+  height              : 38px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .area {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitlemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitlemore .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitlemore .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitlesearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitlesearch .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitlesearch .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitleback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitleback .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .actionbar .mobiledarkthemeicon01actionbartitleback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme01actionbartitleextendedappbar1line .beyond {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 32px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 26.67px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarkthemeindicator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarkthemeindicator .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarkthemeindicator .wifi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 0.74;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 33px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .navibarbg {
+  background-color    : rgba(8, 8, 8, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarback .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarhome .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .w360mpd102expandablesearchbar1 .mobiledarktheme21navigationbarnavibar01 .mobiledarkthemeicon21navigationbarrecent .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .tagrefer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 138px;
+  height              : 29px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 885px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .tagrefer .rectangle {
+  background-color    : rgba(17, 186, 159, 1.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .tagrefer .basic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a102expandablesearchbar .extentedappbar .keyscreens .tagrefer .pagename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.a102expandablesearchbar .extentedappbar .extentedappbar1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
   height              : auto;
   width               : 1240px;
   position            : absolute;
   margin              : 0;
-  left                : 380px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.8;
   font-family         : "SamsungOneKorean-400", Helvetica, Arial, serif;
@@ -857,165 +2347,6 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 84.0px;
-}
-.a102expandablesearchbar .tagrefer {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 415px;
-  height              : 29px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1265px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .tagrefer .rectangle {
-  background-color    : rgba(17, 186, 159, 1.0);
-  top                 : 0px;
-  height              : 29px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .tagrefer .group {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 17px;
-  width               : 201px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .tagrefer .group .referto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a102expandablesearchbar .tagrefer .group .pagename {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 53px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .tagrefer .group .pagename .label1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a102expandablesearchbar .tagrefer .group .pagename .pagename1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a102expandablesearchbar .tagrefer .group .pagename .label2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 144px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-700", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-}
-.a102expandablesearchbar .stylebuttonsolidblue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2190px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 863px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .stylebuttonsolidblue .btn-view {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .stylebuttonsolidblue .btn-view .rectangle {
-  background-color    : rgba(3, 129, 254, 1.0);
-  top                 : 0px;
-  height              : 45px;
-  width               : 274px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a102expandablesearchbar .stylebuttonsolidblue .btn-view .text {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.6px;
 }
 .a102expandablesearchbar .gnbbar10search {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -2381,4 +3712,10 @@ div {
 .anima-listeners-active-click,
 .anima-listeners-active-click * {
   cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
 }
